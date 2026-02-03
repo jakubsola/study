@@ -3,21 +3,40 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Prawo samorządu terytorialnego</title>
+  <title>Prawo – quiz</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <main class="app">
     <header class="topbar">
-      <h1 class="brand">Prawo samorządu terytorialnego</h1>
+      <h1 class="brand" id="brandTitle">Prawo – quiz</h1>
       <div class="meta">
-        <span id="poolInfo" class="pill" title="Ile pytań zostało w aktualnej puli">–</span>
-        <button id="resetBtn" class="link">Resetuj pulę</button>
+        <span id="subjectPill" class="pill" title="Aktualny zestaw" style="display:none">–</span>
+        <span id="poolInfo" class="pill" title="Ile pytań zostało w aktualnej puli" style="display:none">–</span>
+        <button id="resetBtn" class="link" style="display:none">Resetuj pulę</button>
       </div>
     </header>
 
+    <!-- SUBJECT SELECT -->
+    <section id="selectView" class="card view">
+      <h2>Wybierz zestaw pytań</h2>
+      <div class="home-grid">
+        <article class="card inner-card">
+          <h3>Prawo samorządu terytorialnego</h3>
+          <p class="muted">Quiz, wszystkie pytania oraz test 20 pytań.</p>
+          <button id="choosePstBtn" class="btn primary">Prawo samorządu terytorialnego</button>
+        </article>
+
+        <article class="card inner-card">
+          <h3>Prawo o postępowaniu przed sądami administracyjnymi</h3>
+          <p class="muted">Quiz, wszystkie pytania oraz test 20 pytań.</p>
+          <button id="choosePpsaBtn" class="btn primary">Prawo o postępowaniu przed sądami administracyjnymi</button>
+        </article>
+      </div>
+    </section>
+
     <!-- HOME -->
-    <section id="homeView" class="card view">
+    <section id="homeView" class="card view hidden">
       <div class="home-grid">
         <article class="card inner-card">
           <h2>Losuj pytanie</h2>
@@ -41,6 +60,12 @@
             Losuje 20 pytań. Na końcu zobaczysz wynik, procent oraz podsumowanie odpowiedzi.
           </p>
           <button id="testBtn" class="btn primary">Test</button>
+        </article>
+
+        <article class="card inner-card">
+          <h2>Zmień zestaw</h2>
+          <p class="muted">Wróć do wyboru przedmiotu.</p>
+          <button id="changeSubjectBtn" class="btn">Wybór zestawu</button>
         </article>
       </div>
     </section>

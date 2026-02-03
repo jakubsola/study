@@ -1,20 +1,32 @@
-import { QUESTIONS } from './questions.js';
+import { QUESTIONS as QUESTIONS_PST } from './questions.js';
+import { QUESTIONS as QUESTIONS_PPSA } from './questions_ppsa.js';
 
 const els = {
+  // Views
+  selectView: document.getElementById('selectView'),
   homeView: document.getElementById('homeView'),
   quizView: document.getElementById('quizView'),
   allView: document.getElementById('allView'),
   testView: document.getElementById('testView'),
   resultsView: document.getElementById('resultsView'),
 
+  // Topbar
+  brandTitle: document.getElementById('brandTitle'),
+  subjectPill: document.getElementById('subjectPill'),
+  poolInfo: document.getElementById('poolInfo'),
+  resetBtn: document.getElementById('resetBtn'),
+
+  // Subject select
+  choosePstBtn: document.getElementById('choosePstBtn'),
+  choosePpsaBtn: document.getElementById('choosePpsaBtn'),
+
+  // Home
   startBtn: document.getElementById('startBtn'),
   allBtn: document.getElementById('allBtn'),
   testBtn: document.getElementById('testBtn'),
+  changeSubjectBtn: document.getElementById('changeSubjectBtn'),
 
-  resetBtn: document.getElementById('resetBtn'),
-  poolInfo: document.getElementById('poolInfo'),
-
-  // quiz
+  // Quiz
   questionText: document.getElementById('questionText'),
   answers: document.getElementById('answers'),
   hint: document.getElementById('hint'),
@@ -22,11 +34,11 @@ const els = {
   nextBtn: document.getElementById('nextBtn'),
   quizHomeBtn: document.getElementById('quizHomeBtn'),
 
-  // all
+  // All
   allList: document.getElementById('allList'),
   allHomeBtn: document.getElementById('allHomeBtn'),
 
-  // test
+  // Test
   testProgress: document.getElementById('testProgress'),
   testQuestionText: document.getElementById('testQuestionText'),
   testAnswers: document.getElementById('testAnswers'),
@@ -35,21 +47,36 @@ const els = {
   finishTestBtn: document.getElementById('finishTestBtn'),
   testHomeBtn: document.getElementById('testHomeBtn'),
 
-  // results
+  // Results
   resultsSummary: document.getElementById('resultsSummary'),
   resultsList: document.getElementById('resultsList'),
   resultsHomeBtn: document.getElementById('resultsHomeBtn'),
   restartTestBtn: document.getElementById('restartTestBtn'),
 };
 
-const STORAGE_KEY = 'quiz_pool_v1';
+const SUBJECT_KEY = 'quiz_subject_v1';
+
+const SUBJECTS = {
+  pst: {
+    name: 'Prawo samorządu terytorialnego',
+    questions: QUESTIONS_PST,
+  },
+  ppsa: {
+    name: 'Prawo o postępowaniu przed sądami administracyjnymi',
+    questions: QUESTIONS_PPSA,
+  }
+};
 
 let state = {
+  subject: null, // 'pst' | 'ppsa'
   remaining: [],
+
+  // quiz
   currentIndex: null,
   selected: new Set(),
   checked: false,
 
+  // test
   test: {
     indices: [],
     pos: 0,
@@ -57,15 +84,13 @@ let state = {
   },
 };
 
-function on(el, evt, fn){
-  if(!el){
-    console.error('Brak elementu DOM:', evt, fn?.name || 'handler');
-    return;
-  }
+function on(el, evt, fn) {
+  if (!el) return;
   el.addEventListener(evt, fn);
 }
 
 function showView(view) {
+  els.selectView.classList.toggle('hidden', view !== 'select');
   els.homeView.classList.toggle('hidden', view !== 'home');
   els.quizView.classList.toggle('hidden', view !== 'quiz');
   els.allView.classList.toggle('hidden', view !== 'all');
@@ -73,20 +98,78 @@ function showView(view) {
   els.resultsView.classList.toggle('hidden', view !== 'results');
 }
 
-function openHome() {
+function getActiveQuestions() {
+  if (!state.subject) return [];
+  return SUBJECTS[state.subject].questions;
+}
+
+function storageKeyForPool() {
+  return `quiz_pool_v1_${state.subject}`;
+}
+
+function setTopbarVisibility(enabled) {
+  els.subjectPill.style.display = enabled ? 'inline-block' : 'none';
+  els.poolInfo.style.display = enabled ? 'inline-block' : 'none';
+  els.resetBtn.style.display = enabled ? 'inline-block' : 'none';
+}
+
+function applySubjectUI() {
+  const s = SUBJECTS[state.subject];
+  els.brandTitle.textContent = s.name;
+  document.title = s.name;
+  els.subjectPill.textContent = s.name;
+  setTopbarVisibility(true);
+}
+
+function loadSubject() {
+  const saved = localStorage.getItem(SUBJECT_KEY);
+  if (saved && SUBJECTS[saved]) {
+    state.subject = saved;
+    applySubjectUI();
+    loadPool();
+    updatePoolInfo();
+    showView('home');
+  } else {
+    setTopbarVisibility(false);
+    els.brandTitle.textContent = 'Prawo – quiz';
+    document.title = 'Prawo – quiz';
+    showView('select');
+  }
+}
+
+function chooseSubject(subj) {
+  state.subject = subj;
+  localStorage.setItem(SUBJECT_KEY, subj);
+  applySubjectUI();
+  loadPool();
+  updatePoolInfo();
   showView('home');
 }
 
-/* ---------- Pool (random questions without repeats) ---------- */
+function changeSubject() {
+  state.subject = null;
+  localStorage.removeItem(SUBJECT_KEY);
+  state.remaining = [];
+  setTopbarVisibility(false);
+  els.brandTitle.textContent = 'Prawo – quiz';
+  document.title = 'Prawo – quiz';
+  showView('select');
+}
+
+/* ---------- Pool ---------- */
 
 function loadPool() {
+  const QUESTIONS = getActiveQuestions();
+  if (!QUESTIONS.length) return;
+
+  const key = storageKeyForPool();
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
+    const raw = localStorage.getItem(key);
     if (raw) {
       const data = JSON.parse(raw);
       if (Array.isArray(data.remaining) && data.remaining.length <= QUESTIONS.length) {
         state.remaining = data.remaining.filter(n => Number.isInteger(n) && n >= 0 && n < QUESTIONS.length);
-        updatePoolInfo();
+        if (state.remaining.length === 0) resetPool();
         return;
       }
     }
@@ -95,27 +178,29 @@ function loadPool() {
 }
 
 function savePool() {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify({ remaining: state.remaining }));
+  const key = storageKeyForPool();
+  localStorage.setItem(key, JSON.stringify({ remaining: state.remaining }));
 }
 
 function resetPool() {
+  const QUESTIONS = getActiveQuestions();
   state.remaining = Array.from({ length: QUESTIONS.length }, (_, i) => i);
   savePool();
   updatePoolInfo();
 }
 
 function updatePoolInfo() {
+  const QUESTIONS = getActiveQuestions();
+  if (!QUESTIONS.length) return;
   els.poolInfo.textContent = `Pula: ${state.remaining.length}/${QUESTIONS.length}`;
 }
 
 function pickRandomQuestionIndex() {
   if (state.remaining.length === 0) resetPool();
 
-  // losowanie z równym prawdopodobieństwem bez powtórzeń
   const r = Math.floor(Math.random() * state.remaining.length);
   const qIndex = state.remaining[r];
 
-  // usuń wylosowany element (swap+pop)
   state.remaining[r] = state.remaining[state.remaining.length - 1];
   state.remaining.pop();
 
@@ -138,7 +223,7 @@ function setsEqual(a, b) {
 }
 
 function sampleUnique(n) {
-  // losuj n unikalnych pytań (test), równomiernie
+  const QUESTIONS = getActiveQuestions();
   const arr = Array.from({ length: QUESTIONS.length }, (_, i) => i);
   for (let i = arr.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -147,10 +232,16 @@ function sampleUnique(n) {
   return arr.slice(0, Math.min(n, arr.length));
 }
 
-/* ---------- Random quiz view ---------- */
+function openHome() {
+  showView('home');
+}
+
+/* ---------- Random quiz ---------- */
 
 function renderQuizQuestion(qIndex) {
+  const QUESTIONS = getActiveQuestions();
   const q = QUESTIONS[qIndex];
+
   state.currentIndex = qIndex;
   state.selected = new Set();
   state.checked = false;
@@ -202,6 +293,7 @@ function nextQuizQuestion() {
 }
 
 function checkQuizAnswer() {
+  const QUESTIONS = getActiveQuestions();
   if (state.currentIndex === null) return;
 
   const q = QUESTIONS[state.currentIndex];
@@ -232,10 +324,12 @@ function checkQuizAnswer() {
   els.checkBtn.disabled = true;
 }
 
-/* ---------- All questions view ---------- */
+/* ---------- All questions ---------- */
 
 function renderAllQuestions() {
+  const QUESTIONS = getActiveQuestions();
   els.allList.innerHTML = '';
+
   QUESTIONS.forEach((q) => {
     const details = document.createElement('details');
     details.className = 'qitem';
@@ -275,7 +369,7 @@ function openAll() {
   showView('all');
 }
 
-/* ---------- Test mode ---------- */
+/* ---------- Test ---------- */
 
 function startTest() {
   const indices = sampleUnique(20);
@@ -287,6 +381,7 @@ function startTest() {
 }
 
 function renderTestQuestion() {
+  const QUESTIONS = getActiveQuestions();
   const qi = state.test.indices[state.test.pos];
   const q = QUESTIONS[qi];
 
@@ -349,6 +444,7 @@ function testNext() {
 }
 
 function finishTest() {
+  const QUESTIONS = getActiveQuestions();
   let correctCount = 0;
 
   const perQuestion = state.test.indices.map((qi, i) => {
@@ -406,7 +502,11 @@ function finishTest() {
 
 /* ---------- Events ---------- */
 
-document.addEventListener('DOMContentLoaded', () => {
+on(els.choosePstBtn, 'click', () => chooseSubject('pst'));
+on(els.choosePpsaBtn, 'click', () => chooseSubject('ppsa'));
+on(els.changeSubjectBtn, 'click', changeSubject);
+
+on(els.resetBtn, 'click', resetPool);
 
 on(els.startBtn, 'click', nextQuizQuestion);
 on(els.nextBtn, 'click', nextQuizQuestion);
@@ -425,13 +525,6 @@ on(els.testHomeBtn, 'click', openHome);
 on(els.resultsHomeBtn, 'click', openHome);
 on(els.restartTestBtn, 'click', startTest);
 
-on(els.resetBtn, 'click', resetPool);
-
-// Init
 window.addEventListener('DOMContentLoaded', () => {
-  loadPool();
-  updatePoolInfo();
-  showView('home');
-});
-
+  loadSubject();
 });
