@@ -56,6 +56,19 @@ const els = {
 
 const SUBJECT_KEY = 'quiz_subject_v1';
 
+// Niektóre środowiska (np. otwieranie pliku przez file:// lub tryby prywatne)
+// potrafią blokować localStorage i rzucać wyjątkiem. Te helpery sprawiają,
+// że aplikacja dalej działa nawet bez zapisu stanu.
+function safeGet(key) {
+  try { return localStorage.getItem(key); } catch { return null; }
+}
+function safeSet(key, value) {
+  try { localStorage.setItem(key, value); } catch {}
+}
+function safeRemove(key) {
+  try { localStorage.removeItem(key); } catch {}
+}
+
 const SUBJECTS = {
   pst: {
     name: 'Prawo samorządu terytorialnego',
@@ -122,7 +135,7 @@ function applySubjectUI() {
 }
 
 function loadSubject() {
-  const saved = localStorage.getItem(SUBJECT_KEY);
+  const saved = safeGet(SUBJECT_KEY);
   if (saved && SUBJECTS[saved]) {
     state.subject = saved;
     applySubjectUI();
@@ -139,7 +152,7 @@ function loadSubject() {
 
 function chooseSubject(subj) {
   state.subject = subj;
-  localStorage.setItem(SUBJECT_KEY, subj);
+  safeSet(SUBJECT_KEY, subj);
   applySubjectUI();
   loadPool();
   updatePoolInfo();
@@ -148,7 +161,7 @@ function chooseSubject(subj) {
 
 function changeSubject() {
   state.subject = null;
-  localStorage.removeItem(SUBJECT_KEY);
+  safeRemove(SUBJECT_KEY);
   state.remaining = [];
   setTopbarVisibility(false);
   els.brandTitle.textContent = 'Prawo – quiz';
@@ -164,7 +177,7 @@ function loadPool() {
 
   const key = storageKeyForPool();
   try {
-    const raw = localStorage.getItem(key);
+    const raw = safeGet(key);
     if (raw) {
       const data = JSON.parse(raw);
       if (Array.isArray(data.remaining) && data.remaining.length <= QUESTIONS.length) {
@@ -179,7 +192,7 @@ function loadPool() {
 
 function savePool() {
   const key = storageKeyForPool();
-  localStorage.setItem(key, JSON.stringify({ remaining: state.remaining }));
+  safeSet(key, JSON.stringify({ remaining: state.remaining }));
 }
 
 function resetPool() {
