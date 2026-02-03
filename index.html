@@ -1,48 +1,84 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="pl">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<title>Prawo samorządu terytorialnego</title>
-<link href="style.css" rel="stylesheet"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prawo samorządu terytorialnego</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<main class="app">
-<header class="topbar">
-<h1 class="brand">Prawo samorządu terytorialnego</h1>
-<div class="meta">
-<span class="pill" id="poolInfo" title="Ile pytań zostało w aktualnej puli">–</span>
-<button class="link" id="resetBtn">Resetuj pulę</button>
-</div>
-</header>
-<!-- HOME -->
-<section class="card view" id="homeView">
-<h2>Losuj pytanie</h2>
-<p class="muted">
-        Losuje pytania z równym prawdopodobieństwem i nie powtarza ich, dopóki nie skończy się pula.
-      </p>
-<button class="btn primary" id="startBtn">Losuj pytanie</button><div style="height:10px"></div><button class="btn" id="allBtn">Wszystkie pytania</button>
-</section>
-<!-- QUIZ -->
-<section aria-live="polite" class="card view hidden" id="quizView">
-<div class="qhead">
-<h2 class="question" id="questionText"></h2>
-</div>
-<div aria-label="Odpowiedzi" class="answers" id="answers" role="group"></div>
-<div class="actions">
-<button class="btn" id="backBtn">Poprzednie pytanie</button><button class="btn" id="checkBtn">Sprawdź</button>
-<button class="btn primary" id="nextBtn">Następne pytanie</button>
-<button class="btn" id="homeBtnQuiz">Strona główna</button></div>
-<p class="hint muted" id="hint"></p>
-</section><section class="card view hidden" id="allView"><h2>Wszystkie pytania</h2><p class="muted">Lista wszystkich pytań. Poprawne odpowiedzi są oznaczone na zielono.</p><div class="actions"><button class="btn" id="backHomeBtn">Strona główna</button></div><div class="all-list" id="allList"></div></section>
+  <main class="app">
+    <header class="topbar">
+      <h1 class="brand">Prawo samorządu terytorialnego</h1>
+      <div class="meta">
+        <span id="poolInfo" class="pill" title="Ile pytań zostało w aktualnej puli">–</span>
+        <button id="resetBtn" class="link">Resetuj pulę</button>
+      </div>
+    </header>
 
+    <!-- HOME -->
+    <section id="homeView" class="card view">
+      <div class="home-grid">
+        <article class="card inner-card">
+          <h2>Losuj pytanie</h2>
+          <p class="muted">
+            Losuje pytania z równym prawdopodobieństwem i nie powtarza ich, dopóki nie skończy się pula.
+          </p>
+          <button id="startBtn" class="btn primary">Losuj pytanie</button>
+        </article>
+
+        <article class="card inner-card">
+          <h2>Wszystkie pytania</h2>
+          <p class="muted">
+            Pokazuje pełną listę pytań wraz z odpowiedziami. Poprawne odpowiedzi są wyróżnione na zielono.
+          </p>
+          <button id="allBtn" class="btn primary">Wszystkie pytania</button>
+        </article>
+
+        <article class="card inner-card">
+          <h2>Test</h2>
+          <p class="muted">
+            Losuje 20 pytań. Na końcu zobaczysz wynik, procent oraz podsumowanie odpowiedzi.
+          </p>
+          <button id="testBtn" class="btn primary">Test</button>
+        </article>
+      </div>
+    </section>
+
+    <!-- QUIZ -->
+    <section id="quizView" class="card view hidden" aria-live="polite">
+      <div class="qhead">
+        <h2 id="questionText" class="question"></h2>
+      </div>
+
+      <div id="answers" class="answers" role="group" aria-label="Odpowiedzi"></div>
+
+      <div class="actions">
+        <button id="checkBtn" class="btn">Sprawdź</button>
+        <button id="nextBtn" class="btn primary">Następne pytanie</button>
+        <button id="quizHomeBtn" class="btn">Strona główna</button>
+      </div>
+
+      <p id="hint" class="hint muted"></p>
+    </section>
+
+    <!-- ALL QUESTIONS -->
+    <section id="allView" class="card view hidden" aria-live="polite">
+      <h2>Wszystkie pytania</h2>
+      <p class="muted">Lista wszystkich pytań. Poprawne odpowiedzi są oznaczone na zielono.</p>
+
+      <div class="actions">
+        <button id="allHomeBtn" class="btn">Strona główna</button>
+      </div>
+
+      <div id="allList" class="all-list"></div>
+    </section>
 
     <!-- TEST -->
     <section id="testView" class="card view hidden" aria-live="polite">
       <div class="qhead">
-        <h2 id="testProgress" class="pill" style="display:inline-block;margin:0 0 10px">–</h2>
-        <h3 id="testQuestionText" class="question"></h3>
+        <span id="testProgress" class="pill" title="Postęp testu">–</span>
+        <h3 id="testQuestionText" class="question" style="margin-top:10px"></h3>
       </div>
 
       <div id="testAnswers" class="answers" role="group" aria-label="Odpowiedzi testowe"></div>
@@ -70,7 +106,8 @@
       <div id="resultsList" class="all-list"></div>
     </section>
 
-</main>
-<script src="app.js" type="module"></script>
+  </main>
+
+  <script type="module" src="app.js"></script>
 </body>
 </html>

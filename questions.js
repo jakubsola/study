@@ -4728,7 +4728,7 @@ export const QUESTIONS = [
         "isCorrect": false
       },
       {
-        "text": "Większość głosów",
+        "text": "Większość głosów?",
         "isCorrect": false
       }
     ]
