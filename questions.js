@@ -3,15 +3,15 @@ export const QUESTIONS = [
     "question": "1. Bierne prawo wyborcze w gminie posiada:",
     "options": [
       {
-        "text": "wyłącznie obywatel RP,",
+        "text": "Wyłącznie obywatel RP,",
         "isCorrect": false
       },
       {
-        "text": "osoba która najpóźniej w dniu wyborów kończy 18 lat, wyborczego)",
+        "text": "Osoba która najpóźniej w dniu wyborów kończy 18 lat, wyborczego)",
         "isCorrect": false
       },
       {
-        "text": "zamieszkująca na terenie województwa w którym leży gmina",
+        "text": "Zamieszkująca na terenie województwa w którym leży gmina",
         "isCorrect": false
       }
     ]
@@ -20,15 +20,15 @@ export const QUESTIONS = [
     "question": "2. Radny nie może :",
     "options": [
       {
-        "text": "być jednocześnie posłem,",
+        "text": "Być jednocześnie posłem,",
         "isCorrect": true
       },
       {
-        "text": "być członkiem zarządu w spółce prawa handlowego,",
+        "text": "Być członkiem zarządu w spółce prawa handlowego,",
         "isCorrect": false
       },
       {
-        "text": "być Wójtem",
+        "text": "Być Wójtem",
         "isCorrect": true
       }
     ]
@@ -37,15 +37,15 @@ export const QUESTIONS = [
     "question": "3. Podział gminy na stałe obwody:",
     "options": [
       {
-        "text": "komisarz wyborczy,",
+        "text": "Komisarz wyborczy,",
         "isCorrect": true
       },
       {
-        "text": "rada gminy,",
+        "text": "Rada gminy,",
         "isCorrect": false
       },
       {
-        "text": "wójt",
+        "text": "Wójt",
         "isCorrect": false
       }
     ]
@@ -54,15 +54,15 @@ export const QUESTIONS = [
     "question": "4. Radny:",
     "options": [
       {
-        "text": "otrzymuje dietę,",
+        "text": "Otrzymuje dietę,",
         "isCorrect": true
       },
       {
-        "text": "ma ochronę jak funkcjonariusz publiczny,",
+        "text": "Ma ochronę jak funkcjonariusz publiczny,",
         "isCorrect": true
       },
       {
-        "text": "może uczestniczyć w nie więcej niż dwóch komisjach",
+        "text": "Może uczestniczyć w nie więcej niż dwóch komisjach",
         "isCorrect": false
       }
     ]
@@ -71,15 +71,15 @@ export const QUESTIONS = [
     "question": "5. Zmiana granic gminy może być dokonywana na wniosek:",
     "options": [
       {
-        "text": "mieszkańców, (w ustawie jest mowa o referendum lokalnym, w zależności jak je traktować może to być wniosek lub nie)",
+        "text": "Mieszkańców, (w ustawie jest mowa o referendum lokalnym, w zależności jak je traktować może to być wniosek lub nie)",
         "isCorrect": false
       },
       {
-        "text": "wojewody,",
+        "text": "Wojewody,",
         "isCorrect": false
       },
       {
-        "text": "prezesa rady ministrów",
+        "text": "Prezesa rady ministrów",
         "isCorrect": false
       }
     ]
@@ -88,15 +88,15 @@ export const QUESTIONS = [
     "question": "6. Referendum w sprawie odwołania wójta:",
     "options": [
       {
-        "text": "przeprowadzane jest na podstawie postanowienia komisarza wyborczego,",
+        "text": "Przeprowadzane jest na podstawie postanowienia komisarza wyborczego,",
         "isCorrect": false
       },
       {
-        "text": "jest ważne jeśli wzięło ponad 50% uprawnionych,",
+        "text": "Jest ważne jeśli wzięło ponad 50% uprawnionych,",
         "isCorrect": false
       },
       {
-        "text": "przeprowadzane jest w przypadku nieudzielenia absolutorium",
+        "text": "Przeprowadzane jest w przypadku nieudzielenia absolutorium",
         "isCorrect": true
       }
     ]
@@ -105,15 +105,15 @@ export const QUESTIONS = [
     "question": "7. Osobowość prawną posiada:",
     "options": [
       {
-        "text": "sołectwo,",
+        "text": "Sołectwo,",
         "isCorrect": false
       },
       {
-        "text": "dzielnica,",
+        "text": "Dzielnica,",
         "isCorrect": false
       },
       {
-        "text": "osiedle",
+        "text": "Osiedle",
         "isCorrect": false
       }
     ]
@@ -122,7 +122,7 @@ export const QUESTIONS = [
     "question": "8. Projekt statutu województwa podlega uzgodnieniu:",
     "options": [
       {
-        "text": "z prezesem rady ministrów",
+        "text": "Z prezesem rady ministrów",
         "isCorrect": true
       }
     ]
@@ -131,15 +131,15 @@ export const QUESTIONS = [
     "question": "9. Konstytucja RP:",
     "options": [
       {
-        "text": "powołała gminę,",
+        "text": "Powołała gminę,",
         "isCorrect": false
       },
       {
-        "text": "wprowadza domniemanie kompetencji na rzecz gminy,",
+        "text": "Wprowadza domniemanie kompetencji na rzecz gminy,",
         "isCorrect": true
       },
       {
-        "text": "wprowadza powiat i województwo",
+        "text": "Wprowadza powiat i województwo",
         "isCorrect": false
       }
     ]
@@ -148,15 +148,15 @@ export const QUESTIONS = [
     "question": "10. Podstawą prawną działania samorządu terytorialnego nie jest:",
     "options": [
       {
-        "text": "ekst",
+        "text": "Ekst",
         "isCorrect": false
       },
       {
-        "text": "eksr",
+        "text": "Eksr",
         "isCorrect": true
       },
       {
-        "text": "konstytucja RP",
+        "text": "Konstytucja RP",
         "isCorrect": false
       }
     ]
@@ -165,15 +165,15 @@ export const QUESTIONS = [
     "question": "11. Obligatoryjne konsultacje społeczne:",
     "options": [
       {
-        "text": "w procesie zmiany granic gminy,",
+        "text": "W procesie zmiany granic gminy,",
         "isCorrect": true
       },
       {
-        "text": "w procesie tworzenia statutu,",
+        "text": "W procesie tworzenia statutu,",
         "isCorrect": false
       },
       {
-        "text": "we wszystkich ważnych dla gminy sprawach",
+        "text": "We wszystkich ważnych dla gminy sprawach",
         "isCorrect": false
       }
     ]
@@ -182,107 +182,107 @@ export const QUESTIONS = [
     "question": "12. Forma demokracji bezpośredniej o charakterze nierozstrzygającym:",
     "options": [
       {
-        "text": "budżet obywatelski,",
+        "text": "Budżet obywatelski,",
         "isCorrect": false
       },
       {
-        "text": "referendum,",
+        "text": "Referendum,",
         "isCorrect": false
       },
       {
-        "text": "wybory",
+        "text": "Wybory",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "14. Spory majątkowe wynikające z porozumień między gminą i organem administracji rządowej rozstrzygane są przed:",
+    "question": "13. Spory majątkowe wynikające z porozumień między gminą i organem administracji rządowej rozstrzygane są przed:",
     "options": [
       {
-        "text": "sko,",
+        "text": "Sko,",
         "isCorrect": false
       },
       {
-        "text": "sądy administracyjne,",
+        "text": "Sądy administracyjne,",
         "isCorrect": false
       },
       {
-        "text": "sądy powszechne",
+        "text": "Sądy powszechne",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "15. Wójt powołuje zastępców formie:",
+    "question": "14. Wójt powołuje zastępców formie:",
     "options": [
       {
-        "text": "zarządzenia",
+        "text": "Zarządzenia",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "16. Dieta radnego jest:",
+    "question": "15. Dieta radnego jest:",
     "options": [
       {
-        "text": "wynagrodzeniem,",
+        "text": "Wynagrodzeniem,",
         "isCorrect": false
       },
       {
-        "text": "zwrotem kosztów,",
+        "text": "Zwrotem kosztów,",
         "isCorrect": true
       },
       {
-        "text": "ekwiwalentem utraconego dochodu",
+        "text": "Ekwiwalentem utraconego dochodu",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "17. Komisje rewizyjna powołuje:",
+    "question": "16. Komisje rewizyjna powołuje:",
     "options": [
       {
-        "text": "wójt,",
+        "text": "Wójt,",
         "isCorrect": false
       },
       {
-        "text": "rada gminy,",
+        "text": "Rada gminy,",
         "isCorrect": true
       },
       {
-        "text": "przewodniczący rady gminy",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "18. Uchwały rady gminy zapadają co do zasady:",
-    "options": [
-      {
-        "text": "zwykła większością głosów,",
-        "isCorrect": true
-      },
-      {
-        "text": "w głosowaniu jawnym,",
-        "isCorrect": true
-      },
-      {
-        "text": "kwalifikowana większością",
+        "text": "Przewodniczący rady gminy",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "19. Pierwsza sesje rady gminu powołuje:",
+    "question": "17. Uchwały rady gminy zapadają co do zasady:",
     "options": [
       {
-        "text": "komisarz 7 dni po upływie kadencji rady",
+        "text": "Zwykła większością głosów,",
+        "isCorrect": true
+      },
+      {
+        "text": "W głosowaniu jawnym,",
+        "isCorrect": true
+      },
+      {
+        "text": "Kwalifikowana większością",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "18. Pierwsza sesje rady gminu powołuje:",
+    "options": [
+      {
+        "text": "Komisarz 7 dni po upływie kadencji rady",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "20. Maksymalna liczba radnych gminy:",
+    "question": "19. Maksymalna liczba radnych gminy:",
     "options": [
       {
         "text": "45 a w Warszawie 60",
@@ -291,86 +291,86 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "21. Do zmiany porządku obrad sesji zwołanej na wniosek wójta potrzebna jest zgoda:",
+    "question": "20. Do zmiany porządku obrad sesji zwołanej na wniosek wójta potrzebna jest zgoda:",
     "options": [
       {
-        "text": "przewodniczącego rady,",
+        "text": "Przewodniczącego rady,",
         "isCorrect": false
       },
       {
-        "text": "przewodniczącego wszystkich klubów,",
+        "text": "Przewodniczącego wszystkich klubów,",
         "isCorrect": false
       },
       {
-        "text": "wójta",
+        "text": "Wójta",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "22. Publikacja aktów prawa miejscowego odbywa się w:",
+    "question": "21. Publikacja aktów prawa miejscowego odbywa się w:",
     "options": [
       {
-        "text": "wojewódzkim dzienniku urzędowym",
+        "text": "Wojewódzkim dzienniku urzędowym",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "23. Województwo samorządowe wprowadza przepisy porządkowe:",
+    "question": "22. Województwo samorządowe wprowadza przepisy porządkowe:",
     "options": [
       {
-        "text": "uchwała,",
+        "text": "Uchwała,",
         "isCorrect": false
       },
       {
-        "text": "rozporządzeniem,",
+        "text": "Rozporządzeniem,",
         "isCorrect": false
       },
       {
-        "text": "decyzja administracyjna",
+        "text": "Decyzja administracyjna",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "24. W sensie ustrojowym Związek metropolitalny jest:",
+    "question": "23. W sensie ustrojowym Związek metropolitalny jest:",
     "options": [
       {
-        "text": "zrzeszeniem gmin",
+        "text": "Zrzeszeniem gmin",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "25. Uchwały związku metropolitalnego zapadają:",
+    "question": "24. Uchwały związku metropolitalnego zapadają:",
     "options": [
       {
-        "text": "podwójną większością głosów",
+        "text": "Podwójną większością głosów",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "26. Porozumienie w sprawie przekazania zadań z gminy do powiatu:",
+    "question": "25. Porozumienie w sprawie przekazania zadań z gminy do powiatu:",
     "options": [
       {
-        "text": "niezgodny z prawem",
+        "text": "Niezgodny z prawem",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "27. Komisja rewizyjna:",
+    "question": "26. Komisja rewizyjna:",
     "options": [
       {
-        "text": "opiniuje absolutorium",
+        "text": "Opiniuje absolutorium",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "28. Likwidacja samorządu :",
+    "question": "27. Likwidacja samorządu :",
     "options": [
       {
         "text": "1950",
@@ -379,24 +379,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "32. Zarządzenie zastępcze:",
+    "question": "28. Zarządzenie zastępcze:",
     "options": [
       {
-        "text": "zaskarżenie do WSA,",
+        "text": "Zaskarżenie do WSA,",
         "isCorrect": true
       },
       {
-        "text": "wydaje wojewoda,",
+        "text": "Wydaje wojewoda,",
         "isCorrect": true
       },
       {
-        "text": "powiadamia ministra właściwego do spraw administracji publicznej",
+        "text": "Powiadamia ministra właściwego do spraw administracji publicznej",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "1. Domniemanie kompetencji na poziomie powiatu:",
+    "question": "29. Domniemanie kompetencji na poziomie powiatu:",
     "options": [
       {
         "text": "Przemawia na rzecz rady powiatu",
@@ -413,7 +413,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "2. Zadania własne jednostek samorządu terytorialnego:",
+    "question": "30. Zadania własne jednostek samorządu terytorialnego:",
     "options": [
       {
         "text": "Zawsze mają charakter zamknięty",
@@ -430,7 +430,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "3. Organem wyższego stopnia nad gminą jest:",
+    "question": "31. Organem wyższego stopnia nad gminą jest:",
     "options": [
       {
         "text": "Powiat",
@@ -447,7 +447,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "4. Zadania własne gminy:",
+    "question": "32. Zadania własne gminy:",
     "options": [
       {
         "text": "Zawsze mają charakter obowiązkowy",
@@ -464,7 +464,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "5. Gmina może zawierać porozumienia dotyczące przekazania zadań publicznych:",
+    "question": "33. Gmina może zawierać porozumienia dotyczące przekazania zadań publicznych:",
     "options": [
       {
         "text": "Tylko z inną gminą",
@@ -481,7 +481,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "6. Konsekwencją naruszenia przez radnego zakazu zatrudnienia w urzędzie gminy, w której wykonuje mandat jest:",
+    "question": "34. Konsekwencją naruszenia przez radnego zakazu zatrudnienia w urzędzie gminy, w której wykonuje mandat jest:",
     "options": [
       {
         "text": "Przymusowe wysłanie go na urlop bezpłatny",
@@ -498,7 +498,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "7. Czynności z zakresu prawa pracy dotyczące nawiązania stosunku pracy wójta są dokonywane przez:",
+    "question": "35. Czynności z zakresu prawa pracy dotyczące nawiązania stosunku pracy wójta są dokonywane przez:",
     "options": [
       {
         "text": "Wójta",
@@ -515,7 +515,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "8. Wójt:",
+    "question": "36. Wójt:",
     "options": [
       {
         "text": "Przygotowuje projekty uchwał rady gminy",
@@ -532,7 +532,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "9. Do zakresu działania gminy należą:",
+    "question": "37. Do zakresu działania gminy należą:",
     "options": [
       {
         "text": "Wszystkie sprawy publiczne, które mają znaczenie dla mieszkańców gminy",
@@ -549,7 +549,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "10. Gmina:",
+    "question": "38. Gmina:",
     "options": [
       {
         "text": "Może wykonywać zadania z zakresu właściwości powiatu na podstawie porozumienie z tymże powiatem",
@@ -566,7 +566,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "11. Rada gminy kontroluje działalność:",
+    "question": "39. Rada gminy kontroluje działalność:",
     "options": [
       {
         "text": "Wójta",
@@ -583,7 +583,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "12. Komisja rewizyjna:",
+    "question": "40. Komisja rewizyjna:",
     "options": [
       {
         "text": "Jest organem powiatu",
@@ -600,7 +600,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "13. Oświadczenie majątkowe:",
+    "question": "41. Oświadczenie majątkowe:",
     "options": [
       {
         "text": "Radny składa przewodniczącemu rady",
@@ -617,7 +617,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "14. Prezydent miasta:",
+    "question": "42. Prezydent miasta:",
     "options": [
       {
         "text": "Jest organem uchwałodawczym w gminach liczących powyżej 100 000 mieszkańców",
@@ -634,7 +634,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "15. Zarząd województwa:",
+    "question": "43. Zarząd województwa:",
     "options": [
       {
         "text": "Jest organem powiatu",
@@ -651,7 +651,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "16. Marszałek województwa:",
+    "question": "44. Marszałek województwa:",
     "options": [
       {
         "text": "Jest wybierany bezwzględną większością głosów",
@@ -668,7 +668,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "17. Rada gminy:",
+    "question": "45. Rada gminy:",
     "options": [
       {
         "text": "Może odwołać wójta",
@@ -685,7 +685,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "18. Nadzór nad działalnością powiatu sprawuje:",
+    "question": "46. Nadzór nad działalnością powiatu sprawuje:",
     "options": [
       {
         "text": "Wojewoda",
@@ -702,7 +702,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "19. Oświadczenia woli w imieniu powiatu składa:",
+    "question": "47. Oświadczenia woli w imieniu powiatu składa:",
     "options": [
       {
         "text": "Samodzielnie starosta",
@@ -719,7 +719,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "20. Sejmik województwa:",
+    "question": "48. Sejmik województwa:",
     "options": [
       {
         "text": "Składa się co najmniej z 15 radnych",
@@ -736,7 +736,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "1. Porozumienie w sprawie przekazania zadań publicznych:",
+    "question": "49. Porozumienie w sprawie przekazania zadań publicznych:",
     "options": [
       {
         "text": "Może być zawarte pomiędzy dwoma gminami",
@@ -753,14 +753,14 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "2. Liczba radnych:",
+    "question": "50. Liczba radnych:",
     "options": [
       {
         "text": "Jest ustalana każdorazowo przez wojewodę po porozumieniu z komisarzem wyborczym na koniec grudnia roku poprzedzającego rok wyborczy",
         "isCorrect": false
       },
       {
-        "text": "jest publikowana w Wojewódzkim Dzienniku Urzędowym",
+        "text": "Jest publikowana w Wojewódzkim Dzienniku Urzędowym",
         "isCorrect": false
       },
       {
@@ -770,7 +770,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "3. Radny gminy nie może być:",
+    "question": "51. Radny gminy nie może być:",
     "options": [
       {
         "text": "Zatrudniony w urzędzie gminy, w której wykonuje mandat",
@@ -787,7 +787,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "4. Mandatu radnego nie można łączyć z:",
+    "question": "52. Mandatu radnego nie można łączyć z:",
     "options": [
       {
         "text": "Mandatem posła",
@@ -804,7 +804,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "5. Jeśli w gminie jest tylko jeden kandydat na wójta:",
+    "question": "53. Jeśli w gminie jest tylko jeden kandydat na wójta:",
     "options": [
       {
         "text": "Wyborów nie przeprowadza się",
@@ -821,7 +821,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "6. Zastępca wójta jest powoływany w drodze:",
+    "question": "54. Zastępca wójta jest powoływany w drodze:",
     "options": [
       {
         "text": "Zarządzenia",
@@ -838,7 +838,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "7. Wójt:",
+    "question": "55. Wójt:",
     "options": [
       {
         "text": "Ma obowiązek składać oświadczenia majątkowe",
@@ -855,7 +855,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "8. Oświadczenia woli w imieniu województwa składa:",
+    "question": "56. Oświadczenia woli w imieniu województwa składa:",
     "options": [
       {
         "text": "Marszałek województwa wraz z członkiem zarządu województwa",
@@ -872,7 +872,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "9. Zarząd powiatu:",
+    "question": "57. Zarząd powiatu:",
     "options": [
       {
         "text": "Składa się z 3-5 osób",
@@ -889,7 +889,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "10. Wójt wykonuje zadania przy pomocy:",
+    "question": "58. Wójt wykonuje zadania przy pomocy:",
     "options": [
       {
         "text": "Urzędu gminy",
@@ -906,7 +906,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "1. Kandydat na radnego:",
+    "question": "59. Kandydat na radnego:",
     "options": [
       {
         "text": "Musi zamieszkiwać na terenie gminy, w której kandyduje",
@@ -923,7 +923,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "2. Jeśli rada gminy nie udzieli burmistrzowi absolutorium:",
+    "question": "60. Jeśli rada gminy nie udzieli burmistrzowi absolutorium:",
     "options": [
       {
         "text": "Jest to równoznaczne z odwołaniem wójta",
@@ -940,7 +940,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "3. Przed podjęciem uchwały w sprawie przeprowadzenia w gminie referendum w sprawie odwołania wójta z powodu nieudzielenia absolutorium, rada gminy:",
+    "question": "61. Przed podjęciem uchwały w sprawie przeprowadzenia w gminie referendum w sprawie odwołania wójta z powodu nieudzielenia absolutorium, rada gminy:",
     "options": [
       {
         "text": "Zapoznaje się z opinią RIO",
@@ -957,7 +957,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "4. Uchwałę o referendum w sprawie odwołania wójta z powodu nieudzielenia absolutorium rada podejmuje:",
+    "question": "62. Uchwałę o referendum w sprawie odwołania wójta z powodu nieudzielenia absolutorium rada podejmuje:",
     "options": [
       {
         "text": "Zwykłą większością głosów",
@@ -974,7 +974,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "5. W przypadku niezłożenia w terminie oświadczenia majątkowego przez radnego:",
+    "question": "63. W przypadku niezłożenia w terminie oświadczenia majątkowego przez radnego:",
     "options": [
       {
         "text": "Przewodniczący rady gminy wzywa do niezwłocznego złożenia oświadczenia wyznaczając dodatkowy 14-dniowy termin",
@@ -985,13 +985,13 @@ export const QUESTIONS = [
         "isCorrect": false
       },
       {
-        "text": "traci on wynagrodzenie za okres od dnia, w którym powinno być złożone oświadczenie do dnia jego złożenia",
+        "text": "Traci on wynagrodzenie za okres od dnia, w którym powinno być złożone oświadczenie do dnia jego złożenia",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "6. Jednostką pomocniczą gminy może być:",
+    "question": "64. Jednostką pomocniczą gminy może być:",
     "options": [
       {
         "text": "Dzielnica",
@@ -1008,7 +1008,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "7. Sołtys:",
+    "question": "65. Sołtys:",
     "options": [
       {
         "text": "Jest organem uchwałodawczym w sołectwie",
@@ -1025,7 +1025,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "8. Przedłożenia wojewodzie uchwał rady gminy:",
+    "question": "66. Przedłożenia wojewodzie uchwał rady gminy:",
     "options": [
       {
         "text": "Dokonuje wójt",
@@ -1042,7 +1042,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "9. Oświadczenia woli w imieniu województwa:",
+    "question": "67. Oświadczenia woli w imieniu województwa:",
     "options": [
       {
         "text": "Składa samodzielnie marszałek województwa - jeśli tak stanowi statut województwa",
@@ -1059,7 +1059,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "10. Skarbnik powiatu:",
+    "question": "68. Skarbnik powiatu:",
     "options": [
       {
         "text": "Jest powoływany na wniosek starosty przez radę powiatu",
@@ -1076,7 +1076,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "1. Z inicjatywą przeprowadzenia referendum lokalnego może wystąpić:",
+    "question": "69. Z inicjatywą przeprowadzenia referendum lokalnego może wystąpić:",
     "options": [
       {
         "text": "Grupa co najmniej 15 obywateli, którym przysługuje prawo wybierania do organu stanowiącego jednostki samorządu terytorialnego",
@@ -1093,7 +1093,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "2. Gmina:",
+    "question": "70. Gmina:",
     "options": [
       {
         "text": "Musi utworzyć co najmniej jedną jednostkę pomocniczą",
@@ -1110,7 +1110,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "3. W skład Sejmiku Województwa:",
+    "question": "71. W skład Sejmiku Województwa:",
     "options": [
       {
         "text": "Wchodzą osoby mianowane przez wojewodę",
@@ -1127,7 +1127,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "4. W skład Sejmiku Województwa:",
+    "question": "72. W skład Sejmiku Województwa:",
     "options": [
       {
         "text": "Wchodzi co najmniej 30 osób",
@@ -1144,7 +1144,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "5. Rada powiatu:",
+    "question": "73. Rada powiatu:",
     "options": [
       {
         "text": "Jest organem stanowiącym powiatu",
@@ -1161,7 +1161,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "6. Złożenie rezygnacji przez przewodniczącego rady powiatu:",
+    "question": "74. Złożenie rezygnacji przez przewodniczącego rady powiatu:",
     "options": [
       {
         "text": "Jest równoznaczne z odwołaniem całego zarządu",
@@ -1178,7 +1178,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "7. O tym, które zadania własne gminy mają charakter obowiązkowy decyduje:",
+    "question": "75. O tym, które zadania własne gminy mają charakter obowiązkowy decyduje:",
     "options": [
       {
         "text": "Ustawa",
@@ -1195,7 +1195,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "8. W skład rady gminy wchodzi:",
+    "question": "76. W skład rady gminy wchodzi:",
     "options": [
       {
         "text": "15 radnych w gminach do 20 000 mieszkańców",
@@ -1212,7 +1212,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "9. Radny powiatu nieobecny na pierwszej sesji rady:",
+    "question": "77. Radny powiatu nieobecny na pierwszej sesji rady:",
     "options": [
       {
         "text": "Nie jest zobowiązany do złożenia ślubowania",
@@ -1229,7 +1229,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "10. Pracodawca radnego:",
+    "question": "78. Pracodawca radnego:",
     "options": [
       {
         "text": "W każdej chwili może rozwiązać z nim stosunek pracy",
@@ -1246,7 +1246,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "11. Sejmik województwa:",
+    "question": "79. Sejmik województwa:",
     "options": [
       {
         "text": "Obraduje na sesjach zwoływanych przynajmniej raz na miesiąc",
@@ -1263,7 +1263,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "12. Pierwsze oświadczenie majątkowe radny składa:",
+    "question": "80. Pierwsze oświadczenie majątkowe radny składa:",
     "options": [
       {
         "text": "W terminie 30 dni od dnia wyborów",
@@ -1280,7 +1280,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "13. Niezłożenie w dodatkowym terminie(określonym w wezwaniu) oświadczenia majątkowego przez skarbnika gminy:",
+    "question": "81. Niezłożenie w dodatkowym terminie(określonym w wezwaniu) oświadczenia majątkowego przez skarbnika gminy:",
     "options": [
       {
         "text": "Skutkuje ponownym wezwaniem go do złożenia oświadczenia, którego dokonuje wójt",
@@ -1297,14 +1297,14 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "14. Zastępca wójta:",
+    "question": "82. Zastępca wójta:",
     "options": [
       {
         "text": "Jest wybierany w wyborach bezpośrednich",
         "isCorrect": false
       },
       {
-        "text": "jest powoływany przez wójta",
+        "text": "Jest powoływany przez wójta",
         "isCorrect": true
       },
       {
@@ -1314,7 +1314,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "15. Skarbnik powiatu:",
+    "question": "83. Skarbnik powiatu:",
     "options": [
       {
         "text": "Jest powoływany przez starostę",
@@ -1331,7 +1331,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "16. Uchwały rady powiatu:",
+    "question": "84. Uchwały rady powiatu:",
     "options": [
       {
         "text": "Są zatwierdzane przez starostę",
@@ -1348,7 +1348,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "17. W razie powtarzającego się naruszania przez sejmik województwa Konstytucji lub ustaw:",
+    "question": "85. W razie powtarzającego się naruszania przez sejmik województwa Konstytucji lub ustaw:",
     "options": [
       {
         "text": "Prezes Rady ministrów może w drodze uchwały rozwiązać sejmik",
@@ -1365,7 +1365,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "18. W przypadku nieistotnego naruszenia prawa:",
+    "question": "86. W przypadku nieistotnego naruszenia prawa:",
     "options": [
       {
         "text": "Organ nadzoru stwierdza nieważność uchwały",
@@ -1382,7 +1382,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "19. Po upływie roku od dnia podjęcia uchwały:",
+    "question": "87. Po upływie roku od dnia podjęcia uchwały:",
     "options": [
       {
         "text": "Nigdy nie jest możliwe stwierdzenie jej nieważności",
@@ -1399,7 +1399,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "20. Po upływie kadencji wójta:",
+    "question": "88. Po upływie kadencji wójta:",
     "options": [
       {
         "text": "Pełni on swoją funkcję do czasu objęcia obowiązków przez nowo wybranego wójta",
@@ -1416,7 +1416,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "1. Z zamkniętym katalogiem zadań własnych jednostki samorządu terytorialnego mamy do czynienia na poziomie:",
+    "question": "89. Z zamkniętym katalogiem zadań własnych jednostki samorządu terytorialnego mamy do czynienia na poziomie:",
     "options": [
       {
         "text": "Województwa",
@@ -1433,7 +1433,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "2. Powiat może przekazać swoje zadania własne do realizacji:",
+    "question": "90. Powiat może przekazać swoje zadania własne do realizacji:",
     "options": [
       {
         "text": "Tylko innemu powiatowi",
@@ -1450,7 +1450,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "3. Domniemanie kompetencji na rzecz organu wykonawczego jednostki samorządu terytorialnego występuje na poziomie:",
+    "question": "91. Domniemanie kompetencji na rzecz organu wykonawczego jednostki samorządu terytorialnego występuje na poziomie:",
     "options": [
       {
         "text": "Gminy",
@@ -1467,7 +1467,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "4. Liczba radnych w gminie:",
+    "question": "92. Liczba radnych w gminie:",
     "options": [
       {
         "text": "Jest uzależniona od liczby mieszkańców",
@@ -1484,7 +1484,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "5. Obowiązkiem radnego gminy nie jest: chyba puste",
+    "question": "93. Obowiązkiem radnego gminy nie jest: chyba puste",
     "options": [
       {
         "text": "Złożenie ślubowania",
@@ -1501,7 +1501,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "6. Kandydat na wójta:",
+    "question": "94. Kandydat na wójta:",
     "options": [
       {
         "text": "Musi mieszkać na terenie gminy, w której kandyduje",
@@ -1518,7 +1518,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "7. Zastępca burmistrza:",
+    "question": "95. Zastępca burmistrza:",
     "options": [
       {
         "text": "Jest powoływany w drodze zarządzenia starosty",
@@ -1535,7 +1535,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "8. Komisja rewizyjna:",
+    "question": "96. Komisja rewizyjna:",
     "options": [
       {
         "text": "Jest organem rady gminy",
@@ -1552,7 +1552,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "9. Starosta:",
+    "question": "97. Starosta:",
     "options": [
       {
         "text": "Jest organem powiatu",
@@ -1569,7 +1569,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "10. Marszałek województwa:",
+    "question": "98. Marszałek województwa:",
     "options": [
       {
         "text": "Jest wybierany przez sejmik województwa",
@@ -1586,7 +1586,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "1. Konstytucja RP:",
+    "question": "99. Konstytucja RP:",
     "options": [
       {
         "text": "Stanowi że podstawową jednostką samorządu terytorialnego jest gmina",
@@ -1603,7 +1603,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "2. Oświadczenia woli w imieniu gminy może składać:",
+    "question": "100. Oświadczenia woli w imieniu gminy może składać:",
     "options": [
       {
         "text": "Jednoosobowo wójt",
@@ -1620,7 +1620,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "3. Pomiędzy gminą i powiatem:",
+    "question": "101. Pomiędzy gminą i powiatem:",
     "options": [
       {
         "text": "Nie zachodzi żadne podporządkowanie",
@@ -1637,7 +1637,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "4. Liczba radnych na poziomie gminy:",
+    "question": "102. Liczba radnych na poziomie gminy:",
     "options": [
       {
         "text": "Wynosi co najmniej 15",
@@ -1654,7 +1654,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "5. Wójt składa oświadczenie majątkowe:",
+    "question": "103. Wójt składa oświadczenie majątkowe:",
     "options": [
       {
         "text": "Na ręce wojewody",
@@ -1671,7 +1671,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "6. Za dostęp do oświadczeń majątkowych odpowiada:",
+    "question": "104. Za dostęp do oświadczeń majątkowych odpowiada:",
     "options": [
       {
         "text": "Na poziomie gminy- wójt",
@@ -1688,7 +1688,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "7. Decyzje w indywidualnych sprawach z zakresu administracji publicznej na poziomie gminy wydaje:",
+    "question": "105. Decyzje w indywidualnych sprawach z zakresu administracji publicznej na poziomie gminy wydaje:",
     "options": [
       {
         "text": "Wójt",
@@ -1705,7 +1705,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "8. Organem nadzoru nad działalnością samorządu terytorialnego nie jest:",
+    "question": "106. Organem nadzoru nad działalnością samorządu terytorialnego nie jest:",
     "options": [
       {
         "text": "Prezes RM",
@@ -1722,7 +1722,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "9. Zarząd powiatu:",
+    "question": "107. Zarząd powiatu:",
     "options": [
       {
         "text": "Jest organem wykonawczym powiatu",
@@ -1739,7 +1739,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "10. W skład zarządu województwa:",
+    "question": "108. W skład zarządu województwa:",
     "options": [
       {
         "text": "Wchodzi 5 osób",
@@ -1756,7 +1756,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "1. Gmina:",
+    "question": "109. Gmina:",
     "options": [
       {
         "text": "Wg konstytucji jest podstawową jednostką samorządu terytorialnego",
@@ -1773,7 +1773,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "2. Konsultacje gminne:",
+    "question": "110. Konsultacje gminne:",
     "options": [
       {
         "text": "Są formą demokracji bezpośredniej",
@@ -1790,7 +1790,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "3. Przeprowadzanie referendów na poziomie jednostek samorządu terytorialnego:",
+    "question": "111. Przeprowadzanie referendów na poziomie jednostek samorządu terytorialnego:",
     "options": [
       {
         "text": "Nie jest możliwe",
@@ -1807,7 +1807,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "4. Referendum obligatoryjne na poziomie gminy:",
+    "question": "112. Referendum obligatoryjne na poziomie gminy:",
     "options": [
       {
         "text": "Nie występuje",
@@ -1824,24 +1824,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "5. Powiat:",
+    "question": "113. Powiat:",
     "options": [
       {
-        "text": "realizuje zadania o charakterze lokalnym, jeśli przekraczają one możliwości realizacyjne gminy",
+        "text": "Realizuje zadania o charakterze lokalnym, jeśli przekraczają one możliwości realizacyjne gminy",
         "isCorrect": true
       },
       {
-        "text": "może realizować zadania z zakresu administracji rządowej, jeśli zostaną mu one zlecone w drodze ustawy",
+        "text": "Może realizować zadania z zakresu administracji rządowej, jeśli zostaną mu one zlecone w drodze ustawy",
         "isCorrect": true
       },
       {
-        "text": "nie ma zadań własnych",
+        "text": "Nie ma zadań własnych",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "6. Radny gminy:",
+    "question": "114. Radny gminy:",
     "options": [
       {
         "text": "Jest organem podstawowej jednostki samorządu",
@@ -1858,7 +1858,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "7. Komisje gminne:",
+    "question": "115. Komisje gminne:",
     "options": [
       {
         "text": "Są jednostkami pomocniczymi gminy",
@@ -1875,7 +1875,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "8. Kontrasygnata skarbnika gminy:",
+    "question": "116. Kontrasygnata skarbnika gminy:",
     "options": [
       {
         "text": "Jest potrzebna do skuteczności czynności prawnej, która może powodować powstanie zobowiązań pieniężnych gminy",
@@ -1892,7 +1892,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "9. Jednostki pomocnicze gminy:",
+    "question": "117. Jednostki pomocnicze gminy:",
     "options": [
       {
         "text": "To tylko sołectwa i dzielnice",
@@ -1909,7 +1909,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "10. Powiatową administrację zespoloną tworzą:",
+    "question": "118. Powiatową administrację zespoloną tworzą:",
     "options": [
       {
         "text": "Starostwo powiatowe",
@@ -1926,7 +1926,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "11. Powiat grodzki:",
+    "question": "119. Powiat grodzki:",
     "options": [
       {
         "text": "Wykonuje wszystkie zadania samorządu terytorialnego, niezastrzeżone dla innych jednostek samorządu terytorialnego",
@@ -1943,7 +1943,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "13. Statut miasta na prawach powiatu:",
+    "question": "120. Statut miasta na prawach powiatu:",
     "options": [
       {
         "text": "W miastach powyżej 300 000 mieszkańców jego projekt podlega uzgodnieniu z Prezesem Rady Ministrów",
@@ -1960,7 +1960,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "14. Uchwały rady miejskiej:",
+    "question": "121. Uchwały rady miejskiej:",
     "options": [
       {
         "text": "Zapadają zwykłą większością głosów w obecności więcej niż połowy składu rady",
@@ -1977,7 +1977,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "15. Prezydent miasta na prawach powiatu:",
+    "question": "122. Prezydent miasta na prawach powiatu:",
     "options": [
       {
         "text": "Pełni jednocześnie funkcje starosty",
@@ -1994,7 +1994,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "16. Do wyłącznej właściwości Sejmiku Województwa należy:",
+    "question": "123. Do wyłącznej właściwości Sejmiku Województwa należy:",
     "options": [
       {
         "text": "Stanowienie statutu województwa",
@@ -2011,7 +2011,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "17. Marszałek województwa:",
+    "question": "124. Marszałek województwa:",
     "options": [
       {
         "text": "Jest kierownikiem urzędu marszałkowskiego",
@@ -2028,7 +2028,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "18. Zgodnie z Konstytucją RP organem nadzoru nad działalnością jednostek samorządu terytorialnego jest:",
+    "question": "125. Zgodnie z Konstytucją RP organem nadzoru nad działalnością jednostek samorządu terytorialnego jest:",
     "options": [
       {
         "text": "Prezes Rady Ministrów",
@@ -2045,7 +2045,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "19. Uchwała organu jednostki samorządu terytorialnego:",
+    "question": "126. Uchwała organu jednostki samorządu terytorialnego:",
     "options": [
       {
         "text": "Sprzeczna z prawem nieważna z mocy prawa",
@@ -2062,7 +2062,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "20. Rozstrzygnięcia organu nadzorczego dotyczące jednostek samorządu terytorialnego:",
+    "question": "127. Rozstrzygnięcia organu nadzorczego dotyczące jednostek samorządu terytorialnego:",
     "options": [
       {
         "text": "Nie podlegają zaskarżeniu",
@@ -2079,7 +2079,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "21. Jeżeli rozstrzygnięcie nadzorcze dotyczące uchwały rady gminy doręczone zostało po upływie kadencji rady gminy:",
+    "question": "128. Jeżeli rozstrzygnięcie nadzorcze dotyczące uchwały rady gminy doręczone zostało po upływie kadencji rady gminy:",
     "options": [
       {
         "text": "Nie może zostać zaskarżone",
@@ -2096,7 +2096,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "22. Pracodawcą wójta jest:",
+    "question": "129. Pracodawcą wójta jest:",
     "options": [
       {
         "text": "Skarb Państwa",
@@ -2113,7 +2113,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "23. Czynności z zakresu prawa pracy wobec wójta:",
+    "question": "130. Czynności z zakresu prawa pracy wobec wójta:",
     "options": [
       {
         "text": "Związane z nawiązaniem stosunku pracy wykonuje przewodniczący rady gminy",
@@ -2130,7 +2130,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "24. Zarząd powiatu:",
+    "question": "131. Zarząd powiatu:",
     "options": [
       {
         "text": "Jest organem powiatu",
@@ -2147,7 +2147,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "25. Starosta:",
+    "question": "132. Starosta:",
     "options": [
       {
         "text": "Jest członkiem zarządu powiatu",
@@ -2164,7 +2164,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "1. Komisarz wyborczy:",
+    "question": "133. Komisarz wyborczy:",
     "options": [
       {
         "text": "Jest organem gminy",
@@ -2181,7 +2181,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "2. Sesje rady gminy:",
+    "question": "134. Sesje rady gminy:",
     "options": [
       {
         "text": "Są zwoływane przez przewodniczącego rady gminy",
@@ -2198,7 +2198,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "3. Kadencja rady gminy:",
+    "question": "135. Kadencja rady gminy:",
     "options": [
       {
         "text": "Trwa 5 lat licząc od dnia wyboru",
@@ -2215,7 +2215,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "4. Jeżeli termin do złożenia oświadczenia majątkowego nie został dotrzymany przez skarbnika gminy:",
+    "question": "136. Jeżeli termin do złożenia oświadczenia majątkowego nie został dotrzymany przez skarbnika gminy:",
     "options": [
       {
         "text": "Wójt wzywa go do niezwłocznego złożenia wyznaczając dodatkowy 7 -dniowy termin",
@@ -2226,13 +2226,13 @@ export const QUESTIONS = [
         "isCorrect": false
       },
       {
-        "text": "może to prowadzić do odwołania skarbnika w drodze zarządzenia wójta",
+        "text": "Może to prowadzić do odwołania skarbnika w drodze zarządzenia wójta",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "5. Niezłożenie oświadczenia majątkowego pomimo upływu dodatkowego terminu powoduje:",
+    "question": "137. Niezłożenie oświadczenia majątkowego pomimo upływu dodatkowego terminu powoduje:",
     "options": [
       {
         "text": "W przypadku radnego wygaśnięcie mandatu",
@@ -2249,7 +2249,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "6. Oświadczenia majątkowe radnych:",
+    "question": "138. Oświadczenia majątkowe radnych:",
     "options": [
       {
         "text": "Są jawne w części B",
@@ -2266,7 +2266,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "7. Akty prawa miejscowego na poziomie powiatu:",
+    "question": "139. Akty prawa miejscowego na poziomie powiatu:",
     "options": [
       {
         "text": "Są podpisywane przez przewodniczącego rady niezwłocznie po ich uchwaleniu",
@@ -2283,24 +2283,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "8. Wojewoda stwierdza nieważność uchwały rady powiatu:",
+    "question": "140. Wojewoda stwierdza nieważność uchwały rady powiatu:",
     "options": [
       {
-        "text": "w terminie 30 dni, który jest terminem instrukcyjnym",
+        "text": "W terminie 30 dni, który jest terminem instrukcyjnym",
         "isCorrect": false
       },
       {
-        "text": "w terminie 30 dni, który jest terminem zawitym",
+        "text": "W terminie 30 dni, który jest terminem zawitym",
         "isCorrect": true
       },
       {
-        "text": "z mocą wsteczną",
+        "text": "Z mocą wsteczną",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "9. Sejmik województwa:",
+    "question": "141. Sejmik województwa:",
     "options": [
       {
         "text": "Jest organem wykonawczym województwa",
@@ -2317,7 +2317,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "10. Marszałek województwa:",
+    "question": "142. Marszałek województwa:",
     "options": [
       {
         "text": "Może być wybrany tylko spośród osób wchodzących w skład sejmiku województwa",
@@ -2334,41 +2334,41 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "2. Liczba radnych:",
+    "question": "143. Liczba radnych:",
     "options": [
       {
         "text": "Jest ustalana każdorazowo przez wojewodę po porozumieniu z komisarzem wyborczym na koniec grudnia roku poprzedzającego rok wyborczy",
         "isCorrect": true
       },
       {
-        "text": "jest publikowana w Wojewódzkim Dzienniku Urzędowym",
+        "text": "Jest publikowana w Wojewódzkim Dzienniku Urzędowym",
         "isCorrect": true
       },
       {
-        "text": "jest uzależniona od liczby mieszkańców",
+        "text": "Jest uzależniona od liczby mieszkańców",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "1. Jednostka pomocnicza rady gminy jest tworzona:",
+    "question": "144. Jednostka pomocnicza rady gminy jest tworzona:",
     "options": [
       {
-        "text": "przez wójta w drodze zarządzenia",
+        "text": "Przez wójta w drodze zarządzenia",
         "isCorrect": false
       },
       {
-        "text": "przez radę gminy w drodze uchwały",
+        "text": "Przez radę gminy w drodze uchwały",
         "isCorrect": true
       },
       {
-        "text": "po przeprowadzeniu konsultacji z mieszkańcami lub z ich inicjatywy",
+        "text": "Po przeprowadzeniu konsultacji z mieszkańcami lub z ich inicjatywy",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "2. Zasadniczo uchwały rady gminy zapadają:",
+    "question": "145. Zasadniczo uchwały rady gminy zapadają:",
     "options": [
       {
         "text": "Zwykłą większością głosów w głosowaniu jawnym",
@@ -2385,7 +2385,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "3. W skład rady gminy wchodzą radni w liczbie:",
+    "question": "146. W skład rady gminy wchodzą radni w liczbie:",
     "options": [
       {
         "text": "Co najmniej 15",
@@ -2402,7 +2402,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "4. Rada gminy nie może podjąć uchwały o przeprowadzeniu referendum pomimo nieudzielenia absolutorium wójtowi:",
+    "question": "147. Rada gminy nie może podjąć uchwały o przeprowadzeniu referendum pomimo nieudzielenia absolutorium wójtowi:",
     "options": [
       {
         "text": "Jeżeli od dnia wyboru wójta nie minęło 9 miesięcy",
@@ -2419,7 +2419,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "5. Przewodniczący rady gminy:",
+    "question": "148. Przewodniczący rady gminy:",
     "options": [
       {
         "text": "Jest wybierany bezwzględną większością głosów przez radę",
@@ -2436,7 +2436,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "6. Komisja rewizyjna:",
+    "question": "149. Komisja rewizyjna:",
     "options": [
       {
         "text": "Jest organem gminy",
@@ -2453,24 +2453,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "7. Rada gminy może podjąć uchwałę w sprawie odwołania wójta z przyczyny innej niż nieudzielenie absolutorium na wniosek: puste",
+    "question": "150. Rada gminy może podjąć uchwałę w sprawie odwołania wójta z przyczyny innej niż nieudzielenie absolutorium na wniosek: puste",
     "options": [
       {
-        "text": "co najmniej 15 radnych",
+        "text": "Co najmniej 15 radnych",
         "isCorrect": false
       },
       {
-        "text": "co najmniej ustawowego składu rady",
+        "text": "Co najmniej ustawowego składu rady",
         "isCorrect": false
       },
       {
-        "text": "połowy radnych obecnych na sesji",
+        "text": "Połowy radnych obecnych na sesji",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "8. Radny:",
+    "question": "151. Radny:",
     "options": [
       {
         "text": "Obowiązany jest kierować się dobrem wspólnoty samorządowej",
@@ -2487,7 +2487,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "9. Oświadczenie majątkowe:",
+    "question": "152. Oświadczenie majątkowe:",
     "options": [
       {
         "text": "Składa się w 2 egzemplarzach",
@@ -2504,7 +2504,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "10. Domniemanie kompetencji na rzecz organu stanowiącego jednostki samorządu terytorialnego występuje na poziomie:",
+    "question": "153. Domniemanie kompetencji na rzecz organu stanowiącego jednostki samorządu terytorialnego występuje na poziomie:",
     "options": [
       {
         "text": "Gminy",
@@ -2521,7 +2521,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "11. O nieważności uchwały rady gminy:",
+    "question": "154. O nieważności uchwały rady gminy:",
     "options": [
       {
         "text": "Orzeka starosta",
@@ -2538,7 +2538,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "12. W razie powtarzającego się naruszania przez radę gminy Konstytucji lub ustaw:",
+    "question": "155. W razie powtarzającego się naruszania przez radę gminy Konstytucji lub ustaw:",
     "options": [
       {
         "text": "Rada może być rozwiązana w drodze zarządzenia Prezesa RM",
@@ -2555,7 +2555,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "13. W przypadku gdy pomimo wezwania do dokonywania zgłoszeń nowych kandydatów na wójta pozostaje tylko jeden kandydat:",
+    "question": "156. W przypadku gdy pomimo wezwania do dokonywania zgłoszeń nowych kandydatów na wójta pozostaje tylko jeden kandydat:",
     "options": [
       {
         "text": "Zostaje on wójtem jeśli uzyska w wyborach więcej niż połowę ważnie oddanych głosów",
@@ -2572,7 +2572,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "14. W skład rady powiatu:",
+    "question": "157. W skład rady powiatu:",
     "options": [
       {
         "text": "Wchodzą radni w liczbie większej niż 15",
@@ -2589,7 +2589,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "15. Członek zarządu powiatu:",
+    "question": "158. Członek zarządu powiatu:",
     "options": [
       {
         "text": "Nie może być członkiem w organie innej jednostki samorządu terytorialnego",
@@ -2606,7 +2606,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "16. Jeżeli rada powiatu nie dokona wyboru zarządu w terminie 3 miesięcy od dnia ogłoszenia wyników wyborów:",
+    "question": "159. Jeżeli rada powiatu nie dokona wyboru zarządu w terminie 3 miesięcy od dnia ogłoszenia wyników wyborów:",
     "options": [
       {
         "text": "Nie wywołuje żadnych skutków prawnych",
@@ -2623,7 +2623,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "17. Starosta:",
+    "question": "160. Starosta:",
     "options": [
       {
         "text": "Jest wybierany przez radę powiatu",
@@ -2640,7 +2640,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "18. Oświadczenia woli w imieniu powiatu może składać:",
+    "question": "161. Oświadczenia woli w imieniu powiatu może składać:",
     "options": [
       {
         "text": "Dwóch członków zarządu",
@@ -2657,7 +2657,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "19. Uchwały rady powiatu przedkłada wojewodzie:",
+    "question": "162. Uchwały rady powiatu przedkłada wojewodzie:",
     "options": [
       {
         "text": "Starosta",
@@ -2674,7 +2674,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "20. Nie stwierdza się nieważności uchwały organu powiatu:",
+    "question": "163. Nie stwierdza się nieważności uchwały organu powiatu:",
     "options": [
       {
         "text": "Po upływie roku od jej podjęcia",
@@ -2691,7 +2691,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "21. Rozstrzygnięcia organu nadzorczego dotyczące powiatu:",
+    "question": "164. Rozstrzygnięcia organu nadzorczego dotyczące powiatu:",
     "options": [
       {
         "text": "Podlegają zaskarżeniu do sądu powszechnego",
@@ -2708,7 +2708,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "22. Organem nadzoru nad powiatem jest:",
+    "question": "165. Organem nadzoru nad powiatem jest:",
     "options": [
       {
         "text": "Wojewoda w zakresie spraw finansowych",
@@ -2725,7 +2725,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "23. Mieszkańcy województwa tworzą:",
+    "question": "166. Mieszkańcy województwa tworzą:",
     "options": [
       {
         "text": "Lokalną wspólnotę samorządową",
@@ -2742,7 +2742,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "24. W przypadku wyborów przedterminowych pierwszą sesję sejmiku województwa zwołuje:",
+    "question": "167. W przypadku wyborów przedterminowych pierwszą sesję sejmiku województwa zwołuje:",
     "options": [
       {
         "text": "Prezes Rady Ministrów",
@@ -2759,7 +2759,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "25. Oświadczenie majątkowe:",
+    "question": "168. Oświadczenie majątkowe:",
     "options": [
       {
         "text": "Marszałek województwa składa wojewodzie",
@@ -2776,7 +2776,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "26. Zarząd województwa:",
+    "question": "169. Zarząd województwa:",
     "options": [
       {
         "text": "Jest organem wykonawczym województwa",
@@ -2793,7 +2793,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "27. Wicemarszałek województwa jest wybierany:",
+    "question": "170. Wicemarszałek województwa jest wybierany:",
     "options": [
       {
         "text": "Przez marszałka województwa",
@@ -2810,7 +2810,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "28. Marszałek województwa:",
+    "question": "171. Marszałek województwa:",
     "options": [
       {
         "text": "Reprezentuje województwo na zewnątrz",
@@ -2827,7 +2827,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "29. Uchwałę w sprawie odwołania wójta z przyczyny innej niż nieudzielenie absolutorium rada podejmuje:",
+    "question": "172. Uchwałę w sprawie odwołania wójta z przyczyny innej niż nieudzielenie absolutorium rada podejmuje:",
     "options": [
       {
         "text": "Bezwzględną większością głosów",
@@ -2844,7 +2844,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "30. Przesłanką wygaśnięcia mandatu radnego nie jest:",
+    "question": "173. Przesłanką wygaśnięcia mandatu radnego nie jest:",
     "options": [
       {
         "text": "Jego śmierć",
@@ -2861,7 +2861,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "1. Osobowość prawna gminy oznacza m.in. że:",
+    "question": "174. Osobowość prawna gminy oznacza m.in. że:",
     "options": [
       {
         "text": "Gmina może nawiązywać stosunki prawne z innymi organami władzy publicznej",
@@ -2878,7 +2878,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "2. Miasto na prawach powiatu:",
+    "question": "175. Miasto na prawach powiatu:",
     "options": [
       {
         "text": "Jest gmina",
@@ -2895,7 +2895,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "3. Organem miasta na prawach powiatu nie jest:",
+    "question": "176. Organem miasta na prawach powiatu nie jest:",
     "options": [
       {
         "text": "Rada miasta",
@@ -2912,7 +2912,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "4. Nadzór nad związkiem powiatów sprawuje:",
+    "question": "177. Nadzór nad związkiem powiatów sprawuje:",
     "options": [
       {
         "text": "Starosta",
@@ -2929,7 +2929,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "5. Organ nadzoru wszczynając postępowanie w sprawie stwierdzenia nieważności uchwały powiatu:",
+    "question": "178. Organ nadzoru wszczynając postępowanie w sprawie stwierdzenia nieważności uchwały powiatu:",
     "options": [
       {
         "text": "Może wstrzymać wykonanie tej uchwały",
@@ -2946,7 +2946,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "6. Jednostka pomocnicza gminy:",
+    "question": "179. Jednostka pomocnicza gminy:",
     "options": [
       {
         "text": "To np. powiat",
@@ -2963,7 +2963,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "7. Odwołanie przewodniczącego rady gminy:",
+    "question": "180. Odwołanie przewodniczącego rady gminy:",
     "options": [
       {
         "text": "Nie jest możliwe",
@@ -2980,7 +2980,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "8. Komisja rewizyjna:",
+    "question": "181. Komisja rewizyjna:",
     "options": [
       {
         "text": "Jest powoływana przez radę gminy",
@@ -2997,7 +2997,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "9. Pierwszą sesję nowo wybranej rady: puste",
+    "question": "182. Pierwszą sesję nowo wybranej rady: puste",
     "options": [
       {
         "text": "Zwołuje najstarszy wiekiem radny",
@@ -3014,7 +3014,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "10. Radny:",
+    "question": "183. Radny:",
     "options": [
       {
         "text": "W ogóle nie może prowadzić działalności gospodarczej",
@@ -3031,7 +3031,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "11. Radnemu przysługuje zwrot kosztów podróży na zasadach określonych przez:",
+    "question": "184. Radnemu przysługuje zwrot kosztów podróży na zasadach określonych przez:",
     "options": [
       {
         "text": "Uchwałę rady",
@@ -3048,7 +3048,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "12. Wójt:",
+    "question": "185. Wójt:",
     "options": [
       {
         "text": "Wykonuje uchwały rady gminy",
@@ -3065,7 +3065,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "13. Przepisy porządkowe w gminie:",
+    "question": "186. Przepisy porządkowe w gminie:",
     "options": [
       {
         "text": "Może zawsze wydać burmistrz",
@@ -3082,7 +3082,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "14. Związki międzygminne:",
+    "question": "187. Związki międzygminne:",
     "options": [
       {
         "text": "Mają osobowość prawną",
@@ -3099,7 +3099,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "15. Organem stanowiącym i kontrolnym związku międzygminnego jest:",
+    "question": "188. Organem stanowiącym i kontrolnym związku międzygminnego jest:",
     "options": [
       {
         "text": "Zgromadzenie związku",
@@ -3116,7 +3116,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "16. Wójt:",
+    "question": "189. Wójt:",
     "options": [
       {
         "text": "Wchodzi w skład zgromadzenia związku międzygminnego, w którym uczestniczy gmina, której jest wójtem",
@@ -3133,7 +3133,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "17. Uchwały zgromadzenia międzygminnego:",
+    "question": "190. Uchwały zgromadzenia międzygminnego:",
     "options": [
       {
         "text": "Są podejmowane przez zgromadzenie związku",
@@ -3150,7 +3150,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "18. Zarząd związku międzygminnego:",
+    "question": "191. Zarząd związku międzygminnego:",
     "options": [
       {
         "text": "Jest organem wykonawczym związku",
@@ -3167,7 +3167,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "19. Uchwały rady gminy są przedkładane organowi nadzoru: puste, bo wójt",
+    "question": "192. Uchwały rady gminy są przedkładane organowi nadzoru: puste, bo wójt",
     "options": [
       {
         "text": "Przez przewodniczącego rady gminy",
@@ -3184,7 +3184,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "20. Sejmik województwa:",
+    "question": "193. Sejmik województwa:",
     "options": [
       {
         "text": "Może odwołać marszałka z innej przyczyny niż nieudzielenie absolutorium",
@@ -3201,7 +3201,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "1. Mieszkańcy gminy:",
+    "question": "194. Mieszkańcy gminy:",
     "options": [
       {
         "text": "Tworzą mocą własnej decyzji wspólnotę regionalną",
@@ -3218,7 +3218,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "2. Gmina:",
+    "question": "195. Gmina:",
     "options": [
       {
         "text": "Wykonuje zadania publiczne na własną odpowiedzialność",
@@ -3235,551 +3235,551 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "1. Wybory do organów stanowiących jednostek samorządu terytorialnego:",
+    "question": "196. Wybory do organów stanowiących jednostek samorządu terytorialnego:",
     "options": [
       {
-        "text": "równe i powszechne",
+        "text": "Równe i powszechne",
         "isCorrect": true
       },
       {
-        "text": "tajne",
+        "text": "Tajne",
         "isCorrect": true
       },
       {
-        "text": "pośrednie",
+        "text": "Pośrednie",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "2. Zasada subsydiarności:",
+    "question": "197. Zasada subsydiarności:",
     "options": [
       {
-        "text": "zwana jest inaczej zasadą komplementarności",
+        "text": "Zwana jest inaczej zasadą komplementarności",
         "isCorrect": false
       },
       {
-        "text": "zawarta została w ustawach samorządowych",
+        "text": "Zawarta została w ustawach samorządowych",
         "isCorrect": true
       },
       {
-        "text": "zawarta w Europejskiej Karcie Samorządu Terytorialnego",
+        "text": "Zawarta w Europejskiej Karcie Samorządu Terytorialnego",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "3. Mieszkańcy gminy tworzą wspólnotę samorządową:",
+    "question": "198. Mieszkańcy gminy tworzą wspólnotę samorządową:",
     "options": [
       {
-        "text": "po uzyskaniu pozwolenia na przystąpienie do społeczności samorządowej",
+        "text": "Po uzyskaniu pozwolenia na przystąpienie do społeczności samorządowej",
         "isCorrect": false
       },
       {
-        "text": "z mocy prawa",
+        "text": "Z mocy prawa",
         "isCorrect": true
       },
       {
-        "text": "po wyrażeniu woli przystąpienia do wspólnoty samorządowej",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "4. Jednostki pomocnicze tworzy:",
-    "options": [
-      {
-        "text": "rada gminy w drodze uchwały",
-        "isCorrect": true
-      },
-      {
-        "text": "wójt, burmistrz, prezydent miasta w drodze zarządzenia",
-        "isCorrect": false
-      },
-      {
-        "text": "wójt, burmistrz prezydent miasta w drodze uchwały",
+        "text": "Po wyrażeniu woli przystąpienia do wspólnoty samorządowej",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "5. Do form demokracji bezpośredniej wynikających z ustawy o samorządzie gminnym można zaliczyć:",
+    "question": "199. Jednostki pomocnicze tworzy:",
     "options": [
       {
-        "text": "zebranie wiejskie",
+        "text": "Rada gminy w drodze uchwały",
         "isCorrect": true
       },
       {
-        "text": "ogólne zebranie mieszkańców osiedla",
-        "isCorrect": true
+        "text": "Wójt, burmistrz, prezydent miasta w drodze zarządzenia",
+        "isCorrect": false
       },
       {
-        "text": "konsultacje z mieszkańcami",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "6. Konsultacje z mieszkańcami gminy mogą być przeprowadzone:",
-    "options": [
-      {
-        "text": "w trybie określonym uchwałą rady gminy",
-        "isCorrect": true
-      },
-      {
-        "text": "w sprawie samoopodatkowania się mieszkańców",
-        "isCorrect": true
-      },
-      {
-        "text": "w sprawach ważnych dla gminy",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "7. Gminne referendum obligatoryjne zwoływane jest w sprawie:",
-    "options": [
-      {
-        "text": "samoopodatkowania mieszkańców na cele publiczne",
-        "isCorrect": true
-      },
-      {
-        "text": "odwołania rady gminy przed upływem kadencji",
-        "isCorrect": true
-      },
-      {
-        "text": "tworzenia, podziału, łączenia i znoszenia gmin",
+        "text": "Wójt, burmistrz prezydent miasta w drodze uchwały",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "8. Organem wykonawczym jest:",
+    "question": "200. Do form demokracji bezpośredniej wynikających z ustawy o samorządzie gminnym można zaliczyć:",
     "options": [
       {
-        "text": "na poziomie gminy - zarząd gminy",
-        "isCorrect": false
-      },
-      {
-        "text": "na poziomie powiatu - zarząd powiatu",
+        "text": "Zebranie wiejskie",
         "isCorrect": true
       },
       {
-        "text": "na poziomie województwa - zarząd województwa",
+        "text": "Ogólne zebranie mieszkańców osiedla",
+        "isCorrect": true
+      },
+      {
+        "text": "Konsultacje z mieszkańcami",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "9. W skład rady gminy wchodzą radni w liczbie:",
+    "question": "201. Konsultacje z mieszkańcami gminy mogą być przeprowadzone:",
     "options": [
       {
-        "text": "w liczbie nie większej niż 30 radnych",
-        "isCorrect": false
-      },
-      {
-        "text": "nie mniejszej niż 15 radnych w gminach do 20.000 mieszkańców",
+        "text": "W trybie określonym uchwałą rady gminy",
         "isCorrect": true
       },
       {
-        "text": "nie większej niż 45 radnych",
+        "text": "W sprawie samoopodatkowania się mieszkańców",
+        "isCorrect": true
+      },
+      {
+        "text": "W sprawach ważnych dla gminy",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "10. Zadania o charakterze obowiązkowym:",
+    "question": "202. Gminne referendum obligatoryjne zwoływane jest w sprawie:",
     "options": [
       {
-        "text": "są określone przez ustawy szczególne",
+        "text": "Samoopodatkowania mieszkańców na cele publiczne",
         "isCorrect": true
       },
       {
-        "text": "dotyczą m.in. samorządu gminnego",
+        "text": "Odwołania rady gminy przed upływem kadencji",
         "isCorrect": true
       },
       {
-        "text": "dotyczą kategorii zadań własnych gminy",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "11. Burmistrz:",
-    "options": [
-      {
-        "text": "jest monokratycznym organem w gminie, w której siedziba władz znajduje się w mieście położonym na terytorium tej gminy",
-        "isCorrect": true
-      },
-      {
-        "text": "w drodze decyzji powołuje oraz odwołuje swojego zastępcę lub zastępców",
-        "isCorrect": false
-      },
-      {
-        "text": "wykonuje uchwały rady gminy i zadania gminy określone przepisami prawa",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "12. Uchwała rady gminy w sprawie nieudzielania absolutorium:",
-    "options": [
-      {
-        "text": "jest równoznaczna z odwołaniem wójta",
-        "isCorrect": false
-      },
-      {
-        "text": "jest równoznaczna z podjęciem inicjatywy przeprowadzenia referendum w sprawie odwołania wójta",
-        "isCorrect": true
-      },
-      {
-        "text": "jest równoznaczna ze złożeniem wniosku o odwołanie wójta",
+        "text": "Tworzenia, podziału, łączenia i znoszenia gmin",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "13. Statut gminy:",
+    "question": "203. Organem wykonawczym jest:",
     "options": [
       {
-        "text": "określa zasady i tryb działania komisji rewizyjnej",
-        "isCorrect": true
-      },
-      {
-        "text": "określa zasady tworzenia, łączenia, podziału i znoszenia jednostki pomocniczej gminy",
-        "isCorrect": true
-      },
-      {
-        "text": "podlega ogłoszeniu w wojewódzkim dzienniku urzędowym",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "14. W sołectwie:",
-    "options": [
-      {
-        "text": "organem wykonawczym jest sołtys",
-        "isCorrect": true
-      },
-      {
-        "text": "organem uchwałodawczym jest rada sołecka",
+        "text": "Na poziomie gminy - zarząd gminy",
         "isCorrect": false
       },
       {
-        "text": "organem uchwałodawczym jest zebranie wiejskie",
+        "text": "Na poziomie powiatu - zarząd powiatu",
+        "isCorrect": true
+      },
+      {
+        "text": "Na poziomie województwa - zarząd województwa",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "15. Z ochrony prawnej przysługującej funkcjonariuszom publicznym korzystają:",
+    "question": "204. W skład rady gminy wchodzą radni w liczbie:",
     "options": [
       {
-        "text": "sołtys",
-        "isCorrect": true
-      },
-      {
-        "text": "przewodniczący zarządu dzielnicy (osiedla)",
-        "isCorrect": true
-      },
-      {
-        "text": "skarbnik gminy",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "16. Liczba radnych gminy:",
-    "options": [
-      {
-        "text": "jest ustalana dowolnie przez samą radę",
+        "text": "W liczbie nie większej niż 30 radnych",
         "isCorrect": false
       },
       {
-        "text": "jest uzależniona od powierzchni gminy",
+        "text": "Nie mniejszej niż 15 radnych w gminach do 20.000 mieszkańców",
+        "isCorrect": true
+      },
+      {
+        "text": "Nie większej niż 45 radnych",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "205. Zadania o charakterze obowiązkowym:",
+    "options": [
+      {
+        "text": "Są określone przez ustawy szczególne",
+        "isCorrect": true
+      },
+      {
+        "text": "Dotyczą m.in. samorządu gminnego",
+        "isCorrect": true
+      },
+      {
+        "text": "Dotyczą kategorii zadań własnych gminy",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "206. Burmistrz:",
+    "options": [
+      {
+        "text": "Jest monokratycznym organem w gminie, w której siedziba władz znajduje się w mieście położonym na terytorium tej gminy",
+        "isCorrect": true
+      },
+      {
+        "text": "W drodze decyzji powołuje oraz odwołuje swojego zastępcę lub zastępców",
         "isCorrect": false
       },
       {
-        "text": "jest uzależniona od liczby mieszkańców gminy",
+        "text": "Wykonuje uchwały rady gminy i zadania gminy określone przepisami prawa",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "17. Radny:",
+    "question": "207. Uchwała rady gminy w sprawie nieudzielania absolutorium:",
     "options": [
       {
-        "text": "może pełnić równocześnie funkcję wojewody",
+        "text": "Jest równoznaczna z odwołaniem wójta",
         "isCorrect": false
       },
       {
-        "text": "nie może być senatorem",
+        "text": "Jest równoznaczna z podjęciem inicjatywy przeprowadzenia referendum w sprawie odwołania wójta",
         "isCorrect": true
       },
       {
-        "text": "może być zatrudniony w urzędzie innej gminy niż ta, w której został wybrany",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "18. Funkcji wójta nie można łączyć z:",
-    "options": [
-      {
-        "text": "mandatem radnego powiatu",
-        "isCorrect": true
-      },
-      {
-        "text": "funkcją starosty",
-        "isCorrect": true
-      },
-      {
-        "text": "zatrudnieniem w administracji rządowej",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "19. Konsultacje z mieszkańcami powiatu:",
-    "options": [
-      {
-        "text": "przeprowadzane są na zasadach określonych uchwałą rady powiatu",
-        "isCorrect": true
-      },
-      {
-        "text": "są obligatoryjne w przypadkach przewidzianych ustawą",
-        "isCorrect": true
-      },
-      {
-        "text": "są obligatoryjne w sprawach tworzenia, łączenia, dzielenia, znoszenia",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "20. Rada powiatu:",
-    "options": [
-      {
-        "text": "wykonuje kompetencje kontrolne przy pomocy komisji rewizyjnej",
-        "isCorrect": true
-      },
-      {
-        "text": "wybiera i odwołuje zarząd powiatu",
-        "isCorrect": true
-      },
-      {
-        "text": "ulega rozwiązaniu z mocy prawa, jeżeli nie dokona wyboru zarządu w ciągu jednego miesiąca od dnia ogłoszenia wyników wyborów",
+        "text": "Jest równoznaczna ze złożeniem wniosku o odwołanie wójta",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "21. Starosta:",
+    "question": "208. Statut gminy:",
     "options": [
       {
-        "text": "w sprawach niecierpiących zwłoki, związanych z zagrożeniem interesu publicznego wydaje przepisy porządkowe",
-        "isCorrect": false
-      },
-      {
-        "text": "wydaje decyzje w indywidualnych sprawach z zakresu administracji publicznej należących do właściwości powiatu",
+        "text": "Określa zasady i tryb działania komisji rewizyjnej",
         "isCorrect": true
       },
       {
-        "text": "jest organem powiatu (ustawa go tak nie nazywa, ale w podręczniku Dolnicki już tak)",
+        "text": "Określa zasady tworzenia, łączenia, podziału i znoszenia jednostki pomocniczej gminy",
+        "isCorrect": true
+      },
+      {
+        "text": "Podlega ogłoszeniu w wojewódzkim dzienniku urzędowym",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "22. Pracodawcą jest:",
+    "question": "209. W sołectwie:",
     "options": [
       {
-        "text": "urząd gminy dla pracowników w nim zatrudnionych",
+        "text": "Organem wykonawczym jest sołtys",
         "isCorrect": true
       },
       {
-        "text": "burmistrz dla pracowników zatrudnionych w urzędzie gminy",
+        "text": "Organem uchwałodawczym jest rada sołecka",
         "isCorrect": false
       },
       {
-        "text": "przewodniczący rady gminy dla pracowników zatrudnionych w urzędzie gminy",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "23. Konsultacje z mieszkańcami województwa:",
-    "options": [
-      {
-        "text": "mogą być przeprowadzone w przypadku tworzenia lub znoszenia województwa",
-        "isCorrect": true
-      },
-      {
-        "text": "mogą być przeprowadzone w przypadkach przewidzianych ustawą",
-        "isCorrect": true
-      },
-      {
-        "text": "przeprowadzane są w trybie określonym uchwałą sejmiku województwa",
+        "text": "Organem uchwałodawczym jest zebranie wiejskie",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "24. Przewodniczący sejmiku województwa:",
+    "question": "210. Z ochrony prawnej przysługującej funkcjonariuszom publicznym korzystają:",
     "options": [
       {
-        "text": "jest organem województwa",
-        "isCorrect": false
-      },
-      {
-        "text": "organizuje pracę sejmiku",
+        "text": "Sołtys",
         "isCorrect": true
       },
       {
-        "text": "może wyznaczyć do wykonywania swoich zadań wiceprzewodniczącego sejmiku województwa",
+        "text": "Przewodniczący zarządu dzielnicy (osiedla)",
+        "isCorrect": true
+      },
+      {
+        "text": "Skarbnik gminy",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "25. Sejmik województwa:",
+    "question": "211. Liczba radnych gminy:",
     "options": [
       {
-        "text": "wybiera ze swego grona przewodniczącego",
-        "isCorrect": true
-      },
-      {
-        "text": "wybiera trzech wiceprzewodniczących sejmiku województwa",
+        "text": "Jest ustalana dowolnie przez samą radę",
         "isCorrect": false
       },
       {
-        "text": "wybiera nie więcej niż trzech wiceprzewodniczących sejmiku województwa",
+        "text": "Jest uzależniona od powierzchni gminy",
+        "isCorrect": false
+      },
+      {
+        "text": "Jest uzależniona od liczby mieszkańców gminy",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "26. Marszałek województwa:",
+    "question": "212. Radny:",
     "options": [
       {
-        "text": "wydaje decyzje w indywidualnych sprawach z zakresu administracji publicznej",
+        "text": "Może pełnić równocześnie funkcję wojewody",
+        "isCorrect": false
+      },
+      {
+        "text": "Nie może być senatorem",
         "isCorrect": true
       },
       {
-        "text": "reprezentuje województwo na zewnątrz",
-        "isCorrect": true
-      },
-      {
-        "text": "mimo powierzonych funkcji nie jest nazwany organem województwa",
+        "text": "Może być zatrudniony w urzędzie innej gminy niż ta, w której został wybrany",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "27. Prawo dostępu do informacji publicznej przysługuje:",
+    "question": "213. Funkcji wójta nie można łączyć z:",
     "options": [
       {
-        "text": "każdemu, z zastrzeżeniami określonymi w ustawie o dostępie do informacji publicznej",
+        "text": "Mandatem radnego powiatu",
         "isCorrect": true
       },
       {
-        "text": "każdemu, kto wykaże interes prawny",
-        "isCorrect": false
-      },
-      {
-        "text": "każdemu, kto wykaże interes faktyczny",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "28. Udostępnianie informacji publicznej następuje w drodze:",
-    "options": [
-      {
-        "text": "udostępniania wyłącznie na wniosek zainteresowanej osoby",
-        "isCorrect": false
-      },
-      {
-        "text": "wyłożenia lub wywieszenia w miejscach ogólnie dostępnych",
+        "text": "Funkcją starosty",
         "isCorrect": true
       },
       {
-        "text": "ogłaszania informacji publicznych w Biuletynie Informacji Publicznej",
+        "text": "Zatrudnieniem w administracji rządowej",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "29. Nie stwierdza się nieważności uchwały organu gminy:",
+    "question": "214. Konsultacje z mieszkańcami powiatu:",
     "options": [
       {
-        "text": "po upływie jednego roku od dnia jej podjęcia",
+        "text": "Przeprowadzane są na zasadach określonych uchwałą rady powiatu",
         "isCorrect": true
       },
       {
-        "text": "jeżeli uchybiono obowiązkowi przedłożenia uchwały w terminie 7 dni od dnia jej podjęcia",
-        "isCorrect": false
-      },
-      {
-        "text": "jeżeli uchwała jest aktem prawa miejscowego",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "30. Ustanowienie zarządu komisarycznego w powiecie w razie nierokującego nadziei na szybką poprawę i przedłużającego się braku skuteczności w wykonywaniu zadań publicznych przez organy powiatu może nastąpić:",
-    "options": [
-      {
-        "text": "po uprzednim przedstawieniu zarzutów organom powiatu i wezwaniu ich do niezwłocznego przedłożenia programu poprawy sytuacji",
+        "text": "Są obligatoryjne w przypadkach przewidzianych ustawą",
         "isCorrect": true
       },
       {
-        "text": "na okres do dwóch lat, nie dłużej jednak niż do wyboru zarządu przez radę kolejnej kadencji",
-        "isCorrect": true
-      },
-      {
-        "text": "bez przeprowadzenia procedury sanacyjnej",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "1. W referendum lokalnym:",
-    "options": [
-      {
-        "text": "mieszkańcy jednostki samorządu terytorialnego wyrażają w drodze głosowania swoją wolę, co do sposobu rozstrzygnięcia sprawy dotyczącej tej wspólnoty",
-        "isCorrect": true
-      },
-      {
-        "text": "mieszkańcy jednostki samorządu terytorialnego wyrażają w drodze głosowania swoją opinię, co do sposobu rozstrzygnięcia sprawy dotyczącej tej wspólnoty",
-        "isCorrect": false
-      },
-      {
-        "text": "mają prawo brać udział osoby stale zamieszkujące na obszarze danej jednostki samorządu terytorialnego, posiadające bierne prawo wyborcze do organu stanowiącego tej jednostki",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "3. Przynależność do społeczności samorządowej:",
-    "options": [
-      {
-        "text": "nie zależy od aktu przystąpienia",
-        "isCorrect": true
-      },
-      {
-        "text": "powstaje z mocy samego prawa",
-        "isCorrect": true
-      },
-      {
-        "text": "jego przynależność jest przymusowa",
+        "text": "Są obligatoryjne w sprawach tworzenia, łączenia, dzielenia, znoszenia",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "4. Gminy tworzy:",
+    "question": "215. Rada powiatu:",
+    "options": [
+      {
+        "text": "Wykonuje kompetencje kontrolne przy pomocy komisji rewizyjnej",
+        "isCorrect": true
+      },
+      {
+        "text": "Wybiera i odwołuje zarząd powiatu",
+        "isCorrect": true
+      },
+      {
+        "text": "Ulega rozwiązaniu z mocy prawa, jeżeli nie dokona wyboru zarządu w ciągu jednego miesiąca od dnia ogłoszenia wyników wyborów",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "216. Starosta:",
+    "options": [
+      {
+        "text": "W sprawach niecierpiących zwłoki, związanych z zagrożeniem interesu publicznego wydaje przepisy porządkowe",
+        "isCorrect": false
+      },
+      {
+        "text": "Wydaje decyzje w indywidualnych sprawach z zakresu administracji publicznej należących do właściwości powiatu",
+        "isCorrect": true
+      },
+      {
+        "text": "Jest organem powiatu (ustawa go tak nie nazywa, ale w podręczniku Dolnicki już tak)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "217. Pracodawcą jest:",
+    "options": [
+      {
+        "text": "Urząd gminy dla pracowników w nim zatrudnionych",
+        "isCorrect": true
+      },
+      {
+        "text": "Burmistrz dla pracowników zatrudnionych w urzędzie gminy",
+        "isCorrect": false
+      },
+      {
+        "text": "Przewodniczący rady gminy dla pracowników zatrudnionych w urzędzie gminy",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "218. Konsultacje z mieszkańcami województwa:",
+    "options": [
+      {
+        "text": "Mogą być przeprowadzone w przypadku tworzenia lub znoszenia województwa",
+        "isCorrect": true
+      },
+      {
+        "text": "Mogą być przeprowadzone w przypadkach przewidzianych ustawą",
+        "isCorrect": true
+      },
+      {
+        "text": "Przeprowadzane są w trybie określonym uchwałą sejmiku województwa",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "219. Przewodniczący sejmiku województwa:",
+    "options": [
+      {
+        "text": "Jest organem województwa",
+        "isCorrect": false
+      },
+      {
+        "text": "Organizuje pracę sejmiku",
+        "isCorrect": true
+      },
+      {
+        "text": "Może wyznaczyć do wykonywania swoich zadań wiceprzewodniczącego sejmiku województwa",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "220. Sejmik województwa:",
+    "options": [
+      {
+        "text": "Wybiera ze swego grona przewodniczącego",
+        "isCorrect": true
+      },
+      {
+        "text": "Wybiera trzech wiceprzewodniczących sejmiku województwa",
+        "isCorrect": false
+      },
+      {
+        "text": "Wybiera nie więcej niż trzech wiceprzewodniczących sejmiku województwa",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "221. Marszałek województwa:",
+    "options": [
+      {
+        "text": "Wydaje decyzje w indywidualnych sprawach z zakresu administracji publicznej",
+        "isCorrect": true
+      },
+      {
+        "text": "Reprezentuje województwo na zewnątrz",
+        "isCorrect": true
+      },
+      {
+        "text": "Mimo powierzonych funkcji nie jest nazwany organem województwa",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "222. Prawo dostępu do informacji publicznej przysługuje:",
+    "options": [
+      {
+        "text": "Każdemu, z zastrzeżeniami określonymi w ustawie o dostępie do informacji publicznej",
+        "isCorrect": true
+      },
+      {
+        "text": "Każdemu, kto wykaże interes prawny",
+        "isCorrect": false
+      },
+      {
+        "text": "Każdemu, kto wykaże interes faktyczny",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "223. Udostępnianie informacji publicznej następuje w drodze:",
+    "options": [
+      {
+        "text": "Udostępniania wyłącznie na wniosek zainteresowanej osoby",
+        "isCorrect": false
+      },
+      {
+        "text": "Wyłożenia lub wywieszenia w miejscach ogólnie dostępnych",
+        "isCorrect": true
+      },
+      {
+        "text": "Ogłaszania informacji publicznych w Biuletynie Informacji Publicznej",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "224. Nie stwierdza się nieważności uchwały organu gminy:",
+    "options": [
+      {
+        "text": "Po upływie jednego roku od dnia jej podjęcia",
+        "isCorrect": true
+      },
+      {
+        "text": "Jeżeli uchybiono obowiązkowi przedłożenia uchwały w terminie 7 dni od dnia jej podjęcia",
+        "isCorrect": false
+      },
+      {
+        "text": "Jeżeli uchwała jest aktem prawa miejscowego",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "225. Ustanowienie zarządu komisarycznego w powiecie w razie nierokującego nadziei na szybką poprawę i przedłużającego się braku skuteczności w wykonywaniu zadań publicznych przez organy powiatu może nastąpić:",
+    "options": [
+      {
+        "text": "Po uprzednim przedstawieniu zarzutów organom powiatu i wezwaniu ich do niezwłocznego przedłożenia programu poprawy sytuacji",
+        "isCorrect": true
+      },
+      {
+        "text": "Na okres do dwóch lat, nie dłużej jednak niż do wyboru zarządu przez radę kolejnej kadencji",
+        "isCorrect": true
+      },
+      {
+        "text": "Bez przeprowadzenia procedury sanacyjnej",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "226. W referendum lokalnym:",
+    "options": [
+      {
+        "text": "Mieszkańcy jednostki samorządu terytorialnego wyrażają w drodze głosowania swoją wolę, co do sposobu rozstrzygnięcia sprawy dotyczącej tej wspólnoty",
+        "isCorrect": true
+      },
+      {
+        "text": "Mieszkańcy jednostki samorządu terytorialnego wyrażają w drodze głosowania swoją opinię, co do sposobu rozstrzygnięcia sprawy dotyczącej tej wspólnoty",
+        "isCorrect": false
+      },
+      {
+        "text": "Mają prawo brać udział osoby stale zamieszkujące na obszarze danej jednostki samorządu terytorialnego, posiadające bierne prawo wyborcze do organu stanowiącego tej jednostki",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "227. Przynależność do społeczności samorządowej:",
+    "options": [
+      {
+        "text": "Nie zależy od aktu przystąpienia",
+        "isCorrect": true
+      },
+      {
+        "text": "Powstaje z mocy samego prawa",
+        "isCorrect": true
+      },
+      {
+        "text": "Jego przynależność jest przymusowa",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "228. Gminy tworzy:",
     "options": [
       {
         "text": "Minister właściwy do spraw administracji publicznej w drodze zarządzenia",
@@ -3796,388 +3796,388 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "5. Jednostką pomocniczą gminy może być:",
+    "question": "229. Jednostką pomocniczą gminy może być:",
     "options": [
       {
-        "text": "osiedle",
+        "text": "Osiedle",
         "isCorrect": true
       },
       {
-        "text": "dzielnica",
+        "text": "Dzielnica",
         "isCorrect": true
       },
       {
-        "text": "miasto",
+        "text": "Miasto",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "6. Obligatoryjne konsultacje z mieszkańcami gminy są przeprowadzane:",
+    "question": "230. Obligatoryjne konsultacje z mieszkańcami gminy są przeprowadzane:",
     "options": [
       {
-        "text": "w procesie tworzenia, łączenia, podziału i znoszenia gmin",
+        "text": "W procesie tworzenia, łączenia, podziału i znoszenia gmin",
         "isCorrect": true
       },
       {
-        "text": "w przypadkach przewidzianych ustawą",
+        "text": "W przypadkach przewidzianych ustawą",
         "isCorrect": true
       },
       {
-        "text": "przed podjęciem przez radę gminy uchwały o utworzeniu jednostki pomocniczej",
+        "text": "Przed podjęciem przez radę gminy uchwały o utworzeniu jednostki pomocniczej",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "7. Gminne referendum:",
+    "question": "231. Gminne referendum:",
     "options": [
       {
-        "text": "jest rozstrzygające, jeżeli za jednym z rozwiązań w sprawie poddanej pod referendum oddano więcej niż połowę ważnych głosów",
+        "text": "Jest rozstrzygające, jeżeli za jednym z rozwiązań w sprawie poddanej pod referendum oddano więcej niż połowę ważnych głosów",
         "isCorrect": true
       },
       {
-        "text": "jest ważne, jeżeli wzięło w nim udział co najmniej 30% uprawnionych pod głosowanie",
+        "text": "Jest ważne, jeżeli wzięło w nim udział co najmniej 30% uprawnionych pod głosowanie",
         "isCorrect": true
       },
       {
-        "text": "jest rozstrzygające, jeżeli za jednym z rozwiązań w sprawie samoopodatkowania mieszkańców oddano co najmniej 2/3 ważnych głosów",
+        "text": "Jest rozstrzygające, jeżeli za jednym z rozwiązań w sprawie samoopodatkowania mieszkańców oddano co najmniej 2/3 ważnych głosów",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "8. Organem stanowiącym i kontrolnym jest:",
+    "question": "232. Organem stanowiącym i kontrolnym jest:",
     "options": [
       {
-        "text": "na poziomie gminy - rada gminy",
+        "text": "Na poziomie gminy - rada gminy",
         "isCorrect": true
       },
       {
-        "text": "na poziomie powiatu – zarząd powiatu",
+        "text": "Na poziomie powiatu – zarząd powiatu",
         "isCorrect": false
       },
       {
-        "text": "na poziomie województwa – sejmik województwa",
+        "text": "Na poziomie województwa – sejmik województwa",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "9. W skład gminnej komisji rewizyjnej wchodzą:",
+    "question": "233. W skład gminnej komisji rewizyjnej wchodzą:",
     "options": [
       {
-        "text": "przewodniczący rady gminy",
+        "text": "Przewodniczący rady gminy",
         "isCorrect": false
       },
       {
-        "text": "wiceprzewodniczący rady gminy",
+        "text": "Wiceprzewodniczący rady gminy",
         "isCorrect": false
       },
       {
-        "text": "osoby niebędące radnymi",
+        "text": "Osoby niebędące radnymi",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "10. Przewodniczący rady gminy:",
+    "question": "234. Przewodniczący rady gminy:",
     "options": [
       {
-        "text": "jest organem gminy",
+        "text": "Jest organem gminy",
         "isCorrect": false
       },
       {
-        "text": "zwołuje sesje rady gminy",
+        "text": "Zwołuje sesje rady gminy",
         "isCorrect": true
       },
       {
-        "text": "prowadzi obrady rady gminy",
+        "text": "Prowadzi obrady rady gminy",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "11. Wójt:",
+    "question": "235. Wójt:",
     "options": [
       {
-        "text": "reprezentuje gminę na zewnątrz art. 31",
+        "text": "Reprezentuje gminę na zewnątrz art. 31",
         "isCorrect": true
       },
       {
-        "text": "może powierzyć prowadzenie określonych spraw gminy w swoim imieniu zastępcy wójta lub sekretarzowi gminy art. 33 par 4",
+        "text": "Może powierzyć prowadzenie określonych spraw gminy w swoim imieniu zastępcy wójta lub sekretarzowi gminy art. 33 par 4",
         "isCorrect": true
       },
       {
-        "text": "wydaje decyzje w indywidualnych sprawach z zakresu administracji publicznej",
+        "text": "Wydaje decyzje w indywidualnych sprawach z zakresu administracji publicznej",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "12. Jednostki pomocnicze gminy działają na podstawie:",
+    "question": "236. Jednostki pomocnicze gminy działają na podstawie:",
     "options": [
       {
-        "text": "statutu gminy, w którym znajduje się rozdział dotyczący ich funkcjonowania",
+        "text": "Statutu gminy, w którym znajduje się rozdział dotyczący ich funkcjonowania",
         "isCorrect": false
       },
       {
-        "text": "odrębnego statutu uchwalanego przez samą jednostkę pomocniczą",
+        "text": "Odrębnego statutu uchwalanego przez samą jednostkę pomocniczą",
         "isCorrect": false
       },
       {
-        "text": "odrębnego statutu uchwalanego przez radę gminy",
+        "text": "Odrębnego statutu uchwalanego przez radę gminy",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "13. Istnienie jednostek samorządu terytorialnego jest przejawem:",
+    "question": "237. Istnienie jednostek samorządu terytorialnego jest przejawem:",
     "options": [
       {
-        "text": "decentralizacji administracji publicznej",
+        "text": "Decentralizacji administracji publicznej",
         "isCorrect": true
       },
       {
-        "text": "dekoncentracji administracji publicznej",
+        "text": "Dekoncentracji administracji publicznej",
         "isCorrect": false
       },
       {
-        "text": "koncentracji administracji publicznej",
+        "text": "Koncentracji administracji publicznej",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "14. W dzielnicy (osiedlu):",
+    "question": "238. W dzielnicy (osiedlu):",
     "options": [
       {
-        "text": "organem wykonawczym jest przewodniczący zarządu dzielnicy (osiedla)",
+        "text": "Organem wykonawczym jest przewodniczący zarządu dzielnicy (osiedla)",
         "isCorrect": false
       },
       {
-        "text": "organem wykonawczym jest zarząd dzielnicy (osiedla)",
+        "text": "Organem wykonawczym jest zarząd dzielnicy (osiedla)",
         "isCorrect": true
       },
       {
-        "text": "organem uchwałodawczym osiedla może być ogólne zebranie mieszkańców, jeżeli statut osiedla tak ustali",
+        "text": "Organem uchwałodawczym osiedla może być ogólne zebranie mieszkańców, jeżeli statut osiedla tak ustali",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "15. Z ochrony publicznej przysługującej funkcjonariuszom publicznym korzystają:",
+    "question": "239. Z ochrony publicznej przysługującej funkcjonariuszom publicznym korzystają:",
     "options": [
       {
-        "text": "sołtys",
+        "text": "Sołtys",
         "isCorrect": true
       },
       {
-        "text": "przewodniczący zarządu dzielnicy (osiedla)",
+        "text": "Przewodniczący zarządu dzielnicy (osiedla)",
         "isCorrect": true
       },
       {
-        "text": "skarbnik gminy",
+        "text": "Skarbnik gminy",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "19. Referendum lokalne w przedmiocie samoopodatkowania się mieszkańców jest:",
+    "question": "240. Referendum lokalne w przedmiocie samoopodatkowania się mieszkańców jest:",
     "options": [
       {
-        "text": "dopuszczalne jedynie w gminie i w powiecie",
+        "text": "Dopuszczalne jedynie w gminie i w powiecie",
         "isCorrect": false
       },
       {
-        "text": "dopuszczalne wyłącznie w gminie",
+        "text": "Dopuszczalne wyłącznie w gminie",
         "isCorrect": true
       },
       {
-        "text": "przeprowadzane wyłącznie z inicjatywy mieszkańców",
+        "text": "Przeprowadzane wyłącznie z inicjatywy mieszkańców",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "20. Rada powiatu:",
+    "question": "241. Rada powiatu:",
     "options": [
       {
-        "text": "może kontrolować działalność zarządu oraz powiatowych jednostek samorządu terytorialnego",
+        "text": "Może kontrolować działalność zarządu oraz powiatowych jednostek samorządu terytorialnego",
         "isCorrect": true
       },
       {
-        "text": "może podejmować uchwały prawnie wiążące ich adresatów",
+        "text": "Może podejmować uchwały prawnie wiążące ich adresatów",
         "isCorrect": true
       },
       {
-        "text": "jest organem stanowiącym i kontrolnym",
+        "text": "Jest organem stanowiącym i kontrolnym",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "21. Przewodniczący rady powiatu:",
+    "question": "242. Przewodniczący rady powiatu:",
     "options": [
       {
-        "text": "jest organem powiatu",
+        "text": "Jest organem powiatu",
         "isCorrect": false
       },
       {
-        "text": "reprezentuje powiat na zewnątrz",
+        "text": "Reprezentuje powiat na zewnątrz",
         "isCorrect": false
       },
       {
-        "text": "wydaje decyzje w indywidualnych sprawach z zakresu administracji publicznej",
+        "text": "Wydaje decyzje w indywidualnych sprawach z zakresu administracji publicznej",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "22. Odwołanie starosty:",
+    "question": "243. Odwołanie starosty:",
     "options": [
       {
-        "text": "jest równoznaczne ze złożeniem wniosku o odwołanie zarządu",
+        "text": "Jest równoznaczne ze złożeniem wniosku o odwołanie zarządu",
         "isCorrect": false
       },
       {
-        "text": "przed upływem kadencji nie jest możliwe",
+        "text": "Przed upływem kadencji nie jest możliwe",
         "isCorrect": false
       },
       {
-        "text": "jest równoznaczne z odwołaniem całego zarządu",
+        "text": "Jest równoznaczne z odwołaniem całego zarządu",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "23. Referendum wojewódzkie:",
+    "question": "244. Referendum wojewódzkie:",
     "options": [
       {
-        "text": "obligatoryjne, przeprowadza się w sprawie odwołania sejmiku województwa przed upływem kadencji",
+        "text": "Obligatoryjne, przeprowadza się w sprawie odwołania sejmiku województwa przed upływem kadencji",
         "isCorrect": true
       },
       {
-        "text": "przeprowadza się na wniosek co najmniej 5% mieszkańców województwa uprawnionych do głosowania",
+        "text": "Przeprowadza się na wniosek co najmniej 5% mieszkańców województwa uprawnionych do głosowania",
         "isCorrect": true
       },
       {
-        "text": "jest ważne, jeżeli wzięło w nim udział co najmniej 30% uprawnionych do głosowania",
+        "text": "Jest ważne, jeżeli wzięło w nim udział co najmniej 30% uprawnionych do głosowania",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "24. Organami województwa są:",
+    "question": "245. Organami województwa są:",
     "options": [
       {
-        "text": "przewodniczący sejmiku województwa",
+        "text": "Przewodniczący sejmiku województwa",
         "isCorrect": false
       },
       {
-        "text": "radny województwa",
+        "text": "Radny województwa",
         "isCorrect": false
       },
       {
-        "text": "marszałek województwa",
+        "text": "Marszałek województwa",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "25. Sejmik województwa:",
+    "question": "246. Sejmik województwa:",
     "options": [
       {
-        "text": "wybiera marszałka województwa",
+        "text": "Wybiera marszałka województwa",
         "isCorrect": true
       },
       {
-        "text": "ulega rozwiązaniu z mocy prawa w przypadku, gdy nie dokona wyboru zarządu w ciągu 3 miesięcy od daty ogłoszenia wyników wyborów",
+        "text": "Ulega rozwiązaniu z mocy prawa w przypadku, gdy nie dokona wyboru zarządu w ciągu 3 miesięcy od daty ogłoszenia wyników wyborów",
         "isCorrect": true
       },
       {
-        "text": "jest kolegialnym organem stanowiącym i kontrolnym",
+        "text": "Jest kolegialnym organem stanowiącym i kontrolnym",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "27. Pracodawcą jest:",
+    "question": "247. Pracodawcą jest:",
     "options": [
       {
-        "text": "starostwo powiatowe dla pracowników w nim zatrudnionych",
+        "text": "Starostwo powiatowe dla pracowników w nim zatrudnionych",
         "isCorrect": true
       },
       {
-        "text": "burmistrz dla pracowników zatrudnionych w urzędzie gminy",
+        "text": "Burmistrz dla pracowników zatrudnionych w urzędzie gminy",
         "isCorrect": false
       },
       {
-        "text": "marszałek województwa dla pracowników zatrudnionych w urzędzie marszałkowskim",
+        "text": "Marszałek województwa dla pracowników zatrudnionych w urzędzie marszałkowskim",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "28. Odmowa udostępnienia informacji publicznej następuje w drodze:",
+    "question": "248. Odmowa udostępnienia informacji publicznej następuje w drodze:",
     "options": [
       {
-        "text": "informacji",
+        "text": "Informacji",
         "isCorrect": false
       },
       {
-        "text": "postanowienia",
+        "text": "Postanowienia",
         "isCorrect": false
       },
       {
-        "text": "decyzji",
+        "text": "Decyzji",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "29. Komisarz rządowy:",
+    "question": "249. Komisarz rządowy:",
     "options": [
       {
-        "text": "powoływany jest przez Prezesa Rady Ministrów na wniosek wojewody, zgłoszony za pośrednictwem ministra właściwego do spraw administracji publicznej",
+        "text": "Powoływany jest przez Prezesa Rady Ministrów na wniosek wojewody, zgłoszony za pośrednictwem ministra właściwego do spraw administracji publicznej",
         "isCorrect": true
       },
       {
-        "text": "powoływany jest przez Radę Ministrów na wniosek wojewody, zgłoszony za pośrednictwem ministra właściwego do spraw administracji publicznej",
+        "text": "Powoływany jest przez Radę Ministrów na wniosek wojewody, zgłoszony za pośrednictwem ministra właściwego do spraw administracji publicznej",
         "isCorrect": false
       },
       {
-        "text": "przyjmuje wykonywanie zadań i kompetencji organów samorządu województwa z dniem powołania",
+        "text": "Przyjmuje wykonywanie zadań i kompetencji organów samorządu województwa z dniem powołania",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "30. Rada gminy może ulec rozwiązaniu:",
+    "question": "250. Rada gminy może ulec rozwiązaniu:",
     "options": [
       {
-        "text": "w razie powtarzającego się naruszania przez radę gminy Konstytucji lub ustaw",
+        "text": "W razie powtarzającego się naruszania przez radę gminy Konstytucji lub ustaw",
         "isCorrect": true
       },
       {
-        "text": "w drodze uchwały Sejmu podjętej na wniosek Prezesa Rady Ministrów",
+        "text": "W drodze uchwały Sejmu podjętej na wniosek Prezesa Rady Ministrów",
         "isCorrect": true
       },
       {
-        "text": "w drodze uchwały Sejmu podjętej na wniosek ministra właściwego do spraw administracji publicznej",
+        "text": "W drodze uchwały Sejmu podjętej na wniosek ministra właściwego do spraw administracji publicznej",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "1. Zasada samodzielności jednostek samorządu terytorialnego podlega ochronie sądowej sprawowanej przez:",
+    "question": "251. Zasada samodzielności jednostek samorządu terytorialnego podlega ochronie sądowej sprawowanej przez:",
     "options": [
       {
-        "text": "sądy administracyjne",
+        "text": "Sądy administracyjne",
         "isCorrect": true
       },
       {
-        "text": "sądy powszechne",
+        "text": "Sądy powszechne",
         "isCorrect": false
       },
       {
@@ -4191,269 +4191,269 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "2. Referendum lokalne w przedmiocie samoopodatkowania się mieszkańców jest:",
+    "question": "252. Referendum lokalne w przedmiocie samoopodatkowania się mieszkańców jest:",
     "options": [
       {
-        "text": "dopuszczalne jedynie w gminie i w powiecie",
+        "text": "Dopuszczalne jedynie w gminie i w powiecie",
         "isCorrect": false
       },
       {
-        "text": "dopuszczalne wyłącznie w gminie",
+        "text": "Dopuszczalne wyłącznie w gminie",
         "isCorrect": true
       },
       {
-        "text": "prawnie nieskuteczne, gdyż ustanowienie podatków jest prawnie zastrzeżoną materią ustawową",
+        "text": "Prawnie nieskuteczne, gdyż ustanowienie podatków jest prawnie zastrzeżoną materią ustawową",
         "isCorrect": true
       },
       {
-        "text": "przeprowadzane wyłącznie z inicjatywy mieszkańców",
+        "text": "Przeprowadzane wyłącznie z inicjatywy mieszkańców",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "3. Obligatoryjne konsultacje w gminie są w przypadku:",
+    "question": "253. Obligatoryjne konsultacje w gminie są w przypadku:",
     "options": [
       {
-        "text": "zmiany nazwy danej gminy",
+        "text": "Zmiany nazwy danej gminy",
         "isCorrect": true
       },
       {
-        "text": "zmiany granicy danej gminy",
+        "text": "Zmiany granicy danej gminy",
         "isCorrect": true
       },
       {
-        "text": "nadaniu danej gminie statusu miasta",
+        "text": "Nadaniu danej gminie statusu miasta",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "4. Podmioty stanowiące powiatową administrację zespoloną to:",
+    "question": "254. Podmioty stanowiące powiatową administrację zespoloną to:",
     "options": [
       {
-        "text": "starostwo powiatowe",
+        "text": "Starostwo powiatowe",
         "isCorrect": true
       },
       {
-        "text": "powiatowy urząd pracy",
+        "text": "Powiatowy urząd pracy",
         "isCorrect": true
       },
       {
-        "text": "zarząd powiatu",
+        "text": "Zarząd powiatu",
         "isCorrect": false
       },
       {
-        "text": "powiatowe inspektoraty weterynaryjne",
+        "text": "Powiatowe inspektoraty weterynaryjne",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "5. Nadzór nad wykonywaniem zadań zleconych wykonywany jest z punktu widzenia:",
+    "question": "255. Nadzór nad wykonywaniem zadań zleconych wykonywany jest z punktu widzenia:",
     "options": [
       {
-        "text": "celowości",
+        "text": "Celowości",
         "isCorrect": false
       },
       {
-        "text": "legalności",
+        "text": "Legalności",
         "isCorrect": true
       },
       {
-        "text": "rzetelności",
+        "text": "Rzetelności",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "7. Jednostce pomocniczej gminy przysługuje:",
+    "question": "256. Jednostce pomocniczej gminy przysługuje:",
     "options": [
       {
-        "text": "prawo do zarządzania mieniem komunalnym",
+        "text": "Prawo do zarządzania mieniem komunalnym",
         "isCorrect": true
       },
       {
-        "text": "prawo do korzystania z mienia komunalnego",
+        "text": "Prawo do korzystania z mienia komunalnego",
         "isCorrect": true
       },
       {
-        "text": "prawo do rozporządzania dochodami z mienia komunalnego",
+        "text": "Prawo do rozporządzania dochodami z mienia komunalnego",
         "isCorrect": true
       },
       {
-        "text": "nie przysługuje żadne prawo, jeśli statut tak stanowi",
+        "text": "Nie przysługuje żadne prawo, jeśli statut tak stanowi",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "9. Przepisy porządkowe są wydawane:",
+    "question": "257. Przepisy porządkowe są wydawane:",
     "options": [
       {
-        "text": "samorządu województwa",
+        "text": "Samorządu województwa",
         "isCorrect": false
       },
       {
-        "text": "samorządu powiatu",
+        "text": "Samorządu powiatu",
         "isCorrect": true
       },
       {
-        "text": "samorządu gminnego",
+        "text": "Samorządu gminnego",
         "isCorrect": true
       },
       {
-        "text": "tylko administracji rządowej",
+        "text": "Tylko administracji rządowej",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "10. Zlecenie zadań gminie następuje:",
+    "question": "258. Zlecenie zadań gminie następuje:",
     "options": [
       {
-        "text": "w drodze umowy cywilnoprawnej",
+        "text": "W drodze umowy cywilnoprawnej",
         "isCorrect": false
       },
       {
-        "text": "w drodze umowy zlecenia",
+        "text": "W drodze umowy zlecenia",
         "isCorrect": false
       },
       {
-        "text": "w drodze porozumienia",
+        "text": "W drodze porozumienia",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "11. Organem jednostki samorządu terytorialnego jest:",
+    "question": "259. Organem jednostki samorządu terytorialnego jest:",
     "options": [
       {
-        "text": "burmistrz",
+        "text": "Burmistrz",
         "isCorrect": true
       },
       {
-        "text": "starosta",
+        "text": "Starosta",
         "isCorrect": false
       },
       {
-        "text": "sejmik województwa",
+        "text": "Sejmik województwa",
         "isCorrect": true
       },
       {
-        "text": "zebranie wiejskie",
+        "text": "Zebranie wiejskie",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "12. Starosta:",
+    "question": "260. Starosta:",
     "options": [
       {
-        "text": "jest organem powiatu",
+        "text": "Jest organem powiatu",
         "isCorrect": false
       },
       {
-        "text": "jest organem administracji publicznej",
+        "text": "Jest organem administracji publicznej",
         "isCorrect": false
       },
       {
-        "text": "reprezentuje powiat na zewnątrz",
+        "text": "Reprezentuje powiat na zewnątrz",
         "isCorrect": true
       },
       {
-        "text": "jest zwierzchnikiem powiatowych służb, inspekcji i straży",
+        "text": "Jest zwierzchnikiem powiatowych służb, inspekcji i straży",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "13. Zarząd komisaryczny:",
+    "question": "261. Zarząd komisaryczny:",
     "options": [
       {
-        "text": "wprowadza Sejm na wniosek Prezesa Rady Ministrów",
+        "text": "Wprowadza Sejm na wniosek Prezesa Rady Ministrów",
         "isCorrect": false
       },
       {
-        "text": "wprowadza Prezes Rady Ministrów",
+        "text": "Wprowadza Prezes Rady Ministrów",
         "isCorrect": true
       },
       {
-        "text": "może być ustanowiony na okres do 1 roku",
+        "text": "Może być ustanowiony na okres do 1 roku",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "1. Organem uchwalającym w gromadach w latach 1918-1933 były:",
+    "question": "262. Organem uchwalającym w gromadach w latach 1918-1933 były:",
     "options": [
       {
-        "text": "wiec",
+        "text": "Wiec",
         "isCorrect": false
       },
       {
-        "text": "sejmik",
+        "text": "Sejmik",
         "isCorrect": false
       },
       {
-        "text": "zgromadzenie",
+        "text": "Zgromadzenie",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "2. Rady nie może:",
+    "question": "263. Rady nie może:",
     "options": [
       {
-        "text": "przyjmować darowizn",
+        "text": "Przyjmować darowizn",
         "isCorrect": false
       },
       {
-        "text": "świadczyć usług",
+        "text": "Świadczyć usług",
         "isCorrect": false
       },
       {
-        "text": "być kierownikiem gminnej, powiatowej, wojewódzkiej jednostki administracyjnej",
+        "text": "Być kierownikiem gminnej, powiatowej, wojewódzkiej jednostki administracyjnej",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "3. Radny powiatu:",
+    "question": "264. Radny powiatu:",
     "options": [
       {
-        "text": "nie może prowadzić działalności gospodarczej",
+        "text": "Nie może prowadzić działalności gospodarczej",
         "isCorrect": false
       },
       {
-        "text": "składa coroczne oświadczenie majątkowe wraz z PIT-em, które są jawne",
+        "text": "Składa coroczne oświadczenie majątkowe wraz z PIT-em, które są jawne",
         "isCorrect": true
       },
       {
-        "text": "nie może być zatrudniony w jednostce samorządu terytorialnego, w której posiada mandat",
+        "text": "Nie może być zatrudniony w jednostce samorządu terytorialnego, w której posiada mandat",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "4. Wójt powołuje swoich zastępców:",
+    "question": "265. Wójt powołuje swoich zastępców:",
     "options": [
       {
-        "text": "w drodze zarządzenia",
+        "text": "W drodze zarządzenia",
         "isCorrect": true
       },
       {
-        "text": "w liczbie odpowiadającej liczbie mieszkańców",
+        "text": "W liczbie odpowiadającej liczbie mieszkańców",
         "isCorrect": true
       },
       {
-        "text": "w liczbie nie większej niż 3",
+        "text": "W liczbie nie większej niż 3",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "5. Referendum w sprawie odwołania prezydenta miasta do ważności wymaga frekwencji:",
+    "question": "266. Referendum w sprawie odwołania prezydenta miasta do ważności wymaga frekwencji:",
     "options": [
       {
         "text": "30 % mieszkańców",
@@ -4470,220 +4470,220 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "6. Zmiana w porządku obrad na sesji wprowadza się:",
+    "question": "267. Zmiana w porządku obrad na sesji wprowadza się:",
     "options": [
       {
-        "text": "bezwzględną większością w obecności co najmniej połowy ustawowego składu rady",
+        "text": "Bezwzględną większością w obecności co najmniej połowy ustawowego składu rady",
         "isCorrect": false
       },
       {
-        "text": "bezwzględną większością ustawowego składu rady",
+        "text": "Bezwzględną większością ustawowego składu rady",
         "isCorrect": true
       },
       {
-        "text": "bezwzględną większością radnych obecnych na sesji",
+        "text": "Bezwzględną większością radnych obecnych na sesji",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "7. W przypadku gdy zgłoszono jednego kandydata na wójta:",
+    "question": "268. W przypadku gdy zgłoszono jednego kandydata na wójta:",
     "options": [
       {
-        "text": "wyboru dokonuje rada",
+        "text": "Wyboru dokonuje rada",
         "isCorrect": false
       },
       {
-        "text": "wyborów nie przeprowadza się",
+        "text": "Wyborów nie przeprowadza się",
         "isCorrect": false
       },
       {
-        "text": "przeprowadza się wybory",
+        "text": "Przeprowadza się wybory",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "8. W razie braku możliwości udostępnienia informacji publicznej z powodów technicznych organ odpowiedzialny za udostępnienie wydaje:",
+    "question": "269. W razie braku możliwości udostępnienia informacji publicznej z powodów technicznych organ odpowiedzialny za udostępnienie wydaje:",
     "options": [
       {
-        "text": "pismo o odmowie",
+        "text": "Pismo o odmowie",
         "isCorrect": false
       },
       {
-        "text": "decyzję o odmowie",
+        "text": "Decyzję o odmowie",
         "isCorrect": false
       },
       {
-        "text": "informuje na piśmie",
+        "text": "Informuje na piśmie",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "9. W przypadku wydania decyzji o odmowie udostępnienia informacji publicznej z powodu ochrony danych osobowych:",
+    "question": "270. W przypadku wydania decyzji o odmowie udostępnienia informacji publicznej z powodu ochrony danych osobowych:",
     "options": [
       {
-        "text": "można złożyć powództwo do sądu powszechnego",
+        "text": "Można złożyć powództwo do sądu powszechnego",
         "isCorrect": false
       },
       {
-        "text": "można złożyć skargę do sądu powszechnego",
+        "text": "Można złożyć skargę do sądu powszechnego",
         "isCorrect": false
       },
       {
-        "text": "można złożyć odwołanie do organu",
+        "text": "Można złożyć odwołanie do organu",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "10. W skład administracji zespolonej w powiecie wchodzą",
+    "question": "271. W skład administracji zespolonej w powiecie wchodzą",
     "options": [
       {
-        "text": "starostwo powiatowe",
+        "text": "Starostwo powiatowe",
         "isCorrect": true
       },
       {
-        "text": "powiatowy urząd pracy",
+        "text": "Powiatowy urząd pracy",
         "isCorrect": true
       },
       {
-        "text": "zarząd powiatu",
+        "text": "Zarząd powiatu",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "11. Starosta jako zwierzchnik administracji zespolonej w powiecie:",
+    "question": "272. Starosta jako zwierzchnik administracji zespolonej w powiecie:",
     "options": [
       {
-        "text": "jest zwierzchnikiem służbowym osób zatrudnionych w starostwie powiatowym",
+        "text": "Jest zwierzchnikiem służbowym osób zatrudnionych w starostwie powiatowym",
         "isCorrect": true
       },
       {
-        "text": "uzgadnia z zarządem które osoby powołać na stanowiska kierowników powiatowych służb, inspekcji i straży",
+        "text": "Uzgadnia z zarządem które osoby powołać na stanowiska kierowników powiatowych służb, inspekcji i straży",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "12. Stowarzyszenie gmin nabywa osobowość prawną",
+    "question": "273. Stowarzyszenie gmin nabywa osobowość prawną",
     "options": [
       {
-        "text": "z chwilą zarejestrowania - stosuje się przepisy prawa o stowarzyszeniach",
+        "text": "Z chwilą zarejestrowania - stosuje się przepisy prawa o stowarzyszeniach",
         "isCorrect": true
       },
       {
-        "text": "z chwilą ogłoszenia statutu",
+        "text": "Z chwilą ogłoszenia statutu",
         "isCorrect": false
       },
       {
-        "text": "po zarejestrowaniu, z chwilą publikacji statutu",
+        "text": "Po zarejestrowaniu, z chwilą publikacji statutu",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "13. O zamiarze przystąpienia do związku informuje wojewodę:",
+    "question": "274. O zamiarze przystąpienia do związku informuje wojewodę:",
     "options": [
       {
-        "text": "gmina",
+        "text": "Gmina",
         "isCorrect": true
       },
       {
-        "text": "powiat",
+        "text": "Powiat",
         "isCorrect": false
       },
       {
-        "text": "województwo",
+        "text": "Województwo",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "14. Porozumienia może zawierać:",
+    "question": "275. Porozumienia może zawierać:",
     "options": [
       {
-        "text": "województwo z mieszczącą się na jego terenie gminą",
+        "text": "Województwo z mieszczącą się na jego terenie gminą",
         "isCorrect": true
       },
       {
-        "text": "województwo z mieszczącym się na jego terenie powiatem",
+        "text": "Województwo z mieszczącym się na jego terenie powiatem",
         "isCorrect": true
       },
       {
-        "text": "województwo z województwem",
+        "text": "Województwo z województwem",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "15. Zadania obowiązkowe są:",
+    "question": "276. Zadania obowiązkowe są:",
     "options": [
       {
-        "text": "zadaniami własnymi",
+        "text": "Zadaniami własnymi",
         "isCorrect": true
       },
       {
-        "text": "zadaniami gminy",
+        "text": "Zadaniami gminy",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "16. Obligatoryjne konsultacje z mieszkańcami przeprowadza się, gdy ustawa tak stanowi, w wypadku:",
+    "question": "277. Obligatoryjne konsultacje z mieszkańcami przeprowadza się, gdy ustawa tak stanowi, w wypadku:",
     "options": [
       {
-        "text": "zmiany granic gminy",
+        "text": "Zmiany granic gminy",
         "isCorrect": true
       },
       {
-        "text": "zmiany nazwy gminy",
+        "text": "Zmiany nazwy gminy",
         "isCorrect": true
       },
       {
-        "text": "uzyskania przez gminę statusu miasta",
+        "text": "Uzyskania przez gminę statusu miasta",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "17. Uchwała o odrzuceniu wniosku mieszkańców w sprawie przeprowadzenia referendum może być zaskarżona do:",
+    "question": "278. Uchwała o odrzuceniu wniosku mieszkańców w sprawie przeprowadzenia referendum może być zaskarżona do:",
     "options": [
       {
-        "text": "sądu administracyjnego w ciągu 30 dni od doręczenia",
+        "text": "Sądu administracyjnego w ciągu 30 dni od doręczenia",
         "isCorrect": true
       },
       {
-        "text": "skarga do sądu okręgowego w ciągu 30 dni od doręczenia",
+        "text": "Skarga do sądu okręgowego w ciągu 30 dni od doręczenia",
         "isCorrect": false
       },
       {
-        "text": "sądu administracyjnego w ciągu 14 dni od doręczenia",
+        "text": "Sądu administracyjnego w ciągu 14 dni od doręczenia",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "18. Pierwszą sesję nowo wybranego sejmiku województwa zwołuje",
+    "question": "279. Pierwszą sesję nowo wybranego sejmiku województwa zwołuje",
     "options": [
       {
-        "text": "komisarz wyborczy",
+        "text": "Komisarz wyborczy",
         "isCorrect": true
       },
       {
-        "text": "przewodniczący sejmiku poprzedniej kadencji",
+        "text": "Przewodniczący sejmiku poprzedniej kadencji",
         "isCorrect": false
       },
       {
-        "text": "wojewoda",
+        "text": "Wojewoda",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "19. Wójt składa pierwsze oświadczenie majątkowe w ciągu:",
+    "question": "280. Wójt składa pierwsze oświadczenie majątkowe w ciągu:",
     "options": [
       {
         "text": "30 dni od dnia ślubowania",
@@ -4694,574 +4694,574 @@ export const QUESTIONS = [
         "isCorrect": false
       },
       {
-        "text": "miesiąca od ogłoszenia wyników wyborów",
+        "text": "Miesiąca od ogłoszenia wyników wyborów",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "20. Mandat radnego wygasa:",
+    "question": "281. Mandat radnego wygasa:",
     "options": [
       {
-        "text": "w przypadku zmiany granic gminy",
+        "text": "W przypadku zmiany granic gminy",
         "isCorrect": false
       },
       {
-        "text": "w przypadku ustnego zrzeczenia się mandatu",
+        "text": "W przypadku ustnego zrzeczenia się mandatu",
         "isCorrect": false
       },
       {
-        "text": "w przypadku utraty prawa wybieralności",
+        "text": "W przypadku utraty prawa wybieralności",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "21. Wójt zostaje kandydat, który uzyskał:",
+    "question": "282. Wójt zostaje kandydat, który uzyskał:",
     "options": [
       {
-        "text": "więcej niż połowę ważnie oddanych głosów",
+        "text": "Więcej niż połowę ważnie oddanych głosów",
         "isCorrect": true
       },
       {
-        "text": "więcej niż połowę oddanych głosów",
+        "text": "Więcej niż połowę oddanych głosów",
         "isCorrect": false
       },
       {
-        "text": "większość głosów",
+        "text": "Większość głosów",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "23. Akty prawa miejscowego:",
+    "question": "283. Akty prawa miejscowego:",
     "options": [
       {
-        "text": "odnoszą się do ogólnego kręgu adresatów",
+        "text": "Odnoszą się do ogólnego kręgu adresatów",
         "isCorrect": false
       },
       {
-        "text": "adresatem może być organ administracji",
+        "text": "Adresatem może być organ administracji",
         "isCorrect": false
       },
       {
-        "text": "adresatem może być konkretnie oznaczona osoba",
+        "text": "Adresatem może być konkretnie oznaczona osoba",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "24. W przypadku uchybienia 30-dniowemu terminowi do stwierdzenia nieważności uchwały/zarządzenia organ nadzoru:",
+    "question": "284. W przypadku uchybienia 30-dniowemu terminowi do stwierdzenia nieważności uchwały/zarządzenia organ nadzoru:",
     "options": [
       {
-        "text": "nie może we własnym zakresie stwierdzić nieważności zarządzenia/uchwały",
+        "text": "Nie może we własnym zakresie stwierdzić nieważności zarządzenia/uchwały",
         "isCorrect": true
       },
       {
-        "text": "może stwierdzić wydanie uchwały/zarządzenia z naruszeniem prawa",
+        "text": "Może stwierdzić wydanie uchwały/zarządzenia z naruszeniem prawa",
         "isCorrect": false
       },
       {
-        "text": "może zaskarżyć uchwałę/zarządzenie do sądu administracyjnego",
+        "text": "Może zaskarżyć uchwałę/zarządzenie do sądu administracyjnego",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "56. Marszałek województwa:",
+    "question": "285. Marszałek województwa:",
     "options": [
       {
-        "text": "wydaje decyzje w indywidualnych sprawach z zakresu administracji publicznej",
+        "text": "Wydaje decyzje w indywidualnych sprawach z zakresu administracji publicznej",
         "isCorrect": false
       },
       {
-        "text": "reprezentuje województwo na zewnątrz",
+        "text": "Reprezentuje województwo na zewnątrz",
         "isCorrect": false
       },
       {
-        "text": "mimo powierzonych funkcji nie jest nazwany organem województwa",
+        "text": "Mimo powierzonych funkcji nie jest nazwany organem województwa",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "57. Prawo dostępu do informacji publicznej przysługuje:",
+    "question": "286. Prawo dostępu do informacji publicznej przysługuje:",
     "options": [
       {
-        "text": "każdemu, z zastrzeżeniami określonymi w ustawie o dostępie do informacji publicznej",
+        "text": "Każdemu, z zastrzeżeniami określonymi w ustawie o dostępie do informacji publicznej",
         "isCorrect": true
       },
       {
-        "text": "każdemu, kto wykaże interes prawny",
+        "text": "Każdemu, kto wykaże interes prawny",
         "isCorrect": false
       },
       {
-        "text": "każdemu, kto wykaże interes faktyczny",
+        "text": "Każdemu, kto wykaże interes faktyczny",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "38. Organem stanowiącym i kontrolnym jest:",
+    "question": "287. Organem stanowiącym i kontrolnym jest:",
     "options": [
       {
-        "text": "na poziomie gminy - rada gminy",
+        "text": "Na poziomie gminy - rada gminy",
         "isCorrect": true
       },
       {
-        "text": "na poziomie powiatu – zarząd powiatu",
+        "text": "Na poziomie powiatu – zarząd powiatu",
         "isCorrect": false
       },
       {
-        "text": "na poziomie województwa – sejmik województwa",
+        "text": "Na poziomie województwa – sejmik województwa",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "39. W skład gminnej komisji rewizyjnej wchodzą:",
+    "question": "288. W skład gminnej komisji rewizyjnej wchodzą:",
     "options": [
       {
-        "text": "przewodniczący rady gminy",
+        "text": "Przewodniczący rady gminy",
         "isCorrect": false
       },
       {
-        "text": "wiceprzewodniczący rady gminy",
+        "text": "Wiceprzewodniczący rady gminy",
         "isCorrect": false
       },
       {
-        "text": "osoby niebędące radnymi",
+        "text": "Osoby niebędące radnymi",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "40. Przewodniczący rady gminy:",
+    "question": "289. Przewodniczący rady gminy:",
     "options": [
       {
-        "text": "jest organem gminy",
+        "text": "Jest organem gminy",
         "isCorrect": false
       },
       {
-        "text": "zwołuje sesje rady gminy",
+        "text": "Zwołuje sesje rady gminy",
         "isCorrect": true
       },
       {
-        "text": "prowadzi obrady rady gminy",
+        "text": "Prowadzi obrady rady gminy",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "41. Wójt:",
+    "question": "290. Wójt:",
     "options": [
       {
-        "text": "reprezentuje gminę na zewnątrz",
+        "text": "Reprezentuje gminę na zewnątrz",
         "isCorrect": true
       },
       {
-        "text": "może powierzyć prowadzenie określonych spraw gminy w swoim imieniu zastępcy wójta lub sekretarzowi gminy",
+        "text": "Może powierzyć prowadzenie określonych spraw gminy w swoim imieniu zastępcy wójta lub sekretarzowi gminy",
         "isCorrect": true
       },
       {
-        "text": "wydaje decyzje w indywidualnych sprawach z zakresu administracji publicznej",
+        "text": "Wydaje decyzje w indywidualnych sprawach z zakresu administracji publicznej",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "42. Jednostki pomocnicze gminy działają na podstawie:",
+    "question": "291. Jednostki pomocnicze gminy działają na podstawie:",
     "options": [
       {
-        "text": "statutu gminy, w którym znajduje się rozdział dotyczący ich funkcjonowania",
+        "text": "Statutu gminy, w którym znajduje się rozdział dotyczący ich funkcjonowania",
         "isCorrect": false
       },
       {
-        "text": "odrębnego statutu uchwalanego przez samą jednostkę pomocniczą",
+        "text": "Odrębnego statutu uchwalanego przez samą jednostkę pomocniczą",
         "isCorrect": false
       },
       {
-        "text": "odrębnego statutu uchwalanego przez radę gminy",
+        "text": "Odrębnego statutu uchwalanego przez radę gminy",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "43. Istnienie jednostek samorządu terytorialnego jest przejawem:",
+    "question": "292. Istnienie jednostek samorządu terytorialnego jest przejawem:",
     "options": [
       {
-        "text": "decentralizacji administracji publicznej",
+        "text": "Decentralizacji administracji publicznej",
         "isCorrect": true
       },
       {
-        "text": "dekoncentracji administracji publicznej",
+        "text": "Dekoncentracji administracji publicznej",
         "isCorrect": true
       },
       {
-        "text": "koncentracji administracji publicznej",
+        "text": "Koncentracji administracji publicznej",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "44. W dzielnicy (osiedlu):",
+    "question": "293. W dzielnicy (osiedlu):",
     "options": [
       {
-        "text": "organem wykonawczym jest przewodniczący zarządu dzielnicy (osiedla)",
+        "text": "Organem wykonawczym jest przewodniczący zarządu dzielnicy (osiedla)",
         "isCorrect": false
       },
       {
-        "text": "organem wykonawczym jest zarząd dzielnicy (osiedla)",
+        "text": "Organem wykonawczym jest zarząd dzielnicy (osiedla)",
         "isCorrect": true
       },
       {
-        "text": "organem uchwałodawczym osiedla może być ogólne zebranie mieszkańców, jeżeli statut osiedla tak ustali",
+        "text": "Organem uchwałodawczym osiedla może być ogólne zebranie mieszkańców, jeżeli statut osiedla tak ustali",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "45. Z ochrony publicznej przysługującej funkcjonariuszom publicznym korzystają:",
+    "question": "294. Z ochrony publicznej przysługującej funkcjonariuszom publicznym korzystają:",
     "options": [
       {
-        "text": "sołtys",
+        "text": "Sołtys",
         "isCorrect": true
       },
       {
-        "text": "przewodniczący zarządu dzielnicy (osiedla)",
+        "text": "Przewodniczący zarządu dzielnicy (osiedla)",
         "isCorrect": true
       },
       {
-        "text": "skarbnik gminy",
+        "text": "Skarbnik gminy",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "1. Rada powiatu wybiera zarząd powiatu w terminie 3 miesięcy:",
+    "question": "295. Rada powiatu wybiera zarząd powiatu w terminie 3 miesięcy:",
     "options": [
       {
-        "text": "od dnia wyborów",
+        "text": "Od dnia wyborów",
         "isCorrect": false
       },
       {
-        "text": "od dnia ogłoszenia wyników wyborów",
+        "text": "Od dnia ogłoszenia wyników wyborów",
         "isCorrect": true
       },
       {
-        "text": "od dnia ślubowania radnych",
+        "text": "Od dnia ślubowania radnych",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "2. Uchwała rady powiatu w sprawie nieudzielenia zarządowi absolutorium jest równoznaczna:",
+    "question": "296. Uchwała rady powiatu w sprawie nieudzielenia zarządowi absolutorium jest równoznaczna:",
     "options": [
       {
-        "text": "ze złożeniem wniosku o odwołanie zarządu",
+        "text": "Ze złożeniem wniosku o odwołanie zarządu",
         "isCorrect": true
       },
       {
-        "text": "z odwołaniem zarządu",
+        "text": "Z odwołaniem zarządu",
         "isCorrect": false
       },
       {
-        "text": "z zainicjowaniem referendum w sprawie odwołania zarządu",
+        "text": "Z zainicjowaniem referendum w sprawie odwołania zarządu",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "3. Uchwała rady gminy:",
+    "question": "297. Uchwała rady gminy:",
     "options": [
       {
-        "text": "sprzeczna z prawem jest z mocy prawa nieważna",
+        "text": "Sprzeczna z prawem jest z mocy prawa nieważna",
         "isCorrect": true
       },
       {
-        "text": "sprzeczna z prawem jest nieważna ze skutkiem ex nunc",
+        "text": "Sprzeczna z prawem jest nieważna ze skutkiem ex nunc",
         "isCorrect": false
       },
       {
-        "text": "sprzeczna z prawem jest nieważna ze skutkiem ex tunc",
+        "text": "Sprzeczna z prawem jest nieważna ze skutkiem ex tunc",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "4. Referendum w sprawie odwołania rady powiatu jest ważne, jeśli wzięło w nim udział:",
+    "question": "298. Referendum w sprawie odwołania rady powiatu jest ważne, jeśli wzięło w nim udział:",
     "options": [
       {
-        "text": "co najmniej 30% mieszkańców uprawnionych do głosowania",
+        "text": "Co najmniej 30% mieszkańców uprawnionych do głosowania",
         "isCorrect": false
       },
       {
-        "text": "co najmniej 10% mieszkańców biorących udział w wyborze rady powiatu",
+        "text": "Co najmniej 10% mieszkańców biorących udział w wyborze rady powiatu",
         "isCorrect": false
       },
       {
-        "text": "co najmniej 3⁄5 mieszkańców biorących udział w wyborze rady powiatu",
+        "text": "Co najmniej 3⁄5 mieszkańców biorących udział w wyborze rady powiatu",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "5. Podmiot samorządu terytorialnego:",
+    "question": "299. Podmiot samorządu terytorialnego:",
     "options": [
       {
-        "text": "stanowią zadania jednostek samorządu terytorialnego",
+        "text": "Stanowią zadania jednostek samorządu terytorialnego",
         "isCorrect": false
       },
       {
-        "text": "stanowią wyłącznie mieszkańcy zameldowani na terenie danej jednostki samorządu terytorialnego",
+        "text": "Stanowią wyłącznie mieszkańcy zameldowani na terenie danej jednostki samorządu terytorialnego",
         "isCorrect": false
       },
       {
-        "text": "stanowią mieszkańcy zamieszkujący obszar jednostki samorządu terytorialnego bez konieczności składania oświadczeń woli o przynależności do wspólnoty samorządowej",
+        "text": "Stanowią mieszkańcy zamieszkujący obszar jednostki samorządu terytorialnego bez konieczności składania oświadczeń woli o przynależności do wspólnoty samorządowej",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "6. Po wygaśnięciu mandatu radnego gminy, pracodawca, którym jest urząd gminy:",
+    "question": "300. Po wygaśnięciu mandatu radnego gminy, pracodawca, którym jest urząd gminy:",
     "options": [
       {
-        "text": "bezwarunkowo przywraca radnego niezwłocznie do pracy",
+        "text": "Bezwarunkowo przywraca radnego niezwłocznie do pracy",
         "isCorrect": false
       },
       {
-        "text": "przywraca radnego do pracy na tym samym lub na równorzędnym stanowisku",
+        "text": "Przywraca radnego do pracy na tym samym lub na równorzędnym stanowisku",
         "isCorrect": true
       },
       {
-        "text": "przywraca radnego do pracy pod warunkiem, że po zakończeniu urlopu bezpłatnego radny zgłosi w ciągu 14 dni gotowość powrotu do pracy",
+        "text": "Przywraca radnego do pracy pod warunkiem, że po zakończeniu urlopu bezpłatnego radny zgłosi w ciągu 14 dni gotowość powrotu do pracy",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "7. Powiat",
+    "question": "301. Powiat",
     "options": [
       {
-        "text": "jest hierarchicznie podporządkowany województwu",
+        "text": "Jest hierarchicznie podporządkowany województwu",
         "isCorrect": false
       },
       {
-        "text": "posiada osobowość prawną",
+        "text": "Posiada osobowość prawną",
         "isCorrect": true
       },
       {
-        "text": "może zaskarżyć rozstrzygnięcie nadzorcze do sądu administracyjnego",
+        "text": "Może zaskarżyć rozstrzygnięcie nadzorcze do sądu administracyjnego",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "8. Komisją obligatoryjną w województwie jest:",
+    "question": "302. Komisją obligatoryjną w województwie jest:",
     "options": [
       {
-        "text": "komisja oświaty",
+        "text": "Komisja oświaty",
         "isCorrect": false
       },
       {
-        "text": "komisja rewizyjna",
+        "text": "Komisja rewizyjna",
         "isCorrect": true
       },
       {
-        "text": "komisja regionalna",
+        "text": "Komisja regionalna",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "9. W przypadku, gdy w gminie nie zgłoszono żadnego kandydata na wójta, wyboru wójta dokonuje",
+    "question": "303. W przypadku, gdy w gminie nie zgłoszono żadnego kandydata na wójta, wyboru wójta dokonuje",
     "options": [
       {
-        "text": "rada gminy kwalifikowaną wiekszością głosów ustawowego składu rady w głosowaniu tajnym",
+        "text": "Rada gminy kwalifikowaną wiekszością głosów ustawowego składu rady w głosowaniu tajnym",
         "isCorrect": false
       },
       {
-        "text": "prezes rady ministrów na wniosek ministra właściwego do spraw administracji publicznej",
+        "text": "Prezes rady ministrów na wniosek ministra właściwego do spraw administracji publicznej",
         "isCorrect": false
       },
       {
-        "text": "rada gminy ze swego grona bezwzględną większością głosów ustawowego składu rady w głosowaniu tajnym",
+        "text": "Rada gminy ze swego grona bezwzględną większością głosów ustawowego składu rady w głosowaniu tajnym",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "10. Wójt",
+    "question": "304. Wójt",
     "options": [
       {
-        "text": "jest pracownikiem gminy",
+        "text": "Jest pracownikiem gminy",
         "isCorrect": true
       },
       {
-        "text": "reprezentuje gminę na zewnątrz i kieruje bieżącymi sprawami gminy",
+        "text": "Reprezentuje gminę na zewnątrz i kieruje bieżącymi sprawami gminy",
         "isCorrect": true
       },
       {
-        "text": "otrzymuje wynagrodzenie określone w uchwale rady gminy",
+        "text": "Otrzymuje wynagrodzenie określone w uchwale rady gminy",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "11. Komisja rewizyjna",
+    "question": "305. Komisja rewizyjna",
     "options": [
       {
-        "text": "kontroluje jednostki organizacyjne",
+        "text": "Kontroluje jednostki organizacyjne",
         "isCorrect": false
       },
       {
-        "text": "zrzesza przedstawicieli innych komisji",
+        "text": "Zrzesza przedstawicieli innych komisji",
         "isCorrect": false
       },
       {
-        "text": "jest stałą, obligatoryjną komisją organu stanowiącego",
+        "text": "Jest stałą, obligatoryjną komisją organu stanowiącego",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "12. Rada podejmuje rozstrzygnięcia",
+    "question": "306. Rada podejmuje rozstrzygnięcia",
     "options": [
       {
-        "text": "w formie uchwał podejmowanych zwykłą większością głosów w obecności co najmniej połowy ustawowego składu rady, w głosowaniu jawnym, jeżeli ustawa tak stanowi",
+        "text": "W formie uchwał podejmowanych zwykłą większością głosów w obecności co najmniej połowy ustawowego składu rady, w głosowaniu jawnym, jeżeli ustawa tak stanowi",
         "isCorrect": false
       },
       {
-        "text": "na sesjach zwoływanych co najmniej raz w miesiącu",
+        "text": "Na sesjach zwoływanych co najmniej raz w miesiącu",
         "isCorrect": false
       },
       {
-        "text": "na sesjach zwoływanych w miarę potrzeby",
+        "text": "Na sesjach zwoływanych w miarę potrzeby",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "13. W przypadku odwołania lub przyjęcia rezygnacji przewodniczącego i wiceprzewodniczącego oraz niewybrania w ich miejsce osób do pełnienia tych funkcji w terminie 30 dni od dnia przyjęcia rezygnacji albo od dnia odwołania",
+    "question": "307. W przypadku odwołania lub przyjęcia rezygnacji przewodniczącego i wiceprzewodniczącego oraz niewybrania w ich miejsce osób do pełnienia tych funkcji w terminie 30 dni od dnia przyjęcia rezygnacji albo od dnia odwołania",
     "options": [
       {
-        "text": "sesję rady gminy w celu wyboru przewodniczącego, zwołuje wojewoda",
+        "text": "Sesję rady gminy w celu wyboru przewodniczącego, zwołuje wojewoda",
         "isCorrect": false
       },
       {
-        "text": "sesję rady gminy w celu wyboru przewodniczącego, zwołuje komisarz wyborczy",
+        "text": "Sesję rady gminy w celu wyboru przewodniczącego, zwołuje komisarz wyborczy",
         "isCorrect": false
       },
       {
-        "text": "sesji przewodniczy najstarszy wiekiem radny obecny na sesji, który wyraził zgodę na prowadzenie sesji",
+        "text": "Sesji przewodniczy najstarszy wiekiem radny obecny na sesji, który wyraził zgodę na prowadzenie sesji",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "14. Zasady i tryb funkcjonowania gminnych klubów radnych określa:",
+    "question": "308. Zasady i tryb funkcjonowania gminnych klubów radnych określa:",
     "options": [
       {
-        "text": "ustawa o samorządzie gminnym",
+        "text": "Ustawa o samorządzie gminnym",
         "isCorrect": false
       },
       {
-        "text": "regulamin klubu",
+        "text": "Regulamin klubu",
         "isCorrect": false
       },
       {
-        "text": "statut gminy",
+        "text": "Statut gminy",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "15. Radny uczestniczący w posiedzeniu organu stanowiącego",
+    "question": "309. Radny uczestniczący w posiedzeniu organu stanowiącego",
     "options": [
       {
-        "text": "nie otrzymuje diety, jeśli wstrzymuje się od głosu przy wszystkich uchwałach",
+        "text": "Nie otrzymuje diety, jeśli wstrzymuje się od głosu przy wszystkich uchwałach",
         "isCorrect": false
       },
       {
-        "text": "może otrzymać wynagrodzenie za pracę u pracodawcy, pomimo otrzymania diety",
+        "text": "Może otrzymać wynagrodzenie za pracę u pracodawcy, pomimo otrzymania diety",
         "isCorrect": true
       },
       {
-        "text": "korzysta z ochrony prawnej przewidzianej dla funkcjonariusza publicznego",
+        "text": "Korzysta z ochrony prawnej przewidzianej dla funkcjonariusza publicznego",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "16. Starosta",
+    "question": "310. Starosta",
     "options": [
       {
-        "text": "wraz z zarządem reprezentuje powiat na zewnątrz",
+        "text": "Wraz z zarządem reprezentuje powiat na zewnątrz",
         "isCorrect": false
       },
       {
-        "text": "może być jednocześnie radnym sejmiku wojewódzkiego",
+        "text": "Może być jednocześnie radnym sejmiku wojewódzkiego",
         "isCorrect": true
       },
       {
-        "text": "może wykonywać działalność gospodarczą, ale bez wykorzystania mienia danego województwa",
+        "text": "Może wykonywać działalność gospodarczą, ale bez wykorzystania mienia danego województwa",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "17. Marszałek województwa",
+    "question": "311. Marszałek województwa",
     "options": [
       {
-        "text": "ma rozstrzygający głos w przypadku każdej uchwały zarządu",
+        "text": "Ma rozstrzygający głos w przypadku każdej uchwały zarządu",
         "isCorrect": false
       },
       {
-        "text": "może być jednocześnie radnym sejmiku województwa",
+        "text": "Może być jednocześnie radnym sejmiku województwa",
         "isCorrect": true
       },
       {
-        "text": "może wykonywać działalność gospodarczą, ale bez wykorzystania mienia danego województwa",
+        "text": "Może wykonywać działalność gospodarczą, ale bez wykorzystania mienia danego województwa",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "18. Referendum fakultatywne",
+    "question": "312. Referendum fakultatywne",
     "options": [
       {
-        "text": "jest ważne, jeśli za danym rozwiązaniem opowiedziało się ponad 50% głosujących",
+        "text": "Jest ważne, jeśli za danym rozwiązaniem opowiedziało się ponad 50% głosujących",
         "isCorrect": true
       },
       {
-        "text": "zwoływane jest przez komisarza wyborczego",
+        "text": "Zwoływane jest przez komisarza wyborczego",
         "isCorrect": false
       },
       {
-        "text": "dotyczy spraw ważnych dla mieszkańców województwa, należących do kompetencji organów województwa samorządowego",
+        "text": "Dotyczy spraw ważnych dla mieszkańców województwa, należących do kompetencji organów województwa samorządowego",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "1. W razie nierokującej nadziei na szybką poprawę i przedłużającego się braku skuteczności w wykonywaniu zadań publicznych przez organ wykonawczy gminy, Prezes Rady Ministrów:",
+    "question": "313. W razie nierokującej nadziei na szybką poprawę i przedłużającego się braku skuteczności w wykonywaniu zadań publicznych przez organ wykonawczy gminy, Prezes Rady Ministrów:",
     "options": [
       {
-        "text": "może odwołać wójta/burmistrza/prezydenta",
+        "text": "Może odwołać wójta/burmistrza/prezydenta",
         "isCorrect": false
       },
       {
-        "text": "może zawiesić wójta/burmistrza/prezydenta",
+        "text": "Może zawiesić wójta/burmistrza/prezydenta",
         "isCorrect": false
       },
       {
-        "text": "może zarządzić wprowadzenie komisarza wyborczego",
+        "text": "Może zarządzić wprowadzenie komisarza wyborczego",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "2. Zarządzenie zastępcze wydaje:",
+    "question": "314. Zarządzenie zastępcze wydaje:",
     "options": [
       {
         "text": "Regionalna Izba Obrachunkowa w przypadku nieprzekazania uchwały budżetowej w terminie",
@@ -5278,7 +5278,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "3. Organem nadzoru nad jst jest:",
+    "question": "315. Organem nadzoru nad jst jest:",
     "options": [
       {
         "text": "Samorządowe Kolegium Odwoławcze",
@@ -5295,10 +5295,10 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "4. W przypadku zamieszczenia informacji publicznej w BIP:",
+    "question": "316. W przypadku zamieszczenia informacji publicznej w BIP:",
     "options": [
       {
-        "text": "zobowiązany do udostępnienia informacji wydaje decyzję o odmowie udostępnienia informacji na wniosek",
+        "text": "Zobowiązany do udostępnienia informacji wydaje decyzję o odmowie udostępnienia informacji na wniosek",
         "isCorrect": false
       },
       {
@@ -5312,7 +5312,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "5. Informacja publiczna przetworzona:",
+    "question": "317. Informacja publiczna przetworzona:",
     "options": [
       {
         "text": "Może być udostępniona po wykazaniu przez wnioskodawcę interesu publicznego",
@@ -5329,10 +5329,10 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "6. Wojewoda:",
+    "question": "318. Wojewoda:",
     "options": [
       {
-        "text": "jest organem nadzoru nad jst",
+        "text": "Jest organem nadzoru nad jst",
         "isCorrect": true
       },
       {
@@ -5346,224 +5346,224 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "7. Sejm:",
+    "question": "319. Sejm:",
     "options": [
       {
-        "text": "może rozwiązać radę powiatu na wniosek Prezesa Rady Ministrów",
+        "text": "Może rozwiązać radę powiatu na wniosek Prezesa Rady Ministrów",
         "isCorrect": true
       },
       {
-        "text": "jest organem nadzoru nad jst",
+        "text": "Jest organem nadzoru nad jst",
         "isCorrect": false
       },
       {
-        "text": "sprawuje nadzór nad działaniami organów jst",
+        "text": "Sprawuje nadzór nad działaniami organów jst",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "8. Informację publiczną:",
+    "question": "320. Informację publiczną:",
     "options": [
       {
-        "text": "może otrzymać każdy po wykazaniu interesu publicznego",
+        "text": "Może otrzymać każdy po wykazaniu interesu publicznego",
         "isCorrect": false
       },
       {
-        "text": "można uzyskać po złożeniu pisemnego wniosku, o ile nie ma jej w BIP",
+        "text": "Można uzyskać po złożeniu pisemnego wniosku, o ile nie ma jej w BIP",
         "isCorrect": true
       },
       {
-        "text": "należy przetworzyć, jeśli zawiera tajemnicę bankową",
+        "text": "Należy przetworzyć, jeśli zawiera tajemnicę bankową",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "9. Odmowa udostępnienia informacji publicznej następuje w formie:",
+    "question": "321. Odmowa udostępnienia informacji publicznej następuje w formie:",
     "options": [
       {
-        "text": "postanowienia",
+        "text": "Postanowienia",
         "isCorrect": false
       },
       {
-        "text": "decyzji",
+        "text": "Decyzji",
         "isCorrect": true
       },
       {
-        "text": "zwykłego pisma informacyjnego",
+        "text": "Zwykłego pisma informacyjnego",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "10. Odmowa udostępnienia informacji publicznej następuje z powodu:",
+    "question": "322. Odmowa udostępnienia informacji publicznej następuje z powodu:",
     "options": [
       {
-        "text": "ochrony praw autorskich",
+        "text": "Ochrony praw autorskich",
         "isCorrect": false
       },
       {
-        "text": "ochrony obronności państwa",
+        "text": "Ochrony obronności państwa",
         "isCorrect": false
       },
       {
-        "text": "ochrony prawa do prywatności",
+        "text": "Ochrony prawa do prywatności",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "11. Jednostki organizacyjne w gminie tworzone są:",
+    "question": "323. Jednostki organizacyjne w gminie tworzone są:",
     "options": [
       {
-        "text": "przez radę gminy",
+        "text": "Przez radę gminy",
         "isCorrect": true
       },
       {
-        "text": "na mocy ustawy",
+        "text": "Na mocy ustawy",
         "isCorrect": false
       },
       {
-        "text": "na mocy rozporządzenia Rady Ministrów",
+        "text": "Na mocy rozporządzenia Rady Ministrów",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "12. Regionalna Izba Obrachunkowa:",
+    "question": "324. Regionalna Izba Obrachunkowa:",
     "options": [
       {
-        "text": "pełni nadzór nad jst zgodnie z kryterium celowości wydatkowania pieniędzy publicznych",
+        "text": "Pełni nadzór nad jst zgodnie z kryterium celowości wydatkowania pieniędzy publicznych",
         "isCorrect": false
       },
       {
-        "text": "może stwierdzić nieważność uchwały organu stanowiącego jst w terminie 1 roku od dnia podjęcia uchwały",
+        "text": "Może stwierdzić nieważność uchwały organu stanowiącego jst w terminie 1 roku od dnia podjęcia uchwały",
         "isCorrect": false
       },
       {
-        "text": "może stwierdzić, że uchwała została podjęta z nieistotnym naruszeniem prawa",
+        "text": "Może stwierdzić, że uchwała została podjęta z nieistotnym naruszeniem prawa",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "13. Sołectwo",
+    "question": "325. Sołectwo",
     "options": [
       {
-        "text": "posiada osobowość prawną",
+        "text": "Posiada osobowość prawną",
         "isCorrect": false
       },
       {
-        "text": "tworzone jest przez radę powiatu w formie uchwały",
+        "text": "Tworzone jest przez radę powiatu w formie uchwały",
         "isCorrect": false
       },
       {
-        "text": "posiada organ stanowiący w postaci zebrania wiejskiego",
+        "text": "Posiada organ stanowiący w postaci zebrania wiejskiego",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "14. Uchwały sejmiku wojewódzkiego",
+    "question": "326. Uchwały sejmiku wojewódzkiego",
     "options": [
       {
-        "text": "publikowane są w Wojewódzkim Dzienniku Urzędowym, o ile są aktami prawa miejscowego",
+        "text": "Publikowane są w Wojewódzkim Dzienniku Urzędowym, o ile są aktami prawa miejscowego",
         "isCorrect": true
       },
       {
-        "text": "publikowane są w Wojewódzkim Dzienniku Urzędowym, niezależnie od tego czy są aktami prawa miejscowego",
+        "text": "Publikowane są w Wojewódzkim Dzienniku Urzędowym, niezależnie od tego czy są aktami prawa miejscowego",
         "isCorrect": false
       },
       {
-        "text": "są przekazywane wojewodzie w ciągu najpóźniej 3 dni od dnia ich podjęcia (7 dni)",
+        "text": "Są przekazywane wojewodzie w ciągu najpóźniej 3 dni od dnia ich podjęcia (7 dni)",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "15. Wojewoda może zmienić uchwałę organu stanowiącego jst:",
+    "question": "327. Wojewoda może zmienić uchwałę organu stanowiącego jst:",
     "options": [
       {
-        "text": "w drodze zarządzenia zastępczego",
+        "text": "W drodze zarządzenia zastępczego",
         "isCorrect": false
       },
       {
-        "text": "w drodze rozstrzygnięcia nadzorczego",
+        "text": "W drodze rozstrzygnięcia nadzorczego",
         "isCorrect": false
       },
       {
-        "text": "po zawiadomieniu ministra właściwego do spraw administracyjnych",
+        "text": "Po zawiadomieniu ministra właściwego do spraw administracyjnych",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "16. W przypadku złożenia przez organ gminy skargi na rozstrzygnięcie nadzorcze, sąd administracyjny:",
+    "question": "328. W przypadku złożenia przez organ gminy skargi na rozstrzygnięcie nadzorcze, sąd administracyjny:",
     "options": [
       {
-        "text": "wyznacza rozprawę nie później niż w ciągu 30 dni od dnia wpłynięcia skargi do sądu",
+        "text": "Wyznacza rozprawę nie później niż w ciągu 30 dni od dnia wpłynięcia skargi do sądu",
         "isCorrect": true
       },
       {
-        "text": "wyznacza rozprawę nie później w ciągu 14 dni od dnia wpłynięcia skargi do sądu",
+        "text": "Wyznacza rozprawę nie później w ciągu 14 dni od dnia wpłynięcia skargi do sądu",
         "isCorrect": false
       },
       {
-        "text": "wyznacza posiedzenie niejawne nie później niż w ciągu 30 dni od dnia wpłynięcia skargi do sądu",
+        "text": "Wyznacza posiedzenie niejawne nie później niż w ciągu 30 dni od dnia wpłynięcia skargi do sądu",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "17. Mandat radnego powiatu wygasa wskutek:",
+    "question": "329. Mandat radnego powiatu wygasa wskutek:",
     "options": [
       {
-        "text": "zawarcia umowy cywilnoprawnej ze starostwem powiatowym tego powiatu, w którym uzyskał mandat",
+        "text": "Zawarcia umowy cywilnoprawnej ze starostwem powiatowym tego powiatu, w którym uzyskał mandat",
         "isCorrect": false
       },
       {
-        "text": "ustnego zrzeczenia się mandatu (pisemnego)",
+        "text": "Ustnego zrzeczenia się mandatu (pisemnego)",
         "isCorrect": false
       },
       {
-        "text": "utraty prawa wybieralności",
+        "text": "Utraty prawa wybieralności",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "18. Jeżeli sąd administracyjny orzeka o niezgodności z prawem uchwały:",
+    "question": "330. Jeżeli sąd administracyjny orzeka o niezgodności z prawem uchwały:",
     "options": [
       {
-        "text": "wówczas uchwała traci moc prawną z dniem orzeczenia o ich niezgodności z prawem",
+        "text": "Wówczas uchwała traci moc prawną z dniem orzeczenia o ich niezgodności z prawem",
         "isCorrect": true
       },
       {
-        "text": "wówczas uchwała traci moc prawną z dniem uprawomocnienia się orzeczenia o ich niezgodności z prawem",
+        "text": "Wówczas uchwała traci moc prawną z dniem uprawomocnienia się orzeczenia o ich niezgodności z prawem",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "1. Władzami w administracji ogólnej w okresie międzywojennym byli:",
+    "question": "331. Władzami w administracji ogólnej w okresie międzywojennym byli:",
     "options": [
       {
-        "text": "wojewoda",
+        "text": "Wojewoda",
         "isCorrect": true
       },
       {
-        "text": "starosta powiatowy",
+        "text": "Starosta powiatowy",
         "isCorrect": true
       },
       {
-        "text": "starosta grodzki",
+        "text": "Starosta grodzki",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "2. Organami miasta na prawach powiatu są:",
+    "question": "332. Organami miasta na prawach powiatu są:",
     "options": [
       {
         "text": "Rada powiatu",
@@ -5580,7 +5580,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "3. Prawo wnoszenia obywatelskiej inicjatywy uchwałodawczej mają:",
+    "question": "333. Prawo wnoszenia obywatelskiej inicjatywy uchwałodawczej mają:",
     "options": [
       {
         "text": "Wszyscy mieszkańcy gminy",
@@ -5597,7 +5597,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "4. Wójt:",
+    "question": "334. Wójt:",
     "options": [
       {
         "text": "Powołuje i odwołuje swoich zastępców",
@@ -5614,7 +5614,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "5. Gminne referendum fakultatywne zwoływane jest w sprawie:",
+    "question": "335. Gminne referendum fakultatywne zwoływane jest w sprawie:",
     "options": [
       {
         "text": "Odwołania rady gminy przed upływem kadencji",
@@ -5631,7 +5631,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "7. Organami miasta jako jednostki pomocniczej mogą być:",
+    "question": "336. Organami miasta jako jednostki pomocniczej mogą być:",
     "options": [
       {
         "text": "Ogólne zebranie mieszańców",
@@ -5648,16 +5648,16 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "8. W celu realizacji zadań starosty w zakresie zwierzchnictwa nad powiatowymi służbami, inspekcjami i strażami tworzy się:",
+    "question": "337. W celu realizacji zadań starosty w zakresie zwierzchnictwa nad powiatowymi służbami, inspekcjami i strażami tworzy się:",
     "options": [
       {
-        "text": "komisję bezpieczeństwa i porządku",
+        "text": "Komisję bezpieczeństwa i porządku",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "9. Nie stwierdza się nieważności uchwały organu stanowiącego, jeżeli:",
+    "question": "338. Nie stwierdza się nieważności uchwały organu stanowiącego, jeżeli:",
     "options": [
       {
         "text": "Minął rok od daty jej podjęcia",
@@ -5674,7 +5674,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "10. Do kompetencji starosty w ramach administracji zespolonej należy:",
+    "question": "339. Do kompetencji starosty w ramach administracji zespolonej należy:",
     "options": [
       {
         "text": "Kierowanie starostwem powiatowym",
@@ -5691,7 +5691,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "11. Aparatem pomocniczym województwa jest:",
+    "question": "340. Aparatem pomocniczym województwa jest:",
     "options": [
       {
         "text": "Urząd Marszałkowski",
@@ -5700,7 +5700,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "12. Członek gminnej komisji rewizyjnej:",
+    "question": "341. Członek gminnej komisji rewizyjnej:",
     "options": [
       {
         "text": "Może być przewodniczącym rady gminy",
@@ -5717,7 +5717,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "13. Miasta na prawa powiatu mogą:",
+    "question": "342. Miasta na prawa powiatu mogą:",
     "options": [
       {
         "text": "Być członkiem stowarzyszenia",
@@ -5734,7 +5734,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "14. Region samorządowy musi mieć:",
+    "question": "343. Region samorządowy musi mieć:",
     "options": [
       {
         "text": "Zgromadzenie przedstawicieli i organy wykonawcze",
@@ -5751,7 +5751,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "15. Obowiązane do udostępnienia informacji publicznej są:",
+    "question": "344. Obowiązane do udostępnienia informacji publicznej są:",
     "options": [
       {
         "text": "Osoby prawne samorządu terytorialnego",
@@ -5768,7 +5768,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "16. Zarządzenie zastępcze:",
+    "question": "345. Zarządzenie zastępcze:",
     "options": [
       {
         "text": "Wydaje wojewoda po stwierdzeniu nieważności uchwały",
@@ -5785,7 +5785,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "17. Radny nie może być:",
+    "question": "346. Radny nie może być:",
     "options": [
       {
         "text": "Posłem",
@@ -5802,7 +5802,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "18. Rejestr związków komunalnych prowadzi: (puste, bo prowadzi minister właściwy ds administracji publicznej)",
+    "question": "347. Rejestr związków komunalnych prowadzi: (puste, bo prowadzi minister właściwy ds administracji publicznej)",
     "options": [
       {
         "text": "Wojewoda",
@@ -5819,7 +5819,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "19. Gminne przepisy porządkowe mogą określać:(puste)",
+    "question": "348. Gminne przepisy porządkowe mogą określać:(puste)",
     "options": [
       {
         "text": "Podatki i opłaty lokalne",
@@ -5836,7 +5836,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "20. Związek metropolitalny w województwie śląskim nosi nazwę:",
+    "question": "349. Związek metropolitalny w województwie śląskim nosi nazwę:",
     "options": [
       {
         "text": "GÓRNOŚLĄSKO-ZAGŁĘBIOWSKA METROPOLIA i ma siedzibę W KATOWICACH",
@@ -5845,7 +5845,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "1. W okresie międzywojennym powołano samorząd terytorialny na poziomie:",
+    "question": "350. W okresie międzywojennym powołano samorząd terytorialny na poziomie:",
     "options": [
       {
         "text": "Gminy",
@@ -5862,7 +5862,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "2. Europejska Karta Samorządu Lokalnego",
+    "question": "351. Europejska Karta Samorządu Lokalnego",
     "options": [
       {
         "text": "Została ratyfikowana przez Polskę po jej wstąpieniu do Unii Europejskiej",
@@ -5879,7 +5879,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "3. Zasada pomocniczości:",
+    "question": "352. Zasada pomocniczości:",
     "options": [
       {
         "text": "Oznacza brak zależności pomiędzy jednostkami samorządu terytorialnego",
@@ -5896,7 +5896,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "4. Województwa tworzy:",
+    "question": "353. Województwa tworzy:",
     "options": [
       {
         "text": "Minister właściwy do spraw administracji publicznej w drodze rozporządzenia",
@@ -5913,7 +5913,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "5. Konsultacje z mieszkańcami gminy przeprowadza się:",
+    "question": "354. Konsultacje z mieszkańcami gminy przeprowadza się:",
     "options": [
       {
         "text": "W trybie określonym uchwałą rady gminy",
@@ -5930,7 +5930,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "6. Do zadań własnych województwa samorządowego należą:",
+    "question": "355. Do zadań własnych województwa samorządowego należą:",
     "options": [
       {
         "text": "Wykonywanie zadań z zakresu administracji rządowej",
@@ -5947,7 +5947,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "7. Przyczyną wygaśnięcia mandatu wójta jest:",
+    "question": "356. Przyczyną wygaśnięcia mandatu wójta jest:",
     "options": [
       {
         "text": "Tymczasowe aresztowanie",
@@ -5964,7 +5964,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "8. Jeżeli nie zgłoszono żadnego kandydata na wójta:",
+    "question": "357. Jeżeli nie zgłoszono żadnego kandydata na wójta:",
     "options": [
       {
         "text": "Nie przeprowadza się wyborów, a funkcję pełni dotychczasowy wójt",
@@ -5981,7 +5981,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "9. Zastępca wójta:",
+    "question": "358. Zastępca wójta:",
     "options": [
       {
         "text": "Pełni swe funkcje honorowo (społecznie)",
@@ -5998,7 +5998,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "10. W dzielnicy:",
+    "question": "359. W dzielnicy:",
     "options": [
       {
         "text": "Organem wykonawczym jest zarząd",
@@ -6015,7 +6015,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "11. Komunalną osobą prawną jest:",
+    "question": "360. Komunalną osobą prawną jest:",
     "options": [
       {
         "text": "Porozumienie komunalne",
@@ -6032,7 +6032,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "12. Formami prowadzenia gospodarki komunalnej mogą być:",
+    "question": "361. Formami prowadzenia gospodarki komunalnej mogą być:",
     "options": [
       {
         "text": "Samorządowy zakład budżetowy",
@@ -6049,7 +6049,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "13. W imieniu powiatu oświadczenia woli w sprawach majątkowych może złożyć:",
+    "question": "362. W imieniu powiatu oświadczenia woli w sprawach majątkowych może złożyć:",
     "options": [
       {
         "text": "Starosta",
@@ -6066,7 +6066,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "16. Marszałek województwa:",
+    "question": "363. Marszałek województwa:",
     "options": [
       {
         "text": "Wybierany jest przez zarząd",
@@ -6083,7 +6083,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "17. W województwie formą demokracji bezpośredniej są:",
+    "question": "364. W województwie formą demokracji bezpośredniej są:",
     "options": [
       {
         "text": "Konsultacje obligatoryjne w sprawie utworzenia jednostki pomocniczej",
@@ -6100,7 +6100,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "18. W celu wykonywania zadań województwo może:",
+    "question": "365. W celu wykonywania zadań województwo może:",
     "options": [
       {
         "text": "Zawierać porozumienia z innymi województwami",
@@ -6117,7 +6117,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "19. Zaskarżeniu do sądu administracyjnego w ramach nadzoru podlegają:",
+    "question": "366. Zaskarżeniu do sądu administracyjnego w ramach nadzoru podlegają:",
     "options": [
       {
         "text": "Rozstrzygnięcia nadzorcze",
@@ -6134,7 +6134,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "20. Organami związku metropolitalnego są:",
+    "question": "367. Organami związku metropolitalnego są:",
     "options": [
       {
         "text": "Zgromadzenie Związku Metropolitalnego",

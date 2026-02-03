@@ -96,6 +96,8 @@ h2{margin:0 0 10px}
 }
 
 .answer{
+  color: var(--text);
+
   border:1px solid var(--border);
   background: rgba(255,255,255,.03);
   border-radius: 14px;
@@ -185,6 +187,8 @@ h2{margin:0 0 10px}
 }
 
 .qitem summary{
+  color: var(--text);
+
   cursor:pointer;
   font-weight:700;
   list-style:none;
@@ -199,6 +203,8 @@ h2{margin:0 0 10px}
 }
 
 .qopt{
+  color: var(--text);
+
   border:1px solid var(--border);
   border-radius:12px;
   padding:10px;
@@ -214,4 +220,25 @@ h2{margin:0 0 10px}
   font-weight:800;
   margin-right:8px;
   color: var(--muted);
+}
+
+/* HOME GRID */
+.home-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+  gap:16px;
+}
+
+/* TEST RESULT */
+.test-user{
+  border-color: rgba(96,165,250,.6);
+  background: rgba(96,165,250,.15);
+}
+
+/* TEST */
+#finishTestBtn{display:none}
+
+.qopt.wrong{
+  border-color: rgba(239,68,68,.65);
+  background: rgba(239,68,68,.12);
 }

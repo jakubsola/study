@@ -4,13 +4,13 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<title>Quiz – Losuj pytanie</title>
+<title>Prawo samorządu terytorialnego</title>
 <link href="style.css" rel="stylesheet"/>
 </head>
 <body>
 <main class="app">
 <header class="topbar">
-<h1 class="brand">Quiz</h1>
+<h1 class="brand">Prawo samorządu terytorialnego</h1>
 <div class="meta">
 <span class="pill" id="poolInfo" title="Ile pytań zostało w aktualnej puli">–</span>
 <button class="link" id="resetBtn">Resetuj pulę</button>
@@ -33,12 +33,43 @@
 <div class="actions">
 <button class="btn" id="backBtn">Poprzednie pytanie</button><button class="btn" id="checkBtn">Sprawdź</button>
 <button class="btn primary" id="nextBtn">Następne pytanie</button>
-</div>
+<button class="btn" id="homeBtnQuiz">Strona główna</button></div>
 <p class="hint muted" id="hint"></p>
-</section><section class="card view hidden" id="allView"><h2>Wszystkie pytania</h2><p class="muted">Lista wszystkich pytań. Poprawne odpowiedzi są oznaczone na zielono.</p><div class="actions"><button class="btn" id="backHomeBtn">Powrót</button></div><div class="all-list" id="allList"></div></section>
-<footer class="footer muted">
-<span>Źródło pytań: plik .docx (pogrubione = poprawne).</span>
-</footer>
+</section><section class="card view hidden" id="allView"><h2>Wszystkie pytania</h2><p class="muted">Lista wszystkich pytań. Poprawne odpowiedzi są oznaczone na zielono.</p><div class="actions"><button class="btn" id="backHomeBtn">Strona główna</button></div><div class="all-list" id="allList"></div></section>
+
+
+    <!-- TEST -->
+    <section id="testView" class="card view hidden" aria-live="polite">
+      <div class="qhead">
+        <h2 id="testProgress" class="pill" style="display:inline-block;margin:0 0 10px">–</h2>
+        <h3 id="testQuestionText" class="question"></h3>
+      </div>
+
+      <div id="testAnswers" class="answers" role="group" aria-label="Odpowiedzi testowe"></div>
+
+      <div class="actions">
+        <button id="testPrevBtn" class="btn">Poprzednie pytanie</button>
+        <button id="testNextBtn" class="btn primary">Następne pytanie</button>
+        <button id="finishTestBtn" class="btn primary">Zakończ test</button>
+        <button id="testHomeBtn" class="btn">Strona główna</button>
+      </div>
+
+      <p class="hint muted">W teście nie ma przycisku „Sprawdź”. Wynik zobaczysz po zakończeniu.</p>
+    </section>
+
+    <!-- TEST RESULTS -->
+    <section id="resultsView" class="card view hidden" aria-live="polite">
+      <h2>Wynik testu</h2>
+      <p id="resultsSummary" class="muted"></p>
+
+      <div class="actions">
+        <button id="resultsHomeBtn" class="btn">Strona główna</button>
+        <button id="restartTestBtn" class="btn primary">Nowy test</button>
+      </div>
+
+      <div id="resultsList" class="all-list"></div>
+    </section>
+
 </main>
 <script src="app.js" type="module"></script>
 </body>
