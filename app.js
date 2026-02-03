@@ -57,6 +57,14 @@ let state = {
   },
 };
 
+function on(el, evt, fn){
+  if(!el){
+    console.error('Brak elementu DOM:', evt, fn?.name || 'handler');
+    return;
+  }
+  el.addEventListener(evt, fn);
+}
+
 function showView(view) {
   els.homeView.classList.toggle('hidden', view !== 'home');
   els.quizView.classList.toggle('hidden', view !== 'quiz');
@@ -398,26 +406,32 @@ function finishTest() {
 
 /* ---------- Events ---------- */
 
-els.startBtn.addEventListener('click', nextQuizQuestion);
-els.nextBtn.addEventListener('click', nextQuizQuestion);
-els.checkBtn.addEventListener('click', checkQuizAnswer);
-els.quizHomeBtn.addEventListener('click', openHome);
+document.addEventListener('DOMContentLoaded', () => {
 
-els.allBtn.addEventListener('click', openAll);
-els.allHomeBtn.addEventListener('click', openHome);
+on(els.startBtn, 'click', nextQuizQuestion);
+on(els.nextBtn, 'click', nextQuizQuestion);
+on(els.checkBtn, 'click', checkQuizAnswer);
+on(els.quizHomeBtn, 'click', openHome);
 
-els.testBtn.addEventListener('click', startTest);
-els.testPrevBtn.addEventListener('click', testPrev);
-els.testNextBtn.addEventListener('click', testNext);
-els.finishTestBtn.addEventListener('click', finishTest);
-els.testHomeBtn.addEventListener('click', openHome);
+on(els.allBtn, 'click', openAll);
+on(els.allHomeBtn, 'click', openHome);
 
-els.resultsHomeBtn.addEventListener('click', openHome);
-els.restartTestBtn.addEventListener('click', startTest);
+on(els.testBtn, 'click', startTest);
+on(els.testPrevBtn, 'click', testPrev);
+on(els.testNextBtn, 'click', testNext);
+on(els.finishTestBtn, 'click', finishTest);
+on(els.testHomeBtn, 'click', openHome);
 
-els.resetBtn.addEventListener('click', resetPool);
+on(els.resultsHomeBtn, 'click', openHome);
+on(els.restartTestBtn, 'click', startTest);
+
+on(els.resetBtn, 'click', resetPool);
 
 // Init
-loadPool();
-updatePoolInfo();
-showView('home');
+window.addEventListener('DOMContentLoaded', () => {
+  loadPool();
+  updatePoolInfo();
+  showView('home');
+});
+
+});

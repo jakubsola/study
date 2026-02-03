@@ -242,3 +242,39 @@ h2{margin:0 0 10px}
   border-color: rgba(239,68,68,.65);
   background: rgba(239,68,68,.12);
 }
+
+/* HOME layout fixes */
+.home-grid{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+}
+.inner-card{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  min-height:220px;
+}
+
+/* HOME layout (mobile friendly) */
+.home-grid{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.inner-card{
+  margin:0;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:10px;
+}
+
+.inner-card .muted{
+  margin:0;
+}
+
+.inner-card .btn{
+  margin-top:auto; /* wyrównuje przyciski w jednej linii (na dole kafelka) */
+}
