@@ -4728,7 +4728,7 @@ export const QUESTIONS = [
         "isCorrect": false
       },
       {
-        "text": "Większość głosów?",
+        "text": "Większość głosów",
         "isCorrect": false
       }
     ]
@@ -5839,7 +5839,7 @@ export const QUESTIONS = [
     "question": "349. Związek metropolitalny w województwie śląskim nosi nazwę:",
     "options": [
       {
-        "text": "GÓRNOŚLĄSKO-ZAGŁĘBIOWSKA METROPOLIA i ma siedzibę W KATOWICACH",
+        "text": "Górnośląsko-Zagłębiowska Metropolia i ma siedzibę w Katowicach",
         "isCorrect": true
       }
     ]
