@@ -1,4 +1,4 @@
-export const QUESTIONS_PPSA = [
+export const QUESTIONS = [
   {
     "question": "1. Skarga wniesiona do WSA",
     "options": [
