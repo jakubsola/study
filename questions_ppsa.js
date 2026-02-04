@@ -5539,7 +5539,7 @@ export const QUESTIONS = [
       {
         "text": "Wyroku",
         "isCorrect": false
-      }
+      },
     ]
   },
   {
@@ -5557,12 +5557,11 @@ export const QUESTIONS = [
       {
         "text": "Skarga podlega oddaleniu",
         "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "Skarga podlega odrzuceniu",
-    "options": [
+      },
+      {
+        "text": "Skarga podlega odrzuceniu",
+        "isCorrect": true
+      },
       {
         "text": "Skargę pozostawia się bez rozpoznania",
         "isCorrect": false
@@ -5575,12 +5574,11 @@ export const QUESTIONS = [
       {
         "text": "Wyrokiem",
         "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "Postanowieniem",
-    "options": [
+      },
+      {
+        "text": "Postanowieniem",
+        "isCorrect": true
+      },
       {
         "text": "Zarządzeniem",
         "isCorrect": false
@@ -5597,6 +5595,10 @@ export const QUESTIONS = [
       {
         "text": "Naruszenie prawa procesowego",
         "isCorrect": false
+      },
+      {
+        "text": "Naruszenie prawa materialnego poprzez błędną jego wykładnię lub niewłaściwe zastosowanie",
+        "isCorrect": true
       }
     ]
   },
@@ -5610,6 +5612,10 @@ export const QUESTIONS = [
       {
         "text": "W razie wystąpienia siły wyższej uniemożliwiającej działanie sądu,",
         "isCorrect": false
+      },
+      {
+        "text": "Jeżeli strona lub jej przedstawiciel ustawowy znajduje się w miejscowości pozbawionej wskutek nadzwyczajnych wydarzeń komunikacji z siedzibą sądu.",
+        "isCorrect": true
       }
     ]
   },
@@ -5623,6 +5629,10 @@ export const QUESTIONS = [
       {
         "text": "Skarg na akty nadzoru nad działalnością organów jednostek samorządu terytorialnego",
         "isCorrect": false
+      },
+      {
+        "text": "Wynikających z nadrzędności i podległości organizacyjnej w stosunkach między organami administracji publicznej",
+        "isCorrect": true
       }
     ]
   },
@@ -5636,6 +5646,10 @@ export const QUESTIONS = [
       {
         "text": "Wszystkie uchwały organów jednostek samorządu terytorialnego, niezależnie od tego czego dotyczą",
         "isCorrect": false
+      },
+      {
+        "text": "Bezczynność w zakresie wydawania aktów prawa miejscowego",
+        "isCorrect": true
       }
     ]
   },
@@ -5649,6 +5663,10 @@ export const QUESTIONS = [
       {
         "text": "Z urzędu w terminie siedmiu dni od dnia ogłoszenia wyroku albo podpisania sentencji wyroku wydanego na posiedzeniu niejawnym.",
         "isCorrect": false
+      },
+      {
+        "text": "Z urzędu w terminie czternastu dni od dnia ogłoszenia wyroku albo podpisania sentencji wyroku wydanego na posiedzeniu niejawnym.",
+        "isCorrect": true
       }
     ]
   },
@@ -5658,12 +5676,11 @@ export const QUESTIONS = [
       {
         "text": "Każdy, kto ma w tym interes faktyczny,",
         "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "Każdy, kto ma w tym interes prawny",
-    "options": [
+      },
+      {
+        "text": "Każdy, kto ma w tym interes prawny",
+        "isCorrect": true
+      },
       {
         "text": "Każda organizacja społeczna i każdy prokurator",
         "isCorrect": false
@@ -5680,6 +5697,10 @@ export const QUESTIONS = [
       {
         "text": "14 Dni",
         "isCorrect": false
+      },
+      {
+        "text": "30 Dni",
+        "isCorrect": true
       }
     ]
   },
