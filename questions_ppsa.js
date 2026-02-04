@@ -2236,7 +2236,7 @@ export const QUESTIONS = [
         "isCorrect": false
       },
       {
-        "text": "​ może dokonać autokontroli własnego postanowienia, gdy zażalenie zarzuca nieważność postępowania;",
+        "text": "​Może dokonać autokontroli własnego postanowienia, gdy zażalenie zarzuca nieważność postępowania;",
         "isCorrect": true
       }
     ]
@@ -2270,8 +2270,25 @@ export const QUESTIONS = [
         "isCorrect": true
       },
       {
-        "text": "W każdym przypadku jest zależne od zasadności skargi; Orzeczenie prawomocne sądu administracyjnego: wiąże powszechnie, wiąże strony postępowania, ​ wiąże nie tylko strony i sąd, który je wydał, lecz również inne sądy i inne organy państwowe, a w przypadkach w ustawie przewidzianych także inne osoby",
+        "text": "W każdym przypadku jest zależne od zasadności skargi;",
         "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "129. Orzeczenie prawomocne sądu administracyjnego:",
+    "options": [
+      {
+        "text": "Wiąże powszechnie,",
+        "isCorrect": false
+      },
+      {
+        "text": "Wiąże strony postępowania",
+        "isCorrect": false
+      },
+      {
+        "text": "Wiąże nie tylko strony i sąd, który je wydał, lecz również inne sądy i inne organy państwowe, a w przypadkach w ustawie przewidzianych także inne osoby",
+        "isCorrect": true
       }
     ]
   },
