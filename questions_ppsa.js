@@ -2296,7 +2296,7 @@ export const QUESTIONS = [
     "question": "128. Podstawą odrzucenia skargi przez sąd administracyjny jest:",
     "options": [
       {
-        "text": "​ brak zdolności sądowej uczestnika postępowania, który nie został uzupełniony w wyznaczonym przez sąd terminie, albo który nie może zostać uzupełniony",
+        "text": "​Brak zdolności sądowej uczestnika postępowania, który nie został uzupełniony w wyznaczonym przez sąd terminie, albo który nie może zostać uzupełniony",
         "isCorrect": true
       },
       {
@@ -2313,7 +2313,7 @@ export const QUESTIONS = [
     "question": "129. Prawidłowe jest stwierdzenie:",
     "options": [
       {
-        "text": "​ uzupełnienie wyroku w postępowaniu sądowo-administracyjnym następuje w formie wyroku",
+        "text": "​Uzupełnienie wyroku w postępowaniu sądowo-administracyjnym następuje w formie wyroku",
         "isCorrect": true
       },
       {
@@ -2389,8 +2389,26 @@ export const QUESTIONS = [
         "isCorrect": true
       },
       {
-        "text": "Utrzymuje zaskarżony wyrok w mocy Sąd rozstrzyga sprawę: a)zarządzeniem b)postanowieniem c)wyrokiem",
+        "text": "Utrzymuje zaskarżony wyrok w mocy",
         "isCorrect": false
+      }
+    ]
+  },
+  
+  {
+    "question": "134. Sąd rozstrzyga sprawę:",
+    "options": [
+      {
+        "text": "Zarządzeniem",
+        "isCorrect": false
+      },
+      {
+        "text": "Postanowieniem",
+        "isCorrect": false
+      },
+      {
+        "text": "Wyrokiem",
+        "isCorrect": true
       }
     ]
   },
@@ -2627,7 +2645,7 @@ export const QUESTIONS = [
         "isCorrect": true
       },
       {
-        "text": "Wiceprezes WSA ZERÓWKA 2022",
+        "text": "Wiceprezes WSA",
         "isCorrect": false
       }
     ]
@@ -3511,7 +3529,7 @@ export const QUESTIONS = [
         "isCorrect": false
       },
       {
-        "text": "Reformatoryjnie → powiedziałabym że kasatoryjnie; merytorycznie i reformatoryjnie jak już to w ramach wyjątku",
+        "text": "Reformatoryjnie",
         "isCorrect": true
       }
     ]
