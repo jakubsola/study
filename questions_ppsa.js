@@ -701,7 +701,7 @@ export const QUESTIONS = [
     "options": [
       {
         "text": "Musi być zawsze sporządzona przez adwokata lub radcę prawnego,",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "text": "Wiąże sąd co do zawartych w niej zarzutów,",
@@ -807,7 +807,7 @@ export const QUESTIONS = [
       },
       {
         "text": "Umorzyć postępowanie sądowo-administracyjne,",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "text": "Odrzucić skargę.",
@@ -1350,7 +1350,7 @@ export const QUESTIONS = [
         "isCorrect": false
       },
       {
-        "text": "​ niezaskarżalne do sądu administracyjnego.",
+        "text": "​Niezaskarżalne do sądu administracyjnego.",
         "isCorrect": true
       },
       {
@@ -1571,7 +1571,7 @@ export const QUESTIONS = [
         "isCorrect": false
       },
       {
-        "text": "​ podejmowanie uchwał mających na celu wyjaśnienie przepisów prawnych, których stosowanie wywołało rozbieżności w orzecznictwie sądów administracyjnych,",
+        "text": "​Podejmowanie uchwał mających na celu wyjaśnienie przepisów prawnych, których stosowanie wywołało rozbieżności w orzecznictwie sądów administracyjnych,",
         "isCorrect": true
       },
       {
@@ -1622,7 +1622,7 @@ export const QUESTIONS = [
         "isCorrect": false
       },
       {
-        "text": "​ może kontrolować legalność załatwienia sprawy administracyjnej.",
+        "text": "​Może kontrolować legalność załatwienia sprawy administracyjnej.",
         "isCorrect": true
       },
       {
@@ -1639,7 +1639,7 @@ export const QUESTIONS = [
         "isCorrect": false
       },
       {
-        "text": "​ może nastąpić w razie śmierci pełnomocnika, chyba że strona działa przed sądem osobiście,",
+        "text": "​Może nastąpić w razie śmierci pełnomocnika, chyba że strona działa przed sądem osobiście,",
         "isCorrect": true
       },
       {
@@ -1669,7 +1669,7 @@ export const QUESTIONS = [
     "question": "99. Postępowanie uproszczone:",
     "options": [
       {
-        "text": "​ można przeprowadzić w przypadku zaskarżenia postanowienia o niedopuszczalności odwołania,",
+        "text": "​Można przeprowadzić w przypadku zaskarżenia postanowienia o niedopuszczalności odwołania,",
         "isCorrect": true
       },
       {
