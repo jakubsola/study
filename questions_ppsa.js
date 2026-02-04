@@ -12,7 +12,7 @@ export const QUESTIONS = [
       },
       {
         "text": "Nie wiąże sądu co do zarzutów ani żądań.",
-        "isCorrect": false
+        "isCorrect": true
       }
     ]
   },
@@ -21,7 +21,7 @@ export const QUESTIONS = [
     "options": [
       {
         "text": "Jest bezwzględną przesłanką procesową",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "text": "Może zostać konwalidowana w toku postępowania,",
@@ -38,7 +38,7 @@ export const QUESTIONS = [
     "options": [
       {
         "text": "Każdym naruszeniu prawa materialnego polegającym na błędnej wykładni lub niewłaściwym zastosowaniu,",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "text": "Każdym naruszeniu przepisów postępowania,",
@@ -164,9 +164,14 @@ export const QUESTIONS = [
         "isCorrect": false
       },
       {
-        "text": "NSA Odrzucenie skargi kasacyjnej przez WSA następuje w formie:",
+        "text": "NSA",
         "isCorrect": false
-      },
+      }
+    ]
+  },
+  {
+    "question": "11. Odrzucenie skargi kasacyjnej przez WSA następuje w formie:",
+    "options": [ 
       {
         "text": "Wyroku sądu administracyjnego,",
         "isCorrect": false
@@ -179,8 +184,8 @@ export const QUESTIONS = [
         "text": "Postanowienia sądu administracyjnego, na które służy zażalenie.",
         "isCorrect": false
       }
-    ]
-  },
+    ]  
+  }
   {
     "question": "11. W postępowaniu przed WSA dowód z zeznań świadka jest:",
     "options": [
@@ -250,7 +255,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "15. W razie uwzględnienia skargi jednostki samorządu terytorialnego na akt nadzoru -",
+    "question": "15. W razie uwzględnienia skargi jednostki samorządu terytorialnego na akt nadzoru:",
     "options": [
       {
         "text": "Utrzymuje akt nadzoru w mocy,",
@@ -828,15 +833,7 @@ export const QUESTIONS = [
     "question": "46. Skarga do wojewódzkiego sądu administracyjnego powinna zawierać:",
     "options": [
       {
-        "text": "Konkretne zarzuty naruszenia wskazanych przepisów prawa materialnego lub procesowego,",
-        "isCorrect": false
-      },
-      {
-        "text": "Określenie naruszenia prawa lub interesu prawnego,",
-        "isCorrect": true
-      },
-      {
-        "text": "Podstawy kasacyjne;",
+        "text": "Konkretne zarzuty naruszenia wskazanych przepisów prawa materialnego lub procesowego, określenie naruszenia prawa lub interesu prawnego, podstawy kasacyjne;",
         "isCorrect": false
       }
     ]
@@ -845,15 +842,15 @@ export const QUESTIONS = [
     "question": "47. Sąd administracyjny:",
     "options": [
       {
-        "text": "Jest związany prawomocnym wyrokiem uniewinniającym,",
+        "text": "Może załatwić sprawę administracyjną,",
         "isCorrect": false
       },
       {
-        "text": "Jest związany jedynie prawomocnym wyrokiem skazującym",
+        "text": "​ może kontrolować legalność załatwienia sprawy administracyjnej.",
         "isCorrect": true
       },
       {
-        "text": "Jest związany każdym wyrokiem sądu karnego;",
+        "text": "Zawsze orzeka w składzie trzech sędziów zawodowych.",
         "isCorrect": false
       }
     ]
@@ -862,16 +859,8 @@ export const QUESTIONS = [
     "question": "48. Termin do wniesienia skargi na decyzję administracyjną wynosi:",
     "options": [
       {
-        "text": "30 dni od dnia doręczenia decyzji skarżącemu,",
+        "text": "30 dni od dnia doręczenia decyzji skarżącemu, 6 miesięcy od dnia doręczenia decyzji skarżącemu, 1 miesiąc od dnia doręczenia decyzji skarżącemu;",
         "isCorrect": true
-      },
-      {
-        "text": "6 miesięcy od dnia doręczenia decyzji skarżącemu,",
-        "isCorrect": false
-      },
-      {
-        "text": "1 miesiąc od dnia doręczenia decyzji skarżącemu;",
-        "isCorrect": false
       }
     ]
   },
@@ -879,16 +868,8 @@ export const QUESTIONS = [
     "question": "49. Wniesienie skargi na decyzję administracyjną:",
     "options": [
       {
-        "text": "Umożliwia organowi, który wydał decyzję zastosowanie autokontroli własnej decyzji,",
+        "text": "Umożliwia organowi, który wydał decyzję zastosowanie autokontroli własnej decyzji, nie daje organowi, który wydał decyzję możliwości zastosowania autokontroli własnej decyzji, umożliwia organowi, który wydał decyzję jedynie poparcie skargi przed sądem;",
         "isCorrect": true
-      },
-      {
-        "text": "Nie daje organowi, który wydał decyzję możliwości zastosowania autokontroli własnej decyzji,",
-        "isCorrect": false
-      },
-      {
-        "text": "Umożliwia organowi, który wydał decyzję jedynie poparcie skargi przed sądem;",
-        "isCorrect": false
       }
     ]
   },
@@ -896,15 +877,15 @@ export const QUESTIONS = [
     "question": "50. Sporządzenie skargi do wojewódzkiego sądu administracyjnego:",
     "options": [
       {
-        "text": "Jest objęte przymusem radcowsko-adwokackim,",
+        "text": "Jest objęte przymusem radcowsko-adwokackim",
         "isCorrect": false
       },
       {
-        "text": "Nie jest objęte przymusem radcowsko-adwokackim,",
+        "text": "Nie jest objęte",
         "isCorrect": true
       },
       {
-        "text": "Nie jest objęte przymusem radcowsko-adwokackim, lecz skargę musi sporządzić osoba profesjonalna;",
+        "text": "Nie jest objęte, lecz skargę musi sporządzić osoba profesjonalna Przymus dotyczy tylko SKARGI KASACYJNEJ DO NSA: Art. 175. § 1. Skarga kasacyjna powinna być sporządzona przez adwokata lub radcę prawnego. § 2. Przepisu § 1 nie stosuje się, jeżeli skargę kasacyjną sporządza sędzia, prokurator, notariusz, radca Prokuratorii Generalnej Rzeczypospolitej Polskiej albo profesor lub doktor habilitowany nauk prawnych, będący stroną, jej przedstawicielem lub pełnomocnikiem albo jeżeli skargę kasacyjną wnosi prokurator, Rzecznik Praw Obywatelskich lub Rzecznik Praw Dziecka. § 2a. Przepisu § 1 nie stosuje się także wtedy, gdy stroną postępowania jest Prezes Prokuratorii Generalnej Rzeczypospolitej Polskiej, a także wówczas, gdy czynności w postępowaniu za organy administracji rządowej, państwowe jednostki organizacyjne nieposiadające osobowości prawnej lub Skarb Państwa podejmowane są przez Prokuratorię Generalną Rzeczypospolitej Polskiej. § 3. Skarga kasacyjna może być sporządzona przez: doradcę podatkowego – w sprawach obowiązków podatkowych i celnych oraz w sprawach egzekucji administracyjnej związanej z tymi obowiązkami; rzecznika patentowego – w sprawach własności przemysłowej.",
         "isCorrect": false
       }
     ]
@@ -913,15 +894,15 @@ export const QUESTIONS = [
     "question": "51. Sąd administracyjny może przeprowadzić dowód uzupełniający:",
     "options": [
       {
-        "text": "Każdy,",
+        "text": "Każdy",
         "isCorrect": false
       },
       {
-        "text": "Tylko z dokumentu i opinii biegłego,",
+        "text": "Tylko z dokumentu i opinii biegłego",
         "isCorrect": false
       },
       {
-        "text": "Tylko z dokumentu;",
+        "text": "Tylko z dokumentu Sąd może z urzędu lub na wniosek stron przeprowadzić dowody uzupełniające z dokumentów, jeżeli jest to niezbędne do wyjaśnienia istotnych wątpliwości i nie spowoduje nadmiernego przedłużenia postępowania w sprawie.",
         "isCorrect": true
       }
     ]
@@ -930,16 +911,8 @@ export const QUESTIONS = [
     "question": "52. Skarga do sądu administracyjnego przysługuje na:",
     "options": [
       {
-        "text": "Każdy akt prawa miejscowego organów jednostek samorządu terytorialnego (j.s.t.),",
+        "text": "Każdy akt prawa miejscowego organów jednostek samorządu terytorialnego (j.s.t.), na akt prawa miejscowego organu stanowiącego j.s.t., tylko na akty prawa miejscowego organów wykonawczych j.s.t.;",
         "isCorrect": true
-      },
-      {
-        "text": "Na akt prawa miejscowego organu stanowiącego j.s.t.,",
-        "isCorrect": false
-      },
-      {
-        "text": "Tylko na akty prawa miejscowego organów wykonawczych j.s.t.;",
-        "isCorrect": false
       }
     ]
   },
@@ -947,16 +920,8 @@ export const QUESTIONS = [
     "question": "53. Co do zasady, skarga wniesiona do wojewódzkiego sądu administracyjnego na decyzję:",
     "options": [
       {
-        "text": "Nie wstrzymuje jej wykonania,",
+        "text": "Nie wstrzymuje jej wykonania, wstrzymuje jej wykonanie z mocy prawa, wstrzymuje jej wykonanie do dnia przekazania skargi sądowi,",
         "isCorrect": true
-      },
-      {
-        "text": "Wstrzymuje jej wykonanie z mocy prawa,",
-        "isCorrect": false
-      },
-      {
-        "text": "Wstrzymuje jej wykonanie do dnia przekazania skargi sądowi,",
-        "isCorrect": false
       }
     ]
   },
@@ -964,15 +929,15 @@ export const QUESTIONS = [
     "question": "54. Dziecko w wieku 10 lat:",
     "options": [
       {
-        "text": "Nie ma zdolności sądowej ani procesowej;",
+        "text": "Nie ma zdolności sądowej ani procesowej",
         "isCorrect": false
       },
       {
-        "text": "Ma zdolność sądową, lecz nie ma zdolności procesowej;",
+        "text": "Ma zdolność sądową, lecz nie ma zdolności procesowej",
         "isCorrect": true
       },
       {
-        "text": "Ma zdolność sądową i procesową;",
+        "text": "Ma zdolność sądową i procesową ZDOLNOŚĆ SĄDOWA to zdolność występowania przed sądem administracyjnym jako strona. Mają ją: osoby fizyczne, osoby prawne organ administracji publicznej (§ 1); państwowe i samorządowe jednostki organizacyjne nieposiadające osobowości prawnej organizacje społeczne nieposiadające osobowości prawnej inne (niż wcześniej wymienione) jednostki organizacyjne nieposiadające osobowości prawnej, jeżeli przepisy prawa dopuszczają możliwość nałożenia na te jednostki obowiązków lub przyznania uprawnień lub skierowania do nich nakazów i zakazów, a także stwierdzenia albo uznania uprawnienia lub obowiązku wynikających z przepisów prawa (§ 3); organizacje społeczne, choćby nie posiadały osobowości prawnej, w zakresie ich statutowej działalności w sprawach dotyczących interesów prawnych innych osób (§ 4). ZDOLNOŚĆ PROCESOWA to prawo podmiotu wyposażonego w zdolność sądową do samodzielnego podejmowania czynności procesowych przed sądami administracyjnymi. Mają ją: osoby fizyczne posiadające pełną zdolność do czynności prawnych osoby prawne organizacje społeczne i jednostki organizacyjne osoba fizyczna ograniczona w zdolności do czynności prawnych – w sprawach wynikających z czynności prawnych, których może dokonywać samodzielnie",
         "isCorrect": false
       }
     ]
@@ -981,11 +946,756 @@ export const QUESTIONS = [
     "question": "55. Spór o właściwość między Prezydentem Miasta Katowice a Samorządowym Kolegium Odwoławczym w Częstochowie rozstrzyga:",
     "options": [
       {
+        "text": "WSA w Gliwicach, WSA w Warszawie",
+        "isCorrect": false
+      },
+      {
+        "text": "NSA. Organ, który uwzględnił skargę we własnym zakresie: nie przekazuje skargi i akt sprawy sądowi administracyjnemu; zawsze przekazuje skargę sądowi wraz z odpowiedzią na skargę i aktami sprawy, przekazuje skargę i akta sprawy sądowi, gdy ten zażąda takiego przekazania.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "56. Zgodnie z PPSA strona powinna dokonać czynności której nie dokonała w terminie:",
+    "options": [
+      {
+        "text": "W terminie 7 dni od dnia złożenia wniosku o przywrócenie terminu, w terminie 14 dni od dnia złożenia wniosku o przywrócenie terminu, równocześnie z wnioskiem o przywrócenie terminu.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "57. Nie można żądać wznowienia postępowania sądowo-administracyjnego:",
+    "options": [
+      {
+        "text": "Po upływie trzech lat od uprawomocnienia się orzeczenia, po upływie lat pięciu od uprawomocnienia się orzeczenia, po upływie lat dziesięciu od uprawomocnienia się orzeczenia.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "58. Skargę o stwierdzenie niezgodności z prawem prawomocnego orzeczenia:",
+    "options": [
+      {
+        "text": "Rozstrzyga sąd, który rozpatrywał sprawę w ostatniej instancji,",
+        "isCorrect": false
+      },
+      {
+        "text": "Rozstrzyga NSA co do zasadny na posiedzeniu niejawnym,",
+        "isCorrect": true
+      },
+      {
+        "text": "Rozstrzyga NSA w składzie pięciu sędziów.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "59. Zgodnie PPSA, jeżeli jest kilku pełnomocników jednej strony, sąd doręcza pismo:",
+    "options": [
+      {
+        "text": "Każdemu z nich, tylko jednemu z nich, stronie i jednemu z nich.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "60. Zgodnie z PPSA w razie zawieszenia postępowania na zgodny wniosek stron sąd postanowi podjąć postępowanie na wniosek którejkolwiek z nich, nie wcześniej niż po upływie:",
+    "options": [
+      {
+        "text": "Miesiąca od zawieszenia postępowania, dwóch miesięcy od zawieszenia postępowania, trzech miesięcy od zawieszenia postępowania.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "61. Jeżeli sprawa objęta skargą pomiędzy tymi samymi stronami jest w toku lub została już prawomocnie osądzona, wojewódzki sąd administracyjny:",
+    "options": [
+      {
+        "text": "Oddala skargę, odrzuca skargę, umarza postępowanie sądowo-administracyjne. Co do zasady, wniesienie skargi bezpośrednio do sądu administracyjnego: nie powoduje wszczęcia postępowania sądowo-administracyjnego, wszczyna postępowanie sądowo-administracyjne, wszczyna postępowanie sądowo-administracyjne, jeżeli za stronę nie działa radca lub adwokat. prawny",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "62. Spór o właściwość między Prezydentem Miasta Krakowa a Wojewodą Śląskim rozstrzyga:",
+    "options": [
+      {
         "text": "WSA w Gliwicach,",
         "isCorrect": false
       },
       {
-        "text": "WSA w Warszawie",
+        "text": "WSA w Krakowie,",
+        "isCorrect": false
+      },
+      {
+        "text": "NSA",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "63. Wniesienie skargi do wojewódzkiego sądu administracyjnego po wszczęciu postępowania nieważnościowego dotyczącego tej samej decyzji prowadzi do:",
+    "options": [
+      {
+        "text": "Zawieszenia postępowania nieważnościowego,",
+        "isCorrect": false
+      },
+      {
+        "text": "Zawieszenia postępowania sądowego,",
+        "isCorrect": true
+      },
+      {
+        "text": "Odrzucenia skargi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "64. Zgodnie z p.p.s.a. organizacja społeczna:",
+    "options": [
+      {
+        "text": "Zawsze może wnieść skargę na decyzję administracyjną, jeśli przedmiot sprawy dotyczył jej statutowej działalności,",
+        "isCorrect": false
+      },
+      {
+        "text": "​ może brać udział w postępowaniu także jako uczestnik, w zakresie swojej działalności statutowej,",
+        "isCorrect": true
+      },
+      {
+        "text": "Nigdy nie może brać udziału w postępowaniu.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "65. Odrzucenie skargi następuje:",
+    "options": [
+      {
+        "text": "Wyrokiem, na który przysługuje skarga kasacyjna,",
+        "isCorrect": false
+      },
+      {
+        "text": "Postanowieniem zaskarżalnym zażaleniem lub skargą kasacyjną,",
+        "isCorrect": true
+      },
+      {
+        "text": "Zarządzeniem prezesa sądu.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "66. Wskaż prawidłową odpowiedź:",
+    "options": [
+      {
+        "text": "Sąd może skierować sprawę do mediacji tylko na wniosek skarżącego,",
+        "isCorrect": false
+      },
+      {
+        "text": "W świetle przepisów p.p.s.a. postępowanie mediacyjne jest jawne,",
+        "isCorrect": false
+      },
+      {
+        "text": "Na decyzję wydaną na podstawie ustaleń dokonanych w postępowaniu mediacyjnym można wnieść skargę do wojewódzkiego sądu administracyjnego.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "67. Skargę o stwierdzenie niezgodności z prawem prawomocnego orzeczenia:",
+    "options": [
+      {
+        "text": "Rozstrzyga sąd, który rozpatrywał sprawę w ostatniej instancji,",
+        "isCorrect": false
+      },
+      {
+        "text": "Rozstrzyga NSA co do zasadny na posiedzeniu niejawnym,",
+        "isCorrect": true
+      },
+      {
+        "text": "Rozstrzyga NSA w składzie pięciu sędziów.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "68. Przesłanka restytucyjna wznowienia postępowania występuje:",
+    "options": [
+      {
+        "text": "Gdy Trybunał Konstytucyjny orzekł o niezgodności aktu normatywnego z Konstytucją, umową międzynarodową lub z ustawą, na podstawie którego zostało wydane orzeczenie,",
+        "isCorrect": false
+      },
+      {
+        "text": "Orzeczenie zostało oparte na dokumencie podrobionym lub przerobionym albo na skazującym wyroku karnym, następnie uchylonym,",
+        "isCorrect": true
+      },
+      {
+        "text": "Gdy przez wydanie wyroku została stronie wyrządzona szkoda, a zmiana lub uchylenie orzeczenia w drodze innych przysługujących stronie środków prawnych nie było i nie jest możliwe.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "69. Skarga kasacyjna:",
+    "options": [
+      {
+        "text": "Musi być zawsze sporządzona przez adwokata lub radcę prawnego,",
+        "isCorrect": true
+      },
+      {
+        "text": "Wiąże sąd co do zawartych w niej zarzutów,",
+        "isCorrect": true
+      },
+      {
+        "text": "Jest nadzwyczajnym środkiem odwoławczym.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "70. Co do zasady, wniesienie skargi na czynność doręczenia w postępowaniu administracyjnym jest:",
+    "options": [
+      {
+        "text": "Dopuszczalne,",
+        "isCorrect": false
+      },
+      {
+        "text": "Dopuszczalne tylko wówczas, gdy tak stanowi przepis szczególny,",
+        "isCorrect": false
+      },
+      {
+        "text": "​ niedopuszczalne.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "71. Prawidłowe jest stwierdzenie:",
+    "options": [
+      {
+        "text": "Spór o właściwość między wojewodami rozstrzyga NSA",
+        "isCorrect": false
+      },
+      {
+        "text": "​ spory kompetencyjne między samorządowymi kolegiami odwoławczymi a wojewodami rozstrzyga NSA,",
+        "isCorrect": true
+      },
+      {
+        "text": "Spory kompetencyjne rozstrzyga się wyrokiem.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "72. Sprzeciw do WSA:",
+    "options": [
+      {
+        "text": "Może wnieść także organ I instancji,",
+        "isCorrect": false
+      },
+      {
+        "text": "Jest rozstrzygany wyrokiem, na który nie zawsze przysługuje skarga kasacyjna,",
+        "isCorrect": true
+      },
+      {
+        "text": "Jest wnoszony w terminie do wniesienia skargi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "73. Postanowienie w sprawie odmowy wyłączenia pracownika organu od załatwienia sprawy jest:",
+    "options": [
+      {
+        "text": "Zaskarżalne do sądu administracyjnego,",
+        "isCorrect": false
+      },
+      {
+        "text": "​ niezaskarżalne do sądu administracyjnego.",
+        "isCorrect": true
+      },
+      {
+        "text": "Co do zasady zaskarżalne, ale tylko po uprzednim wniesieniu zażalenia do organu wyższej instancji.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "74. W postępowaniu sądowo-administracyjnym:",
+    "options": [
+      {
+        "text": "Prowadzi się pełne postępowanie dowodowe,",
+        "isCorrect": false
+      },
+      {
+        "text": "Nie prowadzi się w ogóle postępowania dowodowego,",
+        "isCorrect": false
+      },
+      {
+        "text": "Można przeprowadzić uzupełniający dowód z dokumentu.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "75. Co do zasady, wniesienie skargi bezpośrednio do sądu administracyjnego:",
+    "options": [
+      {
+        "text": "Nie powoduje wszczęcia postępowania sądowo-administracyjnego,",
+        "isCorrect": false
+      },
+      {
+        "text": "Wszczyna postępowanie sądowo-administracyjne,",
+        "isCorrect": true
+      },
+      {
+        "text": "Wszczyna postępowanie sądowo-administracyjne, jeżeli za stronę nie działa radca prawny lub adwokat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "76. Skarga do WSA:",
+    "options": [
+      {
+        "text": "Zostanie odrzucona wyrokiem po nieuzupełnieniu przez stronę braków formalnych,",
+        "isCorrect": false
+      },
+      {
+        "text": "Może zostać odrzucona także przez NSA,",
+        "isCorrect": true
+      },
+      {
+        "text": "Podlega odrzuceniu zawsze na posiedzeniu niejawnym.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "77. Zgodnie p.p.s.a. skarga powinna czynić zadość wymagana pisma w postępowaniu sądowym, a ponadto zawierać:",
+    "options": [
+      {
+        "text": "Wskazanie dowodów na to, że zostały wyczerpane wszystkie środki zaskarżenia,",
+        "isCorrect": false
+      },
+      {
+        "text": "Wskazanie pożądanego rozstrzygnięcia sprawy,",
+        "isCorrect": false
+      },
+      {
+        "text": "​ oznaczenie organu, którego działania, bezczynności lub przewlekłego prowadzenia postępowania skarga dotyczy.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "78. Sąd umarza postępowanie:",
+    "options": [
+      {
+        "text": "Zaskarżalnym postanowieniem,",
+        "isCorrect": true
+      },
+      {
+        "text": "Zaskarżalnym wyrokiem,",
+        "isCorrect": false
+      },
+      {
+        "text": "Postanowieniem bądź wyrokiem w zależności od powodu umorzenia.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "79. Skarga wniesiona do sądu administracyjnego na indywidualną interpretację prawa podatkowego:",
+    "options": [
+      {
+        "text": "Wiąże sąd co do zawartych w niej zarzutów i podstaw prawnych,",
+        "isCorrect": true
+      },
+      {
+        "text": "Musi zostać sporządzona przez doradcę podatkowego,",
+        "isCorrect": false
+      },
+      {
+        "text": "Musi zostać rozstrzygnięta przez sąd w terminie 30 dni od wpływu.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "80. WSA po przeprowadzeniu postępowania:",
+    "options": [
+      {
+        "text": "Może orzekać jedynie kasacyjnie,",
+        "isCorrect": false
+      },
+      {
+        "text": "Może orzekać pośrednio reformacyjnie,",
+        "isCorrect": true
+      },
+      {
+        "text": "Uchyla decyzję w przypadku każdego naruszenia przepisów postępowania.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "81. Prawdziwe jest zdanie:",
+    "options": [
+      {
+        "text": "WSA uzasadnia wszystkie wydane w sprawie wyroki z urzędu NSA uzasadnia wszystkie wydane w sprawie wyroki z urzędu wyroki uwzględniające sprzeciw WSA uzasadnia tylko na wniosek",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "82. W świetle przepisów p.p.s.a. zażalenie:",
+    "options": [
+      {
+        "text": "Jest środkiem odwoławczym o charakterze względnie dewolutywnym,",
+        "isCorrect": true
+      },
+      {
+        "text": "Przysługuje od wszystkich nieprawomocnych postanowień WSA kończących postępowanie w sprawie,",
+        "isCorrect": false
+      },
+      {
+        "text": "Zawsze musi zostać sporządzone przez adwokata lub radcę prawnego.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "83. Spór o właściwość między Wojewodą Małopolskim a Samorządowym Kolegium Odwoławczym w Częstochowie rozstrzyga:",
+    "options": [
+      {
+        "text": "WSA w Krakowie,",
+        "isCorrect": false
+      },
+      {
+        "text": "WSA w Warszawie,",
+        "isCorrect": false
+      },
+      {
+        "text": "NSA",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "84. Spóźniony wniosek o przywrócenie terminu podlega:",
+    "options": [
+      {
+        "text": "Odrzuceniu przez sąd w formie wyroku, na który służy skarga kasacyjna,",
+        "isCorrect": false
+      },
+      {
+        "text": "Odrzuceniu przez sąd w formie postanowienia, na które służy zażalenie,",
+        "isCorrect": true
+      },
+      {
+        "text": "Pozostawieniu bez rozpoznania w formie zarządzenia przewodniczącego",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "85. Zgodnie z p.p.s.a. sędzia jest wyłączony z mocy samej ustawy:",
+    "options": [
+      {
+        "text": "Jeżeli istnieje okoliczność tego rodzaju, że mogłaby wywołać uzasadnioną wątpliwość co do jego bezstronności w danej sprawie,",
+        "isCorrect": false
+      },
+      {
+        "text": "Sprawach, w których jest stroną lub pozostaje z jedną z nich w takim stosunku prawnym, że wynik sprawy oddziałuje na jego prawa lub obowiązki,",
+        "isCorrect": true
+      },
+      {
+        "text": "W sprawach powinowatych do 4 stopnia.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "86. Zgodnie z p.p.s.a. zadaniem Naczelnego Sądu Administracyjnego jest:",
+    "options": [
+      {
+        "text": "Rozpoznawanie wszystkich spraw sądowo-administracyjnych,",
+        "isCorrect": false
+      },
+      {
+        "text": "​ podejmowanie uchwał mających na celu wyjaśnienie przepisów prawnych, których stosowanie wywołało rozbieżności w orzecznictwie sądów administracyjnych,",
+        "isCorrect": true
+      },
+      {
+        "text": "Jedynym zadaniem jest podejmowanie uchwał zawierających rozstrzygnięcie zagadnień prawnych budzących poważne wątpliwości w konkretnej sprawie sądowo-administracyjnej.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "87. Kontrola przestrzegania prawa sprawowana przez sądy administracyjne ma charakter:",
+    "options": [
+      {
+        "text": "Bezpośredni, było źle",
+        "isCorrect": false
+      },
+      {
+        "text": "Pośredni,",
+        "isCorrect": true
+      },
+      {
+        "text": "Incydentalny",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "88. Skarga do WSA przysługuje:",
+    "options": [
+      {
+        "text": "Na każde postanowienie wydane w oparciu o KPA, gdyż na każde takie przysługuje zażalenie",
+        "isCorrect": false
+      },
+      {
+        "text": "Na postanowienie o przywróceniu terminu do wniesienia odwołania,",
+        "isCorrect": false
+      },
+      {
+        "text": "Na postanowienie o niedopuszczalności odwołania.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "89. Zawieszenie postępowania:",
+    "options": [
+      {
+        "text": "Następuje zawsze w przypadku śmierci strony,",
+        "isCorrect": false
+      },
+      {
+        "text": "​ może nastąpić w razie śmierci pełnomocnika, chyba że strona działa przed sądem osobiście,",
+        "isCorrect": true
+      },
+      {
+        "text": "Następuje zawsze, gdy skarżący skutecznie cofnął skargę.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "90. Sąd umarza postępowanie:",
+    "options": [
+      {
+        "text": "Zaskarżalnym postanowieniem,",
+        "isCorrect": true
+      },
+      {
+        "text": "Zaskarżalnym wyrokiem,",
+        "isCorrect": false
+      },
+      {
+        "text": "Postanowieniem bądź wyrokiem w zależności od powodu umorzenia.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "91. Postępowanie uproszczone:",
+    "options": [
+      {
+        "text": "​ można przeprowadzić w przypadku zaskarżenia postanowienia o niedopuszczalności odwołania,",
+        "isCorrect": true
+      },
+      {
+        "text": "Prowadzi się na postępowaniu niejawnym w składzie 1 sędziego,",
+        "isCorrect": false
+      },
+      {
+        "text": "Prowadzi się na wniosek sądu, gdy żadna ze stron nie wyraziła sprzeciwu.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "92. Wskaż zdanie prawdziwe",
+    "options": [
+      {
+        "text": "W Polsce obowiązuje tzw. mieszany model sądowej kontroli administracji,",
+        "isCorrect": true
+      },
+      {
+        "text": "Sądy administracyjne nie mogą orzekać reformatoryjnie,",
+        "isCorrect": false
+      },
+      {
+        "text": "Przedmiotem postępowania sądowo-administracyjnego jest tylko skarga na decyzję administracyjną",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "93. Zaskarżalne do sądu administracyjnego są postanowienia wydane w postępowaniu jurysdykcyjnym",
+    "options": [
+      {
+        "text": "W sprawie stwierdzenia niedopuszczalności wniesienia odwołania,",
+        "isCorrect": false
+      },
+      {
+        "text": "​ rozstrzygające o dopuszczalności lub odmowie dopuszczenia organizacji społecznej do udziału w postępowania,",
+        "isCorrect": true
+      },
+      {
+        "text": "O wyłączeniu pracownika organu",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "94. Skarga o stwierdzenie niezgodności z prawem prawomocnego orzeczenia:",
+    "options": [
+      {
+        "text": "Prowadzi do uchylenia niezgodnego z prawem orzeczenia,",
+        "isCorrect": false
+      },
+      {
+        "text": "Może zostać złożona do 10 lat od uprawomocnienia się orzeczenia,",
+        "isCorrect": false
+      },
+      {
+        "text": "Jest rozpoznawana przez NSA",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "95. W razie wygaśnięcia pełnomocnictwa z powodu śmierci strony pełnomocnik procesowy",
+    "options": [
+      {
+        "text": "Działa do czasu zawieszenia postępowania;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "96. Organ, którego działania jest przedmiotem skargi przekazuje ją sądowi wraz z aktami sprawy i odpowiedzią na skargę w terminie",
+    "options": [
+      {
+        "text": "30 dni od dnia jej wniesienia",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "97. Orzeczenie staje się prawomocne;",
+    "options": [
+      {
+        "text": "Jeżeli nie przysługuje od niego środek odwoławczy",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "98. Sprzeciw do sądu administracyjnego od decyzji organu odwoławczego;",
+    "options": [
+      {
+        "text": "Umożliwia zbadanie wystąpienia przesłanek do wydania decyzji w trybie 138 § 2 kpa;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "99. Przywrócenie terminu w postępowaniu sądowo-administracyjnym;",
+    "options": [
+      {
+        "text": "Jest niedopuszczalne gdy uchybienie nie powoduje negatywnych skutków dla strony;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "100. W postępowaniu sądowo-administracyjnym obowiązuje zasada;",
+    "options": [
+      {
+        "text": "Oficjalności doręczeń;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "101. Sprostowanie wyroku WSA",
+    "options": [
+      {
+        "text": "Może zostać dokonane także przez NSA",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "102. Unieważnienie prawomocnego wyroku przez NSA następuje;",
+    "options": [
+      {
+        "text": "Na wniosek prezesa NSA;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "103. Podjęcie postępowania zawieszonego z mocy prawa",
+    "options": [
+      {
+        "text": "Następuje w drodze niezaskarżalnego postanowienia;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "104. Spór kompetencyjny między prezesem miasta Katowice a samorządowym kolegium odwoławczym w Krakowie rozstrzyga",
+    "options": [
+      {
+        "text": "NSA",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "105. Skarga do WSA",
+    "options": [
+      {
+        "text": "Przysługuje co do zasady na decyzje organu drugiej instancji",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "106. Akty lub czynności (inne niż decyzje administracyjne i postanowienia) można zaskarżyć gdy",
+    "options": [
+      {
+        "text": "Zostały skierowane do podmiotów zewnętrznych względem organów administracji;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "107. Skargę do sądu wnosi się;",
+    "options": [
+      {
+        "text": "Za pośrednictwem organu którego działanie lub bezczynność są przedmiotem skargi;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "108. Spór o właściwość między Wojewodą Opolskim a Prezydentem Miasta Gdańsk rozstrzyga:",
+    "options": [
+      {
+        "text": "WSA w Gdańsku,",
+        "isCorrect": false
+      },
+      {
+        "text": "WSA w Opolu,",
         "isCorrect": false
       },
       {
@@ -995,486 +1705,109 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "56. Organ, który uwzględnił skargę we własnym zakresie:",
+    "question": "109. . Zgodnie z p.p.s.a. powody wyłączenia:",
     "options": [
       {
-        "text": "Nie przekazuje skargi i akt sprawy sądowi administracyjnemu;",
+        "text": "Ustają po ustaniu uzasadniającej je kurateli w każdym przypadku,",
         "isCorrect": false
       },
       {
-        "text": "Zawsze przekazuje skargę sądowi wraz z odpowiedzią na skargę i aktami sprawy,",
-        "isCorrect": true
-      },
-      {
-        "text": "Przekazuje skargę i akta sprawy sądowi, gdy ten zażąda takiego przekazania.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "57. Zgodnie z PPSA strona powinna dokonać czynności której nie dokonała w terminie:",
-    "options": [
-      {
-        "text": "W terminie 7 dni od dnia złożenia wniosku o przywrócenie terminu,",
+        "text": "Ustają po ustaniu uzasadniającej je kurateli, chyba że przepis szczególny stanowi inaczej.",
         "isCorrect": false
       },
       {
-        "text": "W terminie 14 dni od dnia złożenia wniosku o przywrócenie terminu,",
+        "text": "Trwają także po ustaniu uzasadniającej je kurateli",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "110. Zgodnie z p.p.s.a. osoba, która brała udział w postępowaniu administracyjnym, a nie wniosła skargi, jeżeli wynik postępowania sądowego dotyczy jej interesu prawnego, jest:",
+    "options": [
+      {
+        "text": "Stroną postępowania",
         "isCorrect": false
       },
       {
-        "text": "Równocześnie z wnioskiem o przywrócenie terminu.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "58. Nie można żądać wznowienia postępowania sądowo-administracyjnego:",
-    "options": [
-      {
-        "text": "Po upływie trzech lat od uprawomocnienia się orzeczenia,",
+        "text": "Uczestnikiem tego postępowania, któremu nie przysługują prawa strony.",
         "isCorrect": false
       },
       {
-        "text": "Po upływie lat pięciu od uprawomocnienia się orzeczenia,",
+        "text": "Uczestnikiem tego postępowania na prawach strony.",
         "isCorrect": true
-      },
-      {
-        "text": "Po upływie lat dziesięciu od uprawomocnienia się orzeczenia.",
-        "isCorrect": false
       }
     ]
   },
   {
-    "question": "59. Skargę o stwierdzenie niezgodności z prawem prawomocnego orzeczenia:",
+    "question": "111. Skarga na inny akt lub czynność (art. 3 § 2 pkt 4 p.p.s.a.) przysługuje na:",
     "options": [
       {
-        "text": "Wnosi się do sądu, który wydał zaskarżone orzeczenie, w terminie czterech lat od dnia jego uprawomocnienia się,",
+        "text": "Plan zagospodarowania przestrzennego gminy,",
         "isCorrect": false
       },
       {
-        "text": "Od tego samego orzeczenia strona może wnieść tylko raz,",
+        "text": "Odmowę przyjęcia do biblioteki,",
         "isCorrect": true
       },
       {
-        "text": "Naczelny Sąd Administracyjny rozpoznaje skargę o stwierdzenie niezgodności z prawem prawomocnego orzeczenia w składzie pięciu sędziów.",
+        "text": "Czynność doręczenia w postępowaniu administracyjnym.",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "60. Zgodnie PPSA, jeżeli jest kilku pełnomocników jednej strony, sąd doręcza pismo:",
+    "question": "112. Termin do wniesienia skargi do sądu administracyjnego jest terminem:",
     "options": [
       {
-        "text": "Każdemu z nich,",
-        "isCorrect": false
-      },
-      {
-        "text": "Tylko jednemu z nich,",
+        "text": "Procesowym i zawitym,",
         "isCorrect": true
       },
       {
-        "text": "Stronie i jednemu z nich.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "61. Zgodnie z PPSA w razie zawieszenia postępowania na zgodny wniosek stron sąd postanowi podjąć postępowanie na wniosek którejkolwiek z nich, nie wcześniej niż po upływie:",
-    "options": [
-      {
-        "text": "Miesiąca od zawieszenia postępowania,",
+        "text": "Prekluzyjnym i przywracalnym,",
         "isCorrect": false
       },
       {
-        "text": "Dwóch miesięcy od zawieszenia postępowania,",
+        "text": "Nieprzywracalnym i instrukcyjnym.",
         "isCorrect": false
-      },
-      {
-        "text": "Trzech miesięcy od zawieszenia postępowania.",
-        "isCorrect": true
       }
     ]
   },
   {
-    "question": "62. Jeżeli sprawa objęta skargą pomiędzy tymi samymi stronami jest w toku lub została już prawomocnie osądzona, wojewódzki sąd administracyjny:",
+    "question": "113. Zgodnie z p.p.s.a., skargę o stwierdzenie niezgodności z prawem prawomocnego orzeczenia wnosi się:",
     "options": [
       {
-        "text": "Oddala skargę,",
-        "isCorrect": false
-      },
-      {
-        "text": "Odrzuca skargę,",
+        "text": "Do sądu, który wydał zaskarżone orzeczenie, w terminie 2 lat od dnia jego uprawomocnienia się",
         "isCorrect": true
       },
       {
-        "text": "Umarza postępowanie sądowo-administracyjne.",
+        "text": "Do sądu, który wydał zaskarżone orzeczenie, w terminie 3 lat od dnia jego uprawomocnienia się",
+        "isCorrect": false
+      },
+      {
+        "text": "Bezpośrednio do Naczelnego Sądu Administracyjnego, w terminie 3 lat od dnia jego uprawomocnienia się.",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "63. Co do zasady, wniesienie skargi bezpośrednio do sądu administracyjnego:",
+    "question": "114. Zgodnie z p.p.s.a., po upływie lat pięciu od uprawomocnienia się orzeczenia nie można żądać wznowienia postępowania, z wyjątkiem przypadku, gdy:",
     "options": [
       {
-        "text": "Nie powoduje wszczęcia postępowania sądowo-administracyjnego, zawsze wszczyna postępowanie sądowo-administracyjne, wszczyna postępowanie sądowo-administracyjne, jeżeli za stronę nie działa radca prawny lub adwokat.",
+        "text": "W składzie sądu uczestniczyła osoba nieuprawniona albo jeżeli orzekał sędzia wyłączony z mocy ustawy, a strona przed uprawomocnieniem się orzeczenia nie mogła domagać się wyłączenia,",
         "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "64. Skarga do WSA:",
-    "options": [
+      },
       {
-        "text": "Zostanie odrzucona wyrokiem po nieuzupełnieniu przez stronę braków formalnych, może zostać odrzucona także przez NSA, podlega odrzuceniu zawsze na posiedzeniu niejawnym.",
+        "text": "Orzeczenie zostało uzyskane za pomocą przestępstwa,",
         "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "65. Zgodnie p.p.s.a. skarga powinna czynić zadość wymagana pisma w postępowaniu sądowym, a ponadto zawierać:",
-    "options": [
+      },
       {
-        "text": "Wskazanie dowodów na to, że zostały wyczerpane wszystkie środki zaskarżenia, wskazanie pożądanego rozstrzygnięcia sprawy, ​ oznaczenie organu, którego działania, bezczynności lub przewlekłego prowadzenia postępowania skarga dotyczy.",
+        "text": "Strona była pozbawiona możności działania lub nie była należycie reprezentowana.",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "66. Sąd umarza postępowanie:",
-    "options": [
-      {
-        "text": "Zaskarżalnym postanowieniem, zaskarżalnym wyrokiem, postanowieniem bądź wyrokiem w zależności od powodu umorzenia.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "67. Skarga wniesiona do sądu administracyjnego na indywidualną interpretację prawa podatkowego:",
-    "options": [
-      {
-        "text": "Wiąże sąd co do zawartych w niej zarzutów i podstaw prawnych, musi zostać sporządzona przez doradcę podatkowego, musi zostać rozstrzygnięta przez sąd w terminie 30 dni od wpływu.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "68. WSA po przeprowadzeniu postępowania:",
-    "options": [
-      {
-        "text": "Może orzekać jedynie kasacyjnie, może orzekać pośrednio reformacyjnie, uchyla decyzję w przypadku każdego naruszenia przepisów postępowania.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "69. Prawdziwe jest zdanie:",
-    "options": [
-      {
-        "text": "WSA uzasadnia wszystkie wydane w sprawie wyroki z urzędu NSA uzasadnia wszystkie wydane w sprawie wyroki z urzędu wyroki uwzględniające sprzeciw WSA uzasadnia tylko na wniosek",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "70. W świetle przepisów p.p.s.a. zażalenie:",
-    "options": [
-      {
-        "text": "Jest środkiem odwoławczym o charakterze względnie dewolutywnym, przysługuje od wszystkich nieprawomocnych postanowień WSA kończących postępowanie w sprawie, zawsze musi zostać sporządzone przez adwokata lub radcę prawnego.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "71. Spór o właściwość między Wojewodą Małopolskim a Samorządowym Kolegium Odwoławczym w Częstochowie rozstrzyga:",
-    "options": [
-      {
-        "text": "WSA w Krakowie, WSA w Warszawie, NSA",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "72. Spóźniony wniosek o przywrócenie terminu podlega:",
-    "options": [
-      {
-        "text": "Odrzuceniu przez sąd w formie wyroku, na który służy skarga kasacyjna, odrzuceniu przez sąd w formie postanowienia, na które służy zażalenie, pozostawieniu bez rozpoznania w formie zarządzenia przewodniczącego",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "73. Zgodnie z p.p.s.a. sędzia jest wyłączony z mocy samej ustawy:",
-    "options": [
-      {
-        "text": "Jeżeli istnieje okoliczność tego rodzaju, że mogłaby wywołać uzasadnioną wątpliwość co do jego bezstronności w danej sprawie, sprawach, w których jest stroną lub pozostaje z jedną z nich w takim stosunku prawnym, że wynik sprawy oddziałuje na jego prawa lub obowiązki, w sprawach powinowatych do 4 stopnia.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "74. Zgodnie z p.p.s.a. zadaniem Naczelnego Sądu Administracyjnego jest:",
-    "options": [
-      {
-        "text": "Rozpoznawanie wszystkich spraw sądowo-administracyjnych, ​ podejmowanie uchwał mających na celu wyjaśnienie przepisów prawnych, których stosowanie wywołało rozbieżności w orzecznictwie sądów administracyjnych, jedynym zadaniem jest podejmowanie uchwał zawierających rozstrzygnięcie zagadnień prawnych budzących poważne wątpliwości w konkretnej sprawie sądowo-administracyjnej.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "75. Kontrola przestrzegania prawa sprawowana przez sądy administracyjne ma charakter:",
-    "options": [
-      {
-        "text": "Bezpośredni, było źle pośredni, incydentalny",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "76. Skarga do WSA przysługuje:",
-    "options": [
-      {
-        "text": "Na każde postanowienie wydane w oparciu o KPA, gdyż na każde takie przysługuje zażalenie na postanowienie o przywróceniu terminu do wniesienia odwołania, na postanowienie o niedopuszczalności odwołania. Sąd administracyjny: może załatwić sprawę administracyjną, ​ może kontrolować legalność załatwienia sprawy administracyjnej. zawsze orzeka w składzie trzech sędziów zawodowych.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "77. Zawieszenie postępowania:",
-    "options": [
-      {
-        "text": "Następuje zawsze w przypadku śmierci strony, ​ może nastąpić w razie śmierci pełnomocnika, chyba że strona działa przed sądem osobiście, następuje zawsze, gdy skarżący skutecznie cofnął skargę.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "78. Sąd umarza postępowanie:",
-    "options": [
-      {
-        "text": "Zawsze w razie śmierci strony, tylko na posiedzeniu jawnym, w przypadku cofnięcia skargi.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "79. Postępowanie uproszczone:",
-    "options": [
-      {
-        "text": "​ można przeprowadzić w przypadku zaskarżenia postanowienia o niedopuszczalności odwołania, prowadzi się na postępowaniu niejawnym w składzie 1 sędziego, prowadzi się na wniosek sądu, gdy żadna ze stron nie wyraziła sprzeciwu.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "80. Wskaż zdanie prawdziwe",
-    "options": [
-      {
-        "text": "W Polsce obowiązuje tzw. mieszany model sądowej kontroli administracji, sądy administracyjne nie mogą orzekać reformatoryjnie, przedmiotem postępowania sądowo-administracyjnego jest tylko skarga na decyzję administracyjną",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "81. Zaskarżalne do sądu administracyjnego są postanowienia wydane w postępowaniu jurysdykcyjnym",
-    "options": [
-      {
-        "text": "W sprawie stwierdzenia niedopuszczalności wniesienia odwołania, ​ rozstrzygające o dopuszczalności lub odmowie dopuszczenia organizacji społecznej do udziału w postępowania, o wyłączeniu pracownika organu",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "82. Skarga o stwierdzenie niezgodności z prawem prawomocnego orzeczenia:",
-    "options": [
-      {
-        "text": "Prowadzi do uchylenia niezgodnego z prawem orzeczenia, może zostać złożona do 10 lat od uprawomocnienia się orzeczenia, jest rozpoznawana przez NSA Postępowanie o wznowienie postępowania: prowadzi zawsze NSA, jest postępowaniem niejawnym, ​ może zostać przeprowadzone, jeżeli strona nie była należycie reprezentowana w postępowaniu przed WSA.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "83. W razie wygaśnięcia pełnomocnictwa z powodu śmierci strony pełnomocnik procesowy",
-    "options": [
-      {
-        "text": "Działa do czasu zawieszenia postępowania;",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "84. Organ, którego działania jest przedmiotem skargi przekazuje ją sądowi wraz z aktami sprawy i odpowiedzią na skargę w terminie",
-    "options": [
-      {
-        "text": "30 dni od dnia jej wniesienia",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "85. Orzeczenie staje się prawomocne;",
-    "options": [
-      {
-        "text": "Jeżeli nie przysługuje od niego środek odwoławczy",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "86. Sprzeciw do sądu administracyjnego od decyzji organu odwoławczego;",
-    "options": [
-      {
-        "text": "Umożliwia zbadanie wystąpienia przesłanek do wydania decyzji w trybie 138 § 2 kpa;",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "87. Przywrócenie terminu w postępowaniu sądowo-administracyjnym;",
-    "options": [
-      {
-        "text": "Jest niedopuszczalne gdy uchybienie nie powoduje negatywnych skutków dla strony;",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "88. W postępowaniu sądowo-administracyjnym obowiązuje zasada;",
-    "options": [
-      {
-        "text": "Oficjalności doręczeń;",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "89. Sprostowanie wyroku WSA",
-    "options": [
-      {
-        "text": "Może zostać dokonane także przez NSA",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "90. Unieważnienie prawomocnego wyroku przez NSA następuje;",
-    "options": [
-      {
-        "text": "Na wniosek prezesa NSA;",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "91. Podjęcie postępowania zawieszonego z mocy prawa",
-    "options": [
-      {
-        "text": "Następuje w drodze niezaskarżalnego postanowienia;",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "92. Spór kompetencyjny między prezesem miasta Katowice a samorządowym kolegium odwoławczym w Krakowie rozstrzyga",
-    "options": [
-      {
-        "text": "NSA",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "93. Skarga do WSA",
-    "options": [
-      {
-        "text": "Przysługuje co do zasady na decyzje organu drugiej instancji",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "94. Akty lub czynności (inne niż decyzje administracyjne i postanowienia) można zaskarżyć gdy",
-    "options": [
-      {
-        "text": "Zostały skierowane do podmiotów zewnętrznych względem organów administracji;",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "95. Skargę do sądu wnosi się;",
-    "options": [
-      {
-        "text": "Za pośrednictwem organu którego działanie lub bezczynność są przedmiotem skargi;",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "96. Spór o właściwość między Wojewodą Opolskim a Prezydentem Miasta Gdańsk rozstrzyga:",
-    "options": [
-      {
-        "text": "WSA w Gdańsku, WSA w Opolu, NSA.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "97. . Zgodnie z p.p.s.a. powody wyłączenia:",
-    "options": [
-      {
-        "text": "Ustają po ustaniu uzasadniającej je kurateli w każdym przypadku, ustają po ustaniu uzasadniającej je kurateli, chyba że przepis szczególny stanowi inaczej. trwają także po ustaniu uzasadniającej je kurateli",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "98. Zgodnie z p.p.s.a. osoba, która brała udział w postępowaniu administracyjnym, a nie wniosła skargi, jeżeli wynik postępowania sądowego dotyczy jej interesu prawnego, jest:",
-    "options": [
-      {
-        "text": "Stroną postępowania uczestnikiem tego postępowania, któremu nie przysługują prawa strony. uczestnikiem tego postępowania na prawach strony.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "99. Skarga na inny akt lub czynność (art. 3 § 2 pkt 4 p.p.s.a.) przysługuje na:",
-    "options": [
-      {
-        "text": "Plan zagospodarowania przestrzennego gminy, odmowę przyjęcia do biblioteki, czynność doręczenia w postępowaniu administracyjnym.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "100. Termin do wniesienia skargi do sądu administracyjnego jest terminem:",
-    "options": [
-      {
-        "text": "Procesowym i zawitym, prekluzyjnym i przywracalnym, nieprzywracalnym i instrukcyjnym.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "101. Zgodnie z p.p.s.a., skargę o stwierdzenie niezgodności z prawem prawomocnego orzeczenia wnosi się:",
-    "options": [
-      {
-        "text": "Do sądu, który wydał zaskarżone orzeczenie, w terminie 2 lat od dnia jego uprawomocnienia się do sądu, który wydał zaskarżone orzeczenie, w terminie 3 lat od dnia jego uprawomocnienia się bezpośrednio do Naczelnego Sądu Administracyjnego, w terminie 3 lat od dnia jego uprawomocnienia się.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "102. Zgodnie z p.p.s.a., po upływie lat pięciu od uprawomocnienia się orzeczenia nie można żądać wznowienia postępowania, z wyjątkiem przypadku, gdy:",
-    "options": [
-      {
-        "text": "W składzie sądu uczestniczyła osoba nieuprawniona albo jeżeli orzekał sędzia wyłączony z mocy ustawy, a strona przed uprawomocnieniem się orzeczenia nie mogła domagać się wyłączenia, orzeczenie zostało uzyskane za pomocą przestępstwa, strona była pozbawiona możności działania lub nie była należycie reprezentowana.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "103. Regulamin odbywania aplikacji radcowskiej jest aktem:",
+    "question": "115. Regulamin odbywania aplikacji radcowskiej jest aktem:",
     "options": [
       {
         "text": "Zaskarżalnym do sądu administracyjnego jako akt generalny organu samorządowego; zaskarżalnym do sądu administracyjnego jako akt inny niż decyzja i postanowienie; niezaskarżalnym;",
@@ -1483,16 +1816,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "104. Uchwała walnego zebrania członków jako najwyższej władzy stowarzyszenia gmin:",
+    "question": "116. Uchwała walnego zebrania członków jako najwyższej władzy stowarzyszenia gmin:",
     "options": [
       {
-        "text": "Jest niezaskarżalna w trybie postępowania sądowo-administracyjnego; jest zaskarżalna w każdym przypadku skargą do sądu administracyjnego; jest zaskarżalna tylko wówczas, gdy jest w sprawie z zakresu administracji publicznej;",
+        "text": "Jest niezaskarżalna w trybie postępowania sądowo-administracyjnego;",
         "isCorrect": true
+      },
+      {
+        "text": "Jest zaskarżalna w każdym przypadku skargą do sądu administracyjnego;",
+        "isCorrect": false
+      },
+      {
+        "text": "Jest zaskarżalna tylko wówczas, gdy jest w sprawie z zakresu administracji publicznej;",
+        "isCorrect": false
       }
     ]
   },
   {
-    "question": "105. Spór o właściwość między Prezydentem Miasta Katowice a Komendantem Wojewódzkim Policji w Katowicach rozstrzyga:",
+    "question": "117. Spór o właściwość między Prezydentem Miasta Katowice a Komendantem Wojewódzkim Policji w Katowicach rozstrzyga:",
     "options": [
       {
         "text": "WSA w Gliwicach; WSA w Warszawie; NSA;",
@@ -1501,7 +1842,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "106. Sąd administracyjny udziela stronie działającej bez radcy prawnego lub adwokata:",
+    "question": "118. Sąd administracyjny udziela stronie działającej bez radcy prawnego lub adwokata:",
     "options": [
       {
         "text": "Należytej i wyczerpującej informacji prawnej i faktycznej; tylko należytej i wyczerpującej informacji prawnej; potrzebnych wskazówek co do czynności procesowych;",
@@ -1510,7 +1851,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "107. Statusu podmiotu na prawach strony w świetle PPSA nie może uzyskać:",
+    "question": "119. Statusu podmiotu na prawach strony w świetle PPSA nie może uzyskać:",
     "options": [
       {
         "text": "Rzecznik Praw Obywatelskich; Rzecznik Praw Dziecka; organizacja społeczna;",
@@ -1519,7 +1860,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "108. Organ, którego działanie zaskarżono może uwzględnić skargę (autokontrola):",
+    "question": "120. Organ, którego działanie zaskarżono może uwzględnić skargę (autokontrola):",
     "options": [
       {
         "text": "Do dnia przekazania skargi wraz z aktami sprawy do sądu administracyjnego; do dnia wyznaczenia rozprawy; do dnia rozpoczęcia rozprawy;",
@@ -1528,7 +1869,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "109. Na postanowienie WSA odrzucające skargę kasacyjną przysługuje:",
+    "question": "121. Na postanowienie WSA odrzucające skargę kasacyjną przysługuje:",
     "options": [
       {
         "text": "Zażalenie;",
@@ -1537,7 +1878,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "110. Skarga kasacyjna;",
+    "question": "122. Skarga kasacyjna;",
     "options": [
       {
         "text": "Skarga o stwierdzenie niezgodności orzeczenia z prawem;",
@@ -1546,7 +1887,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "111. Pismo w postępowaniu sądowo-administracyjnym może być skutecznie doręczone:",
+    "question": "123. Pismo w postępowaniu sądowo-administracyjnym może być skutecznie doręczone:",
     "options": [
       {
         "text": "Za pośrednictwem faksu; w formie telegramu; za pomocą każdej powszechnie dostępnej technologii informatycznej;",
@@ -1555,16 +1896,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "112. Kilka oddzielnych spraw toczących się przed sądem administracyjnym, pozostających ze sobą w związku, sąd ten:",
+    "question": "124. Kilka oddzielnych spraw toczących się przed sądem administracyjnym, pozostających ze sobą w związku, sąd ten:",
     "options": [
       {
-        "text": "Może połączyć w celu łącznego rozpoznania; musi z urzędu połączyć w celu łącznego rozpoznania; musi połączyć w celu łącznego rozpoznania, gdy wystąpią o to skarżący;",
+        "text": "Może połączyć w celu łącznego rozpoznania;",
         "isCorrect": true
+      },
+      {
+        "text": "Musi z urzędu połączyć w celu łącznego rozpoznania;",
+        "isCorrect": false
+      },
+      {
+        "text": "Musi połączyć w celu łącznego rozpoznania, gdy wystąpią o to skarżący;",
+        "isCorrect": false
       }
     ]
   },
   {
-    "question": "113. Co do zasady, w przypadku śmierci pełnomocnika strony sąd administracyjny:",
+    "question": "125. Co do zasady, w przypadku śmierci pełnomocnika strony sąd administracyjny:",
     "options": [
       {
         "text": "Zawiesza postępowanie sądowe z urzędu; może zawiesić postępowanie sądowe z urzędu; zawiesza postępowanie sądowe tylko na wniosek innych stron postępowania;",
@@ -1573,7 +1922,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "114. Jeżeli rozstrzygnięcie sprawy zależy od wyniku postępowania przed Trybunałem Konstytucyjnym, sąd administracyjny:",
+    "question": "126. Jeżeli rozstrzygnięcie sprawy zależy od wyniku postępowania przed Trybunałem Konstytucyjnym, sąd administracyjny:",
     "options": [
       {
         "text": "Zawiesza postępowanie z urzędu; może zawiesić postępowanie z urzędu; odracza termin rozprawy bez wyznaczenia jej daty;",
@@ -1582,43 +1931,75 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "115. Zażalenie na postanowienie WSA:",
+    "question": "127. Zażalenie na postanowienie WSA:",
     "options": [
       {
-        "text": "Wymaga tylko zwięzłego uzasadnienia; wymaga pełnego uzasadnienia podniesionych zarzutów; nie wymaga uzasadnienia, chyba że zażalenie wnosi radca prawny lub adwokat;",
+        "text": "Wymaga tylko zwięzłego uzasadnienia;",
         "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "116. Zachowanie terminu do wniesienia skargi kasacyjnej bada:",
-    "options": [
+      },
       {
-        "text": "Zarówno wojewódzki sąd administracyjny, jak i Naczelny Sąd Administracyjny tylko Naczelny Sąd Administracyjny; tylko wojewódzki sąd administracyjny;",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "117. Stwierdzenie przez NSA, że zachodzi nieważność postępowania prowadzi do:",
-    "options": [
+        "text": "Wymaga pełnego uzasadnienia podniesionych zarzutów;",
+        "isCorrect": false
+      },
       {
-        "text": "Uwzględnienia jej z urzędu tylko w części zaskarżonej; uwzględnienia jej z urzędu także w części niezaskarżonej; uwzględnienia jej niezależnie od zakresu zaskarżenia, lecz tylko na wniosek;",
+        "text": "Nie wymaga uzasadnienia, chyba że zażalenie wnosi radca prawny lub adwokat;",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "118. Po wniesieniu zażalenia na postanowienie wojewódzkiego sądu administracyjnego – sąd ten:",
+    "question": "128. Zachowanie terminu do wniesienia skargi kasacyjnej bada:",
     "options": [
       {
-        "text": "Nie może w ogóle dokonać autokontroli własnego postanowienia; zawsze może dokonać autokontroli własnego postanowienia; ​ może dokonać autokontroli własnego postanowienia, gdy zażalenie zarzuca nieważność postępowania;",
+        "text": "Zarówno wojewódzki sąd administracyjny, jak i Naczelny Sąd Administracyjny",
+        "isCorrect": true
+      },
+      {
+        "text": "Tylko Naczelny Sąd Administracyjny;",
+        "isCorrect": false
+      },
+      {
+        "text": "Tylko wojewódzki sąd administracyjny;",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "119. Wniosek o przyznanie prawa pomocy, który nie został wniesiony na urzędowym formularzu:",
+    "question": "129. Stwierdzenie przez NSA, że zachodzi nieważność postępowania prowadzi do:",
+    "options": [
+      {
+        "text": "Uwzględnienia jej z urzędu tylko w części zaskarżonej;",
+        "isCorrect": false
+      },
+      {
+        "text": "Uwzględnienia jej z urzędu także w części niezaskarżonej;",
+        "isCorrect": true
+      },
+      {
+        "text": "Uwzględnienia jej niezależnie od zakresu zaskarżenia, lecz tylko na wniosek;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "130. Po wniesieniu zażalenia na postanowienie wojewódzkiego sądu administracyjnego – sąd ten:",
+    "options": [
+      {
+        "text": "Nie może w ogóle dokonać autokontroli własnego postanowienia;",
+        "isCorrect": false
+      },
+      {
+        "text": "Zawsze może dokonać autokontroli własnego postanowienia;",
+        "isCorrect": false
+      },
+      {
+        "text": "​ może dokonać autokontroli własnego postanowienia, gdy zażalenie zarzuca nieważność postępowania;",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "131. Wniosek o przyznanie prawa pomocy, który nie został wniesiony na urzędowym formularzu:",
     "options": [
       {
         "text": "Podlega oddaleniu; podlega odrzuceniu; pozostawia się bez rozpoznania;",
@@ -1627,52 +2008,92 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "120. Przyznanie prawa pomocy:",
+    "question": "132. Przyznanie prawa pomocy:",
     "options": [
       {
-        "text": "Jest niezależne od zasadności skargi; ​ jest zależne od zasadności skargi - nie przysługuje wówczas, gdy skarga jest oczywiście bezzasadna; w każdym przypadku jest zależne od zasadności skargi;",
+        "text": "Jest niezależne od zasadności skargi;",
+        "isCorrect": false
+      },
+      {
+        "text": "​ jest zależne od zasadności skargi - nie przysługuje wówczas, gdy skarga jest oczywiście bezzasadna;",
+        "isCorrect": true
+      },
+      {
+        "text": "W każdym przypadku jest zależne od zasadności skargi;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "133. Orzeczenie prawomocne sądu administracyjnego:",
+    "options": [
+      {
+        "text": "Wiąże powszechnie,",
+        "isCorrect": false
+      },
+      {
+        "text": "Wiąże strony postępowania,",
+        "isCorrect": false
+      },
+      {
+        "text": "Wiąże nie tylko strony i sąd, który je wydał, lecz również inne sądy i inne organy państwowe, a w przypadkach w ustawie przewidzianych także inne osoby",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "121. Orzeczenie prawomocne sądu administracyjnego:",
+    "question": "134. Podstawą odrzucenia skargi przez sąd administracyjny jest:",
     "options": [
       {
-        "text": "Wiąże powszechnie, wiąże strony postępowania, ​ wiąże nie tylko strony i sąd, który je wydał, lecz również inne sądy i inne organy państwowe, a w przypadkach w ustawie przewidzianych także inne osoby",
+        "text": "​ brak zdolności sądowej uczestnika postępowania, który nie został uzupełniony w wyznaczonym przez sąd terminie, albo który nie może zostać uzupełniony",
+        "isCorrect": true
+      },
+      {
+        "text": "Brak zdolności postulacyjnej strony postępowania,",
+        "isCorrect": false
+      },
+      {
+        "text": "Brak wyczerpania środka zaskarżenia jakim jest wniosek o ponowne rozpatrzenie sprawy.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "135. Prawidłowe jest stwierdzenie:",
+    "options": [
+      {
+        "text": "Spór o właściwość między wojewodami rozstrzyga NSA",
+        "isCorrect": false
+      },
+      {
+        "text": "​ spory kompetencyjne między samorządowymi kolegiami odwoławczymi a wojewodami rozstrzyga NSA,",
+        "isCorrect": true
+      },
+      {
+        "text": "Spory kompetencyjne rozstrzyga się wyrokiem.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "136. Właściwość miejscową wojewódzkiego sądu administracyjnego ustala się:",
+    "options": [
+      {
+        "text": "Co do zasady - według miejsca zamieszkania skarżącego,",
+        "isCorrect": false
+      },
+      {
+        "text": "W sprawach dotyczących nieruchomości - według miejsca jej położenia,",
+        "isCorrect": false
+      },
+      {
+        "text": "Co do zasady - według siedziby organu, którego działanie lub bezczynność są przedmiotem skargi.",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "122. Podstawą odrzucenia skargi przez sąd administracyjny jest:",
-    "options": [
-      {
-        "text": "​ brak zdolności sądowej uczestnika postępowania, który nie został uzupełniony w wyznaczonym przez sąd terminie, albo który nie może zostać uzupełniony brak zdolności postulacyjnej strony postępowania, brak wyczerpania środka zaskarżenia jakim jest wniosek o ponowne rozpatrzenie sprawy.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "123. Prawidłowe jest stwierdzenie:",
-    "options": [
-      {
-        "text": "​ uzupełnienie wyroku w postępowaniu sądowo-administracyjnym następuje w formie wyroku odmowa uwzględnienia wniosku o uzupełnienie wyroku następuje w formie postanowienia, które jest zaskarżalne skargą kasacyjną, wniosek o uzupełnienie wyroku może zostać zgłoszony w terminie 7 dni od dnia ogłoszenia wyroku albo od dnia doręczenia wyroku z urzędu.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "124. Właściwość miejscową wojewódzkiego sądu administracyjnego ustala się:",
-    "options": [
-      {
-        "text": "Co do zasady - według miejsca zamieszkania skarżącego, w sprawach dotyczących nieruchomości - według miejsca jej położenia, co do zasady - według siedziby organu, którego działanie lub bezczynność są przedmiotem skargi.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "125. Organ którego działanie jest przedmiotem skargi ma w postępowaniu sądowo-administracyjnym status:",
+    "question": "137. Organ którego działanie jest przedmiotem skargi ma w postępowaniu sądowo-administracyjnym status:",
     "options": [
       {
         "text": "Strony postępowania uczestnika postępowania podmiotu szczególnego - jako podmiotu rozstrzygającego",
@@ -1681,16 +2102,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "126. Pełnomocnikiem w postępowaniu sądowo-administracyjnym może być:",
+    "question": "138. Pełnomocnikiem w postępowaniu sądowo-administracyjnym może być:",
     "options": [
       {
-        "text": "Każda osoba fizyczna mająca pełną zdolność do czynności prawnych radca prawny tylko pełnomocnik, który występował wcześniej przed organem",
+        "text": "Każda osoba fizyczna mająca pełną zdolność do czynności prawnych",
+        "isCorrect": false
+      },
+      {
+        "text": "Radca prawny",
+        "isCorrect": true
+      },
+      {
+        "text": "Tylko pełnomocnik, który występował wcześniej przed organem",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "127. Jeżeli skarga kasacyjna nie ma usprawiedliwionych podstaw (jest niezasadna) NSA:",
+    "question": "139. Jeżeli skarga kasacyjna nie ma usprawiedliwionych podstaw (jest niezasadna) NSA:",
     "options": [
       {
         "text": "Oddala skargę kasacyjną odrzuca skargę kasacyjną utrzymuje zaskarżony wyrok w mocy",
@@ -1699,7 +2128,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "128. Co do zasady, WSA sporządza uzasadnienie wyroku:",
+    "question": "140. Co do zasady, WSA sporządza uzasadnienie wyroku:",
     "options": [
       {
         "text": "W terminie 7 dni w terminie 14 dni w terminie 30 dni",
@@ -1708,7 +2137,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "129. W przypadku gdy WSA uzna, że zaskarżona decyzja została wydana z wadą nieważności:",
+    "question": "141. W przypadku gdy WSA uzna, że zaskarżona decyzja została wydana z wadą nieważności:",
     "options": [
       {
         "text": "Uchyla decyzję stwierdza jej nieważność przekazuje sprawę do ponownego rozpatrzenia",
@@ -1717,7 +2146,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "130. Prokurator:",
+    "question": "142. Prokurator:",
     "options": [
       {
         "text": "Może wnieść skargę kasacyjną może wnieść skargę kasacyjną tylko wówczas gdy brał udział w postępowaniu przed WSA nie może wnieść skargi kasacyjnej",
@@ -1726,16 +2155,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "131. Co do zasady, skarżący:",
+    "question": "143. Co do zasady, skarżący:",
     "options": [
       {
-        "text": "Może cofnąć skargę i cofnięcie wiąże sąd może cofnąć skargę, lecz cofnięcie nie wiąże sądu nie może cofnąć wniesionej skargi",
+        "text": "Może cofnąć skargę i cofnięcie wiąże sąd",
         "isCorrect": true
+      },
+      {
+        "text": "Może cofnąć skargę, lecz cofnięcie nie wiąże sądu",
+        "isCorrect": false
+      },
+      {
+        "text": "Nie może cofnąć wniesionej skargi",
+        "isCorrect": false
       }
     ]
   },
   {
-    "question": "132. Sprzeciw przysługuje:",
+    "question": "144. Sprzeciw przysługuje:",
     "options": [
       {
         "text": "Od decyzji organu odwoławczego podatkowego od decyzji organu odwoławczego utrzymującej w mocy zaskarżoną decyzję od decyzji kasacyjnej organu odwoławczego wydanej na podstawie K.P.A",
@@ -1744,7 +2181,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "133. Skarga do WSA powinna zawierać:",
+    "question": "145. Skarga do WSA powinna zawierać:",
     "options": [
       {
         "text": "Konkretne zarzuty naruszenia wskazanych przepisów prawa materialnego lub procesowego określenie naruszenia prawa lub interesu prawnego podstawy kasacyjne",
@@ -1753,7 +2190,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "134. Sąd Administracyjny:",
+    "question": "146. Sąd Administracyjny:",
     "options": [
       {
         "text": "Jest związany prawomocnym wyrokiem uniewinniającym jest związany jedynie prawomocnym wyrokiem skazującym jest związany każdym wyrokiem sądu karnego",
@@ -1762,7 +2199,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "135. Jeżeli organ nie przekazał sądowi skargi, mimo wymierzenia grzywny, sąd może rozpoznać skargę:",
+    "question": "147. Jeżeli organ nie przekazał sądowi skargi, mimo wymierzenia grzywny, sąd może rozpoznać skargę:",
     "options": [
       {
         "text": "Zawsze na żądanie skarżącego sąd nie może rozpoznać takiej skargi",
@@ -1771,16 +2208,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "136. Przywrócenie terminu w postępowaniu sądowo administracyjnym:",
+    "question": "148. Przywrócenie terminu w postępowaniu sądowo administracyjnym:",
     "options": [
       {
-        "text": "Jest niedopuszczalne, gdy uchybienie nie powoduje negatywnych skutków dla strony nie jest dopuszczalne po upływie roku od uchybionego terminu następuje z urzędu",
+        "text": "Jest niedopuszczalne, gdy uchybienie nie powoduje negatywnych skutków dla strony",
         "isCorrect": true
+      },
+      {
+        "text": "Nie jest dopuszczalne po upływie roku od uchybionego terminu",
+        "isCorrect": false
+      },
+      {
+        "text": "Następuje z urzędu",
+        "isCorrect": false
       }
     ]
   },
   {
-    "question": "137. Sędzia NSA:",
+    "question": "149. Sędzia NSA:",
     "options": [
       {
         "text": "Musi mieć skończone 45 lat musi mieć ukończoną aplikację sądową musi mieć ukończone 40 lat",
@@ -1789,16 +2234,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "138. WSA może dyscyplinować organ w postępowaniu administracyjnym poprzez:",
+    "question": "150. WSA może dyscyplinować organ w postępowaniu administracyjnym poprzez:",
     "options": [
       {
-        "text": "Odrzucenie skargi zawiadomienie organów właściwych do spr. rozpoznawania petycji, skarg i wniosków ustanowienie kuratora dla organu",
+        "text": "Odrzucenie skargi",
+        "isCorrect": false
+      },
+      {
+        "text": "Zawiadomienie organów właściwych do spr. rozpoznawania petycji, skarg i wniosków",
+        "isCorrect": true
+      },
+      {
+        "text": "Ustanowienie kuratora dla organu",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "139. Przesłanką obligatoryjnego zawieszenia postępowania sądowo-administracyjnego może być:",
+    "question": "151. Przesłanką obligatoryjnego zawieszenia postępowania sądowo-administracyjnego może być:",
     "options": [
       {
         "text": "Wcześniejsze wniesienie wniosku o stwierdzenie nieważności zaskarżonej decyzji skuteczne cofnięcie skargi śmierć pełnomocnika strony",
@@ -1807,7 +2260,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "140. Jeżeli adresat w postępowaniu sądowo-administracyjnym odmawia podjęcia pisma:",
+    "question": "152. Jeżeli adresat w postępowaniu sądowo-administracyjnym odmawia podjęcia pisma:",
     "options": [
       {
         "text": "Naraża się na grzywnę stosuje się fikcję prawną pismo pozostawia się na poczcie lub w urzędzie gminy na 14 dni",
@@ -1816,7 +2269,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "141. Organami WSA są:",
+    "question": "153. Organami WSA są:",
     "options": [
       {
         "text": "Przewodniczący wydziałów zgromadzenie ogólne i kolegium sądu wiceprezes WSA",
@@ -1825,7 +2278,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "142. Legitymacja skargowa organu nad samorządem terytorialnym oparta jest o:",
+    "question": "154. Legitymacja skargowa organu nad samorządem terytorialnym oparta jest o:",
     "options": [
       {
         "text": "Interes publiczny Interes prawny Interes społeczny",
@@ -1834,7 +2287,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "143. Do grupy podmiotów dysponujących legitymacją opartą o interes publiczny należą",
+    "question": "155. Do grupy podmiotów dysponujących legitymacją opartą o interes publiczny należą",
     "options": [
       {
         "text": "Prokurator RPO RPD Rzecznik MŚP Organ nadzoru nad samorządem terytorialnym, który może złożyć skargę na uchwałę organu województwa, na uchwałę organu powiatu, na uchwałę lub zarządzenie organu gminy, związku, porozumienia międzygminnego Starosta, jeśli na uchwałę organu spółki wodnej, jeżeli w terminie nie dłuższym niż 30 dni od dnia doręczenia uchwały nie wydał decyzji orzekającej o nieważności uchwały w całości lub części",
@@ -1843,7 +2296,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "144. Przesłanki procesowe bezwzględne to m.in.:",
+    "question": "156. Przesłanki procesowe bezwzględne to m.in.:",
     "options": [
       {
         "text": "Uiszczenie wpisu od skargi Zachowanie terminu do złożenia skargi Powaga rzeczy osądzonej (res iudicata)",
@@ -1852,7 +2305,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "145. Do przesłanek procesowych bezwzględnych (przesłanek dopuszczalności skargi sensu stricto) zaliczamy:",
+    "question": "157. Do przesłanek procesowych bezwzględnych (przesłanek dopuszczalności skargi sensu stricto) zaliczamy:",
     "options": [
       {
         "text": "Dopuszczalność drogi sądowej, a więc złożenie skargi na aktu lub czynność (bezczynność lub przewlekłe prowadzenia postępowania) objęty zakresem właściwości rzeczowej sądu administracyjnego; posiadanie przez skarżącego legitymacji procesowej warunkującej korzystanie z możliwości poddania sprawy jurysdykcji sądowej; wniesienie skargi po wyczerpaniu środków zaskarżenia, jeśli takie są przewidziane; powaga rzeczy osądzonej (res iudicata); zawisłość sporu (lis pendens) inne przesłanki bezwzględne.",
@@ -1861,7 +2314,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "146. Przesłanki procesowe względne (przesłanki dopuszczalności skargi sensu largo)",
+    "question": "158. Przesłanki procesowe względne (przesłanki dopuszczalności skargi sensu largo)",
     "options": [
       {
         "text": "Zachowanie terminu do złożenia skargi ; zachowanie wymogów formalnych skargi; wniesienie skargi przez podmiot mający zdolność sądową i zdolność procesową; uiszczenie wpisu od skargi;",
@@ -1870,7 +2323,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "147. Skutkiem braku zdolności sądowej skarżącego w chwili wniesienia skargi będzie",
+    "question": "159. Skutkiem braku zdolności sądowej skarżącego w chwili wniesienia skargi będzie",
     "options": [
       {
         "text": "Oddalenie skargi Odrzucenie skargi Umorzenie postępowania",
@@ -1879,7 +2332,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "148. Brak zdolności sądowej danego podmiotu, w zależności od momentu jego ujawnienia, powoduje:",
+    "question": "160. Brak zdolności sądowej danego podmiotu, w zależności od momentu jego ujawnienia, powoduje:",
     "options": [
       {
         "text": "Odrzucenie skargi - jeśli jedna ze stron w chwili wniesienia skargi nie ma zdolności sądowej, a brak ten nie został uzupełniony (art. 58 § 1 pkt 5 i § 2 p.p.s.a.); zawieszenie postępowania - w razie śmierci strony lub utraty przez nią zdolności sądowej w toku postępowania (art. 124 § 1 pkt 1 p.p.s.a.). Zawieszenie ma skutek od dnia zdarzeń, które je spowodowały. Nie zawiesza się postępowania w razie śmierci strony, jeżeli przedmiot postępowania odnosi się wyłącznie do praw i obowiązków ściśle związanych z osobą zmarłego; umorzenie postępowania - w razie śmierci strony w toku postępowania, gdy przedmiot postępowania odnosi się wyłącznie do praw i obowiązków ściśle związanych z osobą zmarłego, a nie zgłasza udziału w sprawie osoba, której interesu prawnego dotyczy wynik postępowania (art. 161 § 1 pkt 2 p.p.s.a.), w razie śmierci strony po upływie pięciu lat od dnia wydania postanowienia o zawieszeniu postępowania z tej przyczyny (art. 130 § 1 pkt 3 p.p.s.a.) oraz w razie braku następcy prawnego strony, która utraciła zdolność sądową, a w każdym razie po upływie trzech lat od daty postanowienia o zawieszeniu postępowania z tej przyczyny; nieważność postępowania - jeśli sąd prowadził postępowanie, mimo że jedna ze stron nie miała zdolności sądowej (art. 183 § 2 pkt 2 p.p.s.a.). Każda z przesłanek nieważności postępowania, o których mowa w art. 183 § 2 p.p.s.a., daje samodzielną podstawę do obligatoryjnego uchylenia zaskarżonego wyroku w całości (art. 186 p.p.s.a.). Bez znaczenia pozostaje więc to, czy np. brak zdolności sądowej strony miało, czy też nie miało wpływu na wynik sprawy.",
@@ -1888,7 +2341,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "149. Brak w składzie organu osoby prawnej czy jednostki organizacyjnej traktowany jest jak:",
+    "question": "161. Brak w składzie organu osoby prawnej czy jednostki organizacyjnej traktowany jest jak:",
     "options": [
       {
         "text": "Uchybienie procesowe",
@@ -1897,7 +2350,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "150. Brak zdolności procesowej osoby fizycznej",
+    "question": "162. Brak zdolności procesowej osoby fizycznej",
     "options": [
       {
         "text": "Podstawa oddalenia skargi",
@@ -1906,7 +2359,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "151. Za równoważną z brakiem zdolności procesowej należy uznać sytuację, w której podmiot działający przez organy organów takich nie ma (a w zasadzie nie ma osób tworzących organ) bądź też zachodzą braki w składzie organu i tym samym nie może on wykonywać swoich uprawnień (np. zarząd spółki liczy pięć osób, dwie z nich zrezygnowały).",
+    "question": "163. Za równoważną z brakiem zdolności procesowej należy uznać sytuację, w której podmiot działający przez organy organów takich nie ma (a w zasadzie nie ma osób tworzących organ) bądź też zachodzą braki w składzie organu i tym samym nie może on wykonywać swoich uprawnień (np. zarząd spółki liczy pięć osób, dwie z nich zrezygnowały).",
     "options": [
       {
         "text": "Brak zdolności procesowej strony skarżącej może wywołać różne konsekwencje, niekoniecznie tożsame w skutkach z brakiem zdolności sądowej: brak działania przedstawiciela ustawowego skarżącego, względnie braki w składzie organów jednostki organizacyjnej będącej stroną skarżącą, które uniemożliwiają jej działanie – stanowią podstawę odrzucenia skargi, jeśli nie zostaną uzupełnione gdy postępowanie zostało skutecznie wszczęte i w jego toku nastąpi brak w kwestii zdolności procesowej skarżącego, powoduje to zawieszenie postępowania (art. 124 § 1 pkt 1 i 2 p.p.s.a.) lub ustanowienie kuratora przez sąd na wniosek strony przeciwnej, podejmującej przeciwko drugiej stronie czynność niecierpiącą zwłoki (art. 30 p.p.s.a.). W przypadku, w którym ustanowienie przedstawiciela ustawowego powinno nastąpić z urzędu, przed zawieszeniem postępowania sąd zwraca się do odpowiedniego sądu opiekuńczego (art. 31 § 1 p.p.s.a.). Niemniej sąd może dopuścić tymczasowo do czynności stronę niemającą zdolności procesowej (lub sądowej) albo osobę niemającą należytego ustawowego umocowania, z zastrzeżeniem, że przed upływem wyznaczonego terminu braki będą uzupełnione, a czynności zatwierdzone przez powołaną do tego osobę (art. 31 § 2 p.p.s.a.). Jeśli w wymaganym terminie braki nie zostały uzupełnione, sąd zniesie postępowanie w zakresie, w jakim jest ono dotknięte brakami i w miarę potrzeby wyda odpowiednie postanowienie, to jest o odrzuceniu skargi albo zawieszeniu postępowania (art. 31 § 3 p.p.s.a.). ujawnienie braku zdolności procesowej dopiero po zakończeniu postępowania sądowo-administracyjnego prowadzi do jego nieważności (art. 183 § 2 pkt 2 p.p.s.a.) oraz wznowienia (art. 271 pkt 2 p.p.s.a.).",
@@ -1915,25 +2368,41 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "152. Odrzucenie skargi następuje:",
+    "question": "164. Odrzucenie skargi następuje:",
     "options": [
       {
-        "text": "Wyrokiem, na który przysługuje skarga kasacyjna Postanowieniem zaskarżalnym zażaleniem lub skargą kasacyjną Zarządzeniem prezesa sądu",
+        "text": "Wyrokiem, na który przysługuje skarga kasacyjna,",
+        "isCorrect": false
+      },
+      {
+        "text": "Postanowieniem zaskarżalnym zażaleniem lub skargą kasacyjną,",
+        "isCorrect": true
+      },
+      {
+        "text": "Zarządzeniem prezesa sądu.",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "153. Organ, który uwzględnił skargę we własnym zakresie:",
+    "question": "165. Organ, który uwzględnił skargę we własnym zakresie:",
     "options": [
       {
-        "text": "Nie przekazuje skargi i akt sprawy sądowi administracyjnemu Zawsze przekazuje skargę sądowi wraz z odpowiedzią na skargę i aktami sprawy Przekazuje skargę i akta sprawy sądowi, gdy ten zażąda takiego przekazania",
+        "text": "Nie przekazuje skargi i akt sprawy sądowi administracyjnemu",
+        "isCorrect": false
+      },
+      {
+        "text": "Zawsze przekazuje skargę sądowi wraz z odpowiedzią na skargę i aktami sprawy",
+        "isCorrect": true
+      },
+      {
+        "text": "Przekazuje skargę i akta sprawy sądowi, gdy ten zażąda takiego przekazania Organ, którego działanie, bezczynność lub przewlekłe prowadzenie postępowania zaskarżono, może w zakresie swojej właściwości uwzględnić skargę w całości w terminie 30 dni od dnia jej otrzymania. W przypadku skargi na decyzję, uwzględniając skargę w całości, organ uchyla zaskarżoną decyzję i wydaje nową. Uwzględniając skargę, organ stwierdza jednocześnie, czy działanie, bezczynność lub przewlekłe prowadzenie postępowania miały miejsce bez podstawy prawnej albo z rażącym naruszeniem prawa. W razie uwzględnienia skargi przez organ w trybie samokontroli organ jest zobligowany do przekazania właściwemu sądowi administracyjnemu skargi wraz z kompletnymi i uporządkowanymi aktami sprawy i decyzją wydaną w trybie autokontroli → sąd administracyjny, po otrzymaniu skargi i akt sprawy, umarza postępowanie → na rozstrzygnięcie organu administracji publicznej wydane w trybie samokontroli przysługuje skarga bezpośrednio do sądu administracyjnego, bez potrzeby uprzedniego wnoszenia środka zaskarżenia lub wezwania organu do usunięcia naruszenia prawa Warunkiem skorzystania z instytucji samokontroli jest uwzględnienie przez organ administracji publicznej skargi w całości.",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "154. Organ, którego działanie, bezczynność lub przewlekłe prowadzenie postępowania zaskarżono, może w zakresie swojej właściwości uwzględnić skargę w całości w terminie 30 dni od dnia jej otrzymania.",
+    "question": "166. Organ, którego działanie, bezczynność lub przewlekłe prowadzenie postępowania zaskarżono, może w zakresie swojej właściwości uwzględnić skargę w całości w terminie 30 dni od dnia jej otrzymania.",
     "options": [
       {
         "text": "W przypadku skargi na decyzję, uwzględniając skargę w całości, organ uchyla zaskarżoną decyzję i wydaje nową. Uwzględniając skargę, organ stwierdza jednocześnie, czy działanie, bezczynność lub przewlekłe prowadzenie postępowania miały miejsce bez podstawy prawnej albo z rażącym naruszeniem prawa. W razie uwzględnienia skargi przez organ w trybie samokontroli organ jest zobligowany do przekazania właściwemu sądowi administracyjnemu skargi wraz z kompletnymi i uporządkowanymi aktami sprawy i decyzją wydaną w trybie autokontroli",
@@ -1942,7 +2411,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "155. → sąd administracyjny, po otrzymaniu skargi i akt sprawy, umarza postępowanie",
+    "question": "167. → sąd administracyjny, po otrzymaniu skargi i akt sprawy, umarza postępowanie",
     "options": [
       {
         "text": "→ na rozstrzygnięcie organu administracji publicznej wydane w trybie samokontroli przysługuje skarga bezpośrednio do sądu administracyjnego, bez potrzeby uprzedniego wnoszenia środka zaskarżenia lub wezwania organu do usunięcia naruszenia prawa Warunkiem skorzystania z instytucji samokontroli jest uwzględnienie przez organ administracji publicznej skargi w całości.",
@@ -1951,7 +2420,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "156. Skarga wniesiona do wojewódzkiego sądu administracyjnego:",
+    "question": "168. Skarga wniesiona do wojewódzkiego sądu administracyjnego:",
     "options": [
       {
         "text": "Wiąże sąd co do zawartych w niej zarzutów Nie wiąże sądu Wiąże sąd co do zawartych w niej zarzutów i podstaw prawnych",
@@ -1960,7 +2429,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "157. Art.134.",
+    "question": "169. Art.134.",
     "options": [
       {
         "text": "§1. Sąd rozstrzyga w granicach danej sprawy nie będąc jednak związany zarzutami i wnioskami skargi oraz powołaną podstawą prawną, z zastrzeżeniem art. 57a. §2. Sąd nie może wydać orzeczenia na niekorzyść skarżącego, chyba że stwierdzi naruszenie prawa skutkujące stwierdzeniem nieważności zaskarżonego aktu lub czynności.",
@@ -1969,16 +2438,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "158. W postępowaniu sądowo-administracyjnym:",
+    "question": "170. W postępowaniu sądowo-administracyjnym:",
     "options": [
       {
-        "text": "Prowadzi się pełne postępowanie dowodowe, Nie prowadzi się w ogóle postępowania dowodowego Sąd może przeprowadzić uzupełniający dowód z dokumentów",
+        "text": "Prowadzi się pełne postępowanie dowodowe,",
         "isCorrect": false
+      },
+      {
+        "text": "Nie prowadzi się w ogóle postępowania dowodowego,",
+        "isCorrect": false
+      },
+      {
+        "text": "Można przeprowadzić uzupełniający dowód z dokumentu.",
+        "isCorrect": true
       }
     ]
   },
   {
-    "question": "159. § 3. Sąd może z urzędu lub na wniosek stron przeprowadzić dowody uzupełniające z dokumentów, jeżeli jest to niezbędne do wyjaśnienia istotnych wątpliwości i nie spowoduje nadmiernego przedłużenia postępowania w sprawie.",
+    "question": "171. § 3. Sąd może z urzędu lub na wniosek stron przeprowadzić dowody uzupełniające z dokumentów, jeżeli jest to niezbędne do wyjaśnienia istotnych wątpliwości i nie spowoduje nadmiernego przedłużenia postępowania w sprawie.",
     "options": [
       {
         "text": "§ 4. Fakty powszechnie znane sąd bierze pod uwagę nawet bez powołania się na nie przez strony. § 5. Do postępowania dowodowego, o którym mowa w § 3, stosuje się odpowiednio przepisy Kodeksu postępowania cywilnego.",
@@ -1987,7 +2464,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "160. Wojewódzki sąd administracyjny",
+    "question": "172. Wojewódzki sąd administracyjny",
     "options": [
       {
         "text": "Sporządza z urzędu uzasadnienie każdego wydanego wyroku Sporządza z urzędu uzasadnienie tylko wyroku uwzględniającego skargę Sporządza z urzędu uzasadnienie tylko wyroku oddalającego skargę",
@@ -1996,7 +2473,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "161. Art. 141. § 1. Uzasadnienie wyroku sporządza się z urzędu w terminie czternastu dni od dnia ogłoszenia wyroku albo podpisania sentencji wyroku wydanego na posiedzeniu niejawnym.",
+    "question": "173. Art. 141. § 1. Uzasadnienie wyroku sporządza się z urzędu w terminie czternastu dni od dnia ogłoszenia wyroku albo podpisania sentencji wyroku wydanego na posiedzeniu niejawnym.",
     "options": [
       {
         "text": "§ 2. W sprawach, w których skargę oddalono, uzasadnienie wyroku sporządza się na wniosek strony zgłoszony w terminie siedmiu dni od dnia ogłoszenia wyroku albo doręczenia odpisu sentencji wyroku. Uzasadnienie wyroku",
@@ -2005,7 +2482,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "162. Sporządza się w terminie czternastu dni od dnia zgłoszenia wniosku. W sprawie zawiłej, w razie niemożności sporządzenia uzasadnienia w terminie prezes sądu może przedłużyć ten termin na czas oznaczony, nie dłuższy niż trzydzieści dni.",
+    "question": "174. Sporządza się w terminie czternastu dni od dnia zgłoszenia wniosku. W sprawie zawiłej, w razie niemożności sporządzenia uzasadnienia w terminie prezes sądu może przedłużyć ten termin na czas oznaczony, nie dłuższy niż trzydzieści dni.",
     "options": [
       {
         "text": "Odmowa sporządzenia uzasadnienia wyroku następuje postanowieniem wydanym na posiedzeniu niejawnym. Uzasadnienie wyroku powinno zawierać zwięzłe przedstawienie stanu sprawy, zarzutów podniesionych w skardze, stanowisk pozostałych stron, podstawę prawną rozstrzygnięcia oraz jej wyjaśnienie. Jeżeli w wyniku uwzględnienia skargi sprawa ma być ponownie rozpatrzona przez organ administracji, uzasadnienie powinno ponadto zawierać wskazania co do dalszego postępowania.",
@@ -2014,7 +2491,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "163. WSA uwzględniając skargę na akt prawa miejscowego:",
+    "question": "175. WSA uwzględniając skargę na akt prawa miejscowego:",
     "options": [
       {
         "text": "Stwierdza jego nieważność w całości lub w części Uchyla akt Uchyla akt i przekazuje do ponownego rozpatrzenia",
@@ -2023,7 +2500,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "164. Sąd uwzględniając skargę na uchwałę lub akt prawa miejscowego stwierdza nieważność tej uchwały lub aktu w całości lub w części albo stwierdza, że zostały wydane z naruszeniem prawa, jeżeli przepis szczególny wyłącza stwierdzenie ich nieważności.",
+    "question": "176. Sąd uwzględniając skargę na uchwałę lub akt prawa miejscowego stwierdza nieważność tej uchwały lub aktu w całości lub w części albo stwierdza, że zostały wydane z naruszeniem prawa, jeżeli przepis szczególny wyłącza stwierdzenie ich nieważności.",
     "options": [
       {
         "text": "§Rozstrzygnięcia w sprawach indywidualnych, wydane na podstawie uchwały lub aktu, o których mowa w § 1, podlegają wzruszeniu w trybie określonym w postępowaniu administracyjnym albo w postępowaniu szczególnym.",
@@ -2032,16 +2509,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "165. Ocena prawna i wskazania co do dalszego postępowania:",
+    "question": "177. Ocena prawna i wskazania co do dalszego postępowania:",
     "options": [
       {
-        "text": "Wiążą w sprawie organy, których działanie, bezczynność lub przewlekłe prowadzenie postępowania było przedmiotem zaskarżenia, a także sądy wiążą w sprawie organy, których działanie, bezczynność lub przewlekłe prowadzenie postępowania było przedmiotem zaskarżenia, a także sądy, chyba że przepisy prawa uległy zmianie, wiążą w sprawie organy, których działanie, bezczynność lub przewlekłe prowadzenie postępowania było przedmiotem zaskarżenia",
+        "text": "Wiążą w sprawie organy, których działanie, bezczynność lub przewlekłe prowadzenie postępowania było przedmiotem zaskarżenia, a także sądy",
+        "isCorrect": false
+      },
+      {
+        "text": "Wiążą w sprawie organy, których działanie, bezczynność lub przewlekłe prowadzenie postępowania było przedmiotem zaskarżenia, a także sądy, chyba że przepisy prawa uległy zmianie,",
+        "isCorrect": true
+      },
+      {
+        "text": "Wiążą w sprawie organy, których działanie, bezczynność lub przewlekłe prowadzenie postępowania było przedmiotem zaskarżenia",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "166. Orzeczenie sądu administracyjnego staje się prawomocne:",
+    "question": "178. Orzeczenie sądu administracyjnego staje się prawomocne:",
     "options": [
       {
         "text": "Po jego publikacji jeżeli nie przysługuje co do niego skarga kasacyjna jeżeli nie przysługuje co do niego środek odwoławczy",
@@ -2050,7 +2535,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "167. Podstawą skargi kasacyjnej może być",
+    "question": "179. Podstawą skargi kasacyjnej może być",
     "options": [
       {
         "text": "Rażące naruszenie prawa materialnego naruszenie prawa procesowego naruszenie prawa materialnego poprzez błędna jego wykładnie lub niewłaściwe zastosowanie",
@@ -2059,7 +2544,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "168. Skargę kasacyjną można oprzeć na następujących podstawach:",
+    "question": "180. Skargę kasacyjną można oprzeć na następujących podstawach:",
     "options": [
       {
         "text": "Naruszeniu prawa materialnego przez błędną jego wykładnię lub niewłaściwe zastosowanie;",
@@ -2068,7 +2553,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "169. WSA uchyli swój wyrok i ponownie rozpozna sprawę (autokontrola) jeżeli stwierdzi, że:",
+    "question": "181. WSA uchyli swój wyrok i ponownie rozpozna sprawę (autokontrola) jeżeli stwierdzi, że:",
     "options": [
       {
         "text": "Zachodzą przesłanki nieważności decyzji podstawy skargi kasacyjnej są oczywiście usprawiedliwione podstawy skargi kasacyjnej zostały wystarczająco uprawdopodobnione",
@@ -2077,7 +2562,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "170. NSA oddali skargę kasacyjną, jeżeli:",
+    "question": "182. NSA oddali skargę kasacyjną, jeżeli:",
     "options": [
       {
         "text": "Wymogi formalne skargi kasacyjnej nie zostały zachowane zachodzi nieważność postępowania zaskarżone orzeczenie mimo błędnego uzasadnienia odpowiada prawu",
@@ -2086,7 +2571,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "171. Jeżeli nie ma usprawiedliwionych podstaw",
+    "question": "183. Jeżeli nie ma usprawiedliwionych podstaw",
     "options": [
       {
         "text": "Jeżeli zaskarżone orzeczenie mimo błędnego uzasadnienia odpowiada prawu.",
@@ -2095,16 +2580,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "172. Zgodnie z p.p.s.a. sędzia jest wyłączony z mocy samej ustawy w sprawach:",
+    "question": "184. Zgodnie z p.p.s.a. sędzia jest wyłączony z mocy samej ustawy w sprawach:",
     "options": [
       {
-        "text": "Jeżeli istnieje okoliczność tego rodzaju, że mogłaby wywołać uzasadnioną wątpliwość co do jego bezstronności w danej sprawie, w których jest stroną lub pozostaje z jedną z nich w takim stosunku prawnym, że wynik sprawy oddziałuje na jego prawa lub obowiązki, powinowatych do 4 stopnia.",
+        "text": "Jeżeli istnieje okoliczność tego rodzaju, że mogłaby wywołać uzasadnioną wątpliwość co do jego bezstronności w danej sprawie,",
+        "isCorrect": false
+      },
+      {
+        "text": "W których jest stroną lub pozostaje z jedną z nich w takim stosunku prawnym, że wynik sprawy oddziałuje na jego prawa lub obowiązki,",
+        "isCorrect": true
+      },
+      {
+        "text": "Powinowatych do 4 stopnia.",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "173. Sąd administracyjny może w wyroku zobowiązać właściwy organ do wydania w określonym terminie decyzji wskazując rozstrzygnięcie sprawy:",
+    "question": "185. Sąd administracyjny może w wyroku zobowiązać właściwy organ do wydania w określonym terminie decyzji wskazując rozstrzygnięcie sprawy:",
     "options": [
       {
         "text": "Jeżeli jednocześnie uwzględnia skargę na decyzję administracyjną obarczoną jedną z wad nieważności; jeżeli decyzja została wydana bez uzyskania wymaganego prawem stanowiska innego organu; także jeśli jest to decyzja uznaniowa. [tu nie może!]",
@@ -2113,25 +2606,37 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "174. Przesłanką fakultatywnego zawieszenia postępowania sądowo-administracyjnego z urzędu jest:",
+    "question": "186. Przesłanką fakultatywnego zawieszenia postępowania sądowo-administracyjnego z urzędu jest:",
     "options": [
       {
-        "text": "Śmierć pełnomocnika, chyba że strona działa przed sądem osobiście, przedstawienie przez sąd orzekający w tym postępowaniu pytania prawnego Trybunałowi Konstytucyjnemu, (tutaj zawieszenie jest obligatoryjne) niewykonanie przez skarżącego zarządzeń przewodniczącego, jeżeli z powodu ich niewykonania nie",
+        "text": "Śmierć pełnomocnika, chyba że strona działa przed sądem osobiście,",
         "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "175. Wskaż to zakończenia zdania - „Sąd administracyjny odracza rozprawę...”, które jest prawdziwe:",
-    "options": [
+      },
       {
-        "text": "W każdym przypadku, gdy wniesie o to skarżący; jeśli stwierdzi, że którakolwiek z nieobecnych stron nie została skutecznie zawiadomiona o terminie rozprawy; zawsze w przypadku niestawienia się którejś ze stron postępowania.",
+        "text": "Przedstawienie przez sąd orzekający w tym postępowaniu pytania prawnego Trybunałowi Konstytucyjnemu,",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "176. Rozprawa ulega odroczeniu, jeżeli:",
+    "question": "187. Wskaż to zakończenia zdania - „Sąd administracyjny odracza rozprawę...”, które jest prawdziwe:",
+    "options": [
+      {
+        "text": "W każdym przypadku, gdy wniesie o to skarżący;",
+        "isCorrect": false
+      },
+      {
+        "text": "Jeśli stwierdzi, że którakolwiek z nieobecnych stron nie została skutecznie zawiadomiona o terminie rozprawy;",
+        "isCorrect": true
+      },
+      {
+        "text": "Zawsze w przypadku niestawienia się którejś ze stron postępowania. Rozprawa ulega odroczeniu, jeżeli: sąd stwierdzi nieprawidłowość zawiadomienia którejkolwiek ze stron jeżeli nieobecność strony lub jej pełnomocnika jest wywołana nadzwyczajnym wydarzeniem lub inną znaną sądowi przeszkodą, której nie można przezwyciężyć, chyba że strona lub jej pełnomocnik wnieśli o rozpoznanie sprawy w ich nieobecności. jeżeli sąd postanowi zawiadomić o toczącym się postępowaniu sądowym osoby, które dotychczas nie brały udziału w sprawie w charakterze stron.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "188. Rozprawa ulega odroczeniu, jeżeli:",
     "options": [
       {
         "text": "Sąd stwierdzi nieprawidłowość zawiadomienia którejkolwiek ze stron jeżeli nieobecność strony lub jej pełnomocnika jest wywołana nadzwyczajnym wydarzeniem lub inną znaną sądowi przeszkodą, której nie można przezwyciężyć, chyba że strona lub jej pełnomocnik wnieśli o rozpoznanie sprawy w ich nieobecności. jeżeli sąd postanowi zawiadomić o toczącym się postępowaniu sądowym osoby, które dotychczas nie brały udziału w sprawie w charakterze stron.",
@@ -2140,16 +2645,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "177. Uchybienie terminowi do wniesienia skargi:",
+    "question": "189. Uchybienie terminowi do wniesienia skargi:",
     "options": [
       {
-        "text": "Sąd uwzględnia z urzędu i ma obowiązek niezależnie od winy skarżącego i przedmiotu zaskarżenia z góry odrzucić skargę, jest przesłanką sensu stricto, niekonwalidowalną, jest brakiem konwalidowalnym czynności zaskarżenia (warunek formalny - sensu largo - dopuszczalności zaskarżenia)",
+        "text": "Sąd uwzględnia z urzędu i ma obowiązek niezależnie od winy skarżącego i przedmiotu zaskarżenia z góry odrzucić skargę,",
+        "isCorrect": false
+      },
+      {
+        "text": "Jest przesłanką sensu stricto, niekonwalidowalną,",
+        "isCorrect": false
+      },
+      {
+        "text": "Jest brakiem konwalidowalnym czynności zaskarżenia (warunek formalny - sensu largo - dopuszczalności zaskarżenia) Uchybienie terminu do wniesienia skargi powoduje jej odrzucenie przez sąd → nie zawsze jednak będzie konieczne, bowiem ustawodawca konwalidację tego naruszenia prawa w postaci wniosku o przywrócenie terminu. → Skarżący, który uchybił terminowi do wniesienia skargi, może zwrócić się do sądu z wnioskiem o jego przywrócenie. Jeżeli strona nie dokonała w terminie czynności w postępowaniu sądowym bez swojej winy, sąd na jej wniosek postanowi przywrócenie terminu. Na postanowienie o przywróceniu terminu albo o odmowie jego przywrócenia przysługuje bowiem zażalenie. Ustawodawca dopuszcza, ale tylko w odniesieniu do na akty lub czynności, o których mowa w art. 3 § 2 pkt 4, możliwość uznania z urzędu (bez specjalnego wniosku w tym względzie), że uchybienie tego terminu nastąpiło bez winy skarżącego i rozpoznania skargi. NIESTACJONARNI 2023",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "178. Uchybienie terminu do wniesienia skargi powoduje jej odrzucenie przez sąd → nie zawsze jednak będzie konieczne, bowiem ustawodawca konwalidację tego naruszenia prawa w postaci wniosku o przywrócenie terminu.",
+    "question": "190. Uchybienie terminu do wniesienia skargi powoduje jej odrzucenie przez sąd → nie zawsze jednak będzie konieczne, bowiem ustawodawca konwalidację tego naruszenia prawa w postaci wniosku o przywrócenie terminu.",
     "options": [
       {
         "text": "→ Skarżący, który uchybił terminowi do wniesienia skargi, może zwrócić się do sądu z wnioskiem o jego przywrócenie. Jeżeli strona nie dokonała w terminie czynności w postępowaniu sądowym bez swojej winy, sąd na jej wniosek postanowi przywrócenie terminu. Na postanowienie o przywróceniu terminu albo o odmowie jego przywrócenia przysługuje bowiem zażalenie. Ustawodawca dopuszcza, ale tylko w odniesieniu do na akty lub czynności, o których mowa w art. 3 § 2 pkt 4, możliwość uznania z urzędu (bez specjalnego wniosku w tym względzie), że uchybienie tego terminu nastąpiło bez winy skarżącego i rozpoznania skargi.",
@@ -2158,7 +2671,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "179. Organ, którego działanie jest przedmiotem skargi ma w postępowaniu sądowo-administracyjnym status:",
+    "question": "191. Organ, którego działanie jest przedmiotem skargi ma w postępowaniu sądowo-administracyjnym status:",
     "options": [
       {
         "text": "Strony postępowania Uczestnika postępowania Podmiotu szczególnego – jako podmiotu rozstrzygającego",
@@ -2167,25 +2680,41 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "180. Wniesienie skargi na decyzję administracyjną – jako podmiotu rozstrzygającego",
+    "question": "192. Wniesienie skargi na decyzję administracyjną – jako podmiotu rozstrzygającego",
     "options": [
       {
-        "text": "Umożliwia organowi, który wydał decyzję zastosowanie autokontroli własnej decyzji Nie daje organowi, który wydał decyzję możliwości zastosowania autokontroli własnej decyzji Umożliwia organowi, który wydał decyzję jedynie poparcie skargi przed sądem",
+        "text": "Umożliwia organowi, który wydał decyzję zastosowanie autokontroli własnej decyzji",
         "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "181. Sporządzenie skargi do wojewódzkiego sądu administracyjnego",
-    "options": [
+      },
       {
-        "text": "Jest objęte przymusem radcowsko-adwokackim Nie jest objęte Nie jest objęte, lecz skargę musi sporządzić osoba profesjonalna",
+        "text": "Nie daje organowi, który wydał decyzję możliwości zastosowania autokontroli własnej decyzji",
+        "isCorrect": false
+      },
+      {
+        "text": "Umożliwia organowi, który wydał decyzję jedynie poparcie skargi przed sądem Organ, którego działanie, bezczynność lub przewlekłe prowadzenie postępowania zaskarżono, może w zakresie swojej właściwości uwzględnić skargę w całości w terminie trzydziestu dni od dnia jej otrzymania. W przypadku skargi na decyzję, uwzględniając skargę w całości, organ uchyla zaskarżoną decyzję i wydaje nową decyzję. Uwzględniając skargę, organ stwierdza jednocześnie, czy działanie, bezczynność lub przewlekłe prowadzenie postępowania miały miejsce bez podstawy prawnej albo z rażącym naruszeniem prawa.",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "182. Przymus dotyczy tylko SKARGI KASACYJNEJ DO NSA:",
+    "question": "193. Sporządzenie skargi do wojewódzkiego sądu administracyjnego",
+    "options": [
+      {
+        "text": "Jest objęte przymusem radcowsko-adwokackim",
+        "isCorrect": false
+      },
+      {
+        "text": "Nie jest objęte",
+        "isCorrect": true
+      },
+      {
+        "text": "Nie jest objęte, lecz skargę musi sporządzić osoba profesjonalna Przymus dotyczy tylko SKARGI KASACYJNEJ DO NSA: Art. 175. § 1. Skarga kasacyjna powinna być sporządzona przez adwokata lub radcę prawnego. § 2. Przepisu § 1 nie stosuje się, jeżeli skargę kasacyjną sporządza sędzia, prokurator, notariusz, radca Prokuratorii Generalnej Rzeczypospolitej Polskiej albo profesor lub doktor habilitowany nauk prawnych, będący stroną, jej przedstawicielem lub pełnomocnikiem albo jeżeli skargę kasacyjną wnosi prokurator, Rzecznik Praw Obywatelskich lub Rzecznik Praw Dziecka. § 2a. Przepisu § 1 nie stosuje się także wtedy, gdy stroną postępowania jest Prezes Prokuratorii Generalnej Rzeczypospolitej Polskiej, a także wówczas, gdy czynności w postępowaniu za organy administracji rządowej, państwowe jednostki organizacyjne nieposiadające osobowości prawnej lub Skarb Państwa podejmowane są przez Prokuratorię Generalną Rzeczypospolitej Polskiej. § 3. Skarga kasacyjna może być sporządzona przez: doradcę podatkowego – w sprawach obowiązków podatkowych i celnych oraz w sprawach egzekucji administracyjnej związanej z tymi obowiązkami; rzecznika patentowego – w sprawach własności przemysłowej.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "194. Przymus dotyczy tylko SKARGI KASACYJNEJ DO NSA:",
     "options": [
       {
         "text": "Art. 175. § 1. Skarga kasacyjna powinna być sporządzona przez adwokata lub radcę prawnego. § 2. Przepisu § 1 nie stosuje się, jeżeli skargę kasacyjną sporządza sędzia, prokurator, notariusz, radca Prokuratorii Generalnej Rzeczypospolitej Polskiej albo profesor lub doktor habilitowany nauk prawnych, będący stroną, jej przedstawicielem lub pełnomocnikiem albo jeżeli skargę kasacyjną wnosi prokurator, Rzecznik Praw Obywatelskich lub Rzecznik Praw Dziecka. § 2a. Przepisu § 1 nie stosuje się także wtedy, gdy stroną postępowania jest Prezes Prokuratorii Generalnej Rzeczypospolitej Polskiej, a także wówczas, gdy czynności w postępowaniu za organy administracji rządowej, państwowe jednostki organizacyjne nieposiadające osobowości prawnej lub Skarb Państwa podejmowane są przez Prokuratorię Generalną Rzeczypospolitej Polskiej. § 3. Skarga kasacyjna może być sporządzona przez: doradcę podatkowego – w sprawach obowiązków podatkowych i celnych oraz w sprawach egzekucji administracyjnej związanej z tymi obowiązkami; rzecznika patentowego – w sprawach własności przemysłowej.",
@@ -2194,7 +2723,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "183. Sąd administracyjny może przeprowadzić dowód uzupełniający",
+    "question": "195. Sąd administracyjny może przeprowadzić dowód uzupełniający",
     "options": [
       {
         "text": "Każdy Tylko z dokumentu i opinii biegłego Tylko z dokumentu",
@@ -2203,7 +2732,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "184. Co do zasady, skarga wniesiona do WSA na decyzję",
+    "question": "196. Co do zasady, skarga wniesiona do WSA na decyzję",
     "options": [
       {
         "text": "Nie wstrzymuje jej wykonania Wstrzymuje jej wykonanie z mocy praw Wstrzymuje jej wykonanie do dnia przekazania skargi sądowej",
@@ -2212,7 +2741,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "185. Wniesienie skargi nie wstrzymuje wykonania aktu lub czynności. ALE! W razie wniesienia skargi:",
+    "question": "197. Wniesienie skargi nie wstrzymuje wykonania aktu lub czynności. ALE! W razie wniesienia skargi:",
     "options": [
       {
         "text": "Na decyzję lub postanowienie – organ, który wydał decyzję lub postanowienie, może wstrzymać, z urzędu lub na wniosek skarżącego, ich wykonanie w całości lub w części, chyba że zachodzą przesłanki, od których w postępowaniu administracyjnym uzależnione jest nadanie decyzji lub postanowieniu rygoru natychmiastowej wykonalności albo, gdy ustawa szczególna wyłącza wstrzymanie ich wykonania; na inne akty lub czynności z zakresu administracji publicznej dotyczące uprawnień lub obowiązków wynikających z przepisów prawa – właściwy organ może, z urzędu lub na wniosek skarżącego, wstrzymać wykonanie aktu lub czynności w całości lub w części; na uchwały organów jednostek samorządu terytorialnego i ich związków oraz na akty terenowych organów administracji rządowej – właściwy organ może, z urzędu lub na wniosek skarżącego, wstrzymać wykonanie uchwały lub aktu w całości lub w części, z wyjątkiem przepisów prawa miejscowego, które weszły w życie.",
@@ -2221,16 +2750,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "186. Dziecko w wieku 10 lat",
+    "question": "198. Dziecko w wieku 10 lat",
     "options": [
       {
-        "text": "Nie ma zdolności sądowej ani procesowej Ma zdolność sądową, lecz nie ma zdolności procesowej Ma zdolność sądową i procesową",
+        "text": "Nie ma zdolności sądowej ani procesowej",
+        "isCorrect": false
+      },
+      {
+        "text": "Ma zdolność sądową, lecz nie ma zdolności procesowej",
+        "isCorrect": true
+      },
+      {
+        "text": "Ma zdolność sądową i procesową ZDOLNOŚĆ SĄDOWA to zdolność występowania przed sądem administracyjnym jako strona. Mają ją: osoby fizyczne, osoby prawne organ administracji publicznej (§ 1); państwowe i samorządowe jednostki organizacyjne nieposiadające osobowości prawnej organizacje społeczne nieposiadające osobowości prawnej inne (niż wcześniej wymienione) jednostki organizacyjne nieposiadające osobowości prawnej, jeżeli przepisy prawa dopuszczają możliwość nałożenia na te jednostki obowiązków lub przyznania uprawnień lub skierowania do nich nakazów i zakazów, a także stwierdzenia albo uznania uprawnienia lub obowiązku wynikających z przepisów prawa (§ 3); organizacje społeczne, choćby nie posiadały osobowości prawnej, w zakresie ich statutowej działalności w sprawach dotyczących interesów prawnych innych osób (§ 4). ZDOLNOŚĆ PROCESOWA to prawo podmiotu wyposażonego w zdolność sądową do samodzielnego podejmowania czynności procesowych przed sądami administracyjnymi. Mają ją: osoby fizyczne posiadające pełną zdolność do czynności prawnych osoby prawne organizacje społeczne i jednostki organizacyjne osoba fizyczna ograniczona w zdolności do czynności prawnych – w sprawach wynikających z czynności prawnych, których może dokonywać samodzielnie",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "187. ZDOLNOŚĆ SĄDOWA to zdolność występowania przed sądem administracyjnym jako strona. Mają ją:",
+    "question": "199. ZDOLNOŚĆ SĄDOWA to zdolność występowania przed sądem administracyjnym jako strona. Mają ją:",
     "options": [
       {
         "text": "Osoby fizyczne, osoby prawne organ administracji publicznej (§ 1); państwowe i samorządowe jednostki organizacyjne nieposiadające osobowości prawnej organizacje społeczne nieposiadające osobowości prawnej inne (niż wcześniej wymienione) jednostki organizacyjne nieposiadające osobowości prawnej, jeżeli przepisy prawa dopuszczają możliwość nałożenia na te jednostki obowiązków lub przyznania uprawnień lub skierowania do nich nakazów i zakazów, a także stwierdzenia albo uznania uprawnienia lub obowiązku wynikających z przepisów prawa (§ 3); organizacje społeczne, choćby nie posiadały osobowości prawnej, w zakresie ich statutowej działalności w sprawach dotyczących interesów prawnych innych osób (§ 4).",
@@ -2239,7 +2776,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "188. Osoby fizyczne posiadające pełną zdolność do czynności prawnych",
+    "question": "200. Osoby fizyczne posiadające pełną zdolność do czynności prawnych",
     "options": [
       {
         "text": "Osoby prawne organizacje społeczne i jednostki organizacyjne osoba fizyczna ograniczona w zdolności do czynności prawnych – w sprawach wynikających z czynności prawnych, których może dokonywać samodzielnie",
@@ -2248,7 +2785,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "189. Skargę kasacyjną wniesioną po terminie WSA",
+    "question": "201. Skargę kasacyjną wniesioną po terminie WSA",
     "options": [
       {
         "text": "Zwraca wnoszącemu Pozostawia bez rozpoznania Odrzuca",
@@ -2257,7 +2794,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "190. Wojewódzki sąd administracyjny odrzuci na posiedzeniu niejawnym skargę kasacyjną wniesioną po upływie terminu lub z innych przyczyn niedopuszczalną, jak również skargę kasacyjną, której braków strona nie uzupełniła w wyznaczonym terminie.",
+    "question": "202. Wojewódzki sąd administracyjny odrzuci na posiedzeniu niejawnym skargę kasacyjną wniesioną po upływie terminu lub z innych przyczyn niedopuszczalną, jak również skargę kasacyjną, której braków strona nie uzupełniła w wyznaczonym terminie.",
     "options": [
       {
         "text": "→ termin to 30 dni od dnia doręczenia stronie odpisu orzeczenia z uzasadnieniem",
@@ -2266,16 +2803,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "191. Pełnomocnikiem w post. SA może być:",
+    "question": "203. Pełnomocnikiem w post. SA może być:",
     "options": [
       {
-        "text": "Każda osoba fizyczna mająca pełną ZDCP Radca prawny Tylko pełnomocnik, który występował wcześniej przed organem",
+        "text": "Każda osoba fizyczna mająca pełną ZDCP",
+        "isCorrect": false
+      },
+      {
+        "text": "Radca prawny",
+        "isCorrect": true
+      },
+      {
+        "text": "Tylko pełnomocnik, który występował wcześniej przed organem Pełnomocnikiem strony może być adwokat lub radca prawny, inny skarżący lub uczestnik postępowania, małżonek, rodzeństwo, wstępni lub zstępni strony oraz osoby pozostające ze stroną w stosunku przysposobienia, a także inne osoby, jeżeli przewidują to przepisy szczególne.",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "192. Pełnomocnikiem strony może być",
+    "question": "204. Pełnomocnikiem strony może być",
     "options": [
       {
         "text": "Adwokat lub radca prawny, inny skarżący lub uczestnik postępowania, małżonek, rodzeństwo, wstępni lub zstępni strony oraz osoby pozostające ze stroną w stosunku przysposobienia, a także inne osoby, jeżeli przewidują to przepisy szczególne. Pełnomocnikiem osoby prawnej lub przedsiębiorcy, w tym nieposiadającego osobowości prawnej, może być również pracownik tej jednostki albo jej organu nadrzędnego. Dotyczy to również państwowych i samorządowych jednostek organizacyjnych nieposiadających osobowości prawnej.",
@@ -2284,7 +2829,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "193. Jeżeli skarga kasacyjna nie ma usprawiedliwionych podstaw (nie jest zasadna) NSA:",
+    "question": "205. Jeżeli skarga kasacyjna nie ma usprawiedliwionych podstaw (nie jest zasadna) NSA:",
     "options": [
       {
         "text": "Oddala skargę kasacyjną Odrzuca skargę kasacyjną Utrzymuje zaskarżony wyrok w mocy",
@@ -2293,7 +2838,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "194. Spory kompetencyjne rozstrzyga",
+    "question": "206. Spory kompetencyjne rozstrzyga",
     "options": [
       {
         "text": "WSA właściwy ze względu na siedzibę organu będącego w sporze WSA właściwy ze względu na zamieszkanie/siedzibę skarżącego NSA",
@@ -2302,7 +2847,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "195. Co do zasady, WSA sporządza uzasadnienie wyroku w ciągu",
+    "question": "207. Co do zasady, WSA sporządza uzasadnienie wyroku w ciągu",
     "options": [
       {
         "text": "7 dni 14 dni 30 dni",
@@ -2311,7 +2856,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "196. Uzasadnienie wyroku sporządza się z urzędu w terminie czternastu dni od dnia ogłoszenia wyroku albo podpisania sentencji wyroku wydanego na posiedzeniu niejawnym.",
+    "question": "208. Uzasadnienie wyroku sporządza się z urzędu w terminie czternastu dni od dnia ogłoszenia wyroku albo podpisania sentencji wyroku wydanego na posiedzeniu niejawnym.",
     "options": [
       {
         "text": "→ dotyczy wyroków uwzględniających skargę",
@@ -2320,7 +2865,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "197. W przypadku, gdy WSA uzna, że zaskarżona decyzja została wydana z wadą nieważności",
+    "question": "209. W przypadku, gdy WSA uzna, że zaskarżona decyzja została wydana z wadą nieważności",
     "options": [
       {
         "text": "Uchyla decyzję Stwierdza jej nieważność Przekazuję sprawę do ponownego rozpatrzenia",
@@ -2329,16 +2874,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "198. Prokurator",
+    "question": "210. Prokurator",
     "options": [
       {
-        "text": "Może wnieść skargę kasacyjną Może wnieść skargę kasacyjną tylko wówczas, gdy brał udział w postępowaniu przed wojewódzkim sądem administracyjnym Nie może wnieść skargi kasacyjnej",
+        "text": "Może wnieść skargę kasacyjną",
         "isCorrect": true
+      },
+      {
+        "text": "Może wnieść skargę kasacyjną tylko wówczas gdy brał udział w postępowaniu przed WSA",
+        "isCorrect": false
+      },
+      {
+        "text": "Nie może wnieść skargi kasacyjnej",
+        "isCorrect": false
       }
     ]
   },
   {
-    "question": "199. Skargę kasacyjną może wnieść",
+    "question": "211. Skargę kasacyjną może wnieść",
     "options": [
       {
         "text": "Strona, prokurator, Rzecznik Praw Obywatelskich, Rzecznik Małych i Średnich Przedsiębiorców lub Rzecznik Praw Dziecka po doręczeniu im odpisu orzeczenia z uzasadnieniem.",
@@ -2347,16 +2900,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "200. Co do zasady, skarżący:",
+    "question": "212. Co do zasady, skarżący:",
     "options": [
       {
-        "text": "Może cofnąć skargę i cofnięcie wiąże sąd Może cofnąć skargę, lecz cofnięcie nie wiąże sądu Nie może cofnąć wniesionej skargi",
+        "text": "Może cofnąć skargę i cofnięcie wiąże sąd",
         "isCorrect": true
+      },
+      {
+        "text": "Może cofnąć skargę, lecz cofnięcie nie wiąże sądu",
+        "isCorrect": false
+      },
+      {
+        "text": "Nie może cofnąć wniesionej skargi",
+        "isCorrect": false
       }
     ]
   },
   {
-    "question": "201. Sprzeciw przysługuje",
+    "question": "213. Sprzeciw przysługuje",
     "options": [
       {
         "text": "Od decyzji organu odwoławczego podatkowego Od decyzji organu odwoławczego utrzymującego w mocy zaskarżoną decyzję Od decyzji kasacyjnej organu odwoławczego wydanej na podstawie KPA",
@@ -2365,7 +2926,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "202. → art. 138 §2 KPA decyzje kasatoryjne [Organ odwoławczy może uchylić zaskarżoną decyzję w całości i przekazać sprawę do ponownego rozpatrzenia organowi pierwszej instancji, gdy decyzja ta została wydana z naruszeniem przepisów postępowania, a konieczny do wyjaśnienia zakres sprawy ma istotny wpływ na jej rozstrzygnięcie]",
+    "question": "214. → art. 138 §2 KPA decyzje kasatoryjne [Organ odwoławczy może uchylić zaskarżoną decyzję w całości i przekazać sprawę do ponownego rozpatrzenia organowi pierwszej instancji, gdy decyzja ta została wydana z naruszeniem przepisów postępowania, a konieczny do wyjaśnienia zakres sprawy ma istotny wpływ na jej rozstrzygnięcie]",
     "options": [
       {
         "text": "Od tej decyzji skarga nie przysługuje, jednakże strona niezadowolona z treści decyzji może wnieść od niej sprzeciw. W postępowaniu ze sprzeciwu sąd będzie oceniać jedynie, czy doszło do naruszenia art. 138 § 2 k.p.a. → wnosi się w terminie czternastu dni od dnia doręczenia skarżącemu decyzji, za pośrednictwem organu, którego decyzja jest przedmiotem sprzeciwu od decyzji. Sąd rozpoznaje sprzeciw od decyzji na posiedzeniu niejawnym w terminie trzydziestu dni od dnia wpływu sprzeciwu od decyzji. Sąd może przekazać sprawę do rozpoznania na rozprawie.",
@@ -2374,7 +2935,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "203. Skarga do WSA powinna zawierać",
+    "question": "215. Skarga do WSA powinna zawierać",
     "options": [
       {
         "text": "Konkretne zarzuty naruszenia wskazanych przepisów prawa materialnego lub procesowego Określenie naruszenia prawa lub interesu prawnego Podstawy kasacyjne",
@@ -2383,7 +2944,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "204. Spełnienie wymagań stawianych pismom",
+    "question": "216. Spełnienie wymagań stawianych pismom",
     "options": [
       {
         "text": "Wskazanie zaskarżonej decyzji, postanowienia, innego aktu lub czynności oznaczenie organu, którego działania, bezczynności lub przewlekłego prowadzenia postępowania dotyczy określenie naruszenia prawa lub interesu prawnego + można dołączyć: wniosek o wstrzymanie wykonania zaskarżonego aktu lub czynności wniosek o przeprowadzenie postępowania mediacyjnego",
@@ -2392,7 +2953,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "205. Gdy w sprawie występuje kilku uprawnionych i ich skargi dotyczą tej samej decyzji, postanowienia itd. mogą one być wniesione w jednym piśmie procesowym.",
+    "question": "217. Gdy w sprawie występuje kilku uprawnionych i ich skargi dotyczą tej samej decyzji, postanowienia itd. mogą one być wniesione w jednym piśmie procesowym.",
     "options": [
       {
         "text": "Gdy w jednej skardze zaskarżono więcej niż jeden akt … przewodniczący zasądza rozdzielenie tych skarg.",
@@ -2401,34 +2962,58 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "206. Skargę na przewlekłe prowadzenie postępowania administracyjnego można wnieść:",
+    "question": "218. Skargę na przewlekłe prowadzenie postępowania administracyjnego można wnieść:",
     "options": [
       {
-        "text": "W każdym czasie po wniesieniu ponaglenia do właściwego organu, [nie trzeba czekać na odpowiedź organu] w terminie 14 dni od wniesienia ponaglenia, w terminie 30 dni od dnia wystąpienia stanu przewlekłego prowadzenia postępowania;",
+        "text": "W każdym czasie po wniesieniu ponaglenia do właściwego organu,",
         "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "207. Na postanowienie WSA o umorzeniu postępowania sądowo-administracyjnego służy:",
-    "options": [
+      },
       {
-        "text": "Skarga kasacyjna zażalenie, sprzeciw.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "208. Granice rozpoznania wojewódzkiego sądu administracyjnego przy rozpoznaniu skargi na decyzję są wyznaczone przez:",
-    "options": [
+        "text": "W terminie 14 dni od wniesienia ponaglenia,",
+        "isCorrect": false
+      },
       {
-        "text": "Ogół okoliczności faktycznych i prawnych istniejących w chwili wyrokowania, zarzuty i wnioski sformułowane w skardze, granice sprawy administracyjnej.",
+        "text": "W terminie 30 dni od dnia wystąpienia stanu przewlekłego prowadzenia postępowania.",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "209. Ocena legalności działań organów administracji w ramach orzekania jest dokonywana na chwilę wydania zaskarżonego aktu lub podjętej czynności. Stan prawny z chwili orzekania przez sąd administracyjny – w sytuacji zmian w prawie – stanowi rozwiązanie następcze względem stanu prawnego obowiązującego w chwili wydania go. Tym samym stanem prawnym, który jest podstawą tej oceny, jest stan z chwili wydania zaskarżonego działania. Ta sama reguła dotyczy stanu faktycznego, który uwzględnia sąd.",
+    "question": "219. Na postanowienie WSA o umorzeniu postępowania sądowo-administracyjnego służy:",
+    "options": [
+      {
+        "text": "Skarga kasacyjna",
+        "isCorrect": false
+      },
+      {
+        "text": "Zażalenie,",
+        "isCorrect": true
+      },
+      {
+        "text": "Sprzeciw. → obligatoryjne uzasadnienie postanowienia; przysługuje skarga kasacyjna, bo jest to postanowienie kończące postępowanie",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "220. Granice rozpoznania wojewódzkiego sądu administracyjnego przy rozpoznaniu skargi na decyzję są wyznaczone przez:",
+    "options": [
+      {
+        "text": "Ogół okoliczności faktycznych i prawnych istniejących w chwili wyrokowania,",
+        "isCorrect": false
+      },
+      {
+        "text": "Zarzuty i wnioski sformułowane w skardze,",
+        "isCorrect": false
+      },
+      {
+        "text": "Granice sprawy administracyjnej. Ocena legalności działań organów administracji w ramach orzekania jest dokonywana na chwilę wydania zaskarżonego aktu lub podjętej czynności. Stan prawny z chwili orzekania przez sąd administracyjny – w sytuacji zmian w prawie – stanowi rozwiązanie następcze względem stanu prawnego obowiązującego w chwili wydania go. Tym samym stanem prawnym, który jest podstawą tej oceny, jest stan z chwili wydania zaskarżonego działania. Ta sama reguła dotyczy stanu faktycznego, który uwzględnia sąd. Granice rozpoznania wyznacza przedmiot zaskarżenia, natomiast przy skardze na decyzję administracyjną (postanowienie) granice te wyznacza sprawa administracyjna, którą ten akt rozstrzyga. Sąd administracyjny nie jest związany zarzutami i wnioskami skargi oraz powołaną podstawą prawną.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "221. Ocena legalności działań organów administracji w ramach orzekania jest dokonywana na chwilę wydania zaskarżonego aktu lub podjętej czynności. Stan prawny z chwili orzekania przez sąd administracyjny – w sytuacji zmian w prawie – stanowi rozwiązanie następcze względem stanu prawnego obowiązującego w chwili wydania go. Tym samym stanem prawnym, który jest podstawą tej oceny, jest stan z chwili wydania zaskarżonego działania. Ta sama reguła dotyczy stanu faktycznego, który uwzględnia sąd.",
     "options": [
       {
         "text": "Granice rozpoznania wyznacza przedmiot zaskarżenia, natomiast przy skardze na decyzję administracyjną (postanowienie) granice te wyznacza sprawa administracyjna, którą ten akt rozstrzyga. Sąd administracyjny nie jest związany zarzutami i wnioskami skargi oraz powołaną podstawą prawną.",
@@ -2437,16 +3022,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "210. Skarga kasacyjna przysługuje od:",
+    "question": "222. Skarga kasacyjna przysługuje od:",
     "options": [
       {
-        "text": "Każdego nieprawomocnego wyroku WSA uwzględniającego skargę nieprawomocnego wyroku WSA uwzględniającego sprzeciw, nieprawomocnego postanowienia WSA o odrzuceniu skargi z powodu uchybienia terminu do jej wniesienia - to na pewno nie",
+        "text": "Każdego nieprawomocnego wyroku WSA uwzględniającego skargę",
         "isCorrect": true
+      },
+      {
+        "text": "Nieprawomocnego wyroku WSA uwzględniającego sprzeciw,",
+        "isCorrect": false
+      },
+      {
+        "text": "Nieprawomocnego postanowienia WSA o odrzuceniu skargi z powodu uchybienia terminu do jej wniesienia - to na pewno nie Skarga kasacyjna jest środkiem odwoławczym, służy bowiem od wydanego przez wojewódzki sąd administracyjny wyroku (z wyjątkiem wyroku uwzględniającego sprzeciw od decyzji) lub postanowienia kończącego postępowanie w sprawie (z wyłączeniem przypadków, o których mowa w art. 58 § 1 pkt 2–4, art. 161 § 1 oraz art. 220 § 3 p.p.s.a.). Skarga kasacyjna przysługuje zatem od orzeczeń nieprawomocnych, wydanych w pierwszej instancji przez wojewódzki sąd administracyjny. Dotyczy wszystkich orzeczeń wojewódzkiego sądu administracyjnego, zarówno uwzględniających, jak i oddalających skargi, chyba że przepisy szczególne wyraźnie wykluczają dopuszczalność tego środka zaskarżenia.",
+        "isCorrect": false
       }
     ]
   },
   {
-    "question": "211. Skarga kasacyjna jest środkiem odwoławczym, służy bowiem od wydanego przez wojewódzki sąd administracyjny wyroku (z wyjątkiem wyroku uwzględniającego sprzeciw od decyzji) lub postanowienia kończącego postępowanie w sprawie (z wyłączeniem przypadków, o których mowa w art. 58 § 1 pkt 2–4, art. 161 § 1 oraz art. 220 § 3 p.p.s.a.).",
+    "question": "223. Skarga kasacyjna jest środkiem odwoławczym, służy bowiem od wydanego przez wojewódzki sąd administracyjny wyroku (z wyjątkiem wyroku uwzględniającego sprzeciw od decyzji) lub postanowienia kończącego postępowanie w sprawie (z wyłączeniem przypadków, o których mowa w art. 58 § 1 pkt 2–4, art. 161 § 1 oraz art. 220 § 3 p.p.s.a.).",
     "options": [
       {
         "text": "Skarga kasacyjna przysługuje zatem od orzeczeń nieprawomocnych, wydanych w pierwszej instancji przez wojewódzki sąd administracyjny. Dotyczy wszystkich orzeczeń wojewódzkiego sądu administracyjnego, zarówno uwzględniających, jak i oddalających skargi, chyba że przepisy szczególne wyraźnie wykluczają dopuszczalność tego środka zaskarżenia.",
@@ -2455,16 +3048,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "212. Zgodnie z p.p.s.a. sąd wydaje postanowienie o umorzeniu postępowania:",
+    "question": "224. Zgodnie z p.p.s.a. sąd wydaje postanowienie o umorzeniu postępowania:",
     "options": [
       {
-        "text": "Jeżeli na skutek braku lub wskazania złego adresu skarżącego lub niewykonania przez skarżącego innych zarządzeń nie można nadać sprawie dalszego biegu jeżeli w składzie organów jednostki organizacyjnej będącej stroną zachodzą braki uniemożliwiające jej działanie, jeżeli skarżący skutecznie cofnął skargę.",
+        "text": "Jeżeli na skutek braku lub wskazania złego adresu skarżącego lub niewykonania przez skarżącego innych zarządzeń nie można nadać sprawie dalszego biegu",
         "isCorrect": false
+      },
+      {
+        "text": "Jeżeli w składzie organów jednostki organizacyjnej będącej stroną zachodzą braki uniemożliwiające jej działanie,",
+        "isCorrect": false
+      },
+      {
+        "text": "Jeżeli skarżący skutecznie cofnął skargę. Sąd wydaje postanowienie o umorzeniu postępowania: jeżeli skarżący skutecznie cofnął skargę; w razie śmierci strony, jeżeli przedmiot postępowania odnosi się wyłącznie do praw i obowiązków ściśle związanych z osobą zmarłego, chyba że udział w sprawie zgłasza osoba, której interesu prawnego dotyczy wynik tego postępowania; gdy postępowanie z innych przyczyn stało się bezprzedmiotowe.",
+        "isCorrect": true
       }
     ]
   },
   {
-    "question": "213. Sąd wydaje postanowienie o umorzeniu postępowania:",
+    "question": "225. Sąd wydaje postanowienie o umorzeniu postępowania:",
     "options": [
       {
         "text": "Jeżeli skarżący skutecznie cofnął skargę; w razie śmierci strony, jeżeli przedmiot postępowania odnosi się wyłącznie do praw i obowiązków ściśle związanych z osobą zmarłego, chyba że udział w sprawie zgłasza osoba, której interesu prawnego dotyczy wynik tego postępowania; gdy postępowanie z innych przyczyn stało się bezprzedmiotowe.",
@@ -2473,25 +3074,41 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "214. Prawdą jest, że:",
+    "question": "226. Prawdą jest, że:",
     "options": [
       {
-        "text": "Podstawy kasacyjne wraz z ich uzasadnieniem są tym wymogiem formalnym skargi kasacyjnej, który ma charakter niekonwalidowalny tj. skarżący kasacyjnie nie może go skutecznie uzupełnić, skarga kasacyjna może zostać sporządzona przez aplikanta radcowskiego, po upływie terminu do wniesienia skargi kasacyjnej przytaczanie przez skarżącego kasacyjnie nowych podstaw kasacyjnych jest dopuszczalne, ale tylko do czasu wyznaczenia rozprawy,",
+        "text": "Podstawy kasacyjne wraz z ich uzasadnieniem są tym wymogiem formalnym skargi kasacyjnej, który ma charakter niekonwalidowalny tj. skarżący kasacyjnie nie może go skutecznie uzupełnić,",
         "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "215. Prawdą jest, że:",
-    "options": [
+      },
       {
-        "text": "Osoba, która brała udział w postępowaniu administracyjnym, a nie wniosła sprzeciwu, jeżeli wynik postępowania sądowego dotyczy jej interesu prawnego jest uczestnikiem postępowania na prawach strony",
+        "text": "Skarga kasacyjna może zostać sporządzona przez aplikanta radcowskiego,",
+        "isCorrect": false
+      },
+      {
+        "text": "Po upływie terminu do wniesienia skargi kasacyjnej przytaczanie przez skarżącego kasacyjnie nowych podstaw kasacyjnych jest dopuszczalne, ale tylko do czasu wyznaczenia rozprawy, Art. 177a. Jeżeli skarga kasacyjna nie spełnia wymagań przewidzianych w art. 176, innych niż przytoczenie podstaw kasacyjnych i ich uzasadnienie, przewodniczący wzywa stronę do usunięcia braków w terminie siedmiu dni pod rygorem odrzucenia skargi. I TERMIN 2022 gr. II (jest w bazie papierowej)",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "216. W postępowaniu ze sprzeciwu obok skarżącego nie może brać udziału także prokurator w charakterze uczestnika postępowania,",
+    "question": "227. Prawdą jest, że:",
+    "options": [
+      {
+        "text": "Podstawy kasacyjne wraz z ich uzasadnieniem są tym wymogiem formalnym skargi kasacyjnej, który ma charakter niekonwalidowalny tj. skarżący kasacyjnie nie może go skutecznie uzupełnić,",
+        "isCorrect": true
+      },
+      {
+        "text": "Skarga kasacyjna może zostać sporządzona przez aplikanta radcowskiego,",
+        "isCorrect": false
+      },
+      {
+        "text": "Po upływie terminu do wniesienia skargi kasacyjnej przytaczanie przez skarżącego kasacyjnie nowych podstaw kasacyjnych jest dopuszczalne, ale tylko do czasu wyznaczenia rozprawy, Art. 177a. Jeżeli skarga kasacyjna nie spełnia wymagań przewidzianych w art. 176, innych niż przytoczenie podstaw kasacyjnych i ich uzasadnienie, przewodniczący wzywa stronę do usunięcia braków w terminie siedmiu dni pod rygorem odrzucenia skargi. I TERMIN 2022 gr. II (jest w bazie papierowej)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "228. W postępowaniu ze sprzeciwu obok skarżącego nie może brać udziału także prokurator w charakterze uczestnika postępowania,",
     "options": [
       {
         "text": "Organizacja społeczna zawsze może wnieść skargę na decyzję administracyjną w sprawie dotyczącej interesów prawnych innej osoby w terminie 30 dni od dnia doręczenia stronie postępowania administracyjnego rozstrzygnięcia w sprawie.",
@@ -2500,7 +3117,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "217. Obowiązek uprzedniego wyczerpania środków zaskarżenia jako przesłanka dopuszczalności skargi:",
+    "question": "229. Obowiązek uprzedniego wyczerpania środków zaskarżenia jako przesłanka dopuszczalności skargi:",
     "options": [
       {
         "text": "Zasadniczo odnosi się do prokuratora w sprawach dotyczących interesów prawnych innych osób, jeśli brał udział w postępowaniu administracyjnym, zawsze odnosi się do prokuratora niezależnie od tego czy brał udział w postępowaniu, co do zasady dotyczy skarg na akty prawa miejscowego.",
@@ -2509,7 +3126,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "218. Wyczerpanie środków zaskarżenia nie jest przesłanką obowiązującą wtedy, gdy skargę do sądu administracyjnego wnoszą prokurator, Rzecznik Praw Obywatelskich, Rzecznik Praw Dziecka (także RMiŚP).",
+    "question": "230. Wyczerpanie środków zaskarżenia nie jest przesłanką obowiązującą wtedy, gdy skargę do sądu administracyjnego wnoszą prokurator, Rzecznik Praw Obywatelskich, Rzecznik Praw Dziecka (także RMiŚP).",
     "options": [
       {
         "text": "ALE! Według NSA: przyjęto, że obowiązek wyczerpania środków odwoławczych w postępowaniu administracyjnym przed wniesieniem skargi na decyzję administracyjną, o którym mowa w art. 52 § 1 p.p.s.a. odnosi się do prokuratora, który brał udział w postępowaniu administracyjnym. Jak wynika z uzasadnienia tej uchwały, jeśli prokurator uczestniczył w postępowaniu administracyjnym na prawach strony, to zarówno termin wniesienia skargi do sądu, jak i warunki dopuszczalności jej złożenia w postaci wyczerpania środków zaskarżenia w postępowaniu administracyjnym powinny być dla prokuratora takie same jak dla strony postępowania.",
@@ -2518,34 +3135,58 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "219. Sąd administracyjny uwzględniając skargę na akt prawa miejscowego",
+    "question": "231. Sąd administracyjny uwzględniając skargę na akt prawa miejscowego",
     "options": [
       {
-        "text": "Uchyla akt w całości lub w części, uchyla ten akt i wydaje nowy, stwierdza jego nieważność w całości lub w części albo stwierdza, że został wydany z naruszeniem prawa.",
+        "text": "Uchyla akt w całości lub w części,",
+        "isCorrect": false
+      },
+      {
+        "text": "Uchyla ten akt i wydaje nowy,",
+        "isCorrect": false
+      },
+      {
+        "text": "Stwierdza jego nieważność w całości lub w części albo stwierdza, że został wydany z naruszeniem prawa.",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "220. Oczywisty brak interesu prawnego po stronie skarżącego powoduje",
+    "question": "232. Oczywisty brak interesu prawnego po stronie skarżącego powoduje",
     "options": [
       {
-        "text": "Odrzucenie skargi przez sąd, wezwanie do uzupełnienia braków, umorzenie postępowania sądowego.",
+        "text": "Odrzucenie skargi przez sąd,",
         "isCorrect": true
+      },
+      {
+        "text": "Wezwanie do uzupełnienia braków,",
+        "isCorrect": false
+      },
+      {
+        "text": "Umorzenie postępowania sądowego.",
+        "isCorrect": false
       }
     ]
   },
   {
-    "question": "221. Pełnomocnictwo do prowadzenia poszczególnych spraw:",
+    "question": "233. Pełnomocnictwo do prowadzenia poszczególnych spraw:",
     "options": [
       {
-        "text": "Z mocy prawa obejmuje upoważnienie do wniesienia skargi o wznowienie postępowania, nie obejmuje upoważnienia do wniesienia skargi o wznowienie postępowania,",
+        "text": "Z mocy prawa obejmuje upoważnienie do wniesienia skargi o wznowienie postępowania,",
         "isCorrect": true
+      },
+      {
+        "text": "Nie obejmuje upoważnienia do wniesienia skargi o wznowienie postępowania,",
+        "isCorrect": false
+      },
+      {
+        "text": "Obejmuje upoważnienie do wniesienia skargi o wznowienie postępowania, gdy zostanie to zaznaczone. Pełnomocnictwo ogólne lub do prowadzenia poszczególnych spraw obejmuje z samego prawa umocowanie do: wszystkich łączących się ze sprawą czynności w postępowaniu, nie wyłączając skargi o wznowienie postępowania i postępowania wywołanego jej wniesieniem; udzielenia dalszego pełnomocnictwa na zasadach określonych w odrębnych przepisach cofnięcia skargi w całości lub w części, jeżeli czynności te nie zostały wyłączone w danym pełnomocnictwie; odbioru kosztów postępowania. TEST EGZAMINACYJNY (jest w bazie papierowej)",
+        "isCorrect": false
       }
     ]
   },
   {
-    "question": "222. Pełnomocnictwo ogólne lub do prowadzenia poszczególnych spraw obejmuje z samego prawa umocowanie do:",
+    "question": "234. Pełnomocnictwo ogólne lub do prowadzenia poszczególnych spraw obejmuje z samego prawa umocowanie do:",
     "options": [
       {
         "text": "Wszystkich łączących się ze sprawą czynności w postępowaniu, nie wyłączając skargi o wznowienie postępowania i postępowania wywołanego jej wniesieniem; udzielenia dalszego pełnomocnictwa na zasadach określonych w odrębnych przepisach cofnięcia skargi w całości lub w części, jeżeli czynności te nie zostały wyłączone w danym pełnomocnictwie; odbioru kosztów postępowania.",
@@ -2554,7 +3195,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "223. Organ, którego działanie, bezczynność lub przewlekłe prowadzenie postępowania zaskarżono ma uprawnienie do autokontroli, polegające na tym, że:",
+    "question": "235. Organ, którego działanie, bezczynność lub przewlekłe prowadzenie postępowania zaskarżono ma uprawnienie do autokontroli, polegające na tym, że:",
     "options": [
       {
         "text": "Może uwzględnić skargę w całości w terminie trzydziestu dni od dnia jej otrzymania może uwzględnić skargę w terminie trzydziestu dni od dnia jej otrzymania pod warunkiem uzyskania zgody sądu administracyjnego uwzględnienie skargi w terminie trzydziestu dni od dnia jej otrzymania uzależnione jest od wniosku przez skarżącego",
@@ -2563,16 +3204,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "224. Struktura sądów administracyjnych w Polsce",
+    "question": "236. Struktura sądów administracyjnych w Polsce",
     "options": [
       {
-        "text": "Pokrywa się ze strukturą sądów powszechnych Ma nomenklaturę zbieżną ze sądami administracyjnymi Obejmuje województwo, ale jego siedziba nie pokrywa się z siedzibą wojewody",
+        "text": "Pokrywa się ze strukturą sądów powszechnych",
         "isCorrect": false
+      },
+      {
+        "text": "Ma nomenklaturę zbieżną ze sądami administracyjnymi",
+        "isCorrect": false
+      },
+      {
+        "text": "Obejmuje województwo, ale jego siedziba nie pokrywa się z siedzibą wojewody",
+        "isCorrect": true
       }
     ]
   },
   {
-    "question": "225. Prezes izby w NSA",
+    "question": "237. Prezes izby w NSA",
     "options": [
       {
         "text": "Nie może kierować wydziałem Losuje składy orzekające Ustala posiedzenia jawne w składzie całej izby",
@@ -2581,7 +3230,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "226. Sprawy dyscyplinarne sędziów sądu administracyjnego należą do właściwości",
+    "question": "238. Sprawy dyscyplinarne sędziów sądu administracyjnego należą do właściwości",
     "options": [
       {
         "text": "Krajowej Rady Sądownictwa Izby dyscyplinarnej SN Izby Ogólnoadministracyjnej NSA",
@@ -2590,7 +3239,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "227. Sądy administracyjne orzekają",
+    "question": "239. Sądy administracyjne orzekają",
     "options": [
       {
         "text": "Merytorycznie Odwoławczo",
@@ -2599,7 +3248,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "228. Reformatoryjnie",
+    "question": "240. Reformatoryjnie",
     "options": [
       {
         "text": "→ powiedziałabym że kasatoryjnie; merytorycznie i reformatoryjnie jak już to w ramach wyjątku",
@@ -2608,7 +3257,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "229. Delegowanie sędziów sądów administracyjnych następuje przez:",
+    "question": "241. Delegowanie sędziów sądów administracyjnych następuje przez:",
     "options": [
       {
         "text": "Ministra Sprawiedliwości Krajową Radę Sądownictwa Prezesów sądów administracyjnych",
@@ -2617,7 +3266,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "230. Nadzór jurysdykcyjny nad sądami administracyjnymi sprawuje",
+    "question": "242. Nadzór jurysdykcyjny nad sądami administracyjnymi sprawuje",
     "options": [
       {
         "text": "Minister Sprawiedliwości Naczelny Sąd Administracyjny Krajowa Rada Sądownictwa",
@@ -2626,7 +3275,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "231. Skład orzekający sądu administracyjnego",
+    "question": "243. Skład orzekający sądu administracyjnego",
     "options": [
       {
         "text": "Ma charakter stały To jeden sędzia na posiedzeniu niejawnym To pełny skład wydziału orzeczniczego",
@@ -2635,7 +3284,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "232. Sąd administracyjny orzeka w składzie trzech sędziów, z zastrzeżeniem, chyba że ustawa stanowi inaczej.",
+    "question": "244. Sąd administracyjny orzeka w składzie trzech sędziów, z zastrzeżeniem, chyba że ustawa stanowi inaczej.",
     "options": [
       {
         "text": "Sąd administracyjny na posiedzeniu niejawnym orzeka w składzie jednego sędziego, chyba że ustawa stanowi inaczej. Zarządzenia poza rozprawą wydaje przewodniczący.",
@@ -2644,16 +3293,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "233. Asesorzy sądowi",
+    "question": "245. Asesorzy sądowi",
     "options": [
       {
-        "text": "Podlegają tylko konstytucji Podlegają Konstytucji i ustawom Podlegają Konstytucji, ustawom i KRS",
+        "text": "Podlegają tylko konstytucji",
+        "isCorrect": false
+      },
+      {
+        "text": "Podlegają Konstytucji i ustawom",
+        "isCorrect": true
+      },
+      {
+        "text": "Podlegają Konstytucji, ustawom i KRS",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "234. Kandydat na urząd sędziego WSA:",
+    "question": "246. Kandydat na urząd sędziego WSA:",
     "options": [
       {
         "text": "Musi zdać egzamin sędziowski Musi mieć dwuletnią praktykę sądową (asesorstwo) Musi mieć skończony 35 r.ż.",
@@ -2662,7 +3319,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "235. Prezesi i wiceprezesi w wojewódzkim sądzie administracyjnym są powołani",
+    "question": "247. Prezesi i wiceprezesi w wojewódzkim sądzie administracyjnym są powołani",
     "options": [
       {
         "text": "Bez kadencji Na 3 lata Na 5 lat [najwyżej na dwie kolejne kadencje]",
@@ -2671,16 +3328,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "236. Wniosek o rozstrzygnięcie sporu kompetencyjnego",
+    "question": "248. Wniosek o rozstrzygnięcie sporu kompetencyjnego",
     "options": [
       {
-        "text": "Wnosi się bezpośrednio do sądu Mogą wnieść wyłącznie strony sprawy, w której zaistniał spór Rozstrzygane są przez sąd w składzie siedmioosobowym",
+        "text": "Wnosi się bezpośrednio do sądu",
         "isCorrect": true
+      },
+      {
+        "text": "Mogą wnieść wyłącznie strony sprawy, w której zaistniał spór",
+        "isCorrect": false
+      },
+      {
+        "text": "Rozstrzygane są przez sąd w składzie siedmioosobowym Z wnioskiem o rozpatrzenie sporu przez sąd administracyjny może wystąpić: strona; organ jednostki samorządu terytorialnego lub inny organ administracji publicznej, pozostające w sporze; minister właściwy do spraw administracji publicznej; minister właściwy do spraw sprawiedliwości, Prokurator Generalny; Rzecznik Praw Obywatelskich. Rozstrzygane w składzie 3 osobowym, na posiedzeniu niejawnym.",
+        "isCorrect": false
       }
     ]
   },
   {
-    "question": "237. Z wnioskiem o rozpatrzenie sporu przez sąd administracyjny może wystąpić:",
+    "question": "249. Z wnioskiem o rozpatrzenie sporu przez sąd administracyjny może wystąpić:",
     "options": [
       {
         "text": "Strona; organ jednostki samorządu terytorialnego lub inny organ administracji publicznej, pozostające w sporze; minister właściwy do spraw administracji publicznej; minister właściwy do spraw sprawiedliwości, Prokurator Generalny; Rzecznik Praw Obywatelskich. Rozstrzygane w składzie 3 osobowym, na posiedzeniu niejawnym.",
@@ -2689,7 +3354,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "238. W przypadku braków formalnych, nie skutkujących odrzuceniem pisma procesowego",
+    "question": "250. W przypadku braków formalnych, nie skutkujących odrzuceniem pisma procesowego",
     "options": [
       {
         "text": "Uruchamia się postępowanie naprawcze Uruchamia się postępowania autokontrolnie Zawiadamia się o brakach w terminie 14 dni",
@@ -2698,7 +3363,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "239. Sąd administracyjny odrzuca skargę",
+    "question": "251. Sąd administracyjny odrzuca skargę",
     "options": [
       {
         "text": "Wydając wyrok W drodze postanowienia Zarządzeniem zaskarżalnym odwołaniem",
@@ -2707,16 +3372,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "240. Sprzeciw, jako środek prawny uruchamiający postępowanie sądowo-administracyjne",
+    "question": "252. Sprzeciw, jako środek prawny uruchamiający postępowanie sądowo-administracyjne",
     "options": [
       {
-        "text": "Wnosi się w terminie 7 dni od dnia doręczenia ostatecznej decyzji administracyjnej [14 dni!] Wymaga wskazania żądania uchylenia decyzji Wnosi się go bezpośrednio do sądu administracyjnego [wnosi się za pośrednictwem organu, którego decyzja jest przedmiotem sprzeciwu od decyzji]",
+        "text": "Wnosi się w terminie 7 dni od dnia doręczenia ostatecznej decyzji administracyjnej [14 dni!]",
+        "isCorrect": false
+      },
+      {
+        "text": "Wymaga wskazania żądania uchylenia decyzji",
+        "isCorrect": true
+      },
+      {
+        "text": "Wnosi się go bezpośrednio do sądu administracyjnego [wnosi się za pośrednictwem organu, którego decyzja jest przedmiotem sprzeciwu od decyzji]",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "241. Jeżeli organ, którego skarga dotyczy nie prześle do sądu akt sprawy wraz ze skargą",
+    "question": "253. Jeżeli organ, którego skarga dotyczy nie prześle do sądu akt sprawy wraz ze skargą",
     "options": [
       {
         "text": "Skład orzekający oddala skargę Sąd z urzędu nakłada grzywnę na organ",
@@ -2725,7 +3398,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "242. W razie niezastosowania się do obowiązków sąd na wniosek skarżącego może orzec o wymierzeniu organowi grzywny.",
+    "question": "254. W razie niezastosowania się do obowiązków sąd na wniosek skarżącego może orzec o wymierzeniu organowi grzywny.",
     "options": [
       {
         "text": "Jeżeli organ nie przekazał sądowi skargi mimo wymierzenia grzywny, sąd może na żądanie skarżącego rozpoznać sprawę na podstawie nadesłanego odpisu skargi, gdy stan faktyczny i prawny przedstawiony w skardze nie budzi uzasadnionych wątpliwości.",
@@ -2734,7 +3407,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "243. Przywrócenie terminu w postępowaniu sądowo-administracyjnym",
+    "question": "255. Przywrócenie terminu w postępowaniu sądowo-administracyjnym",
     "options": [
       {
         "text": "Dotyczy tylko terminów procesowych Następuje w drodze zaskarżalnego postanowienia W przypadku uchybienia terminu do wniesienia skargi wniosek bezpośrednio wnosi się do sądu",
@@ -2743,16 +3416,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "244. Okresem pozwalającym na uznanie, przez sąd, że ma do czynienia z pismem strony w postępowaniu sądowo-administracyjnym jest to czas",
+    "question": "256. Okresem pozwalającym na uznanie, przez sąd, że ma do czynienia z pismem strony w postępowaniu sądowo-administracyjnym jest to czas",
     "options": [
       {
-        "text": "Od momentu wpływu skargi do sądu W czasie rozprawy i poza nią Obejmujący wyłączenie postępowanie administracyjne, ponieważ sąd nie prowadzi postępowania dowodowego",
+        "text": "Od momentu wpływu skargi do sądu",
         "isCorrect": true
+      },
+      {
+        "text": "W czasie rozprawy i poza nią",
+        "isCorrect": false
+      },
+      {
+        "text": "Obejmujący wyłączenie postępowanie administracyjne, ponieważ sąd nie prowadzi postępowania dowodowego",
+        "isCorrect": false
       }
     ]
   },
   {
-    "question": "245. Wezwanie strony do usunięcia braku polegającego na braku oznaczenia pisma",
+    "question": "257. Wezwanie strony do usunięcia braku polegającego na braku oznaczenia pisma",
     "options": [
       {
         "text": "Wskazuje max 14 dni na usunięcie braku Może wydać referendarz sądowy W przypadku zlekceważenia skutkuje oddaleniem skargi",
@@ -2761,25 +3442,41 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "246. Odpowiedź na skargę, rozumianą jako pismo inicjujące postępowanie sądowo-administracyjne.",
+    "question": "258. Odpowiedź na skargę, rozumianą jako pismo inicjujące postępowanie sądowo-administracyjne.",
     "options": [
       {
-        "text": "Przygotowuje organ, którego skarga dotyczy Zawsze wnosi się bezpośrednio do sądu Ma charakter pisma kwalifikowanego i sporządza się go z zachowaniem rygoru adwokacko-radcowskim",
+        "text": "Przygotowuje organ, którego skarga dotyczy",
+        "isCorrect": true
+      },
+      {
+        "text": "Zawsze wnosi się bezpośrednio do sądu",
+        "isCorrect": false
+      },
+      {
+        "text": "Ma charakter pisma kwalifikowanego i sporządza się go z zachowaniem rygoru adwokacko-radcowskim",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "259. Akta sprawy sądowo-administracyjnej sensu largo obejmują:",
+    "options": [
+      {
+        "text": "Oświadczenia woli i wiedzy złożone przed sądem administracyjnym",
+        "isCorrect": false
+      },
+      {
+        "text": "Oświadczenia woli, wiedzy i pisma procesowe składane w toku postępowania administracyjnego",
+        "isCorrect": false
+      },
+      {
+        "text": "Oświadczenia woli, wiedzy a także wszelkie pisma procesowe i orzeczenia wydane w postępowaniu administracyjnym i sądowo-administracyjnym TEST 3",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "247. Akta sprawy sądowo-administracyjnej sensu largo obejmują:",
-    "options": [
-      {
-        "text": "Oświadczenia woli i wiedzy złożone przed sądem administracyjnym Oświadczenia woli, wiedzy i pisma procesowe składane w toku postępowania administracyjnego Oświadczenia woli, wiedzy a także wszelkie pisma procesowe i orzeczenia wydane w postępowaniu administracyjnym i sądowo-administracyjnym",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "248. Skład orzekający sądu adm.:",
+    "question": "260. Skład orzekający sądu adm.:",
     "options": [
       {
         "text": "Ma charakter trwały To 3 sędziów na posiedzeniu niejawnym Ustalany jest w drodze zarządzenia przewodniczącego Zawsze jest ustalany w drodze losowania",
@@ -2788,7 +3485,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "249. Struktura sądów adm. została określona",
+    "question": "261. Struktura sądów adm. została określona",
     "options": [
       {
         "text": "W Konstytucji W ustawie ustroju sądów adm. W ustawie o ustroju sądów adm. i rozporządzeniach Prezydenta W Konstytucji i ustawie o ustroju sądów adm.",
@@ -2797,7 +3494,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "250. Nadzór adm. w sądownictwie adm. dotyczy",
+    "question": "262. Nadzór adm. w sądownictwie adm. dotyczy",
     "options": [
       {
         "text": "Zagwarantowania jednolitości orzecznictwa sądowego Rozpoznawania środków zaskarżenia Zależności finansowej od ministerstwa sprawiedliwości Lustracji",
@@ -2806,7 +3503,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "251. Inicjatywę podjęcia uchwały abstrakcyjnej ma",
+    "question": "263. Inicjatywę podjęcia uchwały abstrakcyjnej ma",
     "options": [
       {
         "text": "Prezes NSA Skład Izby NSA Skład 7 sędziów NSA Prezes WSA na wniosek Zgromadzenia Ogólnego",
@@ -2815,7 +3512,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "252. Uchwały NSA podejmuje w składzie siedmiu sędziów, całej Izby lub w pełnym składzie. Uchwały te NSA podejmuje na wniosek",
+    "question": "264. Uchwały NSA podejmuje w składzie siedmiu sędziów, całej Izby lub w pełnym składzie. Uchwały te NSA podejmuje na wniosek",
     "options": [
       {
         "text": "Prezesa Naczelnego Sądu Administracyjnego, Prokuratora Generalnego, Prokuratorii Generalnej Rzeczypospolitej Polskiej, Rzecznika Praw Obywatelskich, Rzecznika Małych i Średnich Przedsiębiorców, Rzecznika Praw Dziecka",
@@ -2824,7 +3521,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "253. Doręczenie bezpośrednie",
+    "question": "265. Doręczenie bezpośrednie",
     "options": [
       {
         "text": "Nie dot. sprzeciwu Następuje do rąk adresata właściwego Wymaga potwierdzenia własnoręcznym podpisem Wymaga sporządzenia protokołu",
@@ -2833,7 +3530,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "254. W toku sprawy adwokaci, radcy prawni, doradcy podatkowi, rzecznicy patentowi i Prokuratoria Generalna doręczają sobie nawzajem pisma bezpośrednio za potwierdzeniem odbioru i oznaczeniem daty lub przesyłką poleconą. → wyjątek od zasady oficjalności doręczeń.",
+    "question": "266. W toku sprawy adwokaci, radcy prawni, doradcy podatkowi, rzecznicy patentowi i Prokuratoria Generalna doręczają sobie nawzajem pisma bezpośrednio za potwierdzeniem odbioru i oznaczeniem daty lub przesyłką poleconą. → wyjątek od zasady oficjalności doręczeń.",
     "options": [
       {
         "text": "→ nie dotyczy wniesienia skargi, skargi kasacyjnej, zażalenia, sprzeciwu, skargi o wznowienie postępowania i skargi o stwierdzenie niezgodności z prawem prawomocnego orzeczenia",
@@ -2842,7 +3539,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "255. Przywrócenie terminu w postępowaniu sądowo-administracyjnym.",
+    "question": "267. Przywrócenie terminu w postępowaniu sądowo-administracyjnym.",
     "options": [
       {
         "text": "Następuje jedynie za pośrednictwem organu adm. Wymaga wydania zaskarżalnego postanowienia Dot. tylko pism inicjujących postępowanie sądowo-administracyjnym. Następuje w drodze zarządzenia przewodniczącego składu",
@@ -2851,7 +3548,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "256. Wadliwość formalna usuwalna skargi skutkuje",
+    "question": "268. Wadliwość formalna usuwalna skargi skutkuje",
     "options": [
       {
         "text": "Wszczęciem postępowania naprawczego Odrzuceniem skargi Oddalaniem skargi Umorzeniem postępowania sądowo-administracyjnego.",
@@ -2860,7 +3557,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "257. Cofnięcie skargi",
+    "question": "269. Cofnięcie skargi",
     "options": [
       {
         "text": "Jest dopuszczalne do czasu przekazania skargi do sądu administracyjnego Skutkuje wyrokiem o umorzeniu postępowania [postanowienie] Nie podlega ocenie sądu z uwagi na zasadę dyspozycyjności Może dotyczyć tylko części skargi",
@@ -2869,7 +3566,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "258. Sprzeciw w postępowaniu sądowo-administracyjnym.",
+    "question": "270. Sprzeciw w postępowaniu sądowo-administracyjnym.",
     "options": [
       {
         "text": "Przysługuje od decyzji ostatecznych Nie wymaga wykazania interesu prawnego Wnoszony jest w każdym czasie Pozwala na autoweryfikację przez organ w ciągu 14 dni",
@@ -2878,7 +3575,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "259. Co do zasady uzasadnienie orzeczenia sądu adm.",
+    "question": "271. Co do zasady uzasadnienie orzeczenia sądu adm.",
     "options": [
       {
         "text": "Sporządza się w ciągu 7 dni od dnia ogłoszenia wyroku Zasadniczo sporządza sędzia sprawozdawca W sprawie zawiłej sporządza się w ciągu 14 dni Nie może być przedmiotem zdania odrębnego",
@@ -2887,7 +3584,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "260. Zawieszenie postępowania sądowo-administracyjnego następuje w przypadku",
+    "question": "272. Zawieszenie postępowania sądowo-administracyjnego następuje w przypadku",
     "options": [
       {
         "text": "Uwzględnienia skargi przez organ w ramach autokontroli Odrzucenia skargi",
@@ -2896,7 +3593,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "261. Pojawienia się zagadnienia wstępnego",
+    "question": "273. Pojawienia się zagadnienia wstępnego",
     "options": [
       {
         "text": "Wszczęcia postępowania w trybie uproszczonym",
@@ -2905,7 +3602,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "262. Wadliwość nieusuwalna formalna skargi skutkuje",
+    "question": "274. Wadliwość nieusuwalna formalna skargi skutkuje",
     "options": [
       {
         "text": "Umorzeniem postępowania Pozostawieniem skargi bez rozpoznania Odrzuceniem skargi Zwrotem skargi",
@@ -2914,7 +3611,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "263. Spór o właściwości między Prezydentem Miasta Katowice a SKO w Częstochowie rozstrzyga:",
+    "question": "275. Spór o właściwości między Prezydentem Miasta Katowice a SKO w Częstochowie rozstrzyga:",
     "options": [
       {
         "text": "WSA w Gliwicach WSA w Warszawie NSA",
@@ -2923,16 +3620,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "264. Wskaż prawidłową odpowiedź",
+    "question": "276. Wskaż prawidłową odpowiedź",
     "options": [
       {
-        "text": "NSA w razie uwzględnienia skargi kasacyjnej, uchylając zaskarżone orzeczenie, rozpoznaje skargę, jeżeli uzna, że istota sprawy jest dostatecznie wyjaśniona NSA rozpoznając skargę kasacyjną uchyla wyrok także w części niezaskarżalnej, jeżeli dojdzie do przekonania, że cała decyzja narusza prawo w sposób rażący NSA nie jest co do zasady związany podstawami skargi kasacyjnej",
+        "text": "Sąd może skierować sprawę do mediacji tylko na wniosek skarżącego,",
+        "isCorrect": false
+      },
+      {
+        "text": "W świetle przepisów p.p.s.a. postępowanie mediacyjne jest jawne,",
+        "isCorrect": false
+      },
+      {
+        "text": "Na decyzję wydaną na podstawie ustaleń dokonanych w postępowaniu mediacyjnym można wnieść skargę do wojewódzkiego sądu administracyjnego.",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "265. Naczelny Sąd Administracyjny rozpoznaje sprawę w granicach skargi kasacyjnej, bierze jednak z urzędu pod rozwagę nieważność postępowania. Strony mogą przytaczać nowe uzasadnienie podstaw kasacyjnych.",
+    "question": "277. Naczelny Sąd Administracyjny rozpoznaje sprawę w granicach skargi kasacyjnej, bierze jednak z urzędu pod rozwagę nieważność postępowania. Strony mogą przytaczać nowe uzasadnienie podstaw kasacyjnych.",
     "options": [
       {
         "text": "Naczelny Sąd Administracyjny rozpoznając skargę kasacyjną uchyla wyrok także w części niezaskarżonej, jeżeli zachodzi nieważność postępowania. Naczelny Sąd Administracyjny w razie uwzględnienia skargi kasacyjnej, uchylając zaskarżone orzeczenie, rozpoznaje skargę, jeżeli uzna, że istota sprawy jest dostatecznie wyjaśniona.",
@@ -2941,7 +3646,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "266. W przypadku śmierci strony, gdy postępowanie nie podlega umorzeniu, udzielone radcy prawnego pełnomocnictwo – co do zasady",
+    "question": "278. W przypadku śmierci strony, gdy postępowanie nie podlega umorzeniu, udzielone radcy prawnego pełnomocnictwo – co do zasady",
     "options": [
       {
         "text": "Wygasa Pozostaje aktualne do dnia zakończenia postępowania sądowo-administracyjnego. Pozostaje aktualne do dnia wstąpienia do postępowania następców prawnych. → pełnomocnik procesowy działa aż do czasu zawieszenia postępowania",
@@ -2950,7 +3655,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "267. Nie można żądać wznowienia postępowania sądowo-administracyjnego.",
+    "question": "279. Nie można żądać wznowienia postępowania sądowo-administracyjnego.",
     "options": [
       {
         "text": "Po upływie 3 lat od uprawomocnienia się orzeczenia",
@@ -2959,7 +3664,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "268. Po upływie lat 5 od uprawomocnienia się orzeczenia",
+    "question": "280. Po upływie lat 5 od uprawomocnienia się orzeczenia",
     "options": [
       {
         "text": "Po upływie lat 10 od uprawomocnienia się orzeczenia",
@@ -2968,52 +3673,92 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "269. Skargę o stwierdzenie niezgodności z prawem prawomocnego orzeczenia",
+    "question": "281. Skargę o stwierdzenie niezgodności z prawem prawomocnego orzeczenia",
     "options": [
       {
-        "text": "Wnosi się do sądu, który wydał zaskarżone orzeczenie, w terminie czterech lat od dnia jego uprawomocnienia się Od tego samego orzeczenia strona może wnieść tylko raz NSA rozpoznaje skargę o stwierdzenie niezgodności z prawem prawomocnego orzeczenia w składzie pięciu sędziów [3 sędziów]",
+        "text": "Rozstrzyga sąd, który rozpatrywał sprawę w ostatniej instancji,",
+        "isCorrect": false
+      },
+      {
+        "text": "Rozstrzyga NSA co do zasadny na posiedzeniu niejawnym,",
+        "isCorrect": true
+      },
+      {
+        "text": "Rozstrzyga NSA w składzie pięciu sędziów.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "282. W postępowaniu przed WSA dowód z zeznań świadka jest",
+    "options": [
+      {
+        "text": "Dopuszczalny bez ograniczeń,",
+        "isCorrect": false
+      },
+      {
+        "text": "Dopuszczalny tylko wówczas, gdy jest niezbędny dla rozstrzygnięcia sprawy,",
+        "isCorrect": false
+      },
+      {
+        "text": "Niedopuszczalny.",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "270. W postępowaniu przed WSA dowód z zeznań świadka jest",
+    "question": "283. Spóźniony wniosek o przywrócenie terminu podlega",
     "options": [
       {
-        "text": "Dopuszczalny bez ograniczeń Dopuszczalny tylko wówczas, gdy jest niezbędny dla rozstrzygnięcia sprawy Niedopuszczalny",
+        "text": "Odrzuceniu przez sąd w formie wyroku, na który służy skarga kasacyjna,",
+        "isCorrect": false
+      },
+      {
+        "text": "Odrzuceniu przez sąd w formie postanowienia, na które służy zażalenie,",
+        "isCorrect": true
+      },
+      {
+        "text": "Pozostawieniu bez rozpoznania w formie zarządzenia przewodniczącego",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "284. Co do zasady, wniesienie skargi bezpośrednio do sądu adm.",
+    "options": [
+      {
+        "text": "Zawsze wszczyna postępowanie sądowo-administracyjne",
+        "isCorrect": true
+      },
+      {
+        "text": "Wszczyna postępowanie sądowo-administracyjne, jeżeli za stronę nie działa radca prawny lub adwokat",
+        "isCorrect": false
+      },
+      {
+        "text": "Nie powoduje wszczęcia post. admin. Termin [30 dni] uważa się za zachowany także wtedy, gdy przed jego upływem strona wniosła skargę wprost do sądu administracyjnego. W takim przypadku sąd ten niezwłocznie przesyła skargę odpowiednio do organu, który wydał zaskarżone rozstrzygnięcie, wydał akt lub podjął inną czynność, będącą przedmiotem skargi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "285. W postępowaniu wywołanym wniesieniem sprzeciwu",
+    "options": [
+      {
+        "text": "Sąd jest związany zarzutami wskazanymi skardze,",
+        "isCorrect": false
+      },
+      {
+        "text": "Sąd może rozstrzygać w sprawie merytorycznie,",
+        "isCorrect": false
+      },
+      {
+        "text": "Ustawodawca wprowadza tzw. prawo pierwszeństwa statuujące obowiązek rozpoznania przez sąd sprzeciwu w terminie 30 dni od dnia jego wniesienia",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "271. Spóźniony wniosek o przywrócenie terminu podlega",
-    "options": [
-      {
-        "text": "Odrzuceniu przez sąd w formie postanowienia, na które służy zażalenie Odrzuceniu przez sąd w formie postanowienia, na które służy skarga kasacyjna pozostawieniu bez rozpoznania w formie zarządzenia przewodniczącego",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "272. Co do zasady, wniesienie skargi bezpośrednio do sądu adm.",
-    "options": [
-      {
-        "text": "Zawsze wszczyna postępowanie sądowo-administracyjne Wszczyna postępowanie sądowo-administracyjne, jeżeli za stronę nie działa radca prawny lub adwokat nie powoduje wszczęcia post. admin.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "273. W postępowaniu wywołanym wniesieniem sprzeciwu",
-    "options": [
-      {
-        "text": "Ustawodawca wprowadza tzw. prawo pierwszeństwa statuujące obowiązek rozpoznania przez sąd sprzeciwu w terminie 30 dni od dnia jego wniesienia ustawodawca nie wprowadza wyjątku od zasady jawności postępowania oraz zasady kolegialnego orzekania w sprawie sąd może orzekać w sprawie merytorycznie",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "274. Zgodnie z PPSA powody wyłączenia",
+    "question": "286. Zgodnie z PPSA powody wyłączenia",
     "options": [
       {
         "text": "Ustają po ustaniu uzasadniającej je kurateli w każdym przypadku Trwają także po ustaniu uzasadniającej je kurateli",
@@ -3022,7 +3767,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "275. Zgodnie z PPSA osoba, która brała udział w postępowaniu adm., a nie wniosła skargi, jeżeli wynik postępowania sądowego dot. jej interesu prawnego, jest:",
+    "question": "287. Zgodnie z PPSA osoba, która brała udział w postępowaniu adm., a nie wniosła skargi, jeżeli wynik postępowania sądowego dot. jej interesu prawnego, jest:",
     "options": [
       {
         "text": "Uczestnikiem tego postępowania na prawach stron",
@@ -3031,16 +3776,20 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "276. Zawieszenie postępowania [z urzędu]:",
+    "question": "288. Zawieszenie postępowania [z urzędu]:",
     "options": [
       {
-        "text": "Może nastąpić w razie śmierci pełnomocnika, chyba, że strona działa przed sądem osobiście, Następuje zawsze, gdy skarżący skutecznie cofnął skargę",
+        "text": "Może nastąpić w razie śmierci pełnomocnika, chyba, że strona działa przed sądem osobiście,",
         "isCorrect": true
+      },
+      {
+        "text": "Następuje zawsze, gdy skarżący skutecznie cofnął skargę",
+        "isCorrect": false
       }
     ]
   },
   {
-    "question": "277. Skarga na inny akt lub czynność (art. 3 §2 pkt 4 PPSA) przysługuje na",
+    "question": "289. Skarga na inny akt lub czynność (art. 3 §2 pkt 4 PPSA) przysługuje na",
     "options": [
       {
         "text": "Plan zagospodarowania przestrzennego gminy Odmowę przyjęcia do biblioteki",
@@ -3049,7 +3798,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "278. Skarga przysługuje na inne niż decyzje i postanowienia akty lub czynności z zakresu adm. publicznej dotyczące przyznania, stwierdzenia albo uznania uprawnienia albo obowiązku wynikających z przepisów prawa.",
+    "question": "290. Skarga przysługuje na inne niż decyzje i postanowienia akty lub czynności z zakresu adm. publicznej dotyczące przyznania, stwierdzenia albo uznania uprawnienia albo obowiązku wynikających z przepisów prawa.",
     "options": [
       {
         "text": "Są to np.: wpis do ewidencji wojskowej zwolnienia z obowiązku pełnienia czynnej służby wojskowej w razie ogłoszenia mobilizacji i w czasie wojny czynności organu wykonawczego gminy zatwierdzające listę oczekujących, a także pisma zawiadamiające o niespełnieniu przesłanek do ubiegania się o lokal czynność przyznawania i obliczania dotacji rozstrzygnięcia o przyznaniu stypendium stanowisko organu administracji w kwestii żądanie zwrotu opłaty za wydanie karty pojazdu odmowa skorygowania liczby punktów karnych zawartych w ewidencji punktów z tytułu naruszeń przepisów ruchu drogowego rozstrzygnięcie w przedmiocie postępowania kwalifikacyjnego na specjalizację lekarską czynność wykreślenia z rejestru podatników podatku od towarów i usług itd.",
@@ -3058,7 +3807,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "279. Wskaż prawidłową odpowiedź:",
+    "question": "291. Wskaż prawidłową odpowiedź:",
     "options": [
       {
         "text": "Sąd może skierować sprawę do mediacji tylko na wniosek skarżącego Na decyzję wydaną na podstawie ustaleń dokonanych w postępowaniu mediacyjnym można wnieść skargę do WSA",
@@ -3067,16 +3816,20 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "280. Zgodnie z PPSA skargę o stwierdzenie niezgodności z prawem prawomocnego orzeczenia wnosi się:",
+    "question": "292. Zgodnie z PPSA skargę o stwierdzenie niezgodności z prawem prawomocnego orzeczenia wnosi się:",
     "options": [
       {
         "text": "Do sądu, który wydał zaskarżone orzeczenie, w terminie 2 lat od dnia jego uprawomocnienia się",
         "isCorrect": true
+      },
+      {
+        "text": "Bezpośrednio do NSA, w terminie 3 lat od jego uprawomocnienia się",
+        "isCorrect": false
       }
     ]
   },
   {
-    "question": "281. Zgodnie z PPSA po upływie lat 5 od uprawomocnienia się orzeczenia nie może podjąć wznowienia postępowania, z wyjątkiem przypadku, gdy:",
+    "question": "293. Zgodnie z PPSA po upływie lat 5 od uprawomocnienia się orzeczenia nie może podjąć wznowienia postępowania, z wyjątkiem przypadku, gdy:",
     "options": [
       {
         "text": "Strona była pozbawiona możności działania lub nie była należycie reprezentowana",
@@ -3085,25 +3838,41 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "282. Co do zasady, wniesienie skargi na postanowienie o podjęciu zawieszonego postępowania administracyjnego jest:",
+    "question": "294. Co do zasady, wniesienie skargi na postanowienie o podjęciu zawieszonego postępowania administracyjnego jest:",
     "options": [
       {
-        "text": "Dopuszczalne, dopuszczalne tylko wówczas, gdy tak stanowi przepis szczególny, niedopuszczalne.",
+        "text": "Dopuszczalne,",
+        "isCorrect": false
+      },
+      {
+        "text": "Dopuszczalne tylko wówczas, gdy tak stanowi przepis szczególny,",
+        "isCorrect": false
+      },
+      {
+        "text": "Niedopuszczalne.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "295. Organ, który wydał decyzję, na którą została wniesiona skarga do WSA",
+    "options": [
+      {
+        "text": "Może wstrzymać wykonanie tej decyzji jedynie na wniosek,",
+        "isCorrect": false
+      },
+      {
+        "text": "Może wstrzymać wykonanie tej decyzji do momentu przekazania skargi sądowi,",
+        "isCorrect": true
+      },
+      {
+        "text": "Może wstrzymać wykonanie tej decyzji, jeżeli nadano jej rygor natychmiastowej wykonalności.",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "283. Organ, który wydał decyzję, na którą została wniesiona skarga do WSA",
-    "options": [
-      {
-        "text": "Może wstrzymać wykonanie tej decyzji jedynie na wniosek, może wstrzymać wykonanie tej decyzji do momentu przekazania skargi sądowi, może wstrzymać wykonanie tej decyzji, jeżeli nadano jej rygor natychmiastowej wykonalności.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "284. Jeżeli rozstrzygnięcie sprawy zależy od wyniku postępowania przed Trybunałem Konstytucyjnym, sąd administracyjny:",
+    "question": "296. Jeżeli rozstrzygnięcie sprawy zależy od wyniku postępowania przed Trybunałem Konstytucyjnym, sąd administracyjny:",
     "options": [
       {
         "text": "Zawiesza postępowanie z urzędu; może zawiesić postępowanie z urzędu; odracza termin rozprawy bez wyznaczenia jej daty.",
@@ -3112,7 +3881,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "285. W razie zawieszenia postępowania na zgodny wniosek stron podjęcie tego postępowania na wniosek którejkolwiek ze stron:",
+    "question": "297. W razie zawieszenia postępowania na zgodny wniosek stron podjęcie tego postępowania na wniosek którejkolwiek ze stron:",
     "options": [
       {
         "text": "Dopuszczalne jest każdym czasie dopuszczalne jest nie wcześniej niż po upływie 3 miesięcy od zawieszenia; dopuszczalne jest nie wcześniej niż po upływie 6 miesięcy od zawieszenia;",
@@ -3121,34 +3890,58 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "286. Wskaż zdanie prawdziwe:",
+    "question": "298. Wskaż zdanie prawdziwe:",
     "options": [
       {
-        "text": "Brak zdolności sądowej powoduje oddalenie skargi, brak zdolności sądowej może spowodować zawieszenie postępowania, brak zdolności sądowej nigdy nie powoduje odrzucenia skargi.",
+        "text": "W Polsce obowiązuje tzw. mieszany model sądowej kontroli administracji,",
+        "isCorrect": true
+      },
+      {
+        "text": "Sądy administracyjne nie mogą orzekać reformatoryjnie,",
+        "isCorrect": false
+      },
+      {
+        "text": "Przedmiotem postępowania sądowo-administracyjnego jest tylko skarga na decyzję administracyjną",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "287. Kilka oddzielnych spraw toczących się przed sądem administracyjnym, pozostających ze sobą w związku, sąd ten:",
+    "question": "299. Kilka oddzielnych spraw toczących się przed sądem administracyjnym, pozostających ze sobą w związku, sąd ten:",
     "options": [
       {
-        "text": "Może połączyć w celu łącznego rozpoznania; musi z urzędu połączyć w celu łącznego rozpoznania; musi połączyć w celu łącznego rozpoznania, gdy wystąpią o to skarżący.",
+        "text": "Może połączyć w celu łącznego rozpoznania;",
+        "isCorrect": true
+      },
+      {
+        "text": "Musi z urzędu połączyć w celu łącznego rozpoznania;",
+        "isCorrect": false
+      },
+      {
+        "text": "Musi połączyć w celu łącznego rozpoznania, gdy wystąpią o to skarżący;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "300. Wypowiedzenie pełnomocnictwa przez mocodawcę odnosi skutek prawny w stosunku do strony przeciwnej:",
+    "options": [
+      {
+        "text": "Od dnia jego podpisania,",
+        "isCorrect": false
+      },
+      {
+        "text": "Od dnia jego nadania w placówce pocztowej.",
+        "isCorrect": false
+      },
+      {
+        "text": "Od dnia doręczenia jej tego zawiadomienia przez sąd. Wypowiedzenie pełnomocnictwa przez mocodawcę odnosi skutek prawny: w stosunku do sądu od dnia zawiadomienia go o tym, w stosunku do strony przeciwnej i innych uczestników – od dnia doręczenia im tego zawiadomienia przez sąd. Adwokat, radca prawny, doradca podatkowy lub rzecznik patentowy, który wypowiedział pełnomocnictwo, jest obowiązany działać za stronę jeszcze przez dwa tygodnie, chyba że mocodawca zwolni go od tego obowiązku. Każdy inny pełnomocnik powinien, mimo wypowiedzenia, działać za mocodawcę przez ten sam czas, jeżeli jest to konieczne do uchronienia mocodawcy od niekorzystnych skutków prawnych. W razie śmierci strony albo utraty przez nią zdolności sądowej pełnomocnictwo wygasa. Jednakże pełnomocnik procesowy działa aż do czasu zawieszenia postępowania.",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "288. Wypowiedzenie pełnomocnictwa przez mocodawcę odnosi skutek prawny w stosunku do strony przeciwnej:",
-    "options": [
-      {
-        "text": "Od dnia jego podpisania, od dnia jego nadania w placówce pocztowej. od dnia doręczenia jej tego zawiadomienia przez sąd.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "289. Wypowiedzenie pełnomocnictwa przez mocodawcę odnosi skutek prawny: w stosunku do sądu od dnia zawiadomienia go o tym,",
+    "question": "301. Wypowiedzenie pełnomocnictwa przez mocodawcę odnosi skutek prawny: w stosunku do sądu od dnia zawiadomienia go o tym,",
     "options": [
       {
         "text": "W stosunku do strony przeciwnej i innych uczestników – od dnia doręczenia im tego zawiadomienia przez sąd. Adwokat, radca prawny, doradca podatkowy lub rzecznik patentowy, który wypowiedział pełnomocnictwo, jest obowiązany działać za stronę jeszcze przez dwa tygodnie, chyba że mocodawca zwolni go od tego obowiązku. Każdy inny pełnomocnik powinien, mimo wypowiedzenia, działać za mocodawcę przez ten sam czas, jeżeli jest to konieczne do uchronienia mocodawcy od niekorzystnych skutków prawnych. W razie śmierci strony albo utraty przez nią zdolności sądowej pełnomocnictwo wygasa. Jednakże pełnomocnik procesowy działa aż do czasu zawieszenia postępowania.",
@@ -3157,34 +3950,58 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "290. Przez wyczerpanie środków zaskarżenia należy rozumieć sytuację, w której stronie nie przysługuje żaden środek zaskarżenia, taki jak:",
+    "question": "302. Przez wyczerpanie środków zaskarżenia należy rozumieć sytuację, w której stronie nie przysługuje żaden środek zaskarżenia, taki jak:",
     "options": [
       {
-        "text": "Zażalenie, odwołanie lub ponaglenie, przewidziany w ustawie zażalenie, odwołanie, wniosek o ponowne rozpatrzenie sprawy lub ponaglenie, przewidziany w ustawie żadna z odpowiedzi nie jest prawidłowa.",
+        "text": "Zażalenie, odwołanie lub ponaglenie, przewidziany w ustawie",
         "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "291. Umorzenie postępowania na podstawie art. 161 p.p.s.a.:",
-    "options": [
+      },
       {
-        "text": "Następuje w formie postanowienia, na które służy skarga kasacyjna następuje w formie postanowienia, na które służy zażalenie następuje z mocy prawa, jeżeli skarżący skutecznie cofnął skargę;",
+        "text": "Zażalenie, odwołanie, wniosek o ponowne rozpatrzenie sprawy lub ponaglenie, przewidziany w ustawie",
+        "isCorrect": false
+      },
+      {
+        "text": "Żadna z odpowiedzi nie jest prawidłowa.",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "292. Brak zdolności procesowej strony:",
+    "question": "303. Umorzenie postępowania na podstawie art. 161 p.p.s.a.:",
     "options": [
       {
-        "text": "Może powodować odrzucenie skargi,",
+        "text": "Następuje w formie postanowienia, na które służy skarga kasacyjna",
+        "isCorrect": false
+      },
+      {
+        "text": "Następuje w formie postanowienia, na które służy zażalenie",
         "isCorrect": true
+      },
+      {
+        "text": "Następuje z mocy prawa, jeżeli skarżący skutecznie cofnął skargę;",
+        "isCorrect": false
       }
     ]
   },
   {
-    "question": "293. Nie może powodować zawieszenia postępowania,",
+    "question": "304. Brak zdolności procesowej strony:",
+    "options": [
+      {
+        "text": "Może powodować odrzucenie skargi,",
+        "isCorrect": true
+      },
+      {
+        "text": "Nie może powodować zawieszenia postępowania,",
+        "isCorrect": false
+      },
+      {
+        "text": "Może powodować oddalenie skargi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "305. Nie może powodować zawieszenia postępowania,",
     "options": [
       {
         "text": "Może powodować oddalenie skargi.",
@@ -3193,7 +4010,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "294. Po uprzednim wniesieniu skargi do sądu administracyjnego na decyzję, wszczęcie postępowania wznowieniowego w tym samym przedmiocie:",
+    "question": "306. Po uprzednim wniesieniu skargi do sądu administracyjnego na decyzję, wszczęcie postępowania wznowieniowego w tym samym przedmiocie:",
     "options": [
       {
         "text": "Prowadzi do zawieszenia postępowania sądowego; prowadzi do zawieszenia postępowania administracyjnego; postępowanie jest niedopuszczalne",
@@ -3202,25 +4019,41 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "295. Na podstawie ustaleń dokonanych w postępowaniu mediacyjnym:",
+    "question": "307. Na podstawie ustaleń dokonanych w postępowaniu mediacyjnym:",
     "options": [
       {
-        "text": "Sąd wydaje wyrok w sprawie uchylający zaskarżoną decyzję, organ uchyla lub zmienia zaskarżony akt, obie odpowiedzi są prawidłowe, zależy to bowiem od ustaleń dokonanych w czasie mediacji.",
+        "text": "Sąd wydaje wyrok w sprawie uchylający zaskarżoną decyzję,",
+        "isCorrect": false
+      },
+      {
+        "text": "Organ uchyla lub zmienia zaskarżony akt,",
+        "isCorrect": true
+      },
+      {
+        "text": "Obie odpowiedzi są prawidłowe, zależy to bowiem od ustaleń dokonanych w czasie mediacji.",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "296. Zgodnie z p.p.s.a. wniosek o wyłączenie sędziego strona może zgłosić:",
+    "question": "308. Zgodnie z p.p.s.a. wniosek o wyłączenie sędziego strona może zgłosić:",
     "options": [
       {
-        "text": "Do prezesa sądu, w którym prowadzona jest dana sprawa, do sędziego sprawozdawcy, który ma prowadzić daną sprawę, pisemnie lub ustnie do protokołu posiedzenia w sądzie, w którym sprawa się toczy.",
+        "text": "Do prezesa sądu, w którym prowadzona jest dana sprawa,",
         "isCorrect": false
+      },
+      {
+        "text": "Do sędziego sprawozdawcy, który ma prowadzić daną sprawę,",
+        "isCorrect": false
+      },
+      {
+        "text": "Pisemnie lub ustnie do protokołu posiedzenia w sądzie, w którym sprawa się toczy. Wniosek o wyłączenie sędziego strona zgłasza na piśmie lub ustnie do protokołu posiedzenia w sądzie, w którym sprawa się toczy, uprawdopodabniając przyczyny wyłączenia. Strona, która przystąpiła do rozprawy, powinna uprawdopodobnić ponadto, że przyczyna wyłączenia dopiero później powstała lub stała się jej znana.",
+        "isCorrect": true
       }
     ]
   },
   {
-    "question": "297. Wniosek o wyłączenie sędziego strona zgłasza na piśmie lub ustnie do protokołu posiedzenia w sądzie, w którym sprawa się toczy, uprawdopodabniając przyczyny wyłączenia.",
+    "question": "309. Wniosek o wyłączenie sędziego strona zgłasza na piśmie lub ustnie do protokołu posiedzenia w sądzie, w którym sprawa się toczy, uprawdopodabniając przyczyny wyłączenia.",
     "options": [
       {
         "text": "Strona, która przystąpiła do rozprawy, powinna uprawdopodobnić ponadto, że przyczyna wyłączenia dopiero później powstała lub stała się jej znana.",
@@ -3229,43 +4062,75 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "298. Wniesienie skargi o wznowienie postępowania",
+    "question": "310. Wniesienie skargi o wznowienie postępowania",
     "options": [
       {
-        "text": "Nie tamuje wykonania zaskarżonego orzeczenia, tamuje wykonanie zaskarżonego orzeczenia, tamuje wykonanie zaskarżonego orzeczenia, jeśli strona o to zawnioskuje.",
+        "text": "Nie tamuje wykonania zaskarżonego orzeczenia,",
         "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "299. Skargę o stwierdzenie niezgodności z prawem prawomocnego orzeczenia wnosi się do sądu, który wydał zaskarżone orzeczenie:",
-    "options": [
+      },
       {
-        "text": "W terminie roku od dnia jego uprawomocnienia się, w terminie dwóch lat od dnia jego uprawomocnienia się, w terminie trzech lat od dnia jego uprawomocnienia się.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "300. Skład orzekający NSA:",
-    "options": [
+        "text": "Tamuje wykonanie zaskarżonego orzeczenia,",
+        "isCorrect": false
+      },
       {
-        "text": "Po rozpatrzeniu skargi kasacyjnej może orzekać na podstawie art. 145 i n. PPSA, tak jak WSA, jeśli uzna skargę kasacyjną za zasadną może jedynie uchylić wyrok WSA i przekazać sprawę do ponownego rozpatrzenia, nie może uchylić wyroku WSA postanowieniem i odrzucić skargi.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "301. Celem postępowania sądowo-administracyjnego jest:",
-    "options": [
-      {
-        "text": "Określenie w sposób autorytatywny czyichś praw i obowiązków badanie postępowania, które poprzedziło wydanie decyzji uznaniowej konkretyzacja materialnego stosunku prawnego",
+        "text": "Tamuje wykonanie zaskarżonego orzeczenia, jeśli strona o to zawnioskuje. Wniesienie skargi o wznowienie postępowania nie tamuje wykonania zaskarżonego orzeczenia. W razie uprawdopodobnienia, że zgłaszającemu wniosek grozi niepowetowana szkoda, sąd może wstrzymać wykonanie orzeczenia. Postanowienie może być wydane na posiedzeniu niejawnym. Na postanowienie przysługuje zażalenie.",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "302. Spór kompetencyjny między Prezydentem Miasta Katowice a Samorządowym Kolegium Odwoławczym w Krakowie rozstrzyga:",
+    "question": "311. Skargę o stwierdzenie niezgodności z prawem prawomocnego orzeczenia wnosi się do sądu, który wydał zaskarżone orzeczenie:",
+    "options": [
+      {
+        "text": "W terminie roku od dnia jego uprawomocnienia się,",
+        "isCorrect": false
+      },
+      {
+        "text": "W terminie dwóch lat od dnia jego uprawomocnienia się,",
+        "isCorrect": true
+      },
+      {
+        "text": "W terminie trzech lat od dnia jego uprawomocnienia się. Skargę o stwierdzenie niezgodności z prawem prawomocnego orzeczenia wnosi się do sądu, który wydał zaskarżone orzeczenie, w terminie dwóch lat od dnia jego uprawomocnienia się. ZBIÓR PYTAŃ RÓŻNYCH",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "312. Skład orzekający NSA:",
+    "options": [
+      {
+        "text": "Po rozpatrzeniu skargi kasacyjnej może orzekać na podstawie art. 145 i n. PPSA, tak jak WSA,",
+        "isCorrect": true
+      },
+      {
+        "text": "Jeśli uzna skargę kasacyjną za zasadną może jedynie uchylić wyrok WSA i przekazać sprawę do ponownego rozpatrzenia,",
+        "isCorrect": false
+      },
+      {
+        "text": "Nie może uchylić wyroku WSA postanowieniem i odrzucić skargi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "313. Celem postępowania sądowo-administracyjnego jest:",
+    "options": [
+      {
+        "text": "Określenie w sposób autorytatywny czyichś praw i obowiązków",
+        "isCorrect": false
+      },
+      {
+        "text": "Badanie postępowania, które poprzedziło wydanie decyzji uznaniowej",
+        "isCorrect": true
+      },
+      {
+        "text": "Konkretyzacja materialnego stosunku prawnego",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "314. Spór kompetencyjny między Prezydentem Miasta Katowice a Samorządowym Kolegium Odwoławczym w Krakowie rozstrzyga:",
     "options": [
       {
         "text": "NSA WSA w Warszawie SKO w Katowicach",
@@ -3274,7 +4139,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "303. Skarga do WSA:",
+    "question": "315. Skarga do WSA:",
     "options": [
       {
         "text": "Przysługuje co do zasady na decyzje organu drugiej instancji przysługuje na wszystkie postanowienia wydawane w ogólnym postępowaniu administracyjnym ma charakter bezwzględnie suspensywny",
@@ -3283,7 +4148,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "304. Akty lub czynności (inne niż decyzje administracyjne i postanowienia) można zaskarżyć, gdy:",
+    "question": "316. Akty lub czynności (inne niż decyzje administracyjne i postanowienia) można zaskarżyć, gdy:",
     "options": [
       {
         "text": "Uprzednio wezwano organ do wydania decyzji administracyjnej lub postanowienia dotyczą uprawnień wynikających pośrednio z przepisów prawa zostały skierowane do podmiotów zewnętrznych względem organów administracji",
@@ -3292,16 +4157,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "305. Odrzucenie skargi następuje:",
+    "question": "317. Odrzucenie skargi następuje:",
     "options": [
       {
-        "text": "Wyrokiem, na który przysługuje skarga kasacyjna zarządzeniem prezesa sądu zaskarżalnym postanowieniem postanowieniem zaskarżalnym także skargę kasacyjną",
+        "text": "Wyrokiem, na który przysługuje skarga kasacyjna,",
+        "isCorrect": false
+      },
+      {
+        "text": "Postanowieniem zaskarżalnym zażaleniem lub skargą kasacyjną,",
+        "isCorrect": true
+      },
+      {
+        "text": "Zarządzeniem prezesa sądu.",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "306. Skargę do sądu wnosi się:",
+    "question": "318. Skargę do sądu wnosi się:",
     "options": [
       {
         "text": "Co do zasady w terminie miesiąca od dnia doręczenia decyzji",
@@ -3310,7 +4183,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "307. Bezpośrednio do sądu",
+    "question": "319. Bezpośrednio do sądu",
     "options": [
       {
         "text": "Za pośrednictwem organu, którego działanie lub bezczynność są przedmiotem skargi",
@@ -3319,25 +4192,41 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "308. Zaskarżalne do sądu administracyjnego są postanowienia wydane w postępowaniu jurysdykcyjnym (administracyjnym ogólnym):",
+    "question": "320. Zaskarżalne do sądu administracyjnego są postanowienia wydane w postępowaniu jurysdykcyjnym (administracyjnym ogólnym):",
     "options": [
       {
-        "text": "Rozstrzygające o dopuszczeniu organizacji społecznej do udziału w postępowaniu o uchybieniu terminu do wniesienia odwołania, bo to postanowienia kończące postępowanie ​ w sprawie stwierdzenia niedopuszczalności wniesienia odwołania, bo to postanowienie rozstrzygające co do istoty",
+        "text": "Rozstrzygające o dopuszczeniu organizacji społecznej do udziału w postępowaniu",
+        "isCorrect": false
+      },
+      {
+        "text": "O uchybieniu terminu do wniesienia odwołania, bo to postanowienia kończące postępowanie",
+        "isCorrect": true
+      },
+      {
+        "text": "​ w sprawie stwierdzenia niedopuszczalności wniesienia odwołania, bo to postanowienie rozstrzygające co do istoty",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "309. Wniesienie skargi do sądu administracyjnego przed złożeniem wniosku o wszczęcie postępowania wznowieniowego dotyczącego tej samej decyzji prowadzi do:",
+    "question": "321. Wniesienie skargi do sądu administracyjnego przed złożeniem wniosku o wszczęcie postępowania wznowieniowego dotyczącego tej samej decyzji prowadzi do:",
     "options": [
       {
-        "text": "Zawieszenia postępowania sądowego zawieszenia tego postępowania, które wskaże strona zawieszenia postępowania administracyjnego",
+        "text": "Zawieszenia postępowania sądowego",
         "isCorrect": false
+      },
+      {
+        "text": "Zawieszenia tego postępowania, które wskaże strona",
+        "isCorrect": false
+      },
+      {
+        "text": "Zawieszenia postępowania administracyjnego",
+        "isCorrect": true
       }
     ]
   },
   {
-    "question": "310. W razie wygaśnięcia pełnomocnictwa z powodu śmierci strony pełnomocnik procesowy:",
+    "question": "322. W razie wygaśnięcia pełnomocnictwa z powodu śmierci strony pełnomocnik procesowy:",
     "options": [
       {
         "text": "Działa jeszcze przez 30 dni od chwili śmierci strony działa do czasu zawieszenia postępowania nie może już podejmować żadnych czynności procesowych",
@@ -3346,7 +4235,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "311. Organ, którego działanie jest przedmiotem skargi przekazuje ją sądowi wraz z aktami sprawy i odpowiedzią na skargę w terminie:",
+    "question": "323. Organ, którego działanie jest przedmiotem skargi przekazuje ją sądowi wraz z aktami sprawy i odpowiedzią na skargę w terminie:",
     "options": [
       {
         "text": "30 dni od dnia jej wniesienia jednego miesiąca od dnia jej wniesienia 14 dni od dnia jej wniesienia",
@@ -3355,16 +4244,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "312. Prawdą jest, że:",
+    "question": "324. Prawdą jest, że:",
     "options": [
       {
-        "text": "Sąd umorzy postępowanie sądowo-administracyjne, jeżeli strona skutecznie cofnęła skargę kasacyjną sąd umorzy postępowanie zawsze w przypadku śmierci strony sąd umorzy postępowanie, gdy w toku postępowania sądowo-administracyjnego organ nadzoru stwierdzi nieważność decyzji stanowiącej przedmiot skargi do sądu",
+        "text": "Podstawy kasacyjne wraz z ich uzasadnieniem są tym wymogiem formalnym skargi kasacyjnej, który ma charakter niekonwalidowalny tj. skarżący kasacyjnie nie może go skutecznie uzupełnić,",
+        "isCorrect": true
+      },
+      {
+        "text": "Skarga kasacyjna może zostać sporządzona przez aplikanta radcowskiego,",
+        "isCorrect": false
+      },
+      {
+        "text": "Po upływie terminu do wniesienia skargi kasacyjnej przytaczanie przez skarżącego kasacyjnie nowych podstaw kasacyjnych jest dopuszczalne, ale tylko do czasu wyznaczenia rozprawy, Art. 177a. Jeżeli skarga kasacyjna nie spełnia wymagań przewidzianych w art. 176, innych niż przytoczenie podstaw kasacyjnych i ich uzasadnienie, przewodniczący wzywa stronę do usunięcia braków w terminie siedmiu dni pod rygorem odrzucenia skargi. I TERMIN 2022 gr. II (jest w bazie papierowej)",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "313. W sprawie ze skargi na decyzję wojewódzki sąd administracyjny może wyrokiem:",
+    "question": "325. W sprawie ze skargi na decyzję wojewódzki sąd administracyjny może wyrokiem:",
     "options": [
       {
         "text": "Odrzucić skargę wznowić postępowanie po uchyleniu decyzji umorzyć postępowanie administracyjne",
@@ -3373,7 +4270,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "314. W świetle przepisów p.p.s.a.:",
+    "question": "326. W świetle przepisów p.p.s.a.:",
     "options": [
       {
         "text": "Podstawy kasacyjne wraz z ich uzasadnieniem są wymogiem konstrukcyjnym skargi kasacyjnej niepodlegającym uzupełnieniu po wniesieniu środka zaskarżenia do sądu",
@@ -3382,7 +4279,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "315. Po upływie terminu do wniesienia skargi kasacyjnej przytaczanie przez skarżącego kasacyjnie nowych podstaw kasacyjnych jest dopuszczalne",
+    "question": "327. Po upływie terminu do wniesienia skargi kasacyjnej przytaczanie przez skarżącego kasacyjnie nowych podstaw kasacyjnych jest dopuszczalne",
     "options": [
       {
         "text": "Skargę kasacyjną może sporządzić doktor nauk prawnych",
@@ -3391,16 +4288,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "316. Uprawnienie do wniesienia skargi do wojewódzkiego sądu administracyjnego ma:",
+    "question": "328. Uprawnienie do wniesienia skargi do wojewódzkiego sądu administracyjnego ma:",
     "options": [
       {
-        "text": "Między innymi osoba, która ma interes prawny oparty o przepisy procesowe zawsze organizacja społeczna w każdej sytuacji prokurator w terminie 6 miesięcy od doręczenia decyzji stronie",
+        "text": "Między innymi osoba, która ma interes prawny oparty o przepisy procesowe",
         "isCorrect": true
+      },
+      {
+        "text": "Zawsze organizacja społeczna",
+        "isCorrect": false
+      },
+      {
+        "text": "W każdej sytuacji prokurator w terminie 6 miesięcy od doręczenia decyzji stronie",
+        "isCorrect": false
       }
     ]
   },
   {
-    "question": "317. Sprzeciw do sądu administracyjnego od decyzji organu odwoławczego:",
+    "question": "329. Sprzeciw do sądu administracyjnego od decyzji organu odwoławczego:",
     "options": [
       {
         "text": "Umożliwia zbadanie wystąpienia przesłanek do wydania decyzji w trybie 138 par. 2 KPA służy merytorycznej kontroli decyzji organu odwoławczego wnosi organ administracji publicznej w celu skontrolowania wydanej przez siebie decyzji",
@@ -3409,16 +4314,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "318. Przywrócenie terminu w postępowaniu sądowo-administracyjnym:",
+    "question": "330. Przywrócenie terminu w postępowaniu sądowo-administracyjnym:",
     "options": [
       {
-        "text": "Następuje z urzędu jest niedopuszczalne, gdy uchybienie nie powoduje negatywnych skutków dla strony jest niedopuszczalne po upływie pół roku od uchybionego terminu",
+        "text": "Dotyczy tylko terminów procesowych",
+        "isCorrect": false
+      },
+      {
+        "text": "Następuje w drodze zaskarżalnego postanowienia",
+        "isCorrect": true
+      },
+      {
+        "text": "W przypadku uchybienia terminu do wniesienia skargi wniosek bezpośrednio wnosi się do sądu",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "319. Termin do wniesienia skargi do sądu administracyjnego jest terminem:",
+    "question": "331. Termin do wniesienia skargi do sądu administracyjnego jest terminem:",
     "options": [
       {
         "text": "Procesowym i prekluzyjnym prekluzyjnym i materialnym procesowym i zawitym",
@@ -3427,7 +4340,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "320. W postępowaniu sądowo-administracyjnym obowiązuje zasada:",
+    "question": "332. W postępowaniu sądowo-administracyjnym obowiązuje zasada:",
     "options": [
       {
         "text": "Kontradyktoryjności postępowania dowodowego związania granicami skargi oficjalności doręczeń",
@@ -3436,7 +4349,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "321. Jeżeli organ nie przekazał sądowi skargi, mimo wymierzenia grzywny, sąd może rozpoznać skargę:",
+    "question": "333. Jeżeli organ nie przekazał sądowi skargi, mimo wymierzenia grzywny, sąd może rozpoznać skargę:",
     "options": [
       {
         "text": "Na żądanie skarżącego zawsze sąd nie może rozpoznać takiej skargi",
@@ -3445,7 +4358,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "322. Prawdą jest, że:",
+    "question": "334. Prawdą jest, że:",
     "options": [
       {
         "text": "Organizacja społeczna w postępowaniu sądowo-administracyjnym może występować w charakterze [...] skarżącej lub uczestnika postępowania termin do wniesienia skargi przez Prokuratora wynosi 6 miesięcy nawet jeśli brał udział w […] administracyjnym Rzecznik Praw Dziecka ma legitymację skargową we wszystkich sprawach podlegających kognicji sądów",
@@ -3454,7 +4367,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "323. Sprostowanie wyroku WSA:",
+    "question": "335. Sprostowanie wyroku WSA:",
     "options": [
       {
         "text": "Jest sporządzane zawsze w terminie do 14 dni od dnia ogłoszenia wyroku lub podpisania sentencji może nastąpić tylko na posiedzeniu jawnym może zostać dokonane także przez NSA",
@@ -3463,16 +4376,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "324. WSA umorzy postępowanie sądowo-administracyjne:",
+    "question": "336. WSA umorzy postępowanie sądowo-administracyjne:",
     "options": [
       {
-        "text": "W razie uwzględnienia przez organ skargi w całości lub w części albo w ramach uprawnień autokontrolnych albo w postępowaniu mediacyjnym w każdym przypadku wniesienia przez skarżącego wniosku o cofnięcie skargi (nie, bo musi być skuteczne) zawsze w przypadku śmierci strony postępowania",
+        "text": "W razie uwzględnienia przez organ skargi w całości lub w części albo w ramach uprawnień autokontrolnych albo w postępowaniu mediacyjnym",
         "isCorrect": true
+      },
+      {
+        "text": "W każdym przypadku wniesienia przez skarżącego wniosku o cofnięcie skargi (nie, bo musi być skuteczne)",
+        "isCorrect": false
+      },
+      {
+        "text": "Zawsze w przypadku śmierci strony postępowania",
+        "isCorrect": false
       }
     ]
   },
   {
-    "question": "325. Unieważnienie prawomocnego wyroku NSA następuje:",
+    "question": "337. Unieważnienie prawomocnego wyroku NSA następuje:",
     "options": [
       {
         "text": "Na wniosek RPO na wniosek Prezesa NSA na wniosek Prokuratora Generalnego",
@@ -3481,7 +4402,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "326. Po rozpatrzeniu skargi na akt nadzoru sąd administracyjny w wyroku:",
+    "question": "338. Po rozpatrzeniu skargi na akt nadzoru sąd administracyjny w wyroku:",
     "options": [
       {
         "text": "Uchylić ten akt stwierdzić nieważność tego aktu zmienić akt",
@@ -3490,7 +4411,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "327. Podjęcie postępowania zawieszonego z mocy prawa:",
+    "question": "339. Podjęcie postępowania zawieszonego z mocy prawa:",
     "options": [
       {
         "text": "Następuje w drodze niezaskarżalnego postanowienia następuje w drodze zaskarżalnego postanowienia następuje z mocy prawa",
@@ -3499,7 +4420,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "328. Nadzór administracyjny w sądownictwie administracyjnym dotyczy:",
+    "question": "340. Nadzór administracyjny w sądownictwie administracyjnym dotyczy:",
     "options": [
       {
         "text": "Zagwarantowania jednolitości orzecznictwa sądowego Rozpoznawania środków zaskarżenia Zależności finansowej od ministerstwa sprawiedliwości Lustracji",
@@ -3508,7 +4429,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "329. AC. Postanowienia przewodniczącego składu orzekającego AD. Zarządzenia przewodniczącego składu orzekającego AE. Zarządzenia Prezesa WSA",
+    "question": "341. AC. Postanowienia przewodniczącego składu orzekającego AD. Zarządzenia przewodniczącego składu orzekającego AE. Zarządzenia Prezesa WSA",
     "options": [
       {
         "text": "AF. Zarządzenia przewodniczącego wydziału",
@@ -3517,7 +4438,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "330. Cofnięcie skargi",
+    "question": "342. Cofnięcie skargi",
     "options": [
       {
         "text": "AK. Jest dopuszczalne do czasu przekazania skargi do sądu administracyjnego AL. Skutkuje wyrokiem o umorzeniu postępowania AM. Nie podlega ocenie sądu z uwagi na zasadę dyspozycyjności AN. Może dot. tylko części skargi",
@@ -3526,7 +4447,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "331. Sprzeciw w postępowaniu sądowo-administracyjnym:",
+    "question": "343. Sprzeciw w postępowaniu sądowo-administracyjnym:",
     "options": [
       {
         "text": "AO. Przysługuje od decyzji ostatecznych AP. Nie wymaga wykazania interesu prawnego AQ. Wnoszony jest w każdym czasie AR. Pozwala na autoweryfikację przez organ wydający w ciągu 14 dni",
@@ -3535,7 +4456,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "332. Co do zasady uzasadnienie orzeczenia sądu administracyjnego",
+    "question": "344. Co do zasady uzasadnienie orzeczenia sądu administracyjnego",
     "options": [
       {
         "text": "AS. Sporządza się w ciągu 7 dni od dnia ogłoszenia wyroku AT. Zasadniczo sporządza sędzia sprawozdawca AU. W sprawie zawiłej sporządza się w ciągu 14 dni (w ciągu 30 dni) AV. Nie może być przedmiotem zdania odrębnego",
@@ -3544,7 +4465,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "333. Zawieszenie postępowania sądowo-administracyjnego następuje w przypadku:",
+    "question": "345. Zawieszenie postępowania sądowo-administracyjnego następuje w przypadku:",
     "options": [
       {
         "text": "AW. Uwzględnienia skargi przez organ w ramach autokontroli AX. Odrzucenia skargi AY. Pojawienia się zagadnienia wstępnego AZ. Wszczęcia postępowania w trybie uproszczonym",
@@ -3553,7 +4474,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "334. Spór o właściwość między Starostą Chorzowskim a Samorządowym Kolegium Odwoławczym w Katowicach rozstrzyga:",
+    "question": "346. Spór o właściwość między Starostą Chorzowskim a Samorządowym Kolegium Odwoławczym w Katowicach rozstrzyga:",
     "options": [
       {
         "text": "BE. WSA w Gliwicach BF. WSA w Warszawie BG. NSA",
@@ -3562,7 +4483,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "335. Wniesienie skargi do wojewódzkiego sądu administracyjnego po wszczęciu postępowania nieważnościowego dotyczącego tej samej decyzji prowadzi do:",
+    "question": "347. Wniesienie skargi do wojewódzkiego sądu administracyjnego po wszczęciu postępowania nieważnościowego dotyczącego tej samej decyzji prowadzi do:",
     "options": [
       {
         "text": "BK. Zawieszenia postępowania nieważnościowego",
@@ -3571,7 +4492,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "336. BL. Zawieszeniem postępowania sądowego",
+    "question": "348. BL. Zawieszeniem postępowania sądowego",
     "options": [
       {
         "text": "BM. Odrzuceniem skargi",
@@ -3580,34 +4501,58 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "337. Zgodnie z p.p.s.a. organizacja społeczna:",
+    "question": "349. Zgodnie z p.p.s.a. organizacja społeczna:",
     "options": [
       {
-        "text": "BN. Zawsze może brać udział w postępowaniu, w zakresie swojej działalności statutowej BO. Może brać udział w postępowaniu w przypadkach ściśle określonych w ustawie, w zakresie swojej działalności statutowej BP. Nigdy nie może brak udziału w postępowaniu",
+        "text": "Zawsze może wnieść skargę na decyzję administracyjną, jeśli przedmiot sprawy dotyczył jej statutowej działalności,",
+        "isCorrect": false
+      },
+      {
+        "text": "​ może brać udział w postępowaniu także jako uczestnik, w zakresie swojej działalności statutowej,",
         "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "338. W razie wniesienia skargi na decyzję:",
-    "options": [
+      },
       {
-        "text": "BQ. Następuje wstrzymanie wykonania tej decyzji z mocy prawa BR. Może nastąpić wstrzymanie wykonania tej decyzji w drodze postanowienia właściwego organu, do którego wpłynęła skarga BS. Nie może nastąpić wstrzymanie wykonania tej decyzji w drodze postanowienia sądu",
+        "text": "Nigdy nie może brać udziału w postępowaniu.",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "339. Odrzucenie skargi następuje",
+    "question": "350. W razie wniesienia skargi na decyzję:",
     "options": [
       {
-        "text": "BT. Wyrokiem, na który przysługuje skarga kasacyjna BU. Postanowieniem zaskarżalnym zażaleniem lub skargą kasacyjną BV. Zarządzeniem prezesa sądu",
+        "text": "Nie następuje wstrzymanie wykonania tej decyzji z mocy prawa,",
+        "isCorrect": true
+      },
+      {
+        "text": "Nie może nastąpić wstrzymanie wykonania tej decyzji w drodze postanowienia właściwego organu, do którego wpłynęła skarga,",
+        "isCorrect": false
+      },
+      {
+        "text": "Nie może nastąpić wstrzymanie wykonania tej decyzji w drodze postanowienia sądu",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "340. Wniesienie skargi do WSA na decyzję",
+    "question": "351. Odrzucenie skargi następuje",
+    "options": [
+      {
+        "text": "Wyrokiem, na który przysługuje skarga kasacyjna,",
+        "isCorrect": false
+      },
+      {
+        "text": "Postanowieniem zaskarżalnym zażaleniem lub skargą kasacyjną,",
+        "isCorrect": true
+      },
+      {
+        "text": "Zarządzeniem prezesa sądu.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "352. Wniesienie skargi do WSA na decyzję",
     "options": [
       {
         "text": "CC. Zawsze wstrzymuje jej wykonanie, ponieważ skarga jest środkiem bezwzględnie suspensywnym CD. Zawsze wstrzymuje jej wykonanie, ponieważ skarga jest środkiem bezwzględnie dewolutywnym CE. Inna odpowiedź jest prawidłową",
@@ -3616,7 +4561,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "341. Sąd zawiesza postępowanie",
+    "question": "353. Sąd zawiesza postępowanie",
     "options": [
       {
         "text": "CL. Zawsze w przypadku śmierci strony CM. W razie wystąpienia siły wyższej uniemożliwiającej działanie sądu CN. Jeżeli w stosunku do strony zostało wszczęte postępowanie upadłościowe, a sprawa dot. przedmiotu wchodzącego w skład masy upadłości",
@@ -3625,7 +4570,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "342. Wskaż, które z poniższych zdań są prawdziwe",
+    "question": "354. Wskaż, które z poniższych zdań są prawdziwe",
     "options": [
       {
         "text": "CO. Każde orzeczenie sądu administracyjnego wymaga wykonania przez organ administracji CP. Na organie ciąży obowiązek każdoczesnego zawiadomienia sądu o wydaniu decyzji stanowiącej wykonanie prawomocnego wyroku sądu administracyjnego CQ. Sąd uwzględniając skargę, w określonych prawem sytuacjach, może zobowiązywać organ do wydania decyzji o określonym przez sąd rozstrzygnięciu",
@@ -3634,7 +4579,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "343. Wszczęcie postępowania sądowo-administracyjnego następuje",
+    "question": "355. Wszczęcie postępowania sądowo-administracyjnego następuje",
     "options": [
       {
         "text": "CU. Z chwilą wniesienia skargi do organu, którego działanie, bezczynność lub przewlekłe prowadzenie postępowania jest przedmiotem tej skargi",
@@ -3643,7 +4588,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "344. CV. Z chwilą przekazania skargi do sądu administracyjnego przez organ",
+    "question": "356. CV. Z chwilą przekazania skargi do sądu administracyjnego przez organ",
     "options": [
       {
         "text": "CW. Z chwilą przyjęcia skargi do rozpatrywania, tj. przy braku postanowienia o odrzuceniu",
@@ -3652,16 +4597,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "345. W postępowaniu sądowo-administracyjnym:",
+    "question": "357. W postępowaniu sądowo-administracyjnym:",
     "options": [
       {
-        "text": "CX. Sprawa może być rozpoznawana na kilka, przy czym każdą z nich może prowadzić innym skład orzekający CY. Jeżeli po odroczeniu rozprawy skład sądu ulegnie zmianie, zachodzi konieczność ponowienia wszystkich czynności procesowych CZ. Wydanie wyroku przez sędziego, który nie uczestniczył w ostatniej rozprawie (rozprawie poprzedzającej bezpośrednio wydanie wyroku), nie ma wpływu na prawidłowość wyroku",
+        "text": "Prowadzi się pełne postępowanie dowodowe,",
+        "isCorrect": false
+      },
+      {
+        "text": "Nie prowadzi się w ogóle postępowania dowodowego,",
+        "isCorrect": false
+      },
+      {
+        "text": "Można przeprowadzić uzupełniający dowód z dokumentu.",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "346. Naczelny Sąd Administracyjny rozpatruje, co do zasady, skargę kasacyjną:",
+    "question": "358. Naczelny Sąd Administracyjny rozpatruje, co do zasady, skargę kasacyjną:",
     "options": [
       {
         "text": "W składzie trzech sędziów na posiedzeniu niejawnym w składzie pięciu sędziów",
@@ -3670,7 +4623,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "347. Zdolność procesową mają:",
+    "question": "359. Zdolność procesową mają:",
     "options": [
       {
         "text": "Tylko skarżący i organ administracji publicznej wszystkie podmioty, którym przysługuje zdolność sądowa tylko podmioty dysponujące zdolnością do czynności prawnych na gruncie prawa cywilnego",
@@ -3679,7 +4632,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "348. Skarga kasacyjna powinna obligatoryjnie zawierać m.in:",
+    "question": "360. Skarga kasacyjna powinna obligatoryjnie zawierać m.in:",
     "options": [
       {
         "text": "Oznaczenie zaskarżonego orzeczenia ze wskazaniem czy jest ono zaskarżone w całości czy w części dokładne oznaczenie zaskarżonego orzeczenia dokładne oznaczenie zaskarżonego wyroku",
@@ -3688,7 +4641,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "349. Naczelny Sąd Administracyjny:",
+    "question": "361. Naczelny Sąd Administracyjny:",
     "options": [
       {
         "text": "Sporządza z urzędu uzasadnienie każdego wydanego wyroku, sporządza z urzędu uzasadnienie tylko wyroku uwzględniającego skargę kasacyjną, sporządza z urzędu uzasadnienie tylko wyroku oddalającego skargę",
@@ -3697,16 +4650,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "350. WSA uwzględniając skargę na akt prawa miejscowego:",
+    "question": "362. WSA uwzględniając skargę na akt prawa miejscowego:",
     "options": [
       {
-        "text": "Stwierdza jego nieważność w całości w całości lub w części, stwierdza wydanie aktu z naruszeniem prawa uchyla akt prawa miejscowego",
+        "text": "Stwierdza jego nieważność w całości lub w części",
         "isCorrect": true
+      },
+      {
+        "text": "Uchyla akt",
+        "isCorrect": false
+      },
+      {
+        "text": "Uchyla akt i przekazuje do ponownego rozpatrzenia Sąd uwzględniając skargę na uchwałę lub akt prawa miejscowego stwierdza nieważność tej uchwały lub aktu w całości lub w części albo stwierdza, że zostały wydane z naruszeniem prawa, jeżeli przepis szczególny wyłącza stwierdzenie ich nieważności. §Rozstrzygnięcia w sprawach indywidualnych, wydane na podstawie uchwały lub aktu, o których mowa w § 1, podlegają wzruszeniu w trybie określonym w postępowaniu administracyjnym albo w postępowaniu szczególnym.",
+        "isCorrect": false
       }
     ]
   },
   {
-    "question": "351. WSA uwzględniając skargę na akt organu jednostki samorządu terytorialnego z pkt. 6 art. 3 par. 2 p.p.s.a.:",
+    "question": "363. WSA uwzględniając skargę na akt organu jednostki samorządu terytorialnego z pkt. 6 art. 3 par. 2 p.p.s.a.:",
     "options": [
       {
         "text": "Stwierdza jego nieważność w całości w całości lub w części, zawsze stwierdza wydanie aktu z naruszeniem prawa po upływie roku od wydania aktu uchyla akt prawa miejscowego stwierdza jego z naruszeniem prawa",
@@ -3715,7 +4676,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "352. WSA uchylając swój wyrok po wniesieniu skargi kasacyjnej (w wyniku autokontroli):",
+    "question": "364. WSA uchylając swój wyrok po wniesieniu skargi kasacyjnej (w wyniku autokontroli):",
     "options": [
       {
         "text": "Może ponownie rozpoznać sprawę jest zobowiązany ponownie rozpoznać sprawę na tym samym posiedzeniu przekazuje skargę kasacyjną do NSA",
@@ -3724,7 +4685,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "353. Wskaż prawidłową odpowiedź;",
+    "question": "365. Wskaż prawidłową odpowiedź;",
     "options": [
       {
         "text": "NSA odrzuca skargę kasacyjną jeśli zachodzą podstawy do umorzenia postępowania NSA odrzuca skargę kasacyjną i uchyla wyrok, jeżeli dojdzie do przekonania, że cały wyrok narusza prawo w sposób rażący, NSA odrzuca skargę kasacyjną jeśli skarga podlegała odrzuceniu przez WSA",
@@ -3733,7 +4694,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "354. Wskaż prawidłową odpowiedzi:",
+    "question": "366. Wskaż prawidłową odpowiedzi:",
     "options": [
       {
         "text": "WSA, któremu sprawa została przekazana na skutek uwzględnienia skargi kasacyjnej jest związany wykładnią prawa dokonaną w tej sprawie przez Naczelny Sąd Administracyjny, WSA, któremu sprawa została przekazana na skutek uwzględnienia skargi kasacyjnej jest związany wykładnią prawa dokonaną w tej sprawie przez Naczelny Sąd Administracyjny, o ile stan prawny i faktyczny nie uległ zmianie WSA, któremu sprawa została przekazana na skutek uwzględnienia skargi kasacyjnej nie jest związany wykładnią prawa dokonaną w tej sprawie przez Naczelny Sąd Administracyjny,",
@@ -3742,7 +4703,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "355. Przedmiotem skargi do sądu administracyjnego może być m.in.:",
+    "question": "367. Przedmiotem skargi do sądu administracyjnego może być m.in.:",
     "options": [
       {
         "text": "Każda czynność organu administracji publicznej akt nadzoru nad samorządem terytorialnym decyzja administracyjna wydana przez organ pierwszej instancji",
@@ -3751,7 +4712,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "356. Przedmiotem skargi do sądu administracyjnego może być m.in.:",
+    "question": "368. Przedmiotem skargi do sądu administracyjnego może być m.in.:",
     "options": [
       {
         "text": "Zaniechanie wykonania orzeczenia sądu administracyjnego przez organ administracji zaniechanie wydania zarządzenia zastępczego przez organ nadzoru nad samorządem terytorialnym, decyzja ZUS o odmowie przyznania zasiłku macierzyńskiego.",
@@ -3760,7 +4721,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "357. W razie uwzględnienia skargi na akt prawa miejscowego WSA:",
+    "question": "369. W razie uwzględnienia skargi na akt prawa miejscowego WSA:",
     "options": [
       {
         "text": "Stwierdza jego wydanie z naruszeniem prawa, uchyla akt prawa miejscowego, stwierdza nieważność aktu prawa miejscowego;",
@@ -3769,16 +4730,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "358. W postępowaniu przed WSA dowód z zeznań świadka jest:",
+    "question": "370. W postępowaniu przed WSA dowód z zeznań świadka jest:",
     "options": [
       {
-        "text": "Dopuszczalny bez ograniczeń, dopuszczalny tylko wówczas, gdy jest niezbędny dla rozstrzygnięcia sprawy, niedopuszczalny;",
+        "text": "Dopuszczalny bez ograniczeń,",
+        "isCorrect": false
+      },
+      {
+        "text": "Dopuszczalny tylko wówczas, gdy jest niezbędny dla rozstrzygnięcia sprawy,",
+        "isCorrect": false
+      },
+      {
+        "text": "Niedopuszczalny.",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "359. Czynności dokonane w sądzie niewłaściwym:",
+    "question": "371. Czynności dokonane w sądzie niewłaściwym:",
     "options": [
       {
         "text": "Pozostają w mocy, podlegają zniesieniu (nie wywołują skutków prawnych), są nieważne;",
@@ -3787,7 +4756,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "360. Sąd wydaje orzeczenie w formie postanowienia, gdy:",
+    "question": "372. Sąd wydaje orzeczenie w formie postanowienia, gdy:",
     "options": [
       {
         "text": "Ustawa nie przewiduje wydania wyroku; oddala skargę, rozpoznaje sprawę przy drzwiach zamkniętych;",
@@ -3796,16 +4765,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "361. Wniosek o ponowne rozpatrzenie sprawy jest środkiem, który:",
+    "question": "373. Wniosek o ponowne rozpatrzenie sprawy jest środkiem, który:",
     "options": [
       {
-        "text": "Musi być wyczerpany przed wniesieniem skargi do WSA w każdym przypadku, musi być wyczerpany przed wniesieniem skargi do WSA na decyzję ministra, nie musi być wyczerpany przed wniesieniem skargi do WSA;",
+        "text": "Musi być wyczerpany przed wniesieniem skargi do WSA w każdym przypadku,",
         "isCorrect": false
+      },
+      {
+        "text": "Musi być wyczerpany przed wniesieniem skargi do WSA na decyzję ministra,",
+        "isCorrect": false
+      },
+      {
+        "text": "Nie musi być wyczerpany przed wniesieniem skargi do WSA.",
+        "isCorrect": true
       }
     ]
   },
   {
-    "question": "362. W razie nieuwzględnienia skargi jednostki samorządu terytorialnego na akt nadzoru - WSA:",
+    "question": "374. W razie nieuwzględnienia skargi jednostki samorządu terytorialnego na akt nadzoru - WSA:",
     "options": [
       {
         "text": "Odmawia wstrzymania jego wykonania oddala skargę wymierza j.s.t. grzywnę w wysokości przewidzianej prawem",
@@ -3814,16 +4791,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "363. Prawdą jest, że:",
+    "question": "375. Prawdą jest, że:",
     "options": [
       {
-        "text": "Podstawy kasacyjne są tym wymogiem formalnym skargi kasacyjnej, który skarżący kasacyjnie nie może go skutecznie uzupełnić, podstawy kasacyjne wraz z ich uzasadnieniem są tym wymogiem formalnym skargi kasacyjnej, który skarżący kasacyjnie nie może go skutecznie uzupełnić, skarżący kasacyjnie może przytaczać nowe podstawy kasacyjne, ale tylko do czasu wyznaczenia rozprawy,",
+        "text": "Podstawy kasacyjne wraz z ich uzasadnieniem są tym wymogiem formalnym skargi kasacyjnej, który ma charakter niekonwalidowalny tj. skarżący kasacyjnie nie może go skutecznie uzupełnić,",
+        "isCorrect": true
+      },
+      {
+        "text": "Skarga kasacyjna może zostać sporządzona przez aplikanta radcowskiego,",
+        "isCorrect": false
+      },
+      {
+        "text": "Po upływie terminu do wniesienia skargi kasacyjnej przytaczanie przez skarżącego kasacyjnie nowych podstaw kasacyjnych jest dopuszczalne, ale tylko do czasu wyznaczenia rozprawy, Art. 177a. Jeżeli skarga kasacyjna nie spełnia wymagań przewidzianych w art. 176, innych niż przytoczenie podstaw kasacyjnych i ich uzasadnienie, przewodniczący wzywa stronę do usunięcia braków w terminie siedmiu dni pod rygorem odrzucenia skargi. I TERMIN 2022 gr. II (jest w bazie papierowej)",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "364. Zaskarżeniu do sądu administracyjnego podlegają:",
+    "question": "376. Zaskarżeniu do sądu administracyjnego podlegają:",
     "options": [
       {
         "text": "Tylko decyzje administracyjne wydane przez organy administracji publicznej wszystkie decyzje administracyjne PW decyzje administracyjne nieostateczne",
@@ -3832,7 +4817,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "365. Zaskarżeniu do sądu administracyjnego podlegają:",
+    "question": "377. Zaskarżeniu do sądu administracyjnego podlegają:",
     "options": [
       {
         "text": "Postanowienia",
@@ -3841,7 +4826,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "366. Postanowienia na które służy zażalenie",
+    "question": "378. Postanowienia na które służy zażalenie",
     "options": [
       {
         "text": "Postanowienia nie kończące postępowania",
@@ -3850,7 +4835,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "367. Zakres, w jakim administracja podlega kontroli sądowej, wyznaczają:",
+    "question": "379. Zakres, w jakim administracja podlega kontroli sądowej, wyznaczają:",
     "options": [
       {
         "text": "Przepisy art. 3 § 2 (zawiera katalog prawnych form działania administracji publicznej objętych kontrolą sądową) oraz art. 3 § 3 ( poszerza ten katalog na podstawie przepisów szczególnych), przepisy art. 3 § 2 (zawiera katalog prawnych form działania administracji publicznej objętych kontrolą sądową) oraz art. 4 (poszerza katalog o spory o właściwość oraz spory kompetencyjne) oraz art. 5 (wyłącza pewne sprawy z zakresu właściwości sądu administracyjnego) przepisy art. 3 § 2 (zawiera katalog prawnych form działania administracji publicznej objętych kontrolą sądową) art. 3 § 3 ( poszerza ten katalog na podstawie przepisów szczególnych), art. 4 (kolejne poszerzenie katalogu o spory o właściwość i spory kompetencyjne) oraz art. 5 (wyłącza pewne sprawy z zakresu właściwości sądu administracyjnego)",
@@ -3859,7 +4844,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "368. Zawieszenie przez Prezesa RM organów gminy, powiatu lub województwa i ustanowienie zarządu komisarycznego (art. 97 ust. 1 u.s.g., art. 84 ust. 1 u.s.p., art. 85 ust. 1 u.s.w.)",
+    "question": "380. Zawieszenie przez Prezesa RM organów gminy, powiatu lub województwa i ustanowienie zarządu komisarycznego (art. 97 ust. 1 u.s.g., art. 84 ust. 1 u.s.p., art. 85 ust. 1 u.s.w.)",
     "options": [
       {
         "text": "Jest aktem nadzoru nad samorządem terytorialnym podlegającym kognicji sądu administracyjnego jest aktem nadzoru nad samorządem terytorialnym nie podlegającym kognicji sądu administracyjnego ze względu na pozycję organu, który go podejmuje nie jest aktem nadzoru nad samorządem terytorialnym",
@@ -3868,7 +4853,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "369. Zajęcie stanowiska polegające na niezatwierdzeniu, nieuzgodnieniu bądź na wyrażeniu negatywnej opinii",
+    "question": "381. Zajęcie stanowiska polegające na niezatwierdzeniu, nieuzgodnieniu bądź na wyrażeniu negatywnej opinii",
     "options": [
       {
         "text": "(zajęte w trybie art. 89 u.s.g., 77b u.s.p. i art. 80 u.s.w.) jest aktem nadzoru nad samorządem terytorialnym nie podlegającym kognicji sądu administracyjnego jest aktem nadzoru nad samorządem terytorialnym podlegającym kognicji sądu administracyjnego",
@@ -3877,7 +4862,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "370. Zaskarżeniu do sądu administracyjnego podlega bezczynność organu administracji publicznej:",
+    "question": "382. Zaskarżeniu do sądu administracyjnego podlega bezczynność organu administracji publicznej:",
     "options": [
       {
         "text": "W każdym przypadku w przypadkach określonych w pkt 1-4 i pkt. 9 art. 3 par. 2 p.p.s.a. w przypadkach określonych w pkt 1-4 art. 3 par. 2 p.p.s.a.",
@@ -3886,7 +4871,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "371. Czy prawdą jest, że zaistnienie przesłanki procesowej bezwzględnej:",
+    "question": "383. Czy prawdą jest, że zaistnienie przesłanki procesowej bezwzględnej:",
     "options": [
       {
         "text": "Wyklucza możliwość złożenia skargi do WSA powoduje bezwzględną niedopuszczalność wszczęcia i merytorycznego rozpoznania sprawy przez sąd powoduje jedynie czasową niedopuszczalność wszczęcia i merytorycznego rozpoznania sprawy przez sąd",
@@ -3895,7 +4880,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "372. Czy prawdą jest, że zaistnienie przesłanki procesowej względnej:",
+    "question": "384. Czy prawdą jest, że zaistnienie przesłanki procesowej względnej:",
     "options": [
       {
         "text": "Wyklucza możliwość złożenia skargi do WSA powoduje względną niedopuszczalność wszczęcia i merytorycznego rozpoznania sprawy przez sąd",
@@ -3904,7 +4889,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "373. Do przesłanek względnych należy m.in.",
+    "question": "385. Do przesłanek względnych należy m.in.",
     "options": [
       {
         "text": "Dopuszczalność drogi sądowej, posiadanie przez skarżącego legitymacji procesowej i zachowanie terminu do złożenia skargi wniesienie skargi po wyczerpaniu środków zaskarżenia, powaga rzeczy osądzonej uiszczenie wpisu, zawisłość sporu",
@@ -3913,7 +4898,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "374. Do przesłanek bezwzględnych należy m.in.",
+    "question": "386. Do przesłanek bezwzględnych należy m.in.",
     "options": [
       {
         "text": "Posiadanie przez skarżącego legitymacji procesowej, zachowanie terminu do złożenia skargi, wyczerpanie środków zaskarżenia wniesienie skargi po wyczerpaniu środków zaskarżenia, powaga rzeczy osądzonej uiszczenie wpisu, zawisłość sporu",
@@ -3922,7 +4907,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "375. Wymóg wyczerpania środków zaskarżenia:",
+    "question": "387. Wymóg wyczerpania środków zaskarżenia:",
     "options": [
       {
         "text": "Obowiązuje w każdym przypadku obowiązuje jedynie wobec decyzji administracyjnych i postanowień zależy od tego czy przepisy ustaw procesowych, na podstawie których były podejmowane akty podlegające zaskarżeniu do sądu administracyjnego przewidują możliwość korzystania ze środków zaskarżenia",
@@ -3931,7 +4916,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "376. Przesłanką dopuszczalności skargi na decyzje administracyjne wydane w pierwszej instancji jest:",
+    "question": "388. Przesłanką dopuszczalności skargi na decyzje administracyjne wydane w pierwszej instancji jest:",
     "options": [
       {
         "text": "Wyczerpanie środka zaskarżenia posiadanie interesu prawnego przez skarżącego (legitymacja materialna) złożenie zażalenia",
@@ -3940,7 +4925,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "377. Jeśli przepisy prawa procesowego nie przyznają prawa do zaskarżenia to:",
+    "question": "389. Jeśli przepisy prawa procesowego nie przyznają prawa do zaskarżenia to:",
     "options": [
       {
         "text": "Nie ma wymogu wyczerpania środków zaskarżenia skargę musi poprzedzać wezwanie do usunięcie naruszeń prawa skargę musi poprzedzać ponaglenie",
@@ -3949,7 +4934,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "378. Powaga rzeczy osądzonej:",
+    "question": "390. Powaga rzeczy osądzonej:",
     "options": [
       {
         "text": "Odnosi się do całego wyroku odnosi się do wyroku i uzasadnienia odnosi się tylko co do tego, co w związku ze skargą stanowiło przedmiot rozstrzygnięcia",
@@ -3958,7 +4943,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "379. Skład orzekającego sądu sprzeczny z przepisami prawa;",
+    "question": "391. Skład orzekającego sądu sprzeczny z przepisami prawa;",
     "options": [
       {
         "text": "Powoduje nieważność wyroku powoduje nieważność postępowania powoduje traktowanie wyroku jako nieistniejącego",
@@ -3967,7 +4952,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "380. Rozpoznanie sprawy przez sędziego podlegającego wyłączeniu z mocy ustawy",
+    "question": "392. Rozpoznanie sprawy przez sędziego podlegającego wyłączeniu z mocy ustawy",
     "options": [
       {
         "text": "Powoduje nieważność wyroku powoduje nieważność postępowania powoduje traktowanie wyroku jako nieistniejącego",
@@ -3976,7 +4961,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "381. W terminie 30 dni składa się skargę:",
+    "question": "393. W terminie 30 dni składa się skargę:",
     "options": [
       {
         "text": "Od decyzji i postanowień od decyzji, postanowień, pisemnych interpretacji prawa podatkowego, opinii zabezpieczających oraz aktów i czynności z zakresu administracji publicznej ( z pkt. 4 ) od decyzji, postanowień i aktów nadzoru",
@@ -3985,7 +4970,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "382. W terminie sześciu miesięcy skargę może wnieść m.in. :",
+    "question": "394. W terminie sześciu miesięcy skargę może wnieść m.in. :",
     "options": [
       {
         "text": "Organ nadzoru nad samorządem terytorialnym Rzecznik Praw Obywatelskich i Rzecznik Praw Dziecka. Minister Sprawiedliwości",
@@ -3994,7 +4979,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "383. W terminie określonym jako „w każdym czasie” skargę może wnieść m. in.:",
+    "question": "395. W terminie określonym jako „w każdym czasie” skargę może wnieść m. in.:",
     "options": [
       {
         "text": "Organ nadzoru nad samorządem terytorialnym Rzecznik Praw Obywatelskich i Rzecznik Praw Dziecka. Minister Sprawiedliwości",
@@ -4003,7 +4988,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "384. Zdolność sądowa to:",
+    "question": "396. Zdolność sądowa to:",
     "options": [
       {
         "text": "Zdolność występowania przed sądem jako strona zdolność do podejmowania czynności w postępowaniu sądowym zdolność do wniesienia skargi do sądu administracyjnego",
@@ -4012,7 +4997,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "385. Brak zdolności sądowej wnoszącego skargę do sądu administracyjnego:",
+    "question": "397. Brak zdolności sądowej wnoszącego skargę do sądu administracyjnego:",
     "options": [
       {
         "text": "Powoduje odrzucenie skargi powoduje odrzucenie skargi, chyba że brak ten został uzupełniony powoduje zawieszenie postępowania sądowego",
@@ -4021,7 +5006,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "386. Spór o właściwość między Prezydentem Miasta Katowice a Komendantem Wojewódzkim Policji w Katowicach rozstrzyga:",
+    "question": "398. Spór o właściwość między Prezydentem Miasta Katowice a Komendantem Wojewódzkim Policji w Katowicach rozstrzyga:",
     "options": [
       {
         "text": "WSA w Gliwicach WSA w Warszawie NSA",
@@ -4030,7 +5015,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "387. Wniesienie skargi do wojewódzkiego sądu administracyjnego po wszczęciu postępowania nieważnościowego dotyczącego tej samej decyzji prowadzi do:",
+    "question": "399. Wniesienie skargi do wojewódzkiego sądu administracyjnego po wszczęciu postępowania nieważnościowego dotyczącego tej samej decyzji prowadzi do:",
     "options": [
       {
         "text": "Zawieszenia postępowania nieważnościowego zawieszenia postępowania sądowego odrzucenia skargi",
@@ -4039,7 +5024,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "388. Zgodnie z PPSA organizacja społeczna:",
+    "question": "400. Zgodnie z PPSA organizacja społeczna:",
     "options": [
       {
         "text": "Zawsze może brać udział w postępowaniu, w zakresie swojej działalności statutowej może brać udział w postępowaniu w przypadkach ściśle określonych w ustawie , w zakresie swojej działalności statutowej nigdy nie może brać udziału w postępowaniu",
@@ -4048,16 +5033,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "389. Odrzucenie skargi następuje:",
+    "question": "401. Odrzucenie skargi następuje:",
     "options": [
       {
-        "text": "Wyrokiem, na który przysługuje skarga kasacyjna postanowieniem zaskarżalnym zażaleniem lub skargą kasacyjną zarządzeniem prezesa sądu",
+        "text": "Wyrokiem, na który przysługuje skarga kasacyjna,",
+        "isCorrect": false
+      },
+      {
+        "text": "Postanowieniem zaskarżalnym zażaleniem lub skargą kasacyjną,",
+        "isCorrect": true
+      },
+      {
+        "text": "Zarządzeniem prezesa sądu.",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "390. Wniesienie skargi do wojewódzkiego sądu administracyjnego na decyzję:",
+    "question": "402. Wniesienie skargi do wojewódzkiego sądu administracyjnego na decyzję:",
     "options": [
       {
         "text": "Zawsze wstrzymuje jej wykonanie, ponieważ skarga jest środkiem bezwzględnie suspensywnym zawsze wstrzymuje jej wykonanie, ponieważ skarga jest środkiem bezwzględnie dewolutywnym inna odpowiedź jest prawidłowa",
@@ -4066,118 +5059,18 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "391. Postępowanie uproszczone:",
+    "question": "403. Postępowanie uproszczone:",
     "options": [
       {
-        "text": "Można przeprowadzić w przypadku zaskarżenia postanowienia o niedopuszczalności odwołania prowadzi się na postępowaniu niejawnym w składzie jednego sędziego - w składzie trzech prowadzi się, gdy żadna ze stron nie wniesie sprzeciwu - nie ma tu zastosowania instytucja sprzeciwu, jest „żądanie przeprowadzenia rozprawy” które wyklucza tryb uproszczony",
+        "text": "​ można przeprowadzić w przypadku zaskarżenia postanowienia o niedopuszczalności odwołania,",
         "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "392. Wskaż prawidłową odpowiedź:",
-    "options": [
+      },
       {
-        "text": "Sąd może skierować sprawę do mediacji tylko na wniosek skarżącego w świetle przepisów PPSA postępowanie mediacyjne jest jawne na decyzję wydaną na podstawie ustaleń dokonanych w postępowaniu mediacyjnym można wnieść skargę do WSA",
+        "text": "Prowadzi się na postępowaniu niejawnym w składzie 1 sędziego,",
         "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "393. Sąd zawiesza postępowanie:",
-    "options": [
+      },
       {
-        "text": "Zawsze w przypadku śmierci strony w razie wystąpienia siły wyższej uniemożliwiającej działanie sądu jeżeli w stosunku do strony wszczęto postępowanie upadłościowe, a sprawa dotyczy przedmiotu",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "394. Wskaż, które z poniższych zdań jest prawdziwe:",
-    "options": [
-      {
-        "text": "Każde orzeczenie sądu administracyjnego wymaga wykonania przez organy administracji na organie ciąży obowiązek każdoczesnego zawiadomienia sądu o wydaniu decyzji stanowiącej wykonanie prawomocnego wyroku sądu administracyjnego sąd uwzględniając skargę, w określonych prawem sytuacjach, może zobowiązać organ do wydania decyzji o określonym przez sąd rozstrzygnięciu",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "395. W świetle przepisów PPSA zażalenie:",
-    "options": [
-      {
-        "text": "Jest środkiem odwoławczym o charakterze względnie dewolutywnym przysługuje od wszystkich nieprawomocnych postanowień WSA kończących postępowanie w sprawie zawsze musi zostać sporządzone przez adwokata lub radcę prawnego",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "396. Decyzja administracyjna uznaniowa",
-    "options": [
-      {
-        "text": "Nie jest zaskarżalna do sądu administracyjnego jest, co do zasady, zaskarżalna do sądu administracyjnego jest zaskarżalna do sądu administracyjnego, gdy przepis szczególny tak stanowi",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "397. Uprawnienie do wniesienia skargi do WSA ma:",
-    "options": [
-      {
-        "text": "Między innymi osoba, która ma interes prawny oparty o przepisy procesowe w każdej sytuacji prokurator zawsze organizacja społeczna",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "398. Prawdą jest, że:",
-    "options": [
-      {
-        "text": "Organizacja społeczna w postępowaniu sądowo-administracyjnym może występować w charakterze skarżącego lub uczestnika postępowania Rzecznik Praw Dziecka ma legitymację skargową we wszystkich sprawach podlegających kognicji sądów administracyjnych termin do wniesienia skargi przez Prokuratora wynosi 6 miesięcy nawet jeśli brał udział w postępowaniu",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "399. W postępowaniu sądowo-administracyjnym obowiązuje zasada",
-    "options": [
-      {
-        "text": "Oficjalności doręczeń związania granicami skargi kontradyktoryjności postępowania dowodowego",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "400. Przywrócenie terminu w postępowaniu sądowo-administracyjnym:",
-    "options": [
-      {
-        "text": "Jest niedopuszczalne, gdy uchybienie nie powoduje negatywnych skutków dla strony",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "401. Nie jest dopuszczalne po upływie roku od uchybionego terminu",
-    "options": [
-      {
-        "text": "Następuje z urzędu",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "402. Termin do wniesienia skargi do sądu administracyjnego jest terminem:",
-    "options": [
-      {
-        "text": "Procesowym prekluzyjnym instrukcyjnym",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "403. Orzeczenie staje się prawomocne:",
-    "options": [
-      {
-        "text": "Z chwilą jego wydania jeżeli nie przysługuje od niego środek odwoławczy jeżeli nie przysługuje od niego żaden środek zaskarżenia",
+        "text": "Prowadzi się na wniosek sądu, gdy żadna ze stron nie wyraziła sprzeciwu.",
         "isCorrect": false
       }
     ]
@@ -4186,13 +5079,137 @@ export const QUESTIONS = [
     "question": "404. Wskaż prawidłową odpowiedź:",
     "options": [
       {
-        "text": "W przepisach p.p.s.a. przewidziano możliwość wyłączenia sędziego jedynie ex lege wniosek o wyłączenie sędziego w postępowaniu sądowo-administracyjnym rozpoznaje się na posiedzeniu niejawnym w składzie 3 sędziów, ponowny wniosek o wyłączenie tego samego sędziego podlega w każdym wypadku odrzuceniu przez sąd",
+        "text": "Sąd może skierować sprawę do mediacji tylko na wniosek skarżącego w świetle przepisów PPSA postępowanie mediacyjne jest jawne na decyzję wydaną na podstawie ustaleń dokonanych w postępowaniu mediacyjnym można wnieść skargę do WSA",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "405. Po rozpatrzeniu skargi na akt prawa miejscowego są administracyjny w wyroku może:",
+    "question": "405. Sąd zawiesza postępowanie:",
+    "options": [
+      {
+        "text": "Zawsze w przypadku śmierci strony w razie wystąpienia siły wyższej uniemożliwiającej działanie sądu jeżeli w stosunku do strony wszczęto postępowanie upadłościowe, a sprawa dotyczy przedmiotu",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "406. Wskaż, które z poniższych zdań jest prawdziwe:",
+    "options": [
+      {
+        "text": "Każde orzeczenie sądu administracyjnego wymaga wykonania przez organy administracji na organie ciąży obowiązek każdoczesnego zawiadomienia sądu o wydaniu decyzji stanowiącej wykonanie prawomocnego wyroku sądu administracyjnego sąd uwzględniając skargę, w określonych prawem sytuacjach, może zobowiązać organ do wydania decyzji o określonym przez sąd rozstrzygnięciu",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "407. W świetle przepisów PPSA zażalenie:",
+    "options": [
+      {
+        "text": "Jest środkiem odwoławczym o charakterze względnie dewolutywnym przysługuje od wszystkich nieprawomocnych postanowień WSA kończących postępowanie w sprawie zawsze musi zostać sporządzone przez adwokata lub radcę prawnego",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "408. Decyzja administracyjna uznaniowa",
+    "options": [
+      {
+        "text": "Nie jest zaskarżalna do sądu administracyjnego jest, co do zasady, zaskarżalna do sądu administracyjnego jest zaskarżalna do sądu administracyjnego, gdy przepis szczególny tak stanowi",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "409. Uprawnienie do wniesienia skargi do WSA ma:",
+    "options": [
+      {
+        "text": "Między innymi osoba, która ma interes prawny oparty o przepisy procesowe w każdej sytuacji prokurator zawsze organizacja społeczna",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "410. Prawdą jest, że:",
+    "options": [
+      {
+        "text": "Organizacja społeczna w postępowaniu sądowo-administracyjnym może występować w charakterze skarżącego lub uczestnika postępowania Rzecznik Praw Dziecka ma legitymację skargową we wszystkich sprawach podlegających kognicji sądów administracyjnych termin do wniesienia skargi przez Prokuratora wynosi 6 miesięcy nawet jeśli brał udział w postępowaniu",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "411. W postępowaniu sądowo-administracyjnym obowiązuje zasada",
+    "options": [
+      {
+        "text": "Oficjalności doręczeń związania granicami skargi kontradyktoryjności postępowania dowodowego",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "412. Przywrócenie terminu w postępowaniu sądowo-administracyjnym:",
+    "options": [
+      {
+        "text": "Dotyczy tylko terminów procesowych",
+        "isCorrect": false
+      },
+      {
+        "text": "Następuje w drodze zaskarżalnego postanowienia",
+        "isCorrect": true
+      },
+      {
+        "text": "W przypadku uchybienia terminu do wniesienia skargi wniosek bezpośrednio wnosi się do sądu",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "413. Nie jest dopuszczalne po upływie roku od uchybionego terminu",
+    "options": [
+      {
+        "text": "Następuje z urzędu",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "414. Termin do wniesienia skargi do sądu administracyjnego jest terminem:",
+    "options": [
+      {
+        "text": "Procesowym prekluzyjnym instrukcyjnym",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "415. Orzeczenie staje się prawomocne:",
+    "options": [
+      {
+        "text": "Z chwilą jego wydania jeżeli nie przysługuje od niego środek odwoławczy jeżeli nie przysługuje od niego żaden środek zaskarżenia",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "416. Wskaż prawidłową odpowiedź:",
+    "options": [
+      {
+        "text": "Sąd może skierować sprawę do mediacji tylko na wniosek skarżącego,",
+        "isCorrect": false
+      },
+      {
+        "text": "W świetle przepisów p.p.s.a. postępowanie mediacyjne jest jawne,",
+        "isCorrect": false
+      },
+      {
+        "text": "Na decyzję wydaną na podstawie ustaleń dokonanych w postępowaniu mediacyjnym można wnieść skargę do wojewódzkiego sądu administracyjnego.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "417. Po rozpatrzeniu skargi na akt prawa miejscowego są administracyjny w wyroku może:",
     "options": [
       {
         "text": "Uchylić akt prawa miejscowego stwierdzić nieważność aktu prawa miejscowego zmienić akt prawa miejscowego",
@@ -4201,7 +5218,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "406. Wskaż typy orzeczeń, jakie może wydać NSA po rozpoznaniu skargi kasacyjnej:",
+    "question": "418. Wskaż typy orzeczeń, jakie może wydać NSA po rozpoznaniu skargi kasacyjnej:",
     "options": [
       {
         "text": "Wyrok o uchyleniu zaskarżonego wyroku i odrzuceniu skargi wyrok o uchyleniu zaskarżonego wyroku i oddaleniu skargi postanowienie o uchyleniu zaskarżonego wyroku i oddaleniu skargi",
@@ -4210,7 +5227,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "407. Właściwość miejscowa WSA ustala się w oparciu o:",
+    "question": "419. Właściwość miejscowa WSA ustala się w oparciu o:",
     "options": [
       {
         "text": "Miejsce zamieszkania lub siedziby skarżącego miejsce położenia organu administracji publicznej, którego działanie podlega skardze miejsce położenia sądu administracyjnego",
@@ -4219,7 +5236,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "408. Podjęcie postępowania zawieszonego z mocy prawa:",
+    "question": "420. Podjęcie postępowania zawieszonego z mocy prawa:",
     "options": [
       {
         "text": "Następuje w drodze postanowienia następuje z mocy prawa",
@@ -4228,7 +5245,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "409. Organami WSA są:",
+    "question": "421. Organami WSA są:",
     "options": [
       {
         "text": "Przewodniczący wydziałów zgromadzenie ogólne i kolegium sądu wiceprezes WSA",
@@ -4237,7 +5254,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "410. Przedmiotem sprzeciwu do WSA na podstawie 64a PPSA może być:",
+    "question": "422. Przedmiotem sprzeciwu do WSA na podstawie 64a PPSA może być:",
     "options": [
       {
         "text": "Decyzja kasacyjna organu odwoławczego wydana na podstawie art. 138 § 2 KPA każda decyzja administracyjna wydana przez organ odwoławczy w postępowaniu administracyjnym decyzja o umorzeniu administracyjnego postępowania odwoławczego",
@@ -4246,7 +5263,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "411. Sąd administracyjny odracza rozprawę:",
+    "question": "423. Sąd administracyjny odracza rozprawę:",
     "options": [
       {
         "text": "W każdym przypadku, gdy wniesie o to skarżący jeśli stwierdzi, że którakolwiek z nieobecnych stron nie została skutecznie zawiadomiona o terminie rozprawy zawsze w przypadku niestawienia się którejś ze stron postępowania",
@@ -4255,7 +5272,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "412. Postanowienie WSA o odrzuceniu skargi kasacyjnej:",
+    "question": "424. Postanowienie WSA o odrzuceniu skargi kasacyjnej:",
     "options": [
       {
         "text": "Jest postanowieniem kończącym postępowanie administracyjne jest zaskarżalne zażaleniem, które nie musi zostać sporządzone przez adwokata lub radcę prawnego żadna z odpowiedzi nie jest prawidłowa",
@@ -4264,7 +5281,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "413. Przedmiotem skargi do sądu administracyjnego może być:",
+    "question": "425. Przedmiotem skargi do sądu administracyjnego może być:",
     "options": [
       {
         "text": "Zawiadomienie o załatwieniu skargi lub wniosku nieostateczna decyzja Generalnego Inspektora Nadzoru Budowlanego zarządzenie zastępcze wojewody",
@@ -4273,7 +5290,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "414. Załatwienie sprawy sądowo-administracyjnej w postępowaniu mediacyjnym prowadzi do:",
+    "question": "426. Załatwienie sprawy sądowo-administracyjnej w postępowaniu mediacyjnym prowadzi do:",
     "options": [
       {
         "text": "Zawieszenia postępowania umorzenia postępowania wymierzenia grzywny organowi administracji publicznej",
@@ -4282,7 +5299,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "415. Jeżeli adresat w postępowaniu sądowo-administracyjnym odmawia podjęcia pisma:",
+    "question": "427. Jeżeli adresat w postępowaniu sądowo-administracyjnym odmawia podjęcia pisma:",
     "options": [
       {
         "text": "Naraża się na grzywnę stosuje się fikcję prawną pismo pozostawia się na poczcie lub w urzędzie gminy na 14 dni",
@@ -4291,7 +5308,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "416. Zażalenie w świetle przepisów PPSA jest:",
+    "question": "428. Zażalenie w świetle przepisów PPSA jest:",
     "options": [
       {
         "text": "Środkiem odwoławczym względnie dewolutywnym przysługuje od wszystkich nieprawomocnych orzeczeń WSA kończących postępowanie w sprawie musi zostać wniesione przez adwokata lub radcę prawnego",
@@ -4300,7 +5317,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "417. Brak zdolności sądowej:",
+    "question": "429. Brak zdolności sądowej:",
     "options": [
       {
         "text": "Powoduje oddalenie skargi – to wgl nie ta konstrukcja, oddalanie nie dotyczy takich kwestii technicznych, ewentualnie oddalanie może mieć miejsce w przypadku stwierdzenia braku interesu prawnego ale to co innego może powodować zawieszenie postępowania nigdy nie powoduje odrzucenia skargi – może powodować odrzucenie, ale dopiero gdy brak ten nie zostanie uzupełniony",
@@ -4309,7 +5326,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "418. Sąd umarza postępowanie:",
+    "question": "430. Sąd umarza postępowanie:",
     "options": [
       {
         "text": "Zaskarżalnym postanowieniem zaskarżalnym wyrokiem postanowieniem lub wyrokiem w zależności od przedmiotu zaskarżenia",
@@ -4318,7 +5335,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "419. Skarga do WSA:",
+    "question": "431. Skarga do WSA:",
     "options": [
       {
         "text": "Zostaje oddalona po nieuzupełnieniu braków w wyznaczonym terminie zostaje odrzucona po nieuzupełnieniu braków w wyznaczonym terminie wstrzymuje wykonanie zaskarżonej decyzji",
@@ -4327,7 +5344,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "420. Organizacja społeczna w postępowaniu przed sądem może:",
+    "question": "432. Organizacja społeczna w postępowaniu przed sądem może:",
     "options": [
       {
         "text": "Wystąpić jako strona postępowania sądowo-administracyjnego wystąpić jako uczestnik na prawach strony w postępowaniu sądowo-administracyjnym odpowiedź 1 i 2",
@@ -4336,7 +5353,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "421. Przesłanką obligatoryjnego zawieszenia postępowania sądowo-administracyjnego może być:",
+    "question": "433. Przesłanką obligatoryjnego zawieszenia postępowania sądowo-administracyjnego może być:",
     "options": [
       {
         "text": "Wcześniejsze wniesienie wniosku o stwierdzenie nieważności zaskarżonej decyzji skuteczne cofnięcie skargi śmierć pełnomocnika strony",
@@ -4345,7 +5362,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "422. Przedmiotem skargi do sądu administracyjnego może być:",
+    "question": "434. Przedmiotem skargi do sądu administracyjnego może być:",
     "options": [
       {
         "text": "Decyzja administracyjna oparta na normie statuującej uznanie organu polecenie służbowe wojewody czynność oględzin dokonana w postępowaniu administracyjnym",
@@ -4354,7 +5371,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "423. WSA może dyscyplinować organ w postępowaniu administracyjnym poprzez:",
+    "question": "435. WSA może dyscyplinować organ w postępowaniu administracyjnym poprzez:",
     "options": [
       {
         "text": "Odrzucenie skargi",
@@ -4363,7 +5380,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "424. Zawiadomienie organów właściwych do spr. rozpoznawania petycji, skarg i wniosków",
+    "question": "436. Zawiadomienie organów właściwych do spr. rozpoznawania petycji, skarg i wniosków",
     "options": [
       {
         "text": "Ustanowienie kuratora dla organu",
@@ -4372,7 +5389,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "425. Skarga kasacyjna:",
+    "question": "437. Skarga kasacyjna:",
     "options": [
       {
         "text": "Musi być sporządzona przez adwokata lub radcę prawnego musi być wniesiona przez adwokata lub radcę prawnego jest nadzwyczajnym środkiem prawnym",
@@ -4381,7 +5398,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "426. Sędzia NSA:",
+    "question": "438. Sędzia NSA:",
     "options": [
       {
         "text": "Musi mieć skończone 45 lat musi mieć ukończoną aplikację sądową musi mieć ukończone 40 lat",
@@ -4390,7 +5407,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "427. Wyrok może być wydany przez sędziów:",
+    "question": "439. Wyrok może być wydany przez sędziów:",
     "options": [
       {
         "text": "Biorących udział w całym postępowaniu biorących udział w rozprawie poprzedzających bezpośrednio wydanie wyroku także bez przeprowadzania narady i głosowania",
@@ -4399,7 +5416,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "428. WSA odrzuci skargę:",
+    "question": "440. WSA odrzuci skargę:",
     "options": [
       {
         "text": "Na indywidualną interpretację przepisów prawa podatkowego, jeżeli skarżący oparł ją na naruszeniu przepisów postępowania na decyzję samorządowego kolegium odwoławczego, jeżeli skarżący uprzednio nic wyczerpał środków zaskarżenia na drodze administracyjnej zawsze w przypadku nieuiszczenia wpisu",
@@ -4408,7 +5425,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "429. Skarga wniesiona do sądu administracyjnego:",
+    "question": "441. Skarga wniesiona do sądu administracyjnego:",
     "options": [
       {
         "text": "Wiąże sąd co do zawartych w niej zarzutów co do zasady nie wiąże sądu wiąże sąd co do zawartych w niej zarzutów i podstaw prawnych",
@@ -4417,25 +5434,41 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "430. Prawdą jest, że:",
+    "question": "442. Prawdą jest, że:",
     "options": [
       {
-        "text": "Sąd uwzględniwszy skargę na akt prawa miejscowego, który istotnie narusza prawo stwierdza jego nieważność sąd uwzględniwszy skargę na akt nadzoru, który istotnie narusza prawo stwierdza jego nieważność sąd uwzględniwszy skargę na inny akt lub czynność administracji stwierdza jego nieważność",
+        "text": "Podstawy kasacyjne wraz z ich uzasadnieniem są tym wymogiem formalnym skargi kasacyjnej, który ma charakter niekonwalidowalny tj. skarżący kasacyjnie nie może go skutecznie uzupełnić,",
         "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "431. Prawdą jest, że:",
-    "options": [
+      },
       {
-        "text": "Organ, który wydał decyzję odmowną może wstrzymać także z urzędu jej wykonanie od postanowienia organu o odmowie wstrzymania wykonania decyzji po wniesienie skargi",
+        "text": "Skarga kasacyjna może zostać sporządzona przez aplikanta radcowskiego,",
+        "isCorrect": false
+      },
+      {
+        "text": "Po upływie terminu do wniesienia skargi kasacyjnej przytaczanie przez skarżącego kasacyjnie nowych podstaw kasacyjnych jest dopuszczalne, ale tylko do czasu wyznaczenia rozprawy, Art. 177a. Jeżeli skarga kasacyjna nie spełnia wymagań przewidzianych w art. 176, innych niż przytoczenie podstaw kasacyjnych i ich uzasadnienie, przewodniczący wzywa stronę do usunięcia braków w terminie siedmiu dni pod rygorem odrzucenia skargi. I TERMIN 2022 gr. II (jest w bazie papierowej)",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "432. Przysługuje zażalenie",
+    "question": "443. Prawdą jest, że:",
+    "options": [
+      {
+        "text": "Podstawy kasacyjne wraz z ich uzasadnieniem są tym wymogiem formalnym skargi kasacyjnej, który ma charakter niekonwalidowalny tj. skarżący kasacyjnie nie może go skutecznie uzupełnić,",
+        "isCorrect": true
+      },
+      {
+        "text": "Skarga kasacyjna może zostać sporządzona przez aplikanta radcowskiego,",
+        "isCorrect": false
+      },
+      {
+        "text": "Po upływie terminu do wniesienia skargi kasacyjnej przytaczanie przez skarżącego kasacyjnie nowych podstaw kasacyjnych jest dopuszczalne, ale tylko do czasu wyznaczenia rozprawy, Art. 177a. Jeżeli skarga kasacyjna nie spełnia wymagań przewidzianych w art. 176, innych niż przytoczenie podstaw kasacyjnych i ich uzasadnienie, przewodniczący wzywa stronę do usunięcia braków w terminie siedmiu dni pod rygorem odrzucenia skargi. I TERMIN 2022 gr. II (jest w bazie papierowej)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "444. Przysługuje zażalenie",
     "options": [
       {
         "text": "Skarżący może zaprzestać realizacji nałożonych w drodze decyzji obowiązków od chwili podjęcia przez organ lub sąd postanowienia o wstrzymaniu jej wykonania",
@@ -4444,7 +5477,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "433. Skład orzekający WSA:",
+    "question": "445. Skład orzekający WSA:",
     "options": [
       {
         "text": "Uchylając decyzję organu II instancji może uchylić od razu decyzje organu I instancji może orzekać jedynie co do bezpośredniego przedmiotu zaskarżenia nie jest związany zarzutami skargi na interpretacje prawa podatkowego",
@@ -4453,16 +5486,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "434. Prawdą jest, że",
+    "question": "446. Prawdą jest, że",
     "options": [
       {
-        "text": "Sąd umorzy postępowanie sądowo-administracyjne zawsze, jeżeli strona skutecznie cofnęła skargę kasacyjną sąd umorzy postępowanie, gdy w toku postępowania administracyjnego organ nadzoru stwierdził nieważność decyzji stanowiącej przedmiot skargi sąd umorzy postępowanie zawsze w przypadku śmierci strony",
+        "text": "Podstawy kasacyjne wraz z ich uzasadnieniem są tym wymogiem formalnym skargi kasacyjnej, który ma charakter niekonwalidowalny tj. skarżący kasacyjnie nie może go skutecznie uzupełnić,",
+        "isCorrect": true
+      },
+      {
+        "text": "Skarga kasacyjna może zostać sporządzona przez aplikanta radcowskiego,",
+        "isCorrect": false
+      },
+      {
+        "text": "Po upływie terminu do wniesienia skargi kasacyjnej przytaczanie przez skarżącego kasacyjnie nowych podstaw kasacyjnych jest dopuszczalne, ale tylko do czasu wyznaczenia rozprawy, Art. 177a. Jeżeli skarga kasacyjna nie spełnia wymagań przewidzianych w art. 176, innych niż przytoczenie podstaw kasacyjnych i ich uzasadnienie, przewodniczący wzywa stronę do usunięcia braków w terminie siedmiu dni pod rygorem odrzucenia skargi. I TERMIN 2022 gr. II (jest w bazie papierowej)",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "435. W świetle przepisów p.p.s.a. WSA na posiedzeniu niejawnym w składzie 1 sędziego:",
+    "question": "447. W świetle przepisów p.p.s.a. WSA na posiedzeniu niejawnym w składzie 1 sędziego:",
     "options": [
       {
         "text": "Może rozpoznać wniosek o wstrzymanie wykonania zaskarżonej decyzji administracyjnej rozpoznaje skargi w trybie uproszczonym rozstrzyga o wyłączeniu sędziego na wniosek",
@@ -4471,25 +5512,41 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "436. Wojewódzki sąd administracyjny sporządza z urzędu uzasadnienie:",
+    "question": "448. Wojewódzki sąd administracyjny sporządza z urzędu uzasadnienie:",
     "options": [
       {
-        "text": "W każdej sprawie tylko w sprawie, w której oddalił skargę tylko w sprawie, w której uwzględnił skargę",
+        "text": "W każdej sprawie",
+        "isCorrect": false
+      },
+      {
+        "text": "Tylko w sprawie, w której oddalił skargę",
+        "isCorrect": false
+      },
+      {
+        "text": "Tylko w sprawie, w której uwzględnił skargę",
         "isCorrect": true
       }
     ]
   },
   {
-    "question": "437. Uczestnik postępowania sądowo-administracyjnego:",
+    "question": "449. Uczestnik postępowania sądowo-administracyjnego:",
     "options": [
       {
-        "text": "Może być pełnomocnikiem strony postępowania może być pełnomocnikiem strony postępowania tylko wówczas, gdy inne strony wyrażą w tym zakresie zgodę nie może być pełnomocnikiem strony postępowania",
+        "text": "Może być pełnomocnikiem strony postępowania",
         "isCorrect": true
+      },
+      {
+        "text": "Może być pełnomocnikiem strony postępowania tylko wówczas, gdy inne strony wyrażą w tym zakresie zgodę",
+        "isCorrect": false
+      },
+      {
+        "text": "Nie może być pełnomocnikiem strony postępowania",
+        "isCorrect": false
       }
     ]
   },
   {
-    "question": "438. Wojewódzki sąd administracyjny:",
+    "question": "450. Wojewódzki sąd administracyjny:",
     "options": [
       {
         "text": "Jest związany granicami skargi jest związany wskazaną w skardze podstawą prawną nie jest związany granicami skargi",
@@ -4498,7 +5555,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "439. Wojewódzki sąd administracyjny uwzględniając skargę na akt prawa miejscowego:",
+    "question": "451. Wojewódzki sąd administracyjny uwzględniając skargę na akt prawa miejscowego:",
     "options": [
       {
         "text": "Stwierdza nieważność aktu uchyla ten akt",
@@ -4507,7 +5564,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "440. Brak w skardze kasacyjnej przytoczenia podstaw kasacyjnych i ich uzasadnienia nakłada na wojewódzki sąd administracyjny obowiązek:",
+    "question": "452. Brak w skardze kasacyjnej przytoczenia podstaw kasacyjnych i ich uzasadnienia nakłada na wojewódzki sąd administracyjny obowiązek:",
     "options": [
       {
         "text": "Wezwania skarżącego do usunięcia braku odrzucenia skargi kasacyjnej przekazania skargi do NSA bez możliwości stosowania autokontroli",
@@ -4516,7 +5573,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "441. Organ, którego decyzję zaskarżono może zastosować instytucję autokontroli:",
+    "question": "453. Organ, którego decyzję zaskarżono może zastosować instytucję autokontroli:",
     "options": [
       {
         "text": "W terminie 30 dni od otrzymania skargi w terminie 14 dni od otrzymania skargi do czasu wyznaczenia rozprawy przez sąd administracyjny",
@@ -4525,7 +5582,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "442. Spory rozstrzyga",
+    "question": "454. Spory rozstrzyga",
     "options": [
       {
         "text": "WSA właściwy miejscowo dla organów pozostających w sporze WSA właściwy miejscowo dla organu występującego o rozstrzygnięcie sporu NSA",
@@ -4534,7 +5591,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "443. Przymus radcowsko-adwokacki obejmuje:",
+    "question": "455. Przymus radcowsko-adwokacki obejmuje:",
     "options": [
       {
         "text": "Sporządzenie skargi kasacyjnej wniesienie skargi kasacyjnej udział w rozprawie przed NSA",
@@ -4543,7 +5600,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "444. Zdolność występowania przed sądem administracyjnym jako strona to:",
+    "question": "456. Zdolność występowania przed sądem administracyjnym jako strona to:",
     "options": [
       {
         "text": "Zdolność administracyjna zdolność sądowa zdolność procesowa",
@@ -4552,7 +5609,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "445. Pojęcie \"uczestnik postępowania\"",
+    "question": "457. Pojęcie \"uczestnik postępowania\"",
     "options": [
       {
         "text": "Jest pojęciem szerszym i obejmuje pojęcie strony jest pojęciem węższym - uczestnik mieści się w pojęciu strony jest pojęciem odrębnym od pojęcia strony",
@@ -4561,7 +5618,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "446. Sędzia, który zgłosił zdanie odrębne:",
+    "question": "458. Sędzia, który zgłosił zdanie odrębne:",
     "options": [
       {
         "text": "Musi podpisać sentencję wyroku może podpisać sentencję wyroku nie może podpisać sentencji wyroku",
@@ -4570,16 +5627,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "447. W przypadku śmierci strony pełnomocnictwo:",
+    "question": "459. W przypadku śmierci strony pełnomocnictwo:",
     "options": [
       {
-        "text": "Pozostaje aktualne do czasu wstąpienia następcy procesowego zmarłej strony pozostaje aktualne do czasu wydania w sprawie orzeczenia prawomocnego, chyba że następca prawny zmarłej strony wyraźnie wypowie pełnomocnictwo wygasa",
+        "text": "Pozostaje aktualne do czasu wstąpienia następcy procesowego zmarłej strony",
         "isCorrect": false
+      },
+      {
+        "text": "Pozostaje aktualne do czasu wydania w sprawie orzeczenia prawomocnego, chyba że następca prawny zmarłej strony wyraźnie wypowie pełnomocnictwo",
+        "isCorrect": false
+      },
+      {
+        "text": "Wygasa",
+        "isCorrect": true
       }
     ]
   },
   {
-    "question": "448. W razie nieuwzględnienia skargi na decyzję administracyjną wojewódzki sąd administracyjny:",
+    "question": "460. W razie nieuwzględnienia skargi na decyzję administracyjną wojewódzki sąd administracyjny:",
     "options": [
       {
         "text": "Utrzymuje w mocy decyzję odrzuca skargę oddala skargę",
@@ -4588,7 +5653,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "449. Czynność sporządzenia protokołu w postępowaniu administracyjnym:",
+    "question": "461. Czynność sporządzenia protokołu w postępowaniu administracyjnym:",
     "options": [
       {
         "text": "Może być przedmiotem skargi do wojewódzkiego sądu administracyjnego może być przedmiotem zażalenia do wojewódzkiego sądu administracyjnego nie może być przedmiotem zaskarżenia do wojewódzkiego sądu administracyjnego",
@@ -4597,16 +5662,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "450. Jeżeli wojewódzki sąd administracyjny orzekł w sprawie, w której jest właściwy Naczelny Sąd Administracyjny:",
+    "question": "462. Jeżeli wojewódzki sąd administracyjny orzekł w sprawie, w której jest właściwy Naczelny Sąd Administracyjny:",
     "options": [
       {
-        "text": "Wyrok WSA jest nieważny i podlega stwierdzeniu nieważności przez NSA zachodzi nieważność postępowania, którą NSA bierze pod uwagę z urzędu w postępowaniu kasacyjnym WSA sam stwierdza nieważność swojego orzeczenia",
+        "text": "Wyrok WSA jest nieważny i podlega stwierdzeniu nieważności przez NSA",
+        "isCorrect": false
+      },
+      {
+        "text": "Zachodzi nieważność postępowania, którą NSA bierze pod uwagę z urzędu w postępowaniu kasacyjnym",
+        "isCorrect": true
+      },
+      {
+        "text": "WSA sam stwierdza nieważność swojego orzeczenia",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "451. Skarga do sądu administracyjnego na rozporządzenie ministra",
+    "question": "463. Skarga do sądu administracyjnego na rozporządzenie ministra",
     "options": [
       {
         "text": "Jest dopuszczalna podlega odrzuceniu przez sąd administracyjny podlega oddaleniu przez sąd administracyjny",
@@ -4615,7 +5688,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "452. W sprawie swojego małżonka sędzia:",
+    "question": "464. W sprawie swojego małżonka sędzia:",
     "options": [
       {
         "text": "Jest wyłączony z mocy ustawy podlega obligatoryjnemu wyłączeniu przez sąd podlega obligatoryjnemu wyłączeniu przez prezesa sądu",
@@ -4624,7 +5697,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "453. Umorzenie postępowania sądowo-administracyjnego następuje w formie:",
+    "question": "465. Umorzenie postępowania sądowo-administracyjnego następuje w formie:",
     "options": [
       {
         "text": "Wyroku postanowienia zarządzenia sądu",
@@ -4633,7 +5706,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "454. Jeżeli skarżący nie uzupełnił w wyznaczonym terminie braków formalnych skargi:",
+    "question": "466. Jeżeli skarżący nie uzupełnił w wyznaczonym terminie braków formalnych skargi:",
     "options": [
       {
         "text": "Skarga podlega oddaleniu skarga podlega odrzuceniu skargę pozostawia się bez rozpoznania",
@@ -4642,7 +5715,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "455. W przypadku wniesienia skargi po upływie terminu do jej wniesienia WSA odrzuca skargę:",
+    "question": "467. W przypadku wniesienia skargi po upływie terminu do jej wniesienia WSA odrzuca skargę:",
     "options": [
       {
         "text": "Wyrokiem postanowieniem zarządzeniem",
@@ -4651,7 +5724,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "456. Podstawą skargi kasacyjnej może być:",
+    "question": "468. Podstawą skargi kasacyjnej może być:",
     "options": [
       {
         "text": "Rażące naruszenie prawa materialnego naruszenie prawa procesowego",
@@ -4660,16 +5733,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "457. Sąd zawiesza postępowanie postanowieniem:",
+    "question": "469. Sąd zawiesza postępowanie postanowieniem:",
     "options": [
       {
-        "text": "Zawsze w przypadku śmierci strony, w razie wystąpienia siły wyższej uniemożliwiającej działanie sądu, jeżeli strona lub jej przedstawiciel ustawowy znajduje się w miejscowości pozbawionej wskutek nadzwyczajnych wydarzeń komunikacji z siedzibą sądu.",
+        "text": "Zawsze w przypadku śmierci strony,",
         "isCorrect": false
+      },
+      {
+        "text": "W razie wystąpienia siły wyższej uniemożliwiającej działanie sądu,",
+        "isCorrect": false
+      },
+      {
+        "text": "Jeżeli strona lub jej przedstawiciel ustawowy znajduje się w miejscowości pozbawionej wskutek nadzwyczajnych wydarzeń komunikacji z siedzibą sądu.",
+        "isCorrect": true
       }
     ]
   },
   {
-    "question": "458. Sądy administracyjne nie są właściwe w sprawach:",
+    "question": "470. Sądy administracyjne nie są właściwe w sprawach:",
     "options": [
       {
         "text": "Skarg na opinie zabezpieczające skarg na akty nadzoru nad działalnością organów jednostek samorządu terytorialnego wynikających z nadrzędności i podległości organizacyjnej w stosunkach między organami administracji publicznej",
@@ -4678,16 +5759,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "459. Kontrola działalności administracji publicznej przez sądy administracyjne obejmuje orzekanie w sprawach skarg na:",
+    "question": "471. Kontrola działalności administracji publicznej przez sądy administracyjne obejmuje orzekanie w sprawach skarg na:",
     "options": [
       {
-        "text": "Wszystkie akty prawa miejscowego organów jednostek samorządu terytorialnego, niezależnie od tego czego dotyczą wszystkie uchwały organów jednostek samorządu terytorialnego, niezależnie od tego czego dotyczą bezczynność w zakresie wydawania aktów prawa miejscowego",
+        "text": "Wszystkie akty prawa miejscowego organów jednostek samorządu terytorialnego, niezależnie od tego czego dotyczą",
         "isCorrect": false
+      },
+      {
+        "text": "Wszystkie uchwały organów jednostek samorządu terytorialnego, niezależnie od tego czego dotyczą",
+        "isCorrect": false
+      },
+      {
+        "text": "Bezczynność w zakresie wydawania aktów prawa miejscowego",
+        "isCorrect": true
       }
     ]
   },
   {
-    "question": "460. Uzasadnienie wyroku sporządza się:",
+    "question": "472. Uzasadnienie wyroku sporządza się:",
     "options": [
       {
         "text": "Na wniosek strony złożony w terminie czternastu dni od dnia ogłoszenia wyroku albo podpisania sentencji wyroku wydanego na posiedzeniu niejawnym. z urzędu w terminie siedmiu dni od dnia ogłoszenia wyroku albo podpisania sentencji wyroku wydanego na posiedzeniu niejawnym. z urzędu w terminie czternastu dni od dnia ogłoszenia wyroku albo podpisania sentencji wyroku wydanego na posiedzeniu niejawnym.",
@@ -4696,16 +5785,24 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "461. Legitymację do wniesienia skargi do sądu administracyjnego ma:",
+    "question": "473. Legitymację do wniesienia skargi do sądu administracyjnego ma:",
     "options": [
       {
-        "text": "Każdy, kto ma w tym interes faktyczny, każdy, kto ma w tym interes prawny każda organizacja społeczna i każdy prokurator",
+        "text": "Każdy, kto ma w tym interes faktyczny,",
+        "isCorrect": false
+      },
+      {
+        "text": "Każdy, kto ma w tym interes prawny",
+        "isCorrect": true
+      },
+      {
+        "text": "Każda organizacja społeczna i każdy prokurator",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "462. Organ administracji publicznej przekazuje do sądu administracyjnego skargę wraz z odpowiedzią na skargę i aktami sprawy w terminie:",
+    "question": "474. Organ administracji publicznej przekazuje do sądu administracyjnego skargę wraz z odpowiedzią na skargę i aktami sprawy w terminie:",
     "options": [
       {
         "text": "Niezwłocznie 14 dni 30 dni",
@@ -4714,43 +5811,75 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "463. Właściwość miejscową wojewódzkiego sądu adm. ustala się co do zasady:",
+    "question": "475. Właściwość miejscową wojewódzkiego sądu adm. ustala się co do zasady:",
     "options": [
       {
-        "text": "Według miejsca zamieszkania / siedziby skarżącego według siedziby organu administracji publicznej, którego działalność została zaskarżona decyduje o tym skarżący składając skargę",
+        "text": "Według miejsca zamieszkania / siedziby skarżącego",
+        "isCorrect": false
+      },
+      {
+        "text": "Według siedziby organu administracji publicznej, którego działalność została zaskarżona",
+        "isCorrect": true
+      },
+      {
+        "text": "Decyduje o tym skarżący składając skargę",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "464. Stroną postępowania sądowo-administracyjnego jest:",
+    "question": "476. Stroną postępowania sądowo-administracyjnego jest:",
     "options": [
       {
-        "text": "Osoba, która brała udział w postępowaniu administracyjnym, a nie wniosła skargi [...] postępowania sądowego dotyczy jej interesu prawnego wyłącznie skarżący żadna z odpowiedzi nie jest prawidłowa",
+        "text": "Osoba, która brała udział w postępowaniu administracyjnym, a nie wniosła skargi [...] postępowania sądowego dotyczy jej interesu prawnego",
+        "isCorrect": false
+      },
+      {
+        "text": "Wyłącznie skarżący",
+        "isCorrect": false
+      },
+      {
+        "text": "Żadna z odpowiedzi nie jest prawidłowa",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "477. Co do zasady sąd administracyjny orzeka na rozprawie w składzie:",
+    "options": [
+      {
+        "text": "Jednego sędziego, chyba że ustawa stanowi inaczej",
+        "isCorrect": false
+      },
+      {
+        "text": "Trzech sędziów, chyba że ustawa stanowi inaczej",
+        "isCorrect": true
+      },
+      {
+        "text": "Siedmiu sędziów, chyba że ustawa stanowi inaczej",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "465. Co do zasady sąd administracyjny orzeka na rozprawie w składzie:",
+    "question": "478. Sądem administracyjnym, który rozstrzyga spory o właściwość między organami samorządu terytorialnego i między samorządowymi kolegiami odwoławczymi oraz spory kompetencyjne między organami tych jednostek a organami administracji rządowej jest",
     "options": [
       {
-        "text": "Jednego sędziego, chyba że ustawa stanowi inaczej trzech sędziów, chyba że ustawa stanowi inaczej siedmiu sędziów, chyba że ustawa stanowi inaczej",
+        "text": "Wyłącznie wojewódzki sąd administracyjny",
+        "isCorrect": false
+      },
+      {
+        "text": "Wyłącznie Naczelny Sąd Administracyjny",
+        "isCorrect": true
+      },
+      {
+        "text": "W pierwszej instancji wojewódzki sąd administracyjny, a w drugiej Naczelny Sąd Administracyjny",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "466. Sądem administracyjnym, który rozstrzyga spory o właściwość między organami samorządu terytorialnego i między samorządowymi kolegiami odwoławczymi oraz spory kompetencyjne między organami tych jednostek a organami administracji rządowej jest",
-    "options": [
-      {
-        "text": "Wyłącznie wojewódzki sąd administracyjny wyłącznie Naczelny Sąd Administracyjny w pierwszej instancji wojewódzki sąd administracyjny, a w drugiej Naczelny Sąd Administracyjny",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "467. Sprzeciw do sądu administracyjnego w się w terminie",
+    "question": "479. Sprzeciw do sądu administracyjnego w się w terminie",
     "options": [
       {
         "text": "14 dni 30 dni 6 miesięcy",
@@ -4759,25 +5888,41 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "468. Prawdą jest, że:",
+    "question": "480. Prawdą jest, że:",
     "options": [
       {
-        "text": "Braki formalne wszystkich pism procesowych składanych do sądu administracyjnego uzupełnia się pod rygorem ich odrzucenia Zawsze jeżeli skarga kasacyjna nie spełnia wymagań przewidzianych w przepisach, przewodniczący wzywa stronę do usunięcia braków w terminie siedmiu dni pod rygorem odrzucenia skargi Jeżeli skarga kasacyjna nie spełnia wymagań w zakresie przytoczenia podstaw kasacyjnych i ich uzasadnienia, nie wzywa się strony do usunięcia braków",
+        "text": "Podstawy kasacyjne wraz z ich uzasadnieniem są tym wymogiem formalnym skargi kasacyjnej, który ma charakter niekonwalidowalny tj. skarżący kasacyjnie nie może go skutecznie uzupełnić,",
+        "isCorrect": true
+      },
+      {
+        "text": "Skarga kasacyjna może zostać sporządzona przez aplikanta radcowskiego,",
+        "isCorrect": false
+      },
+      {
+        "text": "Po upływie terminu do wniesienia skargi kasacyjnej przytaczanie przez skarżącego kasacyjnie nowych podstaw kasacyjnych jest dopuszczalne, ale tylko do czasu wyznaczenia rozprawy, Art. 177a. Jeżeli skarga kasacyjna nie spełnia wymagań przewidzianych w art. 176, innych niż przytoczenie podstaw kasacyjnych i ich uzasadnienie, przewodniczący wzywa stronę do usunięcia braków w terminie siedmiu dni pod rygorem odrzucenia skargi. I TERMIN 2022 gr. II (jest w bazie papierowej)",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "469. Skargę do sądu administracyjnego wnosi się",
+    "question": "481. Skargę do sądu administracyjnego wnosi się",
     "options": [
       {
-        "text": "Bezpośrednio do sądu administracyjnego za pośrednictwem organu, którego działanie jest przedmiotem skargi za pośrednictwem organu, który rozstrzygał sprawę w pierwszej instancji",
+        "text": "Bezpośrednio do sądu administracyjnego",
+        "isCorrect": false
+      },
+      {
+        "text": "Za pośrednictwem organu, którego działanie jest przedmiotem skargi",
+        "isCorrect": true
+      },
+      {
+        "text": "Za pośrednictwem organu, który rozstrzygał sprawę w pierwszej instancji",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "470. Sąd jest związany wydanym wyrokiem",
+    "question": "482. Sąd jest związany wydanym wyrokiem",
     "options": [
       {
         "text": "Od chwili jego ogłoszenia zawsze od dnia podpisania sentencji wyroku od dnia jego prawomocności",
@@ -4786,7 +5931,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "471. Od wyroku uwzględniającego sprzeciw:",
+    "question": "483. Od wyroku uwzględniającego sprzeciw:",
     "options": [
       {
         "text": "Nie przysługuje środek odwoławczy przysługuje skarga kasacyjna przysługuje zażalenie",
@@ -4795,7 +5940,7 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "472. Skargę na bezczynność lub przewlekłe prowadzenie postępowania można wnieść:",
+    "question": "484. Skargę na bezczynność lub przewlekłe prowadzenie postępowania można wnieść:",
     "options": [
       {
         "text": "W każdym czasie w każdym czasie po wniesieniu ponaglenia do właściwego organu w ciągu 30 dni od dnia doręczenia postanowienia rozstrzygającego ponaglenie",
@@ -4804,25 +5949,41 @@ export const QUESTIONS = [
     ]
   },
   {
-    "question": "473. Skargę kasacyjną można oprzeć na:",
+    "question": "485. Skargę kasacyjną można oprzeć na:",
     "options": [
       {
-        "text": "Naruszeniu przepisów postępowania, jeżeli uchybienie to mogło mieć istotny wpływ na wynik sprawy. naruszeniu przepisów postępowania, jeżeli uchybienie to miało istotny wpływ na wynik sprawy. naruszeniu prawa materialnego",
+        "text": "Naruszeniu przepisów postępowania, jeżeli uchybienie to mogło mieć istotny wpływ na wynik sprawy.",
         "isCorrect": true
-      }
-    ]
-  },
-  {
-    "question": "474. Sąd, uwzględniając skargę na bezczynność lub przewlekłe prowadzenie postępowania",
-    "options": [
+      },
       {
-        "text": "Ma obowiązek stwierdzić, czy bezczynność lub przewlekłe prowadzenie postępowania miały miejsce z rażącym naruszeniem prawa zawsze stwierdza, że bezczynność lub przewlekłe prowadzenie postępowania miały miejsce z rażącym naruszeniem prawa orzeka o istnieniu lub nieistnieniu uprawnienia lub obowiązku",
+        "text": "Naruszeniu przepisów postępowania, jeżeli uchybienie to miało istotny wpływ na wynik sprawy.",
+        "isCorrect": false
+      },
+      {
+        "text": "Naruszeniu prawa materialnego",
         "isCorrect": false
       }
     ]
   },
   {
-    "question": "475. Przed przekazaniem sądowi akt sprawy wraz ze skargą i odpowiedzią na skargę",
+    "question": "486. Sąd, uwzględniając skargę na bezczynność lub przewlekłe prowadzenie postępowania",
+    "options": [
+      {
+        "text": "Ma obowiązek stwierdzić, czy bezczynność lub przewlekłe prowadzenie postępowania miały miejsce z rażącym naruszeniem prawa",
+        "isCorrect": false
+      },
+      {
+        "text": "Zawsze stwierdza, że bezczynność lub przewlekłe prowadzenie postępowania miały miejsce z rażącym naruszeniem prawa",
+        "isCorrect": false
+      },
+      {
+        "text": "Orzeka o istnieniu lub nieistnieniu uprawnienia lub obowiązku",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "487. Przed przekazaniem sądowi akt sprawy wraz ze skargą i odpowiedzią na skargę",
     "options": [
       {
         "text": "Organ zawsze sporządza uzasadnienie zaskarżonej decyzji, organ sporządza uzasadnienie zaskarżonej decyzji, jeżeli decyzja go nie zawierała organ sporządza uzasadnienie zaskarżonej decyzji, jeżeli odstąpił od jej uzasadnienia [...] uwzględnienia w całości żądania strony",
