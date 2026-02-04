@@ -5125,7 +5125,7 @@ export const QUESTIONS = [
       },
       {
         "text": "Może brać udział w postępowaniu w przypadkach ściśle określonych w ustawie, w zakresie swojej działalności statutowej",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "text": "Nigdy nie może brak udziału w postępowaniu",
@@ -5142,7 +5142,7 @@ export const QUESTIONS = [
       },
       {
         "text": "Może nastąpić wstrzymanie wykonania tej decyzji w drodze postanowienia właściwego organu, do którego wpłynęła skarga",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "text": "Nie może nastąpić wstrzymanie wykonania tej decyzji w drodze postanowienia sądu",
@@ -5159,7 +5159,7 @@ export const QUESTIONS = [
       },
       {
         "text": "Postanowieniem zaskarżalnym zażaleniem lub skargą kasacyjną",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "text": "Zarządzeniem prezesa sądu",
@@ -5326,12 +5326,11 @@ export const QUESTIONS = [
       {
         "text": "Wezwania skarżącego do usunięcia braku",
         "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "Odrzucenia skargi kasacyjnej",
-    "options": [
+      },
+      {
+        "text": "Odrzucenia skargi kasacyjnej",
+        "isCorrect": true
+      },
       {
         "text": "Przekazania skargi do NSA bez możliwości stosowania autokontroli",
         "isCorrect": false
@@ -5395,12 +5394,11 @@ export const QUESTIONS = [
       {
         "text": "Zdolność administracyjna",
         "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "Zdolność sądowa",
-    "options": [
+      },
+      {
+        "text": "Zdolność sądowa",
+        "isCorrect": true
+      },
       {
         "text": "Zdolność procesowa",
         "isCorrect": false
@@ -5451,6 +5449,10 @@ export const QUESTIONS = [
       {
         "text": "Pozostaje aktualne do czasu wydania w sprawie orzeczenia prawomocnego, chyba że następca prawny zmarłej strony wyraźnie wypowie pełnomocnictwo",
         "isCorrect": false
+      },
+      {
+        "text": "Wygasa",
+        "isCorrect": true
       }
     ]
   },
@@ -5464,6 +5466,10 @@ export const QUESTIONS = [
       {
         "text": "Odrzuca skargę",
         "isCorrect": false
+      },
+      {
+        "text": "Oddala skargę",
+        "isCorrect": true
       }
     ]
   },
@@ -5477,6 +5483,10 @@ export const QUESTIONS = [
       {
         "text": "Może być przedmiotem zażalenia do wojewódzkiego sądu administracyjnego",
         "isCorrect": false
+      },
+      {
+        "text": "Nie może być przedmiotem zaskarżenia do wojewódzkiego sądu administracyjnego",
+        "isCorrect": true
       }
     ]
   },
@@ -5486,12 +5496,11 @@ export const QUESTIONS = [
       {
         "text": "Wyrok WSA jest nieważny i podlega stwierdzeniu nieważności przez NSA",
         "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "Zachodzi nieważność postępowania, którą NSA bierze pod uwagę z urzędu w postępowaniu kasacyjnym",
-    "options": [
+      },
+      {
+        "text": "Zachodzi nieważność postępowania, którą NSA bierze pod uwagę z urzędu w postępowaniu kasacyjnym",
+        "isCorrect": true
+      },
       {
         "text": "WSA sam stwierdza nieważność swojego orzeczenia",
         "isCorrect": false
@@ -5504,12 +5513,11 @@ export const QUESTIONS = [
       {
         "text": "Jest dopuszczalna",
         "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "Podlega odrzuceniu przez sąd administracyjny",
-    "options": [
+      },
+      {
+        "text": "Podlega odrzuceniu przez sąd administracyjny",
+        "isCorrect": true
+      },
       {
         "text": "Podlega oddaleniu przez sąd administracyjny",
         "isCorrect": false
@@ -5540,11 +5548,10 @@ export const QUESTIONS = [
         "text": "Wyroku",
         "isCorrect": false
       },
-    ]
-  },
-  {
-    "question": "Postanowienia",
-    "options": [
+      {
+        "text": "Postanowienia",
+        "isCorrect": true
+      },
       {
         "text": "Zarządzenia sądu",
         "isCorrect": false
