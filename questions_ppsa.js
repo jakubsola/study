@@ -5689,12 +5689,11 @@ export const QUESTIONS = [
       {
         "text": "Według miejsca zamieszkania / siedziby skarżącego",
         "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "Według siedziby organu administracji publicznej, którego działalność została zaskarżona",
-    "options": [
+      },
+      {
+        "text": "Według siedziby organu administracji publicznej, którego działalność została zaskarżona",
+        "isCorrect": true
+      },
       {
         "text": "Decyduje o tym skarżący składając skargę",
         "isCorrect": false
@@ -5711,6 +5710,10 @@ export const QUESTIONS = [
       {
         "text": "Wyłącznie skarżący",
         "isCorrect": false
+      },
+      {
+        "text": "Żadna odpowiedź nie jest prawidłowa",
+        "isCorrect": true
       }
     ]
   },
@@ -5720,12 +5723,9 @@ export const QUESTIONS = [
       {
         "text": "Jednego sędziego, chyba że ustawa stanowi inaczej",
         "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "Trzech sędziów, chyba że ustawa stanowi inaczej",
-    "options": [
+      },
+        "text": "Trzech sędziów, chyba że ustawa stanowi inaczej",
+        "isCorrect": true
       {
         "text": "Siedmiu sędziów, chyba że ustawa stanowi inaczej",
         "isCorrect": false
@@ -5738,12 +5738,11 @@ export const QUESTIONS = [
       {
         "text": "Wyłącznie wojewódzki sąd administracyjny",
         "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "Wyłącznie Naczelny Sąd Administracyjny",
-    "options": [
+      },
+      {
+        "text": "Wyłącznie Naczelny Sąd Administracyjny",
+        "isCorrect": false
+      },
       {
         "text": "W pierwszej instancji wojewódzki sąd administracyjny, a w drugiej Naczelny Sąd Administracyjny",
         "isCorrect": false
@@ -5778,6 +5777,10 @@ export const QUESTIONS = [
         "text": "Zawsze jeżeli skarga kasacyjna nie spełnia wymagań przewidzianych w przepisach, przewodniczący wzywa stronę do usunięcia braków w terminie siedmiu dni pod rygorem odrzucenia skargi",
         "isCorrect": false
       }
+      {
+        "text": "Jeżeli skarga kasacyjna nie spełnia wymagań w zakresie przytoczenia podstaw kasacyjnych i ich uzasadnienia, nie wzywa się strony do usunięcia braków",
+        "isCorrect": true
+      }
     ]
   },
   {
@@ -5786,12 +5789,11 @@ export const QUESTIONS = [
       {
         "text": "Bezpośrednio do sądu administracyjnego",
         "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "Za pośrednictwem organu, którego działanie jest przedmiotem skargi",
-    "options": [
+      },
+      {
+        "text": "Za pośrednictwem organu, którego działanie jest przedmiotem skargi",
+        "isCorrect": true
+      },
       {
         "text": "Za pośrednictwem organu, który rozstrzygał sprawę w pierwszej instancji",
         "isCorrect": false
@@ -5825,6 +5827,10 @@ export const QUESTIONS = [
       {
         "text": "Przysługuje skarga kasacyjna",
         "isCorrect": false
+      },
+      {
+        "text": "Przysługuje zażalenie",
+        "isCorrect": true
       }
     ]
   },
@@ -5834,12 +5840,11 @@ export const QUESTIONS = [
       {
         "text": "W każdym czasie",
         "isCorrect": false
-      }
-    ]
-  },
-  {
-    "question": "W każdym czasie po wniesieniu ponaglenia do właściwego organu",
-    "options": [
+      },
+      {
+        "text": "W każdym czasie po wniesieniu ponaglenia do właściwego organu",
+        "isCorrect": true
+      },
       {
         "text": "W ciągu 30 dni od dnia doręczenia postanowienia rozstrzygającego ponaglenie",
         "isCorrect": false
